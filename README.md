@@ -1,7 +1,7 @@
 # fantasy
 NFL.com Fantasy Football
 
-Webscrapers
-Projections
-Fantasy Sharks
-Fantasy Pros
+-Webscrapers
+-Projections
+-Fantasy Sharks
+-Fantasy Pros
