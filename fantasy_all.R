@@ -272,20 +272,22 @@ proj <- full_join(proj.wk, proj.se) %>%
 
 roster <- c(
     "Andy Dalton",
-    "Ben Roethlisberger",
     "Tyrod Taylor",
+    "Ben Roethlisberger",
+    "Jonathan Stewart",
     "Matt Forte",
     "Isaiah Crowell",
     "Allen Robinson",
+    "Alshon Jeffery",
     "Tyrell Williams",
-    "Sterling Shepard",
     "Zach Ertz",
-    "Titans",
-    "Jonathan Stewart",
-    "Chris Ivory",
+    "Dion Lewis",
     "Bilal Powell",
     "Sammie Coates",
-    "Alshon Jeffery")
+    "Sterling Shepard",
+    "Corey Coleman",
+    "Adam Vinatieri",
+    "Titans")
 
 start_bench <- function(roster) {
     
@@ -329,47 +331,51 @@ start_comparison <- function(playerX, playerY) {
         theme_minimal()
 }
 
-start_comparison("Sammie Coates", "Tyrell Williams")
+start_comparison("Chris Hogan", "Tyrell Williams")
+start_comparison("Coby Fleener", "Zach Ertz")
 
 # VS Game Centre Projections
 
 home <- c(
     "Ben Roethlisberger",
-    "Andrew Luck",
-    "Matt Forte",
+    "Tyrod Taylor",
+    "Jonathan Stewart",
     "Isaiah Crowell",
-    "Steve Smith",
     "Alshon Jeffery",
-    "Sammie Coates",
+    "Allen Robinson",
+    "Tyrell Williams",
     "Zach Ertz",
-    "Sterling Shepard",
-    "Mike Nugent",
-    "Panthers"
+    "Matt Forte",
+    "Adam Vinatieri",
+    "Bills"
 )
 
 away <- c(
-    "Ryan Tannehill",
-    "Derek Carr",
-    "C.J. Anderson",
-    "Melvin Gordon",
-    "Jordy Nelson",
-    "Michael Crabtree",
-    "Emmanuel Sanders",
-    "Rob Gronkowski",
-    "Travis Benjamin",
-    "Chris Boswell",
-    "Patriots"
+    "Alex Smith",
+    "Eli Manning",
+    "LeGarrette Blount",
+    "David Johnson",
+    "Larry Fitzgerald",
+    "Michael Floyd",
+    "John Brown",
+    "Hunter Henry",
+    "James Starks",
+    "Chandler Catanzaro",
+    "Cardinals"
 )
 
 start_game <- function(home, away) {
     
     h <- proj %>%
         filter(Name %in% home) %>% 
-        mutate(Team = "LOLMONDAY")
+        mutate(Team = "LOLBAYES") %>% 
+        drop_na(wk_md)
     
     a <- proj %>%
         filter(Name %in% away) %>% 
-        mutate(Team = "Away")
+        mutate(Team = "BillNyeMoneyballExtraordinaire") %>% 
+        drop_na(wk_md) %>% 
+        filter(wk_md > 1)
     
     match <- bind_rows(h, a) %>% 
         group_by(Team) %>% 
@@ -419,6 +425,13 @@ a_values <- a_values %>% as.data.frame() %>% as.bayesboot()
 diff <- as.bayesboot(h_values - a_values)
 plot(diff, compVal = 0)
 
-hist(h_values)
-hist(a_values)
+plot(h_values)
+plot(a_values)
+
+VAR <- proj.se %>% 
+    filter(se_md > 50) %>% 
+    filter(se_lo > 0) %>% 
+    group_by(Pos) %>% 
+    mutate(VAR = se_md - mean(se_md))
+
 
