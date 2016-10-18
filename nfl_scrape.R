@@ -3,6 +3,8 @@ library(rvest)
 library(jsonlite)
 library(stringr)
 
+# "http://fantasy.nfl.com/research/projections?week=6&position=7&offset=0"
+
 # QB - 1
 # RB - 2
 # WR - 3
@@ -15,25 +17,40 @@ library(stringr)
 
 # offset = &offset=     BY 25 starting at 0
 
-url <- read_html("http://fantasy.nfl.com/research/projections?week=6&position=7&offset=0")
+pull_nfl <- function(week = 1, position = 1, offset = 0) {
+    
+    url <- str_c(sep = "",
+        "http://fantasy.nfl.com/research/projections?", 
+        "week=", week, 
+        "&position=", position, 
+        "&offset=", offset)
+    
+    page <- read_html(url)
+    
+    name <- page %>% 
+        html_nodes("tbody") %>% 
+        html_nodes("tr") %>% 
+        html_nodes("td.playerNameAndInfo.first") %>% 
+        html_text() %>% 
+        as_tibble() %>% 
+        rename(Name = value)
+    
+    points <- page %>% 
+        html_nodes("tbody") %>% 
+        html_nodes("tr") %>% 
+        html_nodes("td.stat.projected.numeric.last") %>% 
+        html_text() %>% 
+        as_tibble() %>% 
+        rename(Points = value)
+    
+    nfl <- bind_cols(name, points)
+}
 
-name <- url %>% 
-    html_nodes("tbody") %>% 
-    html_nodes("tr") %>% 
-    html_nodes("td.playerNameAndInfo.first") %>% 
-    html_text() %>% 
-    as_tibble() %>% 
-    rename(Name = value)
+df <- pull_nfl(week = 7, position = 3)
 
-points <- url %>% 
-    html_nodes("tbody") %>% 
-    html_nodes("tr") %>% 
-    html_nodes("td.stat.projected.numeric.last") %>% 
-    html_text() %>% 
-    as_tibble() %>% 
-    rename(Points = value)
 
 nfl <- bind_cols(name, points) %>% 
+    str_extract(name, "\\sQB\\s")
     separate(
         Name, 
         into = c("Name", "Junk"), 

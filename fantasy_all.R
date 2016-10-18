@@ -218,11 +218,11 @@ pull_pros <- function(period = "week") {
 espn <- pull_espn()
 flea <- pull_flea()
 pros <- pull_pros()
-sharks <- pull_sharks()
+# sharks <- pull_sharks()
 
 week <- espn %>%
     full_join(flea) %>% 
-    full_join(sharks) %>% 
+    # full_join(sharks) %>% 
     full_join(pros)
 
 # season data
@@ -230,11 +230,11 @@ week <- espn %>%
 espn.s <- pull_espn(period = "season")
 flea.s <- pull_flea(period = "season")
 pros.s <- pull_pros(period = "season")
-sharks.s <- pull_sharks(period = "season")
+# sharks.s <- pull_sharks(period = "season")
 
 season <- espn.s %>%
     full_join(flea.s) %>% 
-    full_join(sharks.s) %>% 
+    # full_join(sharks.s) %>% 
     full_join(pros.s)
 
 rm(espn, espn.s, flea, flea.s, pros, pros.s)
@@ -333,6 +333,7 @@ start_comparison <- function(playerX, playerY) {
 
 start_comparison("Chris Hogan", "Tyrell Williams")
 start_comparison("Coby Fleener", "Zach Ertz")
+start_comparison("Tyrod Taylor", "Andy Dalton")
 
 # VS Game Centre Projections
 
@@ -351,15 +352,10 @@ home <- c(
 )
 
 away <- c(
-    "Alex Smith",
-    "Eli Manning",
-    "LeGarrette Blount",
     "David Johnson",
     "Larry Fitzgerald",
     "Michael Floyd",
     "John Brown",
-    "Hunter Henry",
-    "James Starks",
     "Chandler Catanzaro",
     "Cardinals"
 )
@@ -428,7 +424,7 @@ plot(diff, compVal = 0)
 plot(h_values)
 plot(a_values)
 
-VAR <- proj.se %>% 
+VOR <- proj.se %>% 
     filter(se_md > 50) %>% 
     filter(se_lo > 0) %>% 
     group_by(Pos) %>% 
