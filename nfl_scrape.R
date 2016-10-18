@@ -17,11 +17,11 @@ library(stringr)
 
 # offset = &offset=     BY 25 starting at 0
 
-pull_nfl <- function(week = 1, position = 1, offset = 0) {
+pull_nfl <- function(week, position = 1, offset = 0) {
     
     url <- str_c(sep = "",
         "http://fantasy.nfl.com/research/projections?", 
-        "week=", week, 
+        "statType=weekProjectedStats&statWeek=", week,
         "&position=", position, 
         "&offset=", offset)
     
@@ -46,7 +46,12 @@ pull_nfl <- function(week = 1, position = 1, offset = 0) {
     nfl <- bind_cols(name, points)
 }
 
-df <- pull_nfl(week = 7, position = 3)
+df <- pull_nfl(week = 2, position = 3)
+
+
+
+1:17 %>% map(pull_nfl, position = 3, offset = 0)
+
 
 
 nfl <- bind_cols(name, points) %>% 
