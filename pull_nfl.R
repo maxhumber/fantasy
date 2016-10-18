@@ -3,26 +3,20 @@ library(rvest)
 library(jsonlite)
 library(stringr)
 
-# "http://fantasy.nfl.com/research/projections?week=6&position=7&offset=0"
-
-# QB - 1
-# RB - 2
-# WR - 3
-# TE - 4
-# K - 7
-# DEF - 8
-
-# season - statType=seasonProjectedStats
-# week - weak = X
-
-# offset = &offset=     BY 25 starting at 0
-
-pull_nfl <- function(week, position = 1, offset = 0) {
+pull_nfl <- function(week = 1, position = 1, offset = 0) {
     
     url <- str_c(sep = "",
         "http://fantasy.nfl.com/research/projections?", 
+            # 1 to 17
         "statType=weekProjectedStats&statWeek=", week,
+            # QB - 1
+            # RB - 2
+            # WR - 3
+            # TE - 4
+            # K - 7
+            # DEF - 8
         "&position=", position, 
+            # increment by 25
         "&offset=", offset)
     
     page <- read_html(url)
@@ -43,15 +37,19 @@ pull_nfl <- function(week, position = 1, offset = 0) {
         as_tibble() %>% 
         rename(Points = value)
     
-    nfl <- bind_cols(name, points)
+    np <- bind_cols(name, points) %>% 
+        mutate(week = week)
 }
 
-df <- pull_nfl(week = 2, position = 3)
+params <- expand.grid(
+    week = 1:7,
+    position = c(1, 2, 3, 4, 7, 8), 
+    offset = seq(0, 300, 25)
+)
 
-
-
-1:17 %>% map(pull_nfl, position = 3, offset = 0)
-
+historical <- params %>% 
+    pmap(pull_nfl) %>% 
+    bind_rows()
 
 
 nfl <- bind_cols(name, points) %>% 
