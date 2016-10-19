@@ -1,8 +1,11 @@
 library(tidyverse)
 library(rvest)
-library(jsonlite)
 library(stringr)
 
+# current week
+nfl_week <- ceiling(as.numeric(Sys.Date() - as.Date("2016-09-05")) / 7 )
+
+# pull nfl projection data
 pull_nfl <- function(week = 1, position = 1, offset = 0) {
     
     url <- str_c(sep = "",
@@ -27,7 +30,7 @@ pull_nfl <- function(week = 1, position = 1, offset = 0) {
         html_nodes("td.playerNameAndInfo.first") %>% 
         html_text() %>% 
         as_tibble() %>% 
-        rename(Name = value)
+        rename(name = value)
     
     points <- page %>% 
         html_nodes("tbody") %>% 
@@ -35,30 +38,50 @@ pull_nfl <- function(week = 1, position = 1, offset = 0) {
         html_nodes("td.stat.projected.numeric.last") %>% 
         html_text() %>% 
         as_tibble() %>% 
-        rename(Points = value)
+        rename(points = value)
     
     np <- bind_cols(name, points) %>% 
-        mutate(week = week)
+        mutate(week = week) %>% 
+        mutate(position = position)
 }
 
+# function parameters 
 params <- expand.grid(
-    week = 1:7,
+    week = nfl_week:17,
     position = c(1, 2, 3, 4, 7, 8), 
-    offset = seq(0, 300, 25)
-)
+    offset = seq(0, 300, 25)) %>% 
+    filter(!(position %in% c(1, 4, 7, 8) & offset > 30))
 
-historical <- params %>% 
+# rest of season data pull
+nfl_raw <- params %>% 
     pmap(pull_nfl) %>% 
     bind_rows()
 
+# position look-up
+pos_lookup <- tibble(
+    position = c(1, 2, 3, 4, 7, 8),
+    pos_real = c("QB", "RB", "WR", "TE", "K", "DEF")
+)
+   
+# clean raw data
+nfl_df <- nfl_raw %>% 
+    left_join(pos_lookup, by = "position") %>% 
+    select(position = pos_real, name, week, points) %>%
+    filter(points != "-") %>% 
+    mutate(points = as.numeric(points)) %>%
+    mutate(name = str_replace(name, "\\-.*$", "")) %>% 
+    mutate(name = str_replace(name, "\\sQB\\s|\\sRB\\s|\\sWR\\s|\\sTE\\s|\\sK\\s|\\DEF\\s", "")) %>% 
+    mutate(name = str_replace(name, "\\sView Videos", "")) %>% 
+    mutate(name = str_replace(name, "\\sView News", ""))
 
-nfl <- bind_cols(name, points) %>% 
-    str_extract(name, "\\sQB\\s")
-    separate(
-        Name, 
-        into = c("Name", "Junk"), 
-        sep = "\\sQB\\s|\\sRB\\s|\\sWR\\s|\\sTW\\s|\\sK\\s|\\DEF\\s") %>% 
-    select(-Junk)
-    
+# week projections
+nfl_week <- nfl_df %>% 
+    filter(week == nfl_week)
 
-
+# rest of season projections
+nfl_ros <- nfl_df %>% 
+    left_join(test, by = c("position", "name"))
+    group_by(position, name) %>% 
+    summarise(
+        ros_mean = mean(points),
+        ros_total = sum(points))
