@@ -17,17 +17,30 @@ roster <- c(
     "Tyrell Williams",
     "Zach Ertz",
     "Dion Lewis",
-    "Bilal Powell",
-    "Sammie Coates",
+    "Jacquizz Rodgers",
+    "Kenny Britt",
     "Sterling Shepard",
     "Corey Coleman",
     "Adam Vinatieri",
-    "Titans")
+    "Buffalo Bills")
+
+waivers <- c(
+    "Jeremy Hill",
+    "Michael Thomas",
+    "Davante Adams",
+    "Sammie Coates",
+    "Kyle Rudolph",
+    "Bilal Powell",
+    "Javorius Allen",
+    "Hunter Henry"
+)
 
 ros_middle <- ros %>% 
     mutate(ros_total = (ros_total_nfl + ros_total_sharks) / 2) %>% 
     mutate(ros_mean = (ros_mean_nfl + ros_mean_sharks) / 2) %>% 
     mutate(week_points = (week_points_nfl + week_points_sharks) / 2) %>% 
     select(position, name, ros_total:week_points) %>% 
-    mutate(team = ifelse(name %in% roster, "Yes", ""))
+    mutate(team = ifelse(name %in% roster, "Yes", "")) %>% 
+    mutate(target = ifelse(name %in% waivers, "Yes", ""))
+
 
