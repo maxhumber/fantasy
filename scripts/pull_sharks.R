@@ -34,7 +34,7 @@ pull_sharks <- function(week = 1, position = 97) {
         html_nodes("#toolData td:nth-child(5)") %>% 
         html_text() %>% 
         as_tibble() %>% 
-        rename(position = value)
+        rename(pos = value)
     
         # 97 - points in 14 
         # 7 - points in 15
@@ -52,7 +52,7 @@ pull_sharks <- function(week = 1, position = 97) {
             mutate(week = week)
     } else {
         np <- bind_cols(name, points) %>% 
-            mutate(week = week, pos)
+            mutate(week = week, pos = as.character(position))
     }
     
 }
@@ -63,13 +63,33 @@ params <- expand.grid(
     position = c(97, 7, 6)
 )
 
-test_offense <- pull_sharks(week = 17, position = 97)
-test_k <- pull_sharks(week = 17, position = 7)
-test_def <- pull_sharks(week = 17, position = 6)
-
-test_all <- params %>% 
+# rest of season data pull
+sharks_raw <- params %>% 
     pmap(pull_sharks) %>% 
     bind_rows()
 
+# clean raw data
+sharks_df <- sharks_raw %>% 
+    mutate(points = as.numeric(points)) %>% 
+    mutate(position = ifelse(pos == "7", "K", ifelse(pos == "6", "DEF", pos))) %>% 
+    separate(name, into = c("last", "first"), extra = "merge", sep = ", ") %>% 
+    mutate(name = str_c(first, last, sep = " ")) %>% 
+    select(position, name, week, points)
 
+# week projections
+sharks_week <- sharks_df %>% 
+    filter(week == nfl_week)
 
+# rest of season projections
+sharks_ros <- sharks_df %>% 
+    group_by(position, name) %>% 
+    summarise(
+        ros_total = sum(points),
+        ros_mean = mean(points)) %>% 
+    left_join(sharks_week, by = c("position", "name")) %>% 
+    select(position:ros_mean, week_points = points) %>% 
+    distinct(position, name, .keep_all = TRUE)
+
+# save data
+write_csv(sharks_df, "data/sharks_df.csv")
+write_csv(sharks_ros, "data/sharks_ros.csv")
