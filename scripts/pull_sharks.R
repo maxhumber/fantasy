@@ -5,7 +5,18 @@ library(curl)
 
 week <- 7
 
-url <- "http://www.fantasysharks.com/apps/bert/forecasts/projections.php?League=-1&Position=97&scoring=13&Segment=570"
+url <- str_c(sep = "",
+     "http://www.fantasysharks.com/apps/bert/forecasts/projections.php?", 
+        # no league
+     "League=-1",
+         # QB + RB + WR + TE = 97
+         # K - 7
+         # DEF - 6
+     "Position=", 97, 
+         # NFL.com = 13
+     "&scoring=", 13,
+         # week 1 = 564, start at 563 + current week
+     "&Segment=", 570)
 
 page <- read_html(curl(url, handle = curl::new_handle("useragent" = "Mozilla/5.0")))
 
