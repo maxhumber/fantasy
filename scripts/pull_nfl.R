@@ -80,8 +80,14 @@ nfl_week <- nfl_df %>%
 
 # rest of season projections
 nfl_ros <- nfl_df %>% 
-    left_join(test, by = c("position", "name"))
     group_by(position, name) %>% 
     summarise(
-        ros_mean = mean(points),
-        ros_total = sum(points))
+        ros_total = sum(points),
+        ros_mean = mean(points)) %>% 
+    left_join(nfl_week, by = c("position", "name")) %>% 
+    select(position:ros_mean, week_points = points) %>% 
+    distinct(position, name, .keep_all = TRUE)
+
+# save data
+write_csv(nfl_df, "data/nfl_df.csv")
+write_csv(nfl_ros, "data/nfl_ros.csv")
