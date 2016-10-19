@@ -28,18 +28,19 @@ WR,Odell Beckham,7,14.7
 QB,Colin Kaepernick,7,14.5
 QB,Ryan Fitzpatrick,7,14.1
 WR,Antonio Brown,7,13.9
+RB,Devonta Freeman,7,13.6
 WR,Allen Robinson,7,13.5
-RB,Lamar Miller,7,13.2
 QB,Carson Wentz,7,13.1
 QB,Ryan Tannehill,7,13.0
 QB,Cody Kessler,7,12.9
+RB,Doug Martin,7,12.8
 QB,Sam Bradford,7,12.3
 WR,Jordy Nelson,7,12.1
 RB,LeGarrette Blount,7,12.1
-RB,Mark Ingram,7,12.1
+RB,Lamar Miller,7,12.1
 WR,Brandon Marshall,7,12.0
 TE,Rob Gronkowski,7,11.9
-WR,Brandin Cooks,7,11.8
+RB,Mark Ingram,7,11.8
 RB,Todd Gurley,7,11.5
 WR,Mike Evans,7,11.4
 RB,Spencer Ware,7,11.3
@@ -57,10 +58,10 @@ RB,Matt Forte,7,10.2
 WR,Michael Crabtree,7,10.1
 RB,Matt Jones,7,10.1
 WR,Doug Baldwin,7,10.1
+WR,Brandin Cooks,7,10.1
 WR,Alshon Jeffery,7,10.1
 RB,Terrance West,7,10.0
 WR,Allen Hurns,7,9.9
-RB,Devonta Freeman,7,9.9
 WR,Kenny Britt,7,9.8
 RB,C.J. Anderson,7,9.7
 TE,Jordan Reed,7,9.6
@@ -76,7 +77,9 @@ RB,DeAngelo Williams,7,9.1
 WR,DeSean Jackson,7,9.1
 WR,Demaryius Thomas,7,9.1
 WR,Jarvis Landry,7,9.0
+RB,Tevin Coleman,7,8.8
 RB,Isaiah Crowell,7,8.7
+WR,Michael Thomas,7,8.6
 WR,Jeremy Maclin,7,8.5
 RB,Arian Foster,7,8.5
 WR,Quincy Enunwa,7,8.4
@@ -84,40 +87,39 @@ QB,Carson Palmer,7,8.3
 WR,Mike Wallace,7,8.3
 WR,Terrelle Pryor,7,8.3
 WR,Travis Benjamin,7,8.2
-WR,Willie Snead,7,8.2
-WR,Michael Thomas,7,8.1
 WR,Tyrell Williams,7,8.1
 RB,Rashad Jennings,7,7.9
 RB,Jamaal Charles,7,7.9
 WR,Sammie Coates,7,7.9
-RB,Doug Martin,7,7.9
 RB,James Starks,7,7.7
 TE,Delanie Walker,7,7.6
 WR,Julian Edelman,7,7.6
 RB,Theo Riddick,7,7.5
 TE,Martellus Bennett,7,7.5
-RB,Eddie Lacy,7,7.5
 TE,Hunter Henry,7,7.4
 WR,Robert Woods,7,7.4
+TE,Jack Doyle,7,7.4
 WR,Steve Smith,7,7.3
 WR,DeVante Parker,7,7.3
 WR,Torrey Smith,7,7.3
 RB,James White,7,7.2
 WR,Emmanuel Sanders,7,7.2
+WR,Willie Snead,7,7.2
 WR,Sterling Shepard,7,7.1
 WR,Stefon Diggs,7,7.1
 RB,Latavius Murray,7,7.1
 TE,Gary Barnidge,7,6.9
-TE,Coby Fleener,7,6.9
 WR,Tavon Austin,7,6.8
 WR,Brandon LaFell,7,6.8
 WR,Jordan Matthews,7,6.7
+TE,Cameron Brate,7,6.7
 WR,Pierre Garcon,7,6.7
 RB,Jeremy Hill,7,6.7
 WR,Anquan Boldin,7,6.7
 WR,Rishard Matthews,7,6.6
 TE,Travis Kelce,7,6.5
 WR,Michael Floyd,7,6.4
+TE,Coby Fleener,7,6.4
 WR,John Brown,7,6.4
 TE,Jimmy Graham,7,6.3
 WR,Jamison Crowder,7,6.3
@@ -126,14 +128,12 @@ TE,Antonio Gates,7,6.2
 TE,Zach Miller,7,6.1
 RB,Mike Gillislee,7,6.1
 RB,Orleans Darkwa,7,6.1
+RB,Jacquizz Rodgers,7,6.1
 RB,Duke Johnson,7,5.8
 TE,Zach Ertz,7,5.8
-TE,Cameron Brate,7,5.7
 WR,Cameron Meredith,7,5.7
 TE,Tyler Kroft,7,5.7
-TE,Jack Doyle,7,5.7
 RB,Giovani Bernard,7,5.6
-RB,Tevin Coleman,7,5.6
 WR,Andrew Hawkins,7,5.6
 WR,Dontrelle Inman,7,5.5
 RB,Justin Forsett,7,5.5
@@ -142,7 +142,6 @@ WR,Mohamed Sanu,7,5.4
 TE,Julius Thomas,7,5.4
 WR,Davante Adams,7,5.3
 WR,Jeremy Kerley,7,5.3
-RB,Jacquizz Rodgers,7,5.3
 WR,Randall Cobb,7,5.3
 RB,Chris Thompson,7,5.2
 WR,Seth Roberts,7,5.2
@@ -156,6 +155,7 @@ WR,Tyler Lockett,7,4.9
 RB,Bilal Powell,7,4.9
 TE,Dennis Pitta,7,4.9
 WR,Marqise Lee,7,4.9
+TE,C.J. Fiedorowicz,7,4.9
 WR,Kenny Stills,7,4.9
 WR,Will Fuller,7,4.8
 WR,Chris Hogan,7,4.8
@@ -219,7 +219,6 @@ WR,Marquess Wilson,7,2.8
 TE,Jordan Cameron,7,2.8
 WR,Dorial Green-Beckham,7,2.7
 RB,Steven Jackson,7,2.7
-TE,Ryan Griffin,7,2.7
 QB,Jimmy Garoppolo,7,2.7
 RB,Robert Turbin,7,2.7
 RB,Dwayne Washington,7,2.6
@@ -231,10 +230,10 @@ QB,Paxton Lynch,7,2.5
 QB,Colt McCoy,7,2.5
 RB,Travaris Cadet,7,2.5
 WR,Rashard Higgins,7,2.4
-RB,Chris Polk,7,2.4
 TE,Garrett Celek,7,2.4
 RB,Bobby Rainey,7,2.4
 RB,C.J. Prosise,7,2.3
+TE,Ryan Griffin,7,2.3
 TE,Austin Hooper,7,2.3
 WR,Bennie Fowler,7,2.3
 TE,Darren Fells,7,2.3
@@ -314,16 +313,15 @@ TE,Demetrius Harris,7,1.1
 WR,Braxton Miller,7,1.0
 WR,Donteea Dye,7,1.0
 TE,Jeff Heuerman,7,1.0
-TE,Stephen Anderson,7,1.0
 RB,Rex Burkhead,7,1.0
 WR,Jason Avant,7,0.9
 TE,Justin Perillo,7,0.9
 QB,Scott Tolzien,7,0.9
 QB,Blaine Gabbert,7,0.9
 WR,Malcolm Mitchell,7,0.9
-TE,Brandon Myers,7,0.9
 RB,Stepfan Taylor,7,0.8
 WR,Arrelious Benn,7,0.8
+TE,Brandon Myers,7,0.8
 TE,Daniel Fells,7,0.8
 QB,Trevone Boykin,7,0.8
 QB,Ryan Mallett,7,0.8
@@ -342,7 +340,6 @@ WR,Griff Whalen,7,0.6
 RB,Daniel Lasco,7,0.6
 RB,Lorenzo Taliaferro,7,0.6
 RB,Troymaine Pope,7,0.6
-TE,C.J. Fiedorowicz,7,0.6
 QB,Kevin Hogan,7,0.6
 RB,Taiwan Jones,7,0.6
 WR,Jared Abbrederis,7,0.6
@@ -358,6 +355,7 @@ TE,Jace Amaro,7,0.5
 WR,Andre Caldwell,7,0.5
 TE,Tyler Higbee,7,0.5
 RB,Knile Davis,7,0.5
+TE,Stephen Anderson,7,0.5
 TE,Niles Paul,7,0.4
 RB,Reggie Bush,7,0.4
 TE,MyCole Pruitt,7,0.4
@@ -393,7 +391,6 @@ QB,Mike Glennon,7,0.2
 TE,James O'Shaughnessy,7,0.1
 TE,Kellen Davis,7,0.1
 TE,Neal Sterling,7,0.1
-TE,Rashaun Allen,7,0.1
 WR,Walter Powell,7,0.1
 RB,Anthony Sherman,7,0.1
 TE,Konrad Reuland,7,0.1
@@ -412,7 +409,6 @@ TE,Garrett Graham,7,0.04
 QB,T.J. Yates,7,0.03
 QB,Bruce Gradkowski,7,0.02
 WR,Greg Little,7,0.02
-RB,Kendall Hunter,7,0.01
 RB,Aaron Ripkowski,7,0.01
 TE,Brandon Bostick,7,0.01
 RB,Jordan Todman,7,0.01
@@ -492,6 +488,7 @@ RB,Melvin Gordon,8,10.4
 WR,Larry Fitzgerald,8,10.3
 WR,Michael Crabtree,8,10.2
 WR,Demaryius Thomas,8,10.2
+RB,Eddie Lacy,8,9.9
 WR,Kelvin Benjamin,8,9.9
 WR,Brandin Cooks,8,9.8
 RB,Jerick McKinnon,8,9.6
@@ -507,7 +504,6 @@ WR,Jeremy Maclin,8,8.1
 RB,James Starks,8,8.0
 RB,Latavius Murray,8,8.0
 WR,Emmanuel Sanders,8,7.9
-RB,Eddie Lacy,8,7.8
 WR,Julian Edelman,8,7.8
 WR,Jordan Matthews,8,7.8
 RB,Doug Martin,8,7.8
@@ -547,6 +543,7 @@ TE,Cameron Brate,8,6.1
 RB,Darren Sproles,8,6.1
 WR,Terrance Williams,8,6.0
 RB,Giovani Bernard,8,5.8
+TE,C.J. Fiedorowicz,8,5.8
 RB,Mike Gillislee,8,5.8
 WR,Davante Adams,8,5.8
 RB,Bilal Powell,8,5.7
@@ -615,7 +612,6 @@ TE,Clive Walford,8,3.2
 TE,Eric Ebron,8,3.2
 RB,Derrick Henry,8,3.2
 WR,Justin Hardy,8,3.2
-TE,Ryan Griffin,8,3.2
 WR,Tyler Boyd,8,3.2
 QB,Paxton Lynch,8,3.1
 WR,Dorial Green-Beckham,8,3.1
@@ -632,6 +628,7 @@ QB,Jay Cutler,8,2.9
 WR,Ty Montgomery,8,2.8
 RB,Wendell Smallwood,8,2.8
 RB,Steven Jackson,8,2.7
+TE,Ryan Griffin,8,2.7
 TE,Darren Fells,8,2.7
 WR,Brice Butler,8,2.7
 RB,Fozzy Whittaker,8,2.6
@@ -700,7 +697,6 @@ QB,Dan Orlovsky,8,1.2
 RB,D.J. Foster,8,1.2
 WR,Andre Roberts,8,1.2
 QB,Derek Anderson,8,1.2
-TE,Stephen Anderson,8,1.2
 RB,Denard Robinson,8,1.2
 WR,Donteea Dye,8,1.1
 TE,C.J. Uzomah,8,1.1
@@ -723,7 +719,6 @@ QB,Mark Sanchez,8,0.8
 TE,Rhett Ellison,8,0.8
 WR,Cody Latimer,8,0.7
 QB,Shaun Hill,8,0.7
-TE,C.J. Fiedorowicz,8,0.7
 WR,Arrelious Benn,8,0.7
 QB,Scott Tolzien,8,0.7
 RB,Troymaine Pope,8,0.7
@@ -737,6 +732,7 @@ WR,Tommylee Lewis,8,0.6
 TE,Justin Perillo,8,0.6
 WR,Brandon Gibson,8,0.6
 WR,Rashad Ross,8,0.6
+TE,Stephen Anderson,8,0.6
 WR,Rashard Higgins,8,0.5
 RB,Daniel Lasco,8,0.5
 RB,Tyler Ervin,8,0.5
@@ -868,6 +864,7 @@ RB,Jonathan Stewart,9,11.1
 WR,Demaryius Thomas,9,11.1
 RB,Terrance West,9,10.9
 RB,Carlos Hyde,9,10.7
+RB,Eddie Lacy,9,10.6
 WR,Doug Baldwin,9,10.2
 TE,Greg Olsen,9,10.2
 WR,Jarvis Landry,9,10.0
@@ -887,7 +884,6 @@ WR,Quincy Enunwa,9,8.7
 WR,Jeremy Maclin,9,8.7
 WR,Emmanuel Sanders,9,8.7
 RB,James Starks,9,8.6
-RB,Eddie Lacy,9,8.4
 RB,Isaiah Crowell,9,8.3
 WR,Sammie Coates,9,8.2
 WR,Jordan Matthews,9,8.2
@@ -1282,6 +1278,7 @@ WR,Brandin Cooks,10,9.2
 RB,Arian Foster,10,9.1
 RB,DeAngelo Williams,10,9.1
 RB,Spencer Ware,10,9.0
+RB,Eddie Lacy,10,9.0
 RB,Carlos Hyde,10,8.6
 RB,Devonta Freeman,10,8.4
 TE,Jordan Reed,10,8.3
@@ -1313,7 +1310,6 @@ WR,Cole Beasley,10,7.2
 WR,Tavon Austin,10,7.2
 RB,Doug Martin,10,7.2
 TE,Jimmy Graham,10,7.1
-RB,Eddie Lacy,10,7.1
 WR,Rishard Matthews,10,7.1
 TE,Coby Fleener,10,6.9
 WR,Brandon LaFell,10,6.9
@@ -1369,6 +1365,7 @@ WR,Devin Funchess,10,4.7
 RB,Devontae Booker,10,4.7
 WR,Eddie Royal,10,4.7
 WR,Philly Brown,10,4.7
+TE,C.J. Fiedorowicz,10,4.7
 TE,Vance McDonald,10,4.6
 RB,Javorius Allen,10,4.6
 WR,Markus Wheaton,10,4.6
@@ -1430,7 +1427,6 @@ RB,Steven Jackson,10,2.8
 WR,Brandon Coleman,10,2.7
 RB,Jonathan Grimes,10,2.7
 RB,Chris Polk,10,2.7
-TE,Ryan Griffin,10,2.6
 WR,Eli Rogers,10,2.6
 WR,Josh Huff,10,2.6
 WR,Bennie Fowler,10,2.5
@@ -1441,6 +1437,7 @@ RB,Travaris Cadet,10,2.5
 WR,Jaelen Strong,10,2.4
 RB,Bobby Rainey,10,2.4
 RB,Joique Bell,10,2.3
+TE,Ryan Griffin,10,2.2
 QB,Jimmy Garoppolo,10,2.2
 TE,Garrett Celek,10,2.2
 RB,Ka'Deem Carey,10,2.2
@@ -1512,7 +1509,6 @@ QB,Matt Cassel,10,1.0
 WR,Donteea Dye,10,1.0
 RB,Patrick DiMarco,10,1.0
 RB,Stepfan Taylor,10,1.0
-TE,Stephen Anderson,10,0.9
 WR,Jason Avant,10,0.9
 QB,Trevone Boykin,10,0.9
 RB,Rex Burkhead,10,0.9
@@ -1537,7 +1533,6 @@ WR,Jeff Janis,10,0.6
 TE,Gavin Escobar,10,0.6
 WR,Rod Streater,10,0.6
 QB,Dak Prescott,10,0.6
-TE,C.J. Fiedorowicz,10,0.6
 RB,Daniel Lasco,10,0.6
 TE,James Hanna,10,0.6
 WR,Griff Whalen,10,0.6
@@ -1559,6 +1554,7 @@ QB,Kellen Clemens,10,0.5
 RB,Knile Davis,10,0.5
 WR,Lucky Whitehead,10,0.4
 QB,Landry Jones,10,0.4
+TE,Stephen Anderson,10,0.4
 TE,David Johnson,10,0.4
 WR,Charone Peake,10,0.4
 TE,Niles Paul,10,0.4
@@ -1683,6 +1679,7 @@ WR,Brandin Cooks,11,11.1
 RB,Christine Michael,11,11.1
 RB,Jeremy Langford,11,11.0
 QB,Robert Griffin III,11,10.9
+RB,Eddie Lacy,11,10.4
 WR,Kelvin Benjamin,11,10.4
 RB,Spencer Ware,11,10.0
 RB,DeAngelo Williams,11,10.0
@@ -1711,7 +1708,6 @@ WR,Jeremy Maclin,11,8.8
 RB,James Starks,11,8.6
 WR,Sammie Coates,11,8.5
 RB,Carlos Hyde,11,8.4
-RB,Eddie Lacy,11,8.3
 RB,Arian Foster,11,8.3
 WR,Dez Bryant,11,8.2
 TE,Coby Fleener,11,8.0
@@ -1762,6 +1758,7 @@ WR,Cameron Meredith,11,5.7
 TE,Julius Thomas,11,5.7
 TE,Zach Miller,11,5.6
 WR,Davante Adams,11,5.6
+TE,C.J. Fiedorowicz,11,5.5
 RB,Cameron Artis-Payne,11,5.5
 WR,Randall Cobb,11,5.5
 RB,Giovani Bernard,11,5.5
@@ -1835,7 +1832,6 @@ WR,Tyler Boyd,11,3.1
 WR,Albert Wilson,11,3.1
 TE,Vernon Davis,11,3.1
 TE,Jordan Cameron,11,3.1
-TE,Ryan Griffin,11,3.1
 WR,Charles Johnson,11,3.0
 WR,Brice Butler,11,3.0
 TE,Clive Walford,11,3.0
@@ -1852,6 +1848,7 @@ WR,Ty Montgomery,11,2.7
 WR,Marquess Wilson,11,2.7
 RB,Robert Turbin,11,2.7
 QB,Jimmy Garoppolo,11,2.6
+TE,Ryan Griffin,11,2.6
 WR,Eli Rogers,11,2.6
 RB,Antonio Andrews,11,2.6
 WR,Jaelen Strong,11,2.6
@@ -1925,7 +1922,6 @@ QB,Matt Cassel,11,1.2
 RB,C.J. Spiller,11,1.2
 WR,Josh Bellamy,11,1.2
 RB,Denard Robinson,11,1.2
-TE,Stephen Anderson,11,1.1
 TE,Nick O'Leary,11,1.1
 TE,Tyler Kroft,11,1.1
 WR,Brandon Tate,11,1.1
@@ -1948,7 +1944,6 @@ TE,MarQueis Gray,11,0.8
 WR,Tommylee Lewis,11,0.7
 QB,Shaun Hill,11,0.7
 TE,Blake Bell,11,0.7
-TE,C.J. Fiedorowicz,11,0.7
 QB,Ryan Mallett,11,0.7
 WR,Jeff Janis,11,0.7
 RB,Taiwan Jones,11,0.7
@@ -1967,6 +1962,7 @@ QB,Landry Jones,11,0.6
 TE,Seth DeValve,11,0.5
 WR,Brandon Gibson,11,0.5
 RB,Knile Davis,11,0.5
+TE,Stephen Anderson,11,0.5
 TE,Justin Perillo,11,0.5
 TE,Phillip Supernaw,11,0.5
 RB,Peyton Barber,11,0.5
@@ -2130,6 +2126,7 @@ WR,Michael Crabtree,12,9.5
 RB,Jerick McKinnon,12,9.4
 WR,Jarvis Landry,12,9.3
 TE,Jordan Reed,12,9.2
+RB,Eddie Lacy,12,9.1
 WR,Alshon Jeffery,12,9.0
 RB,Carlos Hyde,12,8.8
 WR,Allen Hurns,12,8.7
@@ -2164,7 +2161,6 @@ RB,James Starks,12,7.4
 WR,Travis Benjamin,12,7.2
 RB,Latavius Murray,12,7.2
 WR,Tyrell Williams,12,7.2
-RB,Eddie Lacy,12,7.2
 WR,Sterling Shepard,12,7.2
 WR,Torrey Smith,12,7.2
 WR,Golden Tate,12,7.2
@@ -2206,6 +2202,7 @@ TE,Antonio Gates,12,5.2
 TE,Tyler Eifert,12,5.2
 TE,Luke Willson,12,5.2
 RB,Chris Thompson,12,5.1
+TE,C.J. Fiedorowicz,12,5.1
 WR,Mohamed Sanu,12,5.1
 WR,Adam Thielen,12,5.1
 WR,Cameron Meredith,12,5.1
@@ -2293,7 +2290,6 @@ RB,Robert Turbin,12,2.9
 WR,Brice Butler,12,2.9
 TE,Crockett Gillmore,12,2.9
 RB,Steven Jackson,12,2.9
-TE,Ryan Griffin,12,2.8
 TE,Brent Celek,12,2.8
 TE,Darren Fells,12,2.8
 WR,Andre Holmes,12,2.7
@@ -2309,6 +2305,7 @@ RB,Chris Polk,12,2.5
 WR,Ty Montgomery,12,2.5
 RB,Bobby Rainey,12,2.5
 WR,Marquess Wilson,12,2.5
+TE,Ryan Griffin,12,2.4
 QB,Colt McCoy,12,2.4
 WR,Albert Wilson,12,2.4
 RB,Travaris Cadet,12,2.4
@@ -2389,7 +2386,6 @@ WR,Louis Murphy,12,1.1
 TE,Jeff Heuerman,12,1.1
 RB,Mike Davis,12,1.1
 WR,Josh Bellamy,12,1.0
-TE,Stephen Anderson,12,1.0
 TE,Nick O'Leary,12,1.0
 RB,Patrick DiMarco,12,1.0
 WR,Malcolm Mitchell,12,1.0
@@ -2421,7 +2417,6 @@ QB,Dak Prescott,12,0.7
 TE,Daniel Fells,12,0.7
 WR,Rod Streater,12,0.7
 TE,Gavin Escobar,12,0.7
-TE,C.J. Fiedorowicz,12,0.6
 TE,James Hanna,12,0.6
 RB,Lorenzo Taliaferro,12,0.6
 WR,Jeff Janis,12,0.6
@@ -2438,6 +2433,7 @@ TE,Erik Swoope,12,0.5
 TE,Phillip Supernaw,12,0.5
 TE,Jace Amaro,12,0.5
 WR,Rashard Higgins,12,0.5
+TE,Stephen Anderson,12,0.5
 WR,Griff Whalen,12,0.5
 QB,Landry Jones,12,0.5
 TE,Nick Boyle,12,0.5
@@ -2594,6 +2590,7 @@ RB,Matt Jones,13,10.1
 WR,Doug Baldwin,13,10.1
 WR,Amari Cooper,13,9.9
 WR,Allen Robinson,13,9.8
+RB,Eddie Lacy,13,9.8
 WR,Alshon Jeffery,13,9.7
 RB,Spencer Ware,13,9.7
 RB,Frank Gore,13,9.7
@@ -2626,7 +2623,6 @@ WR,Robert Woods,13,8.0
 RB,James Starks,13,8.0
 WR,Mike Wallace,13,7.9
 WR,Julian Edelman,13,7.8
-RB,Eddie Lacy,13,7.7
 TE,Jordan Reed,13,7.7
 TE,Travis Kelce,13,7.7
 TE,Martellus Bennett,13,7.7
@@ -2672,6 +2668,7 @@ WR,Terrance Williams,13,5.6
 RB,Jacquizz Rodgers,13,5.6
 WR,Cameron Meredith,13,5.5
 WR,Mohamed Sanu,13,5.5
+TE,C.J. Fiedorowicz,13,5.5
 RB,Tevin Coleman,13,5.3
 RB,Chris Thompson,13,5.3
 WR,Jermaine Kearse ,13,5.2
@@ -2746,7 +2743,6 @@ TE,Clive Walford,13,3.1
 RB,Shaun Draughn,13,3.1
 WR,Albert Wilson,13,3.0
 WR,Charles Johnson,13,3.0
-TE,Ryan Griffin,13,3.0
 QB,Jay Cutler,13,3.0
 WR,Breshad Perriman,13,3.0
 TE,Crockett Gillmore,13,3.0
@@ -2763,6 +2759,7 @@ TE,Vernon Davis,13,2.6
 TE,Brent Celek,13,2.6
 RB,Fozzy Whittaker,13,2.6
 WR,Bennie Fowler,13,2.6
+TE,Ryan Griffin,13,2.6
 QB,Jimmy Garoppolo,13,2.6
 RB,Chris Polk,13,2.6
 WR,Josh Huff,13,2.5
@@ -2843,7 +2840,6 @@ TE,Ladarius Green,13,1.2
 TE,Nick O'Leary,13,1.2
 TE,Derek Carrier,13,1.1
 WR,Josh Bellamy,13,1.1
-TE,Stephen Anderson,13,1.1
 RB,Patrick DiMarco,13,1.1
 RB,Mike Davis,13,1.1
 TE,Jeff Heuerman,13,1.1
@@ -2870,7 +2866,6 @@ WR,Arrelious Benn,13,0.7
 WR,Griff Whalen,13,0.7
 RB,Lorenzo Taliaferro,13,0.7
 RB,Fitzgerald Toussaint,13,0.7
-TE,C.J. Fiedorowicz,13,0.7
 QB,Ryan Mallett,13,0.7
 TE,Daniel Fells,13,0.7
 TE,Blake Bell,13,0.7
@@ -2888,6 +2883,7 @@ TE,Erik Swoope,13,0.5
 WR,Rashad Ross,13,0.5
 RB,Peyton Barber,13,0.5
 TE,MyCole Pruitt,13,0.5
+TE,Stephen Anderson,13,0.5
 RB,Knile Davis,13,0.5
 WR,Andre Caldwell,13,0.5
 TE,Nick Boyle,13,0.5
@@ -3059,6 +3055,7 @@ WR,Demaryius Thomas,14,9.1
 QB,Josh McCown,14,9.1
 RB,Devonta Freeman,14,9.0
 WR,Jarvis Landry,14,9.0
+RB,Eddie Lacy,14,9.0
 RB,C.J. Anderson,14,8.9
 RB,Doug Martin,14,8.9
 RB,Isaiah Crowell,14,8.7
@@ -3094,7 +3091,6 @@ WR,DeVante Parker,14,7.2
 WR,Ted Ginn Jr.,14,7.1
 TE,Martellus Bennett,14,7.1
 TE,Coby Fleener,14,7.1
-RB,Eddie Lacy,14,7.1
 RB,Darren Sproles,14,7.0
 RB,Jamaal Charles,14,6.9
 TE,Gary Barnidge,14,6.9
@@ -3144,6 +3140,7 @@ WR,Mohamed Sanu,14,5.2
 WR,Seth Roberts,14,5.1
 RB,Tevin Coleman,14,5.1
 WR,Chris Hogan,14,5.0
+TE,C.J. Fiedorowicz,14,5.0
 RB,Justin Forsett,14,4.9
 TE,Julius Thomas,14,4.9
 TE,Dennis Pitta,14,4.9
@@ -3218,7 +3215,6 @@ RB,Shaun Draughn,14,2.9
 TE,Dwayne Allen,14,2.8
 WR,Andre Holmes,14,2.8
 WR,Marquess Wilson,14,2.8
-TE,Ryan Griffin,14,2.8
 WR,Andre Johnson,14,2.8
 TE,Jordan Cameron,14,2.8
 WR,Breshad Perriman,14,2.7
@@ -3235,6 +3231,7 @@ QB,Jimmy Garoppolo,14,2.5
 WR,Josh Huff,14,2.5
 WR,Jaelen Strong,14,2.4
 RB,Antonio Andrews,14,2.4
+TE,Ryan Griffin,14,2.4
 WR,Tyreek Hill,14,2.4
 RB,Dwayne Washington,14,2.3
 TE,Austin Hooper,14,2.3
@@ -3316,7 +3313,6 @@ RB,Patrick DiMarco,14,1.1
 TE,Nick O'Leary,14,1.1
 RB,Mike Davis,14,1.0
 WR,Wes Welker,14,1.0
-TE,Stephen Anderson,14,1.0
 WR,Brandon Tate,14,1.0
 RB,Rex Burkhead,14,1.0
 WR,Rashad Greene,14,1.0
@@ -3346,7 +3342,6 @@ WR,Laquon Treadwell,14,0.6
 QB,Ryan Mallett,14,0.6
 RB,Malcolm Brown,14,0.6
 RB,Daniel Lasco,14,0.6
-TE,C.J. Fiedorowicz,14,0.6
 QB,Kevin Hogan,14,0.6
 RB,Lorenzo Taliaferro,14,0.6
 TE,James Hanna,14,0.6
@@ -3367,6 +3362,7 @@ QB,Kellen Clemens,14,0.5
 TE,Phillip Supernaw,14,0.5
 WR,Rashard Higgins,14,0.5
 TE,Nick Boyle,14,0.5
+TE,Stephen Anderson,14,0.5
 TE,Justin Perillo,14,0.5
 WR,Keith Mumphery,14,0.5
 RB,Knile Davis,14,0.5
@@ -3529,6 +3525,7 @@ WR,Michael Crabtree,15,9.9
 RB,DeAngelo Williams,15,9.8
 RB,Frank Gore,15,9.7
 QB,Case Keenum,15,9.5
+RB,Eddie Lacy,15,9.5
 RB,Devonta Freeman,15,9.4
 QB,Robert Griffin III,15,9.3
 WR,Demaryius Thomas,15,9.3
@@ -3560,7 +3557,6 @@ WR,Michael Floyd,15,7.7
 RB,James Starks,15,7.7
 WR,Michael Thomas,15,7.6
 WR,Stefon Diggs,15,7.5
-RB,Eddie Lacy,15,7.5
 WR,Emmanuel Sanders,15,7.4
 RB,Rashad Jennings,15,7.4
 WR,Sterling Shepard,15,7.4
@@ -3630,6 +3626,7 @@ WR,Kendall Wright,15,4.8
 RB,Justin Forsett,15,4.7
 RB,DeAndre Washington,15,4.7
 WR,Markus Wheaton,15,4.7
+TE,C.J. Fiedorowicz,15,4.7
 WR,Devin Funchess,15,4.6
 WR,Eddie Royal,15,4.6
 TE,Larry Donnell,15,4.6
@@ -3703,7 +3700,6 @@ RB,Robert Turbin,15,2.7
 WR,Eli Rogers,15,2.7
 RB,Wendell Smallwood,15,2.7
 WR,Breshad Perriman,15,2.6
-TE,Ryan Griffin,15,2.6
 WR,Ty Montgomery,15,2.6
 RB,Chris Polk,15,2.6
 TE,Crockett Gillmore,15,2.5
@@ -3719,6 +3715,7 @@ WR,Bennie Fowler,15,2.4
 TE,Austin Hooper,15,2.3
 RB,Dwayne Washington,15,2.3
 QB,Colt McCoy,15,2.3
+TE,Ryan Griffin,15,2.2
 RB,Bobby Rainey,15,2.2
 RB,Travaris Cadet,15,2.2
 RB,Benny Cunningham,15,2.1
@@ -3801,7 +3798,6 @@ WR,Wes Welker,15,1.0
 WR,Donteea Dye,15,1.0
 RB,Rex Burkhead,15,1.0
 WR,Jason Avant,15,1.0
-TE,Stephen Anderson,15,0.9
 TE,Brandon Myers,15,0.9
 QB,Matt Cassel,15,0.9
 RB,C.J. Prosise,15,0.9
@@ -3826,7 +3822,6 @@ RB,Tyler Ervin,15,0.6
 WR,Chris Owusu,15,0.6
 TE,Gavin Escobar,15,0.6
 WR,Laquon Treadwell,15,0.6
-TE,C.J. Fiedorowicz,15,0.6
 RB,Lorenzo Taliaferro,15,0.6
 QB,Dak Prescott,15,0.6
 WR,Jared Abbrederis,15,0.6
@@ -3852,6 +3847,7 @@ TE,MyCole Pruitt,15,0.5
 RB,Reggie Bush,15,0.5
 RB,Peyton Barber,15,0.5
 TE,David Johnson,15,0.5
+TE,Stephen Anderson,15,0.4
 TE,Niles Paul,15,0.4
 WR,Brenton Bersin,15,0.4
 WR,Charone Peake,15,0.4
@@ -4014,6 +4010,7 @@ WR,Kenny Britt,16,9.6
 WR,Michael Crabtree,16,9.4
 WR,Larry Fitzgerald,16,9.2
 RB,Carlos Hyde,16,9.1
+RB,Eddie Lacy,16,9.1
 WR,Jarvis Landry,16,9.0
 RB,Doug Martin,16,8.9
 RB,DeAngelo Williams,16,8.8
@@ -4048,7 +4045,6 @@ RB,James Starks,16,7.3
 WR,DeVante Parker,16,7.3
 TE,Hunter Henry,16,7.2
 RB,Jay Ajayi,16,7.2
-RB,Eddie Lacy,16,7.2
 TE,Gary Barnidge,16,7.2
 TE,Coby Fleener,16,7.1
 TE,Antonio Gates,16,7.1
@@ -4096,6 +4092,7 @@ WR,Mohamed Sanu,16,5.1
 WR,Jermaine Kearse ,16,5.1
 RB,Bilal Powell,16,5.1
 WR,Adam Thielen,16,5.1
+TE,C.J. Fiedorowicz,16,5.1
 TE,Julius Thomas,16,5.0
 WR,Jeremy Kerley,16,5.0
 RB,Charcandrick West,16,5.0
@@ -4176,7 +4173,6 @@ WR,Tyler Boyd,16,2.9
 TE,Crockett Gillmore,16,2.8
 TE,Jordan Cameron,16,2.8
 RB,Wendell Smallwood,16,2.8
-TE,Ryan Griffin,16,2.8
 WR,Breshad Perriman,16,2.8
 RB,Jonathan Grimes,16,2.8
 RB,Steven Jackson,16,2.7
@@ -4193,6 +4189,7 @@ WR,Josh Huff,16,2.5
 TE,Austin Hooper,16,2.5
 RB,Benny Cunningham,16,2.5
 TE,Garrett Celek,16,2.4
+TE,Ryan Griffin,16,2.4
 WR,Albert Wilson,16,2.4
 WR,Jaelen Strong,16,2.3
 RB,Joique Bell,16,2.3
@@ -4276,7 +4273,6 @@ TE,Jeff Heuerman,16,1.1
 WR,Donteea Dye,16,1.1
 QB,Matt Cassel,16,1.1
 TE,Tyler Kroft,16,1.1
-TE,Stephen Anderson,16,1.0
 RB,Patrick DiMarco,16,1.0
 WR,Malcolm Mitchell,16,1.0
 QB,Scott Tolzien,16,0.9
@@ -4301,7 +4297,6 @@ RB,Taiwan Jones,16,0.7
 WR,Arrelious Benn,16,0.7
 WR,Laquon Treadwell,16,0.7
 TE,MarQueis Gray,16,0.7
-TE,C.J. Fiedorowicz,16,0.7
 TE,James Hanna,16,0.7
 QB,Ryan Mallett,16,0.7
 RB,Lorenzo Taliaferro,16,0.7
@@ -4323,6 +4318,7 @@ WR,Jared Abbrederis,16,0.5
 WR,Rashard Higgins,16,0.5
 WR,Lucky Whitehead,16,0.5
 RB,Knile Davis,16,0.5
+TE,Stephen Anderson,16,0.5
 TE,Tyler Higbee,16,0.5
 TE,Jace Amaro,16,0.5
 WR,Andre Caldwell,16,0.5
@@ -4492,6 +4488,7 @@ RB,Frank Gore,17,9.7
 RB,Jerick McKinnon,17,9.6
 RB,Ryan Mathews,17,9.6
 WR,Kenny Britt,17,9.2
+RB,Eddie Lacy,17,9.1
 WR,DeSean Jackson,17,9.0
 RB,Isaiah Crowell,17,8.9
 QB,Josh McCown,17,8.9
@@ -4528,7 +4525,6 @@ WR,Ted Ginn Jr.,17,7.4
 RB,Jamaal Charles,17,7.4
 RB,James Starks,17,7.4
 WR,Sterling Shepard,17,7.2
-RB,Eddie Lacy,17,7.2
 WR,DeVante Parker,17,7.2
 RB,Doug Martin,17,7.2
 TE,Gary Barnidge,17,7.1
@@ -4580,6 +4576,7 @@ RB,Chris Thompson,17,5.2
 RB,Cameron Artis-Payne,17,5.1
 RB,Jacquizz Rodgers,17,5.0
 WR,Marquise Goodwin,17,5.0
+TE,C.J. Fiedorowicz,17,5.0
 WR,Adam Humphries,17,4.9
 TE,Julius Thomas,17,4.9
 WR,Adam Thielen,17,4.9
@@ -4658,7 +4655,6 @@ QB,Jimmy Garoppolo,17,2.9
 TE,Crockett Gillmore,17,2.9
 QB,Jay Cutler,17,2.9
 RB,Wendell Smallwood,17,2.8
-TE,Ryan Griffin,17,2.8
 WR,Ty Montgomery,17,2.8
 WR,Bennie Fowler,17,2.8
 TE,Vernon Davis,17,2.8
@@ -4670,6 +4666,7 @@ RB,Jonathan Grimes,17,2.6
 QB,Colt McCoy,17,2.5
 RB,Travaris Cadet,17,2.5
 TE,Darren Fells,17,2.5
+TE,Ryan Griffin,17,2.4
 WR,Josh Huff,17,2.4
 RB,Antonio Andrews,17,2.4
 WR,Marquess Wilson,17,2.2
@@ -4755,7 +4752,6 @@ TE,Nick O'Leary,17,1.1
 WR,Malcolm Mitchell,17,1.1
 WR,Donteea Dye,17,1.0
 RB,Mike Davis,17,1.0
-TE,Stephen Anderson,17,1.0
 WR,Josh Bellamy,17,1.0
 RB,C.J. Prosise,17,1.0
 QB,Trevone Boykin,17,0.9
@@ -4779,7 +4775,6 @@ RB,Troymaine Pope,17,0.7
 WR,Jared Abbrederis,17,0.7
 WR,Arrelious Benn,17,0.7
 RB,Taiwan Jones,17,0.7
-TE,C.J. Fiedorowicz,17,0.6
 RB,Lorenzo Taliaferro,17,0.6
 WR,Laquon Treadwell,17,0.6
 RB,Peyton Barber,17,0.6
@@ -4803,6 +4798,7 @@ WR,Rashard Higgins,17,0.5
 TE,MyCole Pruitt,17,0.5
 TE,Erik Swoope,17,0.5
 TE,Nick Boyle,17,0.5
+TE,Stephen Anderson,17,0.5
 RB,Knile Davis,17,0.4
 TE,David Johnson,17,0.4
 TE,Jace Amaro,17,0.4
