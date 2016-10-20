@@ -3,8 +3,6 @@ library(bayesboot)
 
 proj_all <- read_csv("data/proj_all.csv")
 
-player <- "Tyrod Taylor"
-
 proj_boot <- function(player) {
     
     p <- proj_all %>% 
@@ -15,20 +13,22 @@ proj_boot <- function(player) {
     return(p)
 }
 
-proj_boot(player)
-
 home <- c(
     "Tyrod Taylor", 
     "Andy Dalton",
-    "Jacquizz Rodgers",
     "Buffalo Bills"
 )
 
+away <- c(
+    "Eli Manning", 
+    "Alex Smith",
+    "Chris Ivory"
+)
+
 home %>% map_dbl(proj_boot) %>% sum()
+away %>% map_dbl(proj_boot) %>% sum()
 
 
-h_values <- replicate(1000, sample_week(home))
-a_values <- replicate(1000, sample_week(away))
 
 h_values <- h_values %>% as.data.frame() %>% as.bayesboot()
 a_values <- a_values %>% as.data.frame() %>% as.bayesboot()
