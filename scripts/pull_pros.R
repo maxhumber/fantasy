@@ -49,3 +49,9 @@ params <- c("qb", "wr", "rb", "te", "k", "dst")
 pros_raw <- map(params, pull_pros) %>% 
     bind_rows()
 
+pros_clean <- pros_raw %>% 
+    mutate(points = as.numeric(points)) %>% 
+    mutate(name = str_trim(name)) %>% 
+    mutate(pos = ifelse(pos == "DST", "DEF", pos)) %>% 
+    mutate(name = ifelse(pos == "DEF", name, str_replace(name, "\\s[^ ]+$", ""))) %>% 
+    mutate(source = "Fantasy Pros")
