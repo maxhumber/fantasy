@@ -73,5 +73,6 @@ pull_nfl <- function(.season = FALSE) {
         mutate(name = str_replace(name, "\\sQB\\s|\\sRB\\s|\\sWR\\s|\\sTE\\s|\\sK\\s|\\DEF\\s", "")) %>% 
         mutate(name = str_replace(name, "\\sView Videos", "")) %>% 
         mutate(name = str_replace(name, "\\sView News", "")) %>% 
+        mutate(name = str_trim(name)) %>% 
         mutate(source = "NFL.com") 
 }
