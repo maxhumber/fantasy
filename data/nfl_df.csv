@@ -1,29 +1,29 @@
 position,name,week,points
-QB,Colin Kaepernick,7,23.96
+QB,Aaron Rodgers,7,25.02
 QB,Alex Smith,7,23.82
-QB,Blake Bortles,7,22.72
-QB,Matthew Stafford,7,21.26
+QB,Jameis Winston,7,23.3
+QB,Blake Bortles,7,22.68
+QB,Matthew Stafford,7,21.3
+QB,Colin Kaepernick,7,20.06
 QB,Kirk Cousins,7,18.58
 QB,Matt Ryan,7,17.68
-QB,Jameis Winston,7,17.04
-QB,Marcus Mariota,7,16.84
+QB,Geno Smith,7,16.92
 QB,Landry Jones,7,16.66
-QB,Philip Rivers,7,15.88
-QB,Derek Carr,7,15.32
-QB,Aaron Rodgers,7,15.02
-QB,Russell Wilson,7,14.96
-QB,Andrew Luck,7,14.8
-QB,Ryan Fitzpatrick,7,14.58
+QB,Marcus Mariota,7,16.4
+QB,Derek Carr,7,15.36
+QB,Russell Wilson,7,15.08
+QB,Andrew Luck,7,14.88
 QB,Andy Dalton,7,14.56
-QB,Tyrod Taylor,7,14.0
-QB,Carson Wentz,7,13.28
-QB,Joe Flacco,7,13.04
+QB,Tyrod Taylor,7,13.96
+QB,Philip Rivers,7,13.84
+QB,Joe Flacco,7,13.22
+QB,Carson Wentz,7,13.0
 QB,Tom Brady,7,12.84
-QB,Ryan Tannehill,7,12.62
-QB,Trevor Siemian,7,12.4
-QB,Drew Brees,7,12.38
-QB,Sam Bradford,7,12.1
-QB,Carson Palmer,7,12.1
+QB,Ryan Tannehill,7,12.54
+QB,Trevor Siemian,7,12.48
+QB,Drew Brees,7,12.42
+QB,Carson Palmer,7,12.18
+QB,Sam Bradford,7,12.06
 QB,Andy Dalton,8,21.92
 QB,Trevor Siemian,8,20.82
 QB,Tom Brady,8,20.08
@@ -274,8 +274,10 @@ QB,Tyrod Taylor,17,13.18
 QB,Marcus Mariota,17,13.06
 QB,Carson Palmer,17,12.88
 QB,Dak Prescott,17,12.62
+RB,Jacquizz Rodgers,7,21.1
 RB,Melvin Gordon,7,20.7
 RB,DeMarco Murray,7,20.1
+RB,Knile Davis,7,19.7
 RB,C.J. Anderson,7,19.4
 RB,Spencer Ware,7,18.1
 RB,Zach Zenner,7,17.2
@@ -283,34 +285,32 @@ RB,Tevin Coleman,7,17.1
 RB,David Johnson,7,17.0
 RB,Devonta Freeman,7,16.1
 RB,Todd Gurley,7,15.8
-RB,Jacquizz Rodgers,7,14.6
-RB,Knile Davis,7,13.7
-RB,Carlos Hyde,7,13.7
 RB,Matt Jones,7,13.6
 RB,Jeremy Hill,7,13.2
+RB,Shaun Draughn,7,12.8
 RB,LeGarrette Blount,7,12.6
-RB,T.J. Yeldon,7,12.0
+RB,T.J. Yeldon,7,12.2
 RB,Jay Ajayi,7,11.9
 RB,Giovani Bernard,7,11.9
-RB,Bilal Powell,7,10.9
 RB,James White,7,10.9
+RB,Bilal Powell,7,10.8
 RB,Jamaal Charles,7,10.7
 RB,Le'Veon Bell,7,10.4
 RB,LeSean McCoy,7,9.7
 RB,Mark Ingram,7,9.3
-RB,Chris Ivory,7,8.6
+RB,Chris Ivory,7,8.7
 RB,Ezekiel Elliott,8,20.4
 RB,C.J. Anderson,8,16.5
 RB,David Johnson,8,16.2
 RB,Thomas Rawls,8,15.9
 RB,Jamaal Charles,8,14.2
 RB,LeGarrette Blount,8,13.1
-RB,Eddie Lacy,8,13.0
+RB,Eddie Lacy,8,0.0
 RB,DeMarco Murray,8,13.0
 RB,Ryan Mathews,8,12.2
 RB,Giovani Bernard,8,12.1
 RB,Jeremy Hill,8,10.9
-RB,James Starks,8,10.3
+RB,James Starks,8,0.0
 RB,Devonta Freeman,8,9.8
 RB,Lamar Miller,8,9.0
 RB,Jeremy Langford,8,8.5
@@ -331,7 +331,7 @@ RB,Charles Sims,9,0.0
 RB,Jamaal Charles,9,14.4
 RB,Carlos Hyde,9,14.1
 RB,Isaiah Crowell,9,13.8
-RB,Eddie Lacy,9,12.8
+RB,Eddie Lacy,9,0.0
 RB,Tim Hightower,9,10.5
 RB,Le'Veon Bell,9,10.3
 RB,Tevin Coleman,9,9.1
@@ -380,7 +380,7 @@ RB,Le'Veon Bell,11,16.5
 RB,DeMarco Murray,11,15.3
 RB,Rashad Jennings,11,14.1
 RB,Jamaal Charles,11,14.0
-RB,Eddie Lacy,11,13.9
+RB,Eddie Lacy,11,0.0
 RB,Carlos Hyde,11,13.8
 RB,LeGarrette Blount,11,13.6
 RB,Arian Foster,11,13.4
@@ -389,7 +389,7 @@ RB,Isaiah Crowell,11,13.1
 RB,Jeremy Hill,11,12.6
 RB,Giovani Bernard,11,11.6
 RB,David Johnson,11,9.9
-RB,James Starks,11,9.8
+RB,James Starks,11,0.0
 RB,Spencer Ware,11,9.3
 RB,Dwayne Washington,11,9.3
 RB,Ezekiel Elliott,11,8.8
@@ -487,7 +487,7 @@ RB,Mark Ingram,15,14.8
 RB,Ezekiel Elliott,15,14.7
 RB,Thomas Rawls,15,13.9
 RB,Latavius Murray,15,13.8
-RB,Eddie Lacy,15,13.5
+RB,Eddie Lacy,15,0.0
 RB,Isaiah Crowell,15,13.3
 RB,Lamar Miller,15,13.2
 RB,LeGarrette Blount,15,12.9
@@ -519,7 +519,7 @@ RB,Tim Hightower,16,10.2
 RB,Darren Sproles,16,10.1
 RB,David Johnson,16,9.9
 RB,Matt Forte,16,9.5
-RB,James Starks,16,9.5
+RB,James Starks,16,0.0
 RB,Charles Sims,16,0.0
 RB,Jordan Howard,16,8.9
 RB,Travaris Cadet,16,8.8
@@ -554,26 +554,26 @@ WR,Jarvis Landry,7,13.9
 WR,Odell Beckham,7,13.5
 WR,T.Y. Hilton,7,13.5
 WR,Amari Cooper,7,13.2
-WR,Larry Fitzgerald,7,12.9
-WR,Brandon Marshall,7,12.9
-WR,Jordy Nelson,7,12.8
+WR,Allen Robinson,7,13.2
+WR,Alshon Jeffery,7,13.1
+WR,Cameron Meredith,7,12.9
+WR,Larry Fitzgerald,7,12.8
+WR,Brandon Marshall,7,12.8
 WR,Demaryius Thomas,7,12.8
-WR,Kenny Britt,7,12.6
-WR,Doug Baldwin,7,12.5
+WR,Jordy Nelson,7,12.6
+WR,Kenny Britt,7,12.5
+WR,Doug Baldwin,7,12.4
 WR,Marvin Jones,7,12.4
-WR,Stefon Diggs,7,12.1
+WR,Stefon Diggs,7,12.2
+WR,Allen Hurns,7,12.1
 WR,Michael Crabtree,7,12.0
 WR,Michael Floyd,7,12.0
-WR,Jordan Matthews,7,11.9
-WR,Ty Montgomery,7,11.6
-WR,Jeremy Kerley,7,11.5
+WR,Jordan Matthews,7,11.8
+WR,Jeremy Kerley,7,11.4
 WR,Randall Cobb,7,11.3
 WR,Pierre Garcon,7,11.2
+WR,Anquan Boldin,7,11.1
 WR,DeVante Parker,7,11.1
-WR,Will Fuller,7,10.8
-WR,Quincy Enunwa,7,10.3
-WR,Brandon LaFell,7,10.1
-WR,Marqise Lee,7,10.0
 WR,Julio Jones,8,15.8
 WR,DeAndre Hopkins,8,14.0
 WR,Mike Evans,8,13.9
@@ -622,7 +622,7 @@ WR,Odell Beckham,9,7.9
 WR,Allen Robinson,9,7.7
 WR,Josh Gordon,9,0.0
 WR,Andre Holmes,9,7.1
-WR,Jared Abbrederis,9,7.0
+WR,Jared Abbrederis,9,0.0
 WR,T.Y. Hilton,9,7.0
 WR,Julio Jones,10,15.8
 WR,Odell Beckham,10,14.2
@@ -825,11 +825,10 @@ WR,Vincent Jackson,17,10.3
 WR,Adam Humphries,17,10.2
 WR,Brandon LaFell,17,10.2
 TE,Jimmy Graham,7,12.4
-TE,Jordan Reed,7,11.8
-TE,Zach Ertz,7,11.2
-TE,Julius Thomas,7,10.3
-TE,Cameron Brate,7,10.0
-TE,Richard Rodgers,7,9.2
+TE,Jordan Reed,7,11.9
+TE,Zach Ertz,7,11.1
+TE,Julius Thomas,7,10.5
+TE,Richard Rodgers,7,9.3
 TE,Martellus Bennett,7,9.1
 TE,Clive Walford,7,9.1
 TE,C.J. Uzomah,7,8.8
@@ -838,17 +837,18 @@ TE,Vernon Davis,7,8.3
 TE,Virgil Green,7,7.9
 TE,Larry Donnell,7,7.7
 TE,Jermaine Gresham,7,7.6
-TE,Trey Burton,7,7.3
+TE,Marcedes Lewis,7,7.4
 TE,Austin Hooper,7,7.0
 TE,Levine Toilolo,7,7.0
 TE,Anthony Fasano,7,6.9
 TE,Demetrius Harris,7,6.9
 TE,Rob Gronkowski,7,6.5
-TE,Delanie Walker,7,5.5
+TE,Delanie Walker,7,5.4
 TE,Gary Barnidge,7,5.1
 TE,Hunter Henry,7,4.8
 TE,Travis Kelce,7,4.4
-TE,Kyle Rudolph,7,4.2
+TE,Coby Fleener,7,4.1
+TE,Kyle Rudolph,7,4.1
 TE,Delanie Walker,8,11.1
 TE,Antonio Gates,8,10.6
 TE,Gary Barnidge,8,10.5
@@ -869,7 +869,7 @@ TE,Coby Fleener,8,3.2
 TE,Zach Miller,8,3.0
 TE,C.J. Uzomah,8,3.0
 TE,Cameron Brate,8,2.8
-TE,Jared Cook,8,2.5
+TE,Jared Cook,8,0.0
 TE,Dwayne Allen,8,2.3
 TE,Ryan Griffin,8,2.3
 TE,Clive Walford,8,2.2
@@ -895,7 +895,7 @@ TE,Charles Clay,9,3.0
 TE,Vance McDonald,9,2.9
 TE,Cameron Brate,9,2.7
 TE,Jordan Cameron,9,2.5
-TE,Jared Cook,9,2.5
+TE,Jared Cook,9,0.0
 TE,Jesse James,9,2.5
 TE,Dwayne Allen,9,2.4
 TE,Will Tye,9,2.3
@@ -947,7 +947,7 @@ TE,Cameron Brate,11,3.0
 TE,C.J. Uzomah,11,2.9
 TE,Charles Clay,11,2.8
 TE,Clive Walford,11,2.7
-TE,Jared Cook,11,2.6
+TE,Jared Cook,11,0.0
 TE,Larry Donnell,11,2.6
 TE,Travis Kelce,12,11.2
 TE,Zach Ertz,12,10.9
@@ -1099,31 +1099,31 @@ TE,Coby Fleener,17,3.3
 TE,C.J. Uzomah,17,2.9
 TE,Clive Walford,17,2.9
 TE,Charles Clay,17,2.8
-K,Dan Carpenter,7,14.0
 K,Mike Nugent,7,12.0
 K,Cairo Santos,7,12.0
 K,Roberto Aguayo,7,11.0
+K,Dan Carpenter,7,11.0
 K,Phil Dawson,7,11.0
 K,Dustin Hopkins,7,11.0
 K,Ryan Succop,7,11.0
 K,Justin Tucker,7,11.0
-K,Matt Bryant,7,8.0
+K,Matt Bryant,7,9.0
+K,Mason Crosby,7,8.0
+K,Sebastian Janikowski,7,8.0
+K,Matt Prater,7,8.0
 K,Adam Vinatieri,7,8.0
 K,Brandon McManus,7,7.0
 K,Nick Novak,7,7.0
 K,Josh Brown,7,5.0
-K,Mason Crosby,7,5.0
-K,Nick Folk,7,5.0
+K,Stephen Gostkowski,7,5.0
 K,Steven Hauschka,7,5.0
-K,Sebastian Janikowski,7,5.0
 K,Josh Lambo,7,5.0
-K,Matt Prater,7,5.0
 K,Chris Boswell,7,4.0
+K,Nick Folk,7,4.0
 K,Andrew Franks,7,4.0
 K,Cody Parkey,7,4.0
 K,Caleb Sturgis,7,4.0
 K,Greg Zuerlein,7,4.0
-K,Connor Barth,7,2.0
 K,Mason Crosby,8,11.0
 K,Nick Folk,8,11.0
 K,Steven Hauschka,8,11.0
@@ -1374,71 +1374,71 @@ K,Ryan Succop,17,4.0
 K,Josh Lambo,17,2.0
 K,Brandon McManus,17,2.0
 K,Matt Prater,17,2.0
-DEF,Cincinnati Bengals  ,7,12.0
+DEF,Cincinnati Bengals   ,7,12.0
 DEF,Denver Broncos   ,7,12.0
-DEF,Arizona Cardinals  ,7,12.0
+DEF,Arizona Cardinals   ,7,12.0
 DEF,Houston Texans   ,7,12.0
-DEF,Los Angeles Rams   ,7,11.0
-DEF,Buffalo Bills  ,7,6.0
+DEF,Buffalo Bills   ,7,6.0
 DEF,Tampa Bay Buccaneers    ,7,6.0
 DEF,Indianapolis Colts   ,7,6.0
 DEF,Miami Dolphins   ,7,6.0
 DEF,Philadelphia Eagles   ,7,6.0
 DEF,New York Jets   ,7,6.0
-DEF,Green Bay Packers  ,7,6.0
+DEF,Detroit Lions   ,7,6.0
+DEF,Green Bay Packers   ,7,6.0
 DEF,New England Patriots   ,7,6.0
+DEF,Oakland Raiders   ,7,6.0
+DEF,Baltimore Ravens   ,7,6.0
 DEF,Washington Redskins   ,7,6.0
 DEF,Seattle Seahawks   ,7,6.0
 DEF,Tennessee Titans   ,7,6.0
 DEF,Minnesota Vikings    ,7,6.0
 DEF,San Francisco 49ers   ,7,5.0
 DEF,Jacksonville Jaguars   ,7,5.0
-DEF,Cleveland Browns  ,7,4.0
-DEF,Atlanta Falcons  ,7,4.0
+DEF,Los Angeles Rams   ,7,5.0
+DEF,Cleveland Browns   ,7,4.0
+DEF,Atlanta Falcons   ,7,4.0
 DEF,New York Giants   ,7,4.0
-DEF,Detroit Lions   ,7,4.0
-DEF,Oakland Raiders   ,7,4.0
-DEF,Baltimore Ravens  ,7,4.0
 DEF,Philadelphia Eagles   ,8,12.0
 DEF,New York Jets   ,8,12.0
 DEF,Detroit Lions   ,8,12.0
 DEF,Jacksonville Jaguars   ,8,7.0
 DEF,Tennessee Titans   ,8,7.0
-DEF,Chicago Bears  ,8,6.0
+DEF,Chicago Bears   ,8,6.0
 DEF,San Diego Chargers    ,8,6.0
 DEF,Kansas City Chiefs   ,8,6.0
 DEF,Dallas Cowboys   ,8,6.0
-DEF,Carolina Panthers  ,8,6.0
+DEF,Carolina Panthers   ,8,6.0
 DEF,New England Patriots   ,8,6.0
 DEF,Oakland Raiders   ,8,6.0
 DEF,New Orleans Saints   ,8,6.0
 DEF,Tampa Bay Buccaneers    ,8,5.0
-DEF,Cincinnati Bengals  ,8,4.0
+DEF,Cincinnati Bengals   ,8,4.0
 DEF,Denver Broncos   ,8,4.0
-DEF,Arizona Cardinals  ,8,4.0
-DEF,Atlanta Falcons  ,8,4.0
-DEF,Green Bay Packers  ,8,4.0
+DEF,Arizona Cardinals   ,8,4.0
+DEF,Atlanta Falcons   ,8,4.0
+DEF,Green Bay Packers   ,8,4.0
 DEF,Washington Redskins   ,8,4.0
 DEF,Houston Texans   ,8,4.0
 DEF,Minnesota Vikings    ,8,4.0
-DEF,Cleveland Browns  ,8,3.0
-DEF,Buffalo Bills  ,8,2.0
+DEF,Cleveland Browns   ,8,3.0
+DEF,Buffalo Bills   ,8,2.0
 DEF,Indianapolis Colts   ,8,2.0
 DEF,Oakland Raiders   ,9,13.0
-DEF,Cleveland Browns  ,9,12.0
+DEF,Cleveland Browns   ,9,12.0
 DEF,Dallas Cowboys   ,9,12.0
-DEF,Carolina Panthers  ,9,12.0
+DEF,Carolina Panthers   ,9,12.0
 DEF,San Diego Chargers    ,9,6.0
 DEF,Kansas City Chiefs   ,9,6.0
 DEF,Philadelphia Eagles   ,9,6.0
 DEF,Detroit Lions   ,9,6.0
-DEF,Green Bay Packers  ,9,6.0
+DEF,Green Bay Packers   ,9,6.0
 DEF,New Orleans Saints   ,9,6.0
 DEF,Seattle Seahawks   ,9,6.0
 DEF,Minnesota Vikings    ,9,6.0
 DEF,Denver Broncos   ,9,5.0
 DEF,Pittsburgh Steelers   ,9,5.0
-DEF,Buffalo Bills  ,9,4.0
+DEF,Buffalo Bills   ,9,4.0
 DEF,Tampa Bay Buccaneers    ,9,4.0
 DEF,Indianapolis Colts   ,9,4.0
 DEF,New York Giants   ,9,4.0
@@ -1448,22 +1448,22 @@ DEF,Tennessee Titans   ,9,4.0
 DEF,San Francisco 49ers   ,9,3.0
 DEF,Miami Dolphins   ,9,3.0
 DEF,Jacksonville Jaguars   ,9,2.0
-DEF,Baltimore Ravens  ,10,12.0
+DEF,Baltimore Ravens   ,10,12.0
 DEF,New Orleans Saints   ,10,12.0
-DEF,Chicago Bears  ,10,6.0
-DEF,Cincinnati Bengals  ,10,6.0
+DEF,Chicago Bears   ,10,6.0
+DEF,Cincinnati Bengals   ,10,6.0
 DEF,Tampa Bay Buccaneers    ,10,6.0
-DEF,Arizona Cardinals  ,10,6.0
+DEF,Arizona Cardinals   ,10,6.0
 DEF,San Diego Chargers    ,10,6.0
-DEF,Atlanta Falcons  ,10,6.0
+DEF,Atlanta Falcons   ,10,6.0
 DEF,Jacksonville Jaguars   ,10,6.0
 DEF,New York Jets   ,10,6.0
 DEF,Washington Redskins   ,10,6.0
 DEF,Houston Texans   ,10,6.0
 DEF,Tennessee Titans   ,10,6.0
 DEF,San Francisco 49ers   ,10,5.0
-DEF,Cleveland Browns  ,10,5.0
-DEF,Green Bay Packers  ,10,5.0
+DEF,Cleveland Browns   ,10,5.0
+DEF,Green Bay Packers   ,10,5.0
 DEF,Denver Broncos   ,10,4.0
 DEF,Kansas City Chiefs   ,10,4.0
 DEF,Miami Dolphins   ,10,4.0
@@ -1478,136 +1478,136 @@ DEF,Los Angeles Rams   ,11,12.0
 DEF,Pittsburgh Steelers   ,11,12.0
 DEF,Seattle Seahawks   ,11,10.0
 DEF,Indianapolis Colts   ,11,7.0
-DEF,Cincinnati Bengals  ,11,6.0
+DEF,Cincinnati Bengals   ,11,6.0
 DEF,Kansas City Chiefs   ,11,6.0
 DEF,Philadelphia Eagles   ,11,6.0
 DEF,New York Giants   ,11,6.0
 DEF,Oakland Raiders   ,11,6.0
-DEF,Baltimore Ravens  ,11,6.0
+DEF,Baltimore Ravens   ,11,6.0
 DEF,Tennessee Titans   ,11,6.0
 DEF,Minnesota Vikings    ,11,6.0
-DEF,Chicago Bears  ,11,5.0
+DEF,Chicago Bears   ,11,5.0
 DEF,Dallas Cowboys   ,11,5.0
-DEF,Buffalo Bills  ,11,4.0
+DEF,Buffalo Bills   ,11,4.0
 DEF,Tampa Bay Buccaneers    ,11,4.0
 DEF,Jacksonville Jaguars   ,11,4.0
 DEF,Detroit Lions   ,11,4.0
-DEF,Green Bay Packers  ,11,4.0
-DEF,Carolina Panthers  ,11,4.0
+DEF,Green Bay Packers   ,11,4.0
+DEF,Carolina Panthers   ,11,4.0
 DEF,New England Patriots   ,11,4.0
 DEF,Washington Redskins   ,11,4.0
 DEF,New Orleans Saints   ,11,4.0
 DEF,Kansas City Chiefs   ,12,12.0
 DEF,New York Giants   ,12,12.0
-DEF,Chicago Bears  ,12,6.0
-DEF,Cincinnati Bengals  ,12,6.0
-DEF,Buffalo Bills  ,12,6.0
+DEF,Chicago Bears   ,12,6.0
+DEF,Cincinnati Bengals   ,12,6.0
+DEF,Buffalo Bills   ,12,6.0
 DEF,Tampa Bay Buccaneers    ,12,6.0
-DEF,Arizona Cardinals  ,12,6.0
+DEF,Arizona Cardinals   ,12,6.0
 DEF,San Diego Chargers    ,12,6.0
 DEF,Miami Dolphins   ,12,6.0
 DEF,Jacksonville Jaguars   ,12,6.0
-DEF,Carolina Panthers  ,12,6.0
+DEF,Carolina Panthers   ,12,6.0
 DEF,Washington Redskins   ,12,6.0
 DEF,New Orleans Saints   ,12,6.0
 DEF,Seattle Seahawks   ,12,6.0
 DEF,Pittsburgh Steelers   ,12,6.0
 DEF,Tennessee Titans   ,12,6.0
 DEF,Minnesota Vikings    ,12,6.0
-DEF,Cleveland Browns  ,12,5.0
-DEF,Green Bay Packers  ,12,5.0
+DEF,Cleveland Browns   ,12,5.0
+DEF,Green Bay Packers   ,12,5.0
 DEF,San Francisco 49ers   ,12,4.0
 DEF,Denver Broncos   ,12,4.0
 DEF,Dallas Cowboys   ,12,4.0
 DEF,Philadelphia Eagles   ,12,4.0
-DEF,Atlanta Falcons  ,12,4.0
+DEF,Atlanta Falcons   ,12,4.0
 DEF,New York Jets   ,12,4.0
 DEF,Jacksonville Jaguars   ,13,12.0
-DEF,Green Bay Packers  ,13,12.0
+DEF,Green Bay Packers   ,13,12.0
 DEF,Minnesota Vikings    ,13,12.0
 DEF,Denver Broncos   ,13,10.0
 DEF,San Francisco 49ers   ,13,6.0
-DEF,Buffalo Bills  ,13,6.0
+DEF,Buffalo Bills   ,13,6.0
 DEF,Tampa Bay Buccaneers    ,13,6.0
 DEF,San Diego Chargers    ,13,6.0
 DEF,Dallas Cowboys   ,13,6.0
 DEF,Miami Dolphins   ,13,6.0
 DEF,Philadelphia Eagles   ,13,6.0
 DEF,New York Jets   ,13,6.0
-DEF,Carolina Panthers  ,13,6.0
+DEF,Carolina Panthers   ,13,6.0
 DEF,New England Patriots   ,13,6.0
 DEF,Oakland Raiders   ,13,6.0
-DEF,Baltimore Ravens  ,13,6.0
+DEF,Baltimore Ravens   ,13,6.0
 DEF,Washington Redskins   ,13,6.0
 DEF,New Orleans Saints   ,13,6.0
 DEF,Seattle Seahawks   ,13,6.0
 DEF,Pittsburgh Steelers   ,13,6.0
-DEF,Chicago Bears  ,13,4.0
-DEF,Cincinnati Bengals  ,13,4.0
-DEF,Arizona Cardinals  ,13,4.0
+DEF,Chicago Bears   ,13,4.0
+DEF,Cincinnati Bengals   ,13,4.0
+DEF,Arizona Cardinals   ,13,4.0
 DEF,Kansas City Chiefs   ,13,4.0
-DEF,Atlanta Falcons  ,13,4.0
+DEF,Atlanta Falcons   ,13,4.0
 DEF,Tennessee Titans   ,14,13.0
-DEF,Cincinnati Bengals  ,14,12.0
+DEF,Cincinnati Bengals   ,14,12.0
 DEF,Indianapolis Colts   ,14,12.0
 DEF,Denver Broncos   ,14,7.0
-DEF,Arizona Cardinals  ,14,6.0
+DEF,Arizona Cardinals   ,14,6.0
 DEF,Dallas Cowboys   ,14,6.0
 DEF,Miami Dolphins   ,14,6.0
-DEF,Atlanta Falcons  ,14,6.0
+DEF,Atlanta Falcons   ,14,6.0
 DEF,New York Giants   ,14,6.0
 DEF,New York Jets   ,14,6.0
 DEF,Detroit Lions   ,14,6.0
-DEF,Green Bay Packers  ,14,6.0
-DEF,Carolina Panthers  ,14,6.0
+DEF,Green Bay Packers   ,14,6.0
+DEF,Carolina Panthers   ,14,6.0
 DEF,New England Patriots   ,14,6.0
 DEF,New Orleans Saints   ,14,6.0
 DEF,Pittsburgh Steelers   ,14,6.0
 DEF,Houston Texans   ,14,6.0
 DEF,Kansas City Chiefs   ,14,5.0
 DEF,Minnesota Vikings    ,14,5.0
-DEF,Chicago Bears  ,14,4.0
-DEF,Buffalo Bills  ,14,4.0
-DEF,Cleveland Browns  ,14,4.0
+DEF,Chicago Bears   ,14,4.0
+DEF,Buffalo Bills   ,14,4.0
+DEF,Cleveland Browns   ,14,4.0
 DEF,Tampa Bay Buccaneers    ,14,4.0
 DEF,San Diego Chargers    ,14,4.0
 DEF,Philadelphia Eagles   ,14,4.0
 DEF,Houston Texans   ,15,13.0
-DEF,Buffalo Bills  ,15,12.0
+DEF,Buffalo Bills   ,15,12.0
 DEF,New England Patriots   ,15,12.0
 DEF,Seattle Seahawks   ,15,12.0
-DEF,Chicago Bears  ,15,6.0
+DEF,Chicago Bears   ,15,6.0
 DEF,Denver Broncos   ,15,6.0
-DEF,Cleveland Browns  ,15,6.0
+DEF,Cleveland Browns   ,15,6.0
 DEF,Tampa Bay Buccaneers    ,15,6.0
-DEF,Arizona Cardinals  ,15,6.0
+DEF,Arizona Cardinals   ,15,6.0
 DEF,Kansas City Chiefs   ,15,6.0
 DEF,Indianapolis Colts   ,15,6.0
 DEF,Dallas Cowboys   ,15,6.0
 DEF,Philadelphia Eagles   ,15,6.0
 DEF,New York Giants   ,15,6.0
 DEF,Jacksonville Jaguars   ,15,6.0
-DEF,Green Bay Packers  ,15,6.0
+DEF,Green Bay Packers   ,15,6.0
 DEF,Oakland Raiders   ,15,6.0
-DEF,Baltimore Ravens  ,15,6.0
+DEF,Baltimore Ravens   ,15,6.0
 DEF,New Orleans Saints   ,15,6.0
 DEF,Minnesota Vikings    ,15,6.0
 DEF,San Diego Chargers    ,15,5.0
 DEF,Detroit Lions   ,15,5.0
-DEF,Atlanta Falcons  ,15,4.0
+DEF,Atlanta Falcons   ,15,4.0
 DEF,New York Jets   ,15,4.0
-DEF,Carolina Panthers  ,15,4.0
+DEF,Carolina Panthers   ,15,4.0
 DEF,San Diego Chargers    ,16,12.0
 DEF,Kansas City Chiefs   ,16,12.0
 DEF,Detroit Lions   ,16,12.0
 DEF,San Francisco 49ers   ,16,6.0
-DEF,Cincinnati Bengals  ,16,6.0
-DEF,Buffalo Bills  ,16,6.0
-DEF,Cleveland Browns  ,16,6.0
+DEF,Cincinnati Bengals   ,16,6.0
+DEF,Buffalo Bills   ,16,6.0
+DEF,Cleveland Browns   ,16,6.0
 DEF,Miami Dolphins   ,16,6.0
 DEF,Philadelphia Eagles   ,16,6.0
-DEF,Green Bay Packers  ,16,6.0
-DEF,Carolina Panthers  ,16,6.0
+DEF,Green Bay Packers   ,16,6.0
+DEF,Carolina Panthers   ,16,6.0
 DEF,Oakland Raiders   ,16,6.0
 DEF,Los Angeles Rams   ,16,6.0
 DEF,Washington Redskins   ,16,6.0
@@ -1617,61 +1617,61 @@ DEF,Pittsburgh Steelers   ,16,6.0
 DEF,Tennessee Titans   ,16,6.0
 DEF,Indianapolis Colts   ,16,5.0
 DEF,Jacksonville Jaguars   ,16,5.0
-DEF,Chicago Bears  ,16,4.0
+DEF,Chicago Bears   ,16,4.0
 DEF,Denver Broncos   ,16,4.0
 DEF,Tampa Bay Buccaneers    ,16,4.0
-DEF,Arizona Cardinals  ,16,4.0
+DEF,Arizona Cardinals   ,16,4.0
 DEF,Dallas Cowboys   ,16,4.0
-DEF,Atlanta Falcons  ,17,12.0
-DEF,Carolina Panthers  ,17,12.0
+DEF,Atlanta Falcons   ,17,12.0
+DEF,Carolina Panthers   ,17,12.0
 DEF,Oakland Raiders   ,17,12.0
 DEF,Pittsburgh Steelers   ,17,12.0
 DEF,Houston Texans   ,17,7.0
 DEF,San Francisco 49ers   ,17,6.0
-DEF,Cincinnati Bengals  ,17,6.0
-DEF,Buffalo Bills  ,17,6.0
+DEF,Cincinnati Bengals   ,17,6.0
+DEF,Buffalo Bills   ,17,6.0
 DEF,Philadelphia Eagles   ,17,6.0
 DEF,Jacksonville Jaguars   ,17,6.0
 DEF,New York Jets   ,17,6.0
-DEF,Green Bay Packers  ,17,6.0
+DEF,Green Bay Packers   ,17,6.0
 DEF,New England Patriots   ,17,6.0
 DEF,Los Angeles Rams   ,17,6.0
 DEF,Washington Redskins   ,17,6.0
 DEF,Tennessee Titans   ,17,6.0
 DEF,Denver Broncos   ,17,5.0
-DEF,Chicago Bears  ,17,4.0
+DEF,Chicago Bears   ,17,4.0
 DEF,Tampa Bay Buccaneers    ,17,4.0
 DEF,Kansas City Chiefs   ,17,4.0
 DEF,Indianapolis Colts   ,17,4.0
 DEF,Dallas Cowboys   ,17,4.0
 DEF,New York Giants   ,17,4.0
 DEF,Detroit Lions   ,17,4.0
-DEF,Baltimore Ravens  ,17,4.0
-QB,Carson Palmer,7,12.1
-QB,Case Keenum,7,12.0
-QB,Cody Kessler,7,11.9
-QB,Brian Hoyer,7,10.66
+DEF,Baltimore Ravens   ,17,4.0
+QB,Sam Bradford,7,12.06
+QB,Cody Kessler,7,11.98
+QB,Case Keenum,7,11.8
+QB,Brian Hoyer,7,10.7
 QB,Eli Manning,7,9.92
-QB,Brock Osweiler,7,8.48
-QB,Nick Foles,7,0.68
-QB,AJ McCarron,7,0.52
-QB,Paxton Lynch,7,0.48
+QB,Brock Osweiler,7,8.44
+QB,Nick Foles,7,0.64
+QB,Paxton Lynch,7,0.64
+QB,Ryan Fitzpatrick,7,0.6
 QB,Jared Goff,7,0.46
+QB,AJ McCarron,7,0.44
 QB,Brett Hundley,7,0.38
+QB,EJ Manuel,7,0.38
 QB,Trevone Boykin,7,0.36
 QB,Matt McGloin,7,0.36
-QB,Dan Orlovsky,7,0.36
+QB,Matt Moore,7,0.36
 QB,Matt Schaub,7,0.36
 QB,Matt Barkley,7,0.34
+QB,Matt Cassel,7,0.32
 QB,Chase Daniel,7,0.32
-QB,Matt Cassel,7,0.28
+QB,Dan Orlovsky,7,0.32
+QB,Drew Stanton,7,0.32
 QB,Jimmy Garoppolo,7,0.28
 QB,Mike Glennon,7,0.28
 QB,Chad Henne,7,0.28
-QB,Zach Mettenberger,7,0.28
-QB,Drew Stanton,7,0.28
-QB,Josh McCown,7,0.24
-QB,Matt Moore,7,0.24
 QB,Carson Palmer,8,10.86
 QB,Philip Rivers,8,10.52
 QB,Brian Hoyer,8,0.84
@@ -1914,31 +1914,31 @@ QB,Matt Schaub,17,0.36
 QB,Geno Smith,17,0.36
 QB,Shaun Hill,17,0.32
 QB,Colin Kaepernick,17,0.32
-RB,Chris Ivory,7,8.6
+RB,Chris Ivory,7,8.7
 RB,Christine Michael,7,8.6
 RB,Matt Asiata,7,8.5
 RB,Rashad Jennings,7,8.4
 RB,Bobby Rainey,7,8.4
-RB,Mike Davis,7,8.0
+RB,Mike Davis,7,8.1
+RB,Jordan Howard,7,7.6
 RB,DeAndre Washington,7,7.6
-RB,Jordan Howard,7,7.5
 RB,Frank Gore,7,7.4
 RB,Jerick McKinnon,7,7.4
 RB,Isaiah Crowell,7,7.0
-RB,Lamar Miller,7,7.0
-RB,Matt Forte,7,6.6
+RB,Lamar Miller,7,6.9
+RB,Matt Forte,7,6.4
 RB,Terrance West,7,5.2
 RB,Duke Johnson,7,5.1
 RB,Ryan Mathews,7,4.9
-RB,Ronnie Hillman,7,4.0
 RB,Chris Thompson,7,4.0
-RB,Darren Sproles,7,3.9
+RB,Ronnie Hillman,7,3.9
+RB,Darren Sproles,7,3.8
 RB,Latavius Murray,7,3.5
-RB,Arian Foster,7,3.3
+RB,Arian Foster,7,3.4
 RB,Jalen Richard,7,3.3
-RB,Doug Martin,7,3.0
-RB,Devontae Booker,7,2.9
 RB,Wendell Smallwood,7,2.9
+RB,Devontae Booker,7,2.8
+RB,DeAngelo Williams,7,2.6
 RB,Theo Riddick,8,7.0
 RB,Isaiah Crowell,8,6.7
 RB,T.J. Yeldon,8,6.4
@@ -1977,7 +1977,7 @@ RB,Fozzy Whittaker,9,4.8
 RB,Duke Johnson,9,4.6
 RB,Ronnie Hillman,9,4.5
 RB,Jonathan Stewart,9,4.3
-RB,James Starks,9,4.1
+RB,James Starks,9,0.0
 RB,Darren Sproles,9,3.9
 RB,Dexter McCluster,9,3.8
 RB,Bilal Powell,9,3.5
@@ -1998,7 +1998,7 @@ RB,Matt Jones,10,6.8
 RB,Carlos Hyde,10,6.6
 RB,Jeremy Hill,10,6.5
 RB,T.J. Yeldon,10,6.4
-RB,Eddie Lacy,10,6.3
+RB,Eddie Lacy,10,0.0
 RB,Giovani Bernard,10,5.6
 RB,Duke Johnson,10,4.7
 RB,Tim Hightower,10,4.4
@@ -2011,7 +2011,7 @@ RB,Terrance West,10,3.6
 RB,James White,10,3.5
 RB,Javorius Allen,10,3.4
 RB,Tevin Coleman,10,3.4
-RB,James Starks,10,3.4
+RB,James Starks,10,0.0
 RB,Chris Thompson,10,3.4
 RB,Jerick McKinnon,11,7.4
 RB,Latavius Murray,11,7.3
@@ -2045,7 +2045,7 @@ RB,Reggie Bush,12,8.3
 RB,Lance Dunbar,12,8.3
 RB,Kyle Juszczyk,12,8.1
 RB,Kenyan Drake,12,7.8
-RB,Eddie Lacy,12,7.7
+RB,Eddie Lacy,12,0.0
 RB,Jeremy Langford,12,7.4
 RB,Isaiah Crowell,12,7.2
 RB,Jerick McKinnon,12,6.7
@@ -2069,7 +2069,7 @@ RB,Troymaine Pope,13,8.0
 RB,LeSean McCoy,13,7.9
 RB,Andre Ellington,13,7.7
 RB,Kenneth Farrow,13,7.6
-RB,Eddie Lacy,13,7.5
+RB,Eddie Lacy,13,0.0
 RB,Jerick McKinnon,13,7.3
 RB,Arian Foster,13,7.1
 RB,Theo Riddick,13,6.9
@@ -2085,7 +2085,7 @@ RB,Darren Sproles,13,3.8
 RB,Chris Thompson,13,3.7
 RB,Fozzy Whittaker,13,3.7
 RB,Javorius Allen,13,3.6
-RB,James Starks,13,3.6
+RB,James Starks,13,0.0
 RB,DeAngelo Williams,13,3.6
 RB,Spencer Ware,13,3.3
 RB,Jeremy Langford,14,7.9
@@ -2098,7 +2098,7 @@ RB,Melvin Gordon,14,7.2
 RB,Theo Riddick,14,7.2
 RB,LeGarrette Blount,14,6.8
 RB,Jeremy Hill,14,6.7
-RB,Eddie Lacy,14,6.5
+RB,Eddie Lacy,14,0.0
 RB,Carlos Hyde,14,6.4
 RB,Latavius Murray,14,6.1
 RB,T.J. Yeldon,14,6.1
@@ -2137,7 +2137,7 @@ RB,Duke Johnson,15,4.8
 RB,Tim Hightower,15,4.6
 RB,Bilal Powell,15,4.5
 RB,Darren Sproles,15,3.9
-RB,James Starks,15,3.8
+RB,James Starks,15,0.0
 RB,Christine Michael,16,8.8
 RB,C.J. Anderson,16,8.7
 RB,Cameron Artis,16,8.7
@@ -2150,7 +2150,7 @@ RB,Chris Thompson,16,7.7
 RB,Benny Cunningham,16,7.6
 RB,Arian Foster,16,7.2
 RB,Frank Gore,16,7.2
-RB,Eddie Lacy,16,6.9
+RB,Eddie Lacy,16,0.0
 RB,Theo Riddick,16,6.9
 RB,Jerick McKinnon,16,6.4
 RB,T.J. Yeldon,16,6.0
@@ -2171,7 +2171,7 @@ RB,Lamar Miller,17,8.1
 RB,Robert Turbin,17,8.1
 RB,Denard Robinson,17,7.8
 RB,Damien Williams,17,7.8
-RB,Eddie Lacy,17,7.5
+RB,Eddie Lacy,17,0.0
 RB,Jeremy Langford,17,7.4
 RB,Latavius Murray,17,7.4
 RB,Arian Foster,17,7.1
@@ -2188,31 +2188,31 @@ RB,Fozzy Whittaker,17,4.1
 RB,Darren Sproles,17,4.0
 RB,James White,17,3.8
 RB,Chris Thompson,17,3.7
-WR,Marqise Lee,7,10.0
-WR,Adam Thielen,7,10.0
+WR,DeVante Parker,7,11.1
+WR,Will Fuller,7,10.9
+WR,Brandon LaFell,7,10.1
+WR,Marqise Lee,7,10.1
+WR,Adam Thielen,7,10.1
 WR,Mohamed Sanu,7,9.8
 WR,Brian Quick,7,9.7
 WR,Dorial Green,7,9.6
-WR,Quinton Patton,7,9.5
 WR,Tyler Boyd,7,9.2
 WR,Seth Roberts,7,9.2
-WR,Breshad Perriman,7,9.0
+WR,Deonte Thompson,7,9.2
+WR,Breshad Perriman,7,9.1
+WR,Ty Montgomery,7,8.8
 WR,Tyreek Hill,7,8.4
 WR,Jordan Norwood,7,8.3
-WR,Chester Rogers,7,8.3
 WR,Antonio Brown,7,8.2
+WR,Chester Rogers,7,8.2
+WR,Jaelen Strong,7,8.0
 WR,Mike Evans,7,7.9
-WR,Jaelen Strong,7,7.9
-WR,Charone Peake,7,7.7
+WR,Donteea Dye,7,7.6
 WR,Bennie Fowler,7,7.6
+WR,Charone Peake,7,7.6
 WR,J.J. Nelson,7,7.5
 WR,A.J. Green,7,7.4
 WR,Willie Snead,7,7.3
-WR,Jeff Janis,7,7.2
-WR,Alshon Jeffery,7,7.1
-WR,Allen Robinson,7,7.1
-WR,Darrius Heyward,7,7.0
-WR,Brandin Cooks,7,6.9
 WR,Larry Fitzgerald,8,7.2
 WR,Brandon Marshall,8,6.9
 WR,Brandin Cooks,8,6.8
@@ -2340,7 +2340,7 @@ WR,Doug Baldwin,12,6.7
 WR,Brandon Marshall,12,6.7
 WR,Mike Wallace,13,10.0
 WR,Chris Hogan,13,9.6
-WR,Eddie Royal,13,9.6
+WR,Eddie Royal,13,0.0
 WR,Kamar Aiken,13,9.2
 WR,Marqise Lee,13,9.0
 WR,Breshad Perriman,13,8.3
@@ -2395,7 +2395,7 @@ WR,Brandon LaFell,15,10.3
 WR,Quincy Enunwa,15,10.0
 WR,Mike Wallace,15,10.0
 WR,Markus Wheaton,15,10.0
-WR,Eddie Royal,15,9.6
+WR,Eddie Royal,15,0.0
 WR,Mohamed Sanu,15,9.6
 WR,Justin Hardy,15,9.2
 WR,Adam Thielen,15,8.9
@@ -2463,31 +2463,31 @@ WR,Dez Bryant,17,5.9
 WR,Travis Benjamin,17,5.8
 WR,Sterling Shepard,17,5.8
 WR,Michael Floyd,17,5.7
-TE,Kyle Rudolph,7,4.2
+TE,Kyle Rudolph,7,4.1
 TE,Charles Clay,7,4.0
-TE,Coby Fleener,7,4.0
 TE,Dennis Pitta,7,4.0
-TE,Zach Miller,7,3.9
+TE,Cameron Brate,7,3.9
 TE,Antonio Gates,7,3.6
+TE,Zach Miller,7,3.5
 TE,Jacob Tamme,7,3.0
 TE,Will Tye,7,3.0
-TE,C.J. Fiedorowicz,7,2.8
+TE,C.J. Fiedorowicz,7,2.9
 TE,Lance Kendricks,7,2.7
 TE,Jesse James,7,2.6
+TE,Ryan Griffin,7,2.5
 TE,Vance McDonald,7,2.4
-TE,Ryan Griffin,7,2.3
-TE,Jack Doyle,7,2.2
+TE,Jack Doyle,7,2.1
+TE,Chase Coffman,7,1.9
 TE,Darren Fells,7,1.7
 TE,MarQueis Gray,7,1.6
-TE,Luke Willson,7,1.5
 TE,Garrett Celek,7,1.4
-TE,Crockett Gillmore,7,1.4
-TE,Marcedes Lewis,7,1.3
-TE,Brandon Myers,7,1.3
+TE,Trey Burton,7,1.3
+TE,Crockett Gillmore,7,1.3
 TE,Tyler Kroft,7,1.2
+TE,Brandon Myers,7,1.2
 TE,Mychal Rivera,7,1.2
+TE,Stephen Anderson,7,1.1
 TE,Brent Celek,7,1.1
-TE,Stephen Anderson,7,1.0
 TE,Darren Fells,8,2.0
 TE,Richard Rodgers,8,2.0
 TE,Martellus Bennett,8,1.9
@@ -2539,7 +2539,7 @@ TE,Sean McGrath,9,0.7
 TE,Brandon Myers,9,0.7
 TE,Trey Burton,9,0.6
 TE,Jesse James,10,2.6
-TE,Jared Cook,10,2.5
+TE,Jared Cook,10,0.0
 TE,Ryan Griffin,10,2.4
 TE,Jordan Cameron,10,2.2
 TE,Brent Celek,10,2.0
@@ -2589,7 +2589,7 @@ TE,Anthony Fasano,11,0.8
 TE,C.J. Fiedorowicz,11,0.8
 TE,Brandon Myers,11,0.8
 TE,C.J. Uzomah,12,2.8
-TE,Jared Cook,12,2.6
+TE,Jared Cook,12,0.0
 TE,Jesse James,12,2.6
 TE,Clive Walford,12,2.6
 TE,Larry Donnell,12,2.5
@@ -2617,7 +2617,7 @@ TE,Cameron Brate,13,3.1
 TE,Charles Clay,13,2.8
 TE,Vance McDonald,13,2.8
 TE,Will Tye,13,2.7
-TE,Jared Cook,13,2.6
+TE,Jared Cook,13,0.0
 TE,Larry Donnell,13,2.6
 TE,Dwayne Allen,13,2.5
 TE,Ryan Griffin,13,2.3
@@ -2640,7 +2640,7 @@ TE,Jermaine Gresham,13,1.0
 TE,Jeff Heuerman,13,0.9
 TE,Larry Donnell,14,2.6
 TE,Jesse James,14,2.6
-TE,Jared Cook,14,2.5
+TE,Jared Cook,14,0.0
 TE,Will Tye,14,2.4
 TE,Clive Walford,14,2.4
 TE,Ryan Griffin,14,2.3
@@ -2667,7 +2667,7 @@ TE,Charles Clay,15,2.8
 TE,Vance McDonald,15,2.8
 TE,Jesse James,15,2.7
 TE,Clive Walford,15,2.7
-TE,Jared Cook,15,2.6
+TE,Jared Cook,15,0.0
 TE,Larry Donnell,15,2.6
 TE,Dwayne Allen,15,2.5
 TE,Ryan Griffin,15,2.4
@@ -2692,7 +2692,7 @@ TE,Coby Fleener,16,3.3
 TE,Cameron Brate,16,3.0
 TE,C.J. Uzomah,16,2.9
 TE,Charles Clay,16,2.8
-TE,Jared Cook,16,2.7
+TE,Jared Cook,16,0.0
 TE,Jesse James,16,2.7
 TE,Clive Walford,16,2.7
 TE,Larry Donnell,16,2.6
@@ -2715,7 +2715,7 @@ TE,Virgil Green,16,1.1
 TE,Blake Bell,16,0.9
 TE,Charles Clay,17,2.8
 TE,Vance McDonald,17,2.8
-TE,Jared Cook,17,2.6
+TE,Jared Cook,17,0.0
 TE,Larry Donnell,17,2.6
 TE,Jesse James,17,2.6
 TE,Will Tye,17,2.5
@@ -2738,8 +2738,8 @@ TE,Virgil Green,17,1.1
 TE,Maxx Williams,17,0.0
 TE,Stephen Anderson,17,1.0
 TE,Trey Burton,17,1.0
+K,Greg Zuerlein,7,4.0
 K,Connor Barth,7,2.0
-K,Stephen Gostkowski,7,2.0
 K,Wil Lutz,7,2.0
 K,Jason Myers,7,2.0
 K,Blair Walsh,7,2.0
@@ -2824,35 +2824,35 @@ K,Greg Zuerlein,17,1.0
 K,Ka'imi Fairbairn,17,0.0
 K,Patrick Murray,17,0.0
 K,Cody Parkey,17,0.0
-DEF,Baltimore Ravens  ,7,4.0
+DEF,New York Giants   ,7,4.0
 DEF,San Diego Chargers    ,7,3.0
-DEF,Chicago Bears  ,7,2.0
+DEF,Pittsburgh Steelers   ,7,3.0
+DEF,Chicago Bears   ,7,2.0
 DEF,New Orleans Saints   ,7,2.0
 DEF,Kansas City Chiefs   ,7,1.0
-DEF,Pittsburgh Steelers   ,7,1.0
 DEF,Indianapolis Colts   ,8,2.0
 DEF,Seattle Seahawks   ,8,1.0
 DEF,Jacksonville Jaguars   ,9,2.0
-DEF,Baltimore Ravens  ,9,2.0
-DEF,Atlanta Falcons  ,9,0.0
+DEF,Baltimore Ravens   ,9,2.0
+DEF,Atlanta Falcons   ,9,0.0
 DEF,Dallas Cowboys   ,10,3.0
 DEF,Los Angeles Rams   ,10,3.0
 DEF,Seattle Seahawks   ,10,3.0
-DEF,Carolina Panthers  ,10,2.0
+DEF,Carolina Panthers   ,10,2.0
 DEF,New Orleans Saints   ,11,4.0
 DEF,Houston Texans   ,11,3.0
 DEF,San Francisco 49ers   ,11,1.0
-DEF,Cleveland Browns  ,11,1.0
-DEF,Arizona Cardinals  ,11,0.0
+DEF,Cleveland Browns   ,11,1.0
+DEF,Arizona Cardinals   ,11,0.0
 DEF,New York Jets   ,12,4.0
 DEF,Detroit Lions   ,12,4.0
 DEF,New England Patriots   ,12,4.0
 DEF,Oakland Raiders   ,12,4.0
 DEF,Los Angeles Rams   ,12,4.0
-DEF,Baltimore Ravens  ,12,4.0
+DEF,Baltimore Ravens   ,12,4.0
 DEF,Houston Texans   ,12,4.0
 DEF,Indianapolis Colts   ,12,3.0
-DEF,Atlanta Falcons  ,13,4.0
+DEF,Atlanta Falcons   ,13,4.0
 DEF,Los Angeles Rams   ,13,4.0
 DEF,Houston Texans   ,13,4.0
 DEF,Indianapolis Colts   ,13,3.0
@@ -2861,36 +2861,35 @@ DEF,Detroit Lions   ,13,3.0
 DEF,Philadelphia Eagles   ,14,4.0
 DEF,Jacksonville Jaguars   ,14,4.0
 DEF,Los Angeles Rams   ,14,4.0
-DEF,Baltimore Ravens  ,14,4.0
+DEF,Baltimore Ravens   ,14,4.0
 DEF,Washington Redskins   ,14,4.0
 DEF,Seattle Seahawks   ,14,4.0
 DEF,San Francisco 49ers   ,14,3.0
 DEF,Oakland Raiders   ,14,2.0
-DEF,Carolina Panthers  ,15,4.0
+DEF,Carolina Panthers   ,15,4.0
 DEF,Los Angeles Rams   ,15,4.0
 DEF,Washington Redskins   ,15,4.0
 DEF,Pittsburgh Steelers   ,15,4.0
 DEF,San Francisco 49ers   ,15,3.0
-DEF,Cincinnati Bengals  ,15,3.0
+DEF,Cincinnati Bengals   ,15,3.0
 DEF,Miami Dolphins   ,15,3.0
 DEF,Tennessee Titans   ,15,2.0
 DEF,Dallas Cowboys   ,16,4.0
-DEF,Atlanta Falcons  ,16,4.0
+DEF,Atlanta Falcons   ,16,4.0
 DEF,New York Giants   ,16,4.0
 DEF,New England Patriots   ,16,4.0
-DEF,Baltimore Ravens  ,16,4.0
+DEF,Baltimore Ravens   ,16,4.0
 DEF,Houston Texans   ,16,4.0
 DEF,Minnesota Vikings    ,16,4.0
 DEF,New York Jets   ,16,3.0
-DEF,Baltimore Ravens  ,17,4.0
+DEF,Baltimore Ravens   ,17,4.0
 DEF,Seattle Seahawks   ,17,4.0
 DEF,Minnesota Vikings    ,17,4.0
-DEF,Cleveland Browns  ,17,3.0
-DEF,Arizona Cardinals  ,17,3.0
+DEF,Cleveland Browns   ,17,3.0
+DEF,Arizona Cardinals   ,17,3.0
 DEF,New Orleans Saints   ,17,3.0
 DEF,San Diego Chargers    ,17,2.0
 DEF,Miami Dolphins   ,17,1.0
-RB,DeAngelo Williams,7,2.6
 RB,Mike Gillislee,7,2.5
 RB,Kyle Juszczyk,7,2.4
 RB,Dwayne Washington,7,2.4
@@ -2901,20 +2900,21 @@ RB,Dexter McCluster,7,2.2
 RB,Tim Hightower,7,2.1
 RB,Damien Williams,7,2.1
 RB,Joique Bell,7,2.0
-RB,Ka'Deem Carey,7,2.0
 RB,Justin Forsett,7,2.0
 RB,Robert Turbin,7,2.0
+RB,Charcandrick West,7,2.0
 RB,Kenneth Dixon,7,1.9
-RB,Charcandrick West,7,1.9
-RB,Alfred Blue,7,1.8
+RB,Alfred Blue,7,1.7
 RB,Josh Ferguson,7,1.7
-RB,Peyton Barber,7,1.6
 RB,Alex Collins,7,1.6
 RB,Orleans Darkwa,7,1.6
+RB,Andre Ellington,7,1.6
+RB,Peyton Barber,7,1.5
 RB,Kenjon Barner,7,1.5
 RB,Reggie Bush,7,1.5
 RB,Travaris Cadet,7,1.5
-RB,Andre Ellington,7,1.5
+RB,Rob Kelley,7,1.4
+RB,Brandon Bolden,7,1.3
 RB,Jonathan Stewart,8,2.5
 RB,Reggie Bush,8,2.4
 RB,Alfred Morris,8,2.4
@@ -3016,7 +3016,7 @@ RB,Malcolm Brown,11,1.6
 RB,Kenyan Drake,11,1.6
 RB,Rob Kelley,11,1.5
 RB,Chris Ivory,12,3.7
-RB,James Starks,12,3.7
+RB,James Starks,12,0.0
 RB,Dexter McCluster,12,3.6
 RB,Terrance West,12,3.6
 RB,Tevin Coleman,12,3.5
@@ -3066,7 +3066,7 @@ RB,Reggie Bush,13,1.9
 RB,Josh Ferguson,13,1.8
 RB,Denard Robinson,13,1.8
 RB,Dexter McCluster,14,3.4
-RB,James Starks,14,3.4
+RB,James Starks,14,0.0
 RB,Tevin Coleman,14,3.3
 RB,Terrance West,14,3.3
 RB,Javorius Allen,14,3.0
@@ -3140,7 +3140,7 @@ RB,Alfred Morris,16,2.1
 RB,Mike Davis,16,2.0
 RB,Mike Tolbert,16,2.0
 RB,Peyton Barber,16,1.9
-RB,James Starks,17,3.6
+RB,James Starks,17,0.0
 RB,Tevin Coleman,17,3.5
 RB,DeAngelo Williams,17,3.5
 RB,Dexter McCluster,17,3.4
@@ -3165,31 +3165,31 @@ RB,Kyle Juszczyk,17,2.1
 RB,Alfred Morris,17,2.1
 RB,Jacquizz Rodgers,17,2.0
 RB,Mike Davis,17,1.9
+WR,Jeff Janis,7,7.1
+WR,Darrius Heyward,7,7.0
+WR,Brandin Cooks,7,6.9
 WR,Trevor Davis,7,6.9
-WR,Cameron Meredith,7,6.8
 WR,DeAndre Hopkins,7,6.4
-WR,Emmanuel Sanders,7,6.2
+WR,Emmanuel Sanders,7,6.3
+WR,Tavon Austin,7,6.0
 WR,Michael Thomas,7,6.0
-WR,Tavon Austin,7,5.9
 WR,Steve Smith,7,5.8
 WR,Jeremy Maclin,7,5.7
-WR,Golden Tate,7,5.7
 WR,Tyrell Williams,7,5.7
 WR,Sammie Coates,7,5.6
 WR,Julian Edelman,7,5.6
-WR,Allen Hurns,7,5.5
+WR,Golden Tate,7,5.6
 WR,Terrelle Pryor,7,5.3
-WR,Anquan Boldin,7,5.1
 WR,Travis Benjamin,7,5.0
 WR,DeSean Jackson,7,5.0
-WR,Eddie Royal,7,4.9
 WR,Robert Woods,7,4.7
-WR,Phillip Dorsett,7,4.5
-WR,Rishard Matthews,7,4.5
-WR,Kendall Wright,7,4.5
+WR,Phillip Dorsett,7,4.4
+WR,Kendall Wright,7,4.4
 WR,John Brown,7,4.3
 WR,Adam Humphries,7,4.3
+WR,Rishard Matthews,7,4.3
 WR,Mike Wallace,7,4.3
+WR,Jamison Crowder,7,4.2
 WR,Jermaine Kearse,8,4.6
 WR,Tyler Lockett,8,4.6
 WR,Jamison Crowder,8,4.4
@@ -3202,7 +3202,7 @@ WR,Kevin White,8,0.0
 WR,Robert Woods,8,3.8
 WR,Corey Brown,8,3.7
 WR,Dontrelle Inman,8,3.7
-WR,Eddie Royal,8,3.7
+WR,Eddie Royal,8,0.0
 WR,Adam Humphries,8,3.5
 WR,Braxton Miller,8,3.4
 WR,Nelson Agholor,8,3.3
@@ -3261,7 +3261,7 @@ WR,Quinton Patton,10,4.0
 WR,Mike Wallace,10,3.8
 WR,Markus Wheaton,10,3.8
 WR,Torrey Smith,10,3.7
-WR,Eddie Royal,10,3.6
+WR,Eddie Royal,10,0.0
 WR,Mohamed Sanu,10,3.6
 WR,Kenny Stills,10,3.6
 WR,Corey Brown,10,3.4
@@ -3288,7 +3288,7 @@ WR,Brandon LaFell,11,4.1
 WR,Robert Woods,11,3.8
 WR,Mike Wallace,11,3.7
 WR,Markus Wheaton,11,3.7
-WR,Eddie Royal,11,3.6
+WR,Eddie Royal,11,0.0
 WR,Chris Hogan,11,3.5
 WR,Julian Edelman,12,6.6
 WR,Larry Fitzgerald,12,6.6
@@ -3440,31 +3440,31 @@ WR,Jeremy Kerley,17,4.0
 WR,Mike Wallace,17,4.0
 WR,Quinton Patton,17,3.9
 WR,Markus Wheaton,17,3.8
-RB,Benny Cunningham,7,1.4
-RB,Rob Kelley,7,1.4
-RB,Brandon Bolden,7,1.3
-RB,Kapri Bibbs,7,1.2
+RB,Benny Cunningham,7,1.3
 RB,Kenyan Drake,7,1.2
-RB,Shaun Draughn,7,1.2
+RB,Kapri Bibbs,7,1.1
 RB,Troymaine Pope,7,1.1
 RB,Kenneth Farrow,7,1.0
 RB,Jamize Olawale,7,1.0
-RB,Tyler Ervin,7,0.9
+RB,Ka'Deem Carey,7,0.9
 RB,Malcolm Brown,7,0.8
+RB,Tyler Ervin,7,0.8
 RB,Denard Robinson,7,0.8
 RB,Patrick DiMarco,7,0.7
 RB,Antonio Andrews,7,0.6
+RB,Rex Burkhead,7,0.6
+RB,Antone Smith,7,0.6
 RB,Stepfan Taylor,7,0.6
-RB,George Atkinson,7,0.5
-RB,Rex Burkhead,7,0.5
-RB,Corey Grant,7,0.5
 RB,Fitzgerald Toussaint,7,0.5
+RB,George Atkinson,7,0.4
 RB,Andy Janovich,7,0.4
-RB,Taiwan Jones,7,0.4
 RB,Aaron Ripkowski,7,0.4
 RB,Anthony Sherman,7,0.4
 RB,Michael Burton,7,0.3
+RB,Taiwan Jones,7,0.3
 RB,John Kuhn,7,0.3
+RB,Zach Line,7,0.3
+RB,Jordan Todman,7,0.3
 RB,Knile Davis,8,0.8
 RB,George Atkinson,8,0.7
 RB,Rex Burkhead,8,0.7
@@ -3711,30 +3711,30 @@ RB,George Atkinson,17,0.5
 RB,Rex Burkhead,17,0.5
 RB,Jalston Fowler,17,0.5
 WR,Victor Cruz,7,4.2
-WR,Jamison Crowder,7,4.1
-WR,Jalin Marshall,7,4.1
+WR,Quincy Enunwa,7,4.2
+WR,Jalin Marshall,7,4.0
+WR,Davante Adams,7,3.9
 WR,Ricardo Louis,7,3.9
 WR,Sterling Shepard,7,3.9
 WR,Albert Wilson,7,3.7
 WR,Justin Hunter,7,3.6
 WR,Jermaine Kearse,7,3.6
-WR,Tajae Sharpe,7,3.6
 WR,Danny Amendola,7,3.5
 WR,Chris Hogan,7,3.5
 WR,Dontrelle Inman,7,3.5
 WR,Chris Conley,7,3.4
+WR,Quinton Patton,7,3.4
+WR,Tajae Sharpe,7,3.4
 WR,Kenny Stills,7,3.4
 WR,Markus Wheaton,7,3.4
 WR,Nelson Agholor,7,3.3
 WR,Torrey Smith,7,3.3
 WR,Marquise Goodwin,7,3.2
 WR,Andrew Hawkins,7,3.2
-WR,Tyler Lockett,7,3.0
+WR,Tyler Lockett,7,2.9
 WR,Andre Johnson,7,2.5
-WR,Kamar Aiken,7,2.4
-WR,Braxton Miller,7,2.3
-WR,Josh Huff,7,2.2
-WR,Cecil Shorts,7,2.2
+WR,Braxton Miller,7,2.4
+WR,Kamar Aiken,7,2.3
 WR,Marqise Lee,8,2.7
 WR,Seth Roberts,8,2.6
 WR,Brandon Coleman,8,2.5
@@ -3845,7 +3845,7 @@ WR,Robert Woods,12,3.9
 WR,Torrey Smith,12,3.8
 WR,Kenny Stills,12,3.6
 WR,Chris Hogan,12,3.5
-WR,Eddie Royal,12,3.5
+WR,Eddie Royal,12,0.0
 WR,Marquise Goodwin,12,3.4
 WR,Devin Funchess,12,3.3
 WR,Corey Brown,12,3.2
@@ -3896,7 +3896,7 @@ WR,Markus Wheaton,14,3.8
 WR,Mohamed Sanu,14,3.7
 WR,Torrey Smith,14,3.7
 WR,Kenny Stills,14,3.7
-WR,Eddie Royal,14,3.6
+WR,Eddie Royal,14,0.0
 WR,Marquise Goodwin,14,3.5
 WR,Justin Hardy,14,3.4
 WR,Chris Hogan,14,3.4
@@ -3944,7 +3944,7 @@ WR,Jamison Crowder,16,4.1
 WR,Quincy Enunwa,16,4.0
 WR,Mike Wallace,16,3.9
 WR,Markus Wheaton,16,3.9
-WR,Eddie Royal,16,3.7
+WR,Eddie Royal,16,0.0
 WR,Mohamed Sanu,16,3.6
 WR,Kenny Stills,16,3.5
 WR,Devin Funchess,16,3.4
@@ -3963,7 +3963,7 @@ WR,Robert Woods,17,3.8
 WR,Mohamed Sanu,17,3.7
 WR,Torrey Smith,17,3.7
 WR,Kenny Stills,17,3.7
-WR,Eddie Royal,17,3.6
+WR,Eddie Royal,17,0.0
 WR,Chris Hogan,17,3.5
 WR,Devin Funchess,17,3.4
 WR,Marquise Goodwin,17,3.4
@@ -3984,8 +3984,6 @@ WR,Josh Huff,17,2.5
 WR,Tyler Boyd,17,2.4
 WR,Justin Hunter,17,2.3
 WR,Breshad Perriman,17,2.3
-RB,Zach Line,7,0.3
-RB,Jordan Todman,7,0.3
 RB,Jerome Felton,7,0.2
 RB,Malcolm Johnson,7,0.2
 RB,James Develin,7,0.1
@@ -4132,12 +4130,15 @@ RB,Rod Smith,17,0.1
 RB,Ameer Abdullah,17,0.0
 RB,Dri Archer,17,0.0
 RB,Joique Bell,17,0.0
+WR,Josh Huff,7,2.2
+WR,Cecil Shorts,7,2.1
 WR,De'Anthony Thomas,7,2.1
 WR,Brandon Coleman,7,1.9
 WR,Taylor Gabriel,7,1.9
-WR,Jarius Wright,7,1.9
+WR,Harry Douglas,7,1.8
 WR,Cordarrelle Patterson,7,1.8
 WR,Eli Rogers,7,1.8
+WR,Jarius Wright,7,1.7
 WR,Justin Hardy,7,1.6
 WR,Tommylee Lewis,7,1.6
 WR,Paul Richardson,7,1.6
@@ -4145,7 +4146,6 @@ WR,Nelson Spruce,7,1.5
 WR,Bryce Treggs,7,1.5
 WR,Jaron Brown,7,1.4
 WR,Roger Lewis,7,1.3
-WR,Bryan Walters,7,1.3
 WR,Andre Holmes,7,1.2
 WR,Walt Powell,7,1.1
 WR,Aldrick Robinson,7,1.1
@@ -4155,14 +4155,12 @@ WR,Bradley Marquez,7,0.9
 WR,Rod Streater,7,0.9
 WR,Rashad Greene,7,0.8
 WR,Keshawn Martin,7,0.8
-WR,Chris Moore,7,0.8
-WR,Griff Whalen,7,0.8
 WR,Jalin Marshall,8,1.3
 WR,Tyreek Hill,8,1.2
 WR,Tommylee Lewis,8,1.2
 WR,Andre Roberts,8,1.2
 WR,Laquon Treadwell,8,1.2
-WR,Jared Abbrederis,8,1.1
+WR,Jared Abbrederis,8,0.0
 WR,Bennie Fowler,8,1.1
 WR,Rashad Greene,8,1.1
 WR,Rashard Higgins,8,1.1
@@ -4230,7 +4228,7 @@ WR,Aaron Burbridge,10,1.0
 WR,Trevor Davis,10,1.0
 WR,Bennie Fowler,10,1.0
 WR,Darrius Heyward,10,1.0
-WR,Jared Abbrederis,10,0.9
+WR,Jared Abbrederis,10,0.0
 WR,Alex Erickson,10,0.9
 WR,Roger Lewis,11,1.8
 WR,Tyreek Hill,11,1.7
@@ -4253,7 +4251,7 @@ WR,Trevor Davis,11,1.1
 WR,Rashard Higgins,11,1.1
 WR,Ricardo Louis,11,1.1
 WR,Chris Moore,11,1.1
-WR,Jared Abbrederis,11,1.0
+WR,Jared Abbrederis,11,0.0
 WR,Leonte Carroo,11,1.0
 WR,Mike Thomas,11,1.0
 WR,Alex Erickson,11,0.9
@@ -4306,7 +4304,7 @@ WR,Nelson Spruce,13,1.3
 WR,Jaron Brown,13,1.2
 WR,Chris Moore,13,1.2
 WR,Rod Streater,13,1.2
-WR,Jared Abbrederis,13,1.1
+WR,Jared Abbrederis,13,0.0
 WR,Tyler Boyd,14,2.4
 WR,Justin Hunter,14,2.3
 WR,Charles Johnson,14,2.2
@@ -4410,6 +4408,7 @@ WR,Tommylee Lewis,17,1.3
 RB,John Crockett,7,0.0
 RB,D.J. Foster,7,0.0
 RB,Tyler Gaffney,7,0.0
+RB,Corey Grant,7,0.0
 RB,Aaron Green,7,0.0
 RB,John Crockett,8,0.0
 RB,Justin Forsett,8,0.0
@@ -4474,6 +4473,8 @@ RB,John Crockett,17,0.0
 RB,Kenneth Dixon,17,0.0
 RB,D.J. Foster,17,0.0
 RB,Tyler Gaffney,17,0.0
+WR,Chris Moore,7,0.8
+WR,Griff Whalen,7,0.8
 WR,James Wright,7,0.8
 WR,Aaron Burbridge,7,0.7
 WR,Alex Erickson,7,0.7
@@ -4494,12 +4495,10 @@ WR,Russell Shepard,7,0.5
 WR,Josh Bellamy,7,0.4
 WR,Seth DeValve,7,0.4
 WR,Tavarres King,7,0.4
-WR,Marc Mariani,7,0.4
+WR,Keith Mumphery,7,0.4
 WR,Darren Waller,7,0.4
-WR,Keith Mumphery,7,0.3
-WR,Devin Hester,7,0.2
-WR,Brandon Tate,7,0.2
-WR,Quan Bray,8,0.4
+WR,Marc Mariani,7,0.3
+WR,Quan Bray,8,0.0
 WR,Lucky Whitehead,8,0.4
 WR,Cordarrelle Patterson,8,0.2
 WR,Eric Weems,8,0.2
@@ -4514,7 +4513,7 @@ WR,Moritz Boehringer,8,0.0
 WR,Devin Street,9,0.6
 WR,Seth DeValve,9,0.5
 WR,Cody Latimer,9,0.5
-WR,Quan Bray,9,0.4
+WR,Quan Bray,9,0.0
 WR,Cordarrelle Patterson,9,0.4
 WR,Lucky Whitehead,9,0.3
 WR,Brandon Tate,9,0.1
@@ -4563,7 +4562,7 @@ WR,Seth DeValve,11,0.5
 WR,Keith Mumphery,11,0.5
 WR,Russell Shepard,11,0.5
 WR,Lucky Whitehead,11,0.5
-WR,Quan Bray,11,0.4
+WR,Quan Bray,11,0.0
 WR,Devin Hester,11,0.4
 WR,Cordarrelle Patterson,11,0.4
 WR,Deonte Thompson,11,0.4
@@ -4581,7 +4580,7 @@ WR,Jaron Brown,12,1.1
 WR,Trevor Davis,12,1.1
 WR,Rashard Higgins,12,1.1
 WR,Ricardo Louis,12,1.1
-WR,Jared Abbrederis,12,1.0
+WR,Jared Abbrederis,12,0.0
 WR,Aaron Burbridge,12,1.0
 WR,Bennie Fowler,12,1.0
 WR,Rashad Greene,12,1.0
@@ -4619,7 +4618,7 @@ WR,Keith Mumphery,13,0.5
 WR,Devin Hester,13,0.4
 WR,Cordarrelle Patterson,13,0.4
 WR,Deonte Thompson,13,0.4
-WR,Quan Bray,13,0.3
+WR,Quan Bray,13,0.0
 WR,Lucky Whitehead,13,0.3
 WR,Nelson Spruce,14,1.3
 WR,Jeff Janis,14,1.2
@@ -4634,7 +4633,7 @@ WR,Ricardo Louis,14,1.1
 WR,Chris Moore,14,1.1
 WR,Rod Streater,14,1.1
 WR,Mike Thomas,14,1.1
-WR,Jared Abbrederis,14,1.0
+WR,Jared Abbrederis,14,0.0
 WR,Trevor Davis,14,1.0
 WR,Darrius Heyward,14,1.0
 WR,Aaron Burbridge,14,0.9
@@ -4660,7 +4659,7 @@ WR,Trevor Davis,15,1.0
 WR,Darrius Heyward,15,1.0
 WR,Andre Holmes,15,1.0
 WR,Ricardo Louis,15,1.0
-WR,Jared Abbrederis,15,0.9
+WR,Jared Abbrederis,15,0.0
 WR,Alex Erickson,15,0.9
 WR,Rashard Higgins,15,0.9
 WR,Tavarres King,15,0.9
@@ -4686,7 +4685,7 @@ WR,Rashad Greene,16,1.0
 WR,Darrius Heyward,16,1.0
 WR,Rashard Higgins,16,1.0
 WR,Andre Holmes,16,1.0
-WR,Jared Abbrederis,16,0.9
+WR,Jared Abbrederis,16,0.0
 WR,Alex Erickson,16,0.9
 WR,Bennie Fowler,16,0.9
 WR,Marc Mariani,16,0.9
@@ -4709,7 +4708,7 @@ WR,Andre Holmes,17,1.1
 WR,Ricardo Louis,17,1.1
 WR,Bradley Marquez,17,1.1
 WR,Mike Thomas,17,1.1
-WR,Jared Abbrederis,17,1.0
+WR,Jared Abbrederis,17,0.0
 WR,Leonte Carroo,17,1.0
 WR,Trevor Davis,17,1.0
 WR,Bennie Fowler,17,1.0
@@ -4725,6 +4724,7 @@ RB,Jonathan Grimes,7,0.0
 RB,Glenn Gronkowski,7,0.0
 RB,DuJuan Harris,7,0.0
 RB,Akeem Hunt,7,0.0
+RB,Carlos Hyde,7,0.0
 RB,Don Jackson,7,0.0
 RB,Mike James,7,0.0
 RB,Jonathan Grimes,8,0.0
@@ -4781,11 +4781,11 @@ RB,Jonathan Grimes,17,0.0
 RB,Glenn Gronkowski,17,0.0
 RB,DuJuan Harris,17,0.0
 RB,Akeem Hunt,17,0.0
+WR,Devin Hester,7,0.2
+WR,Brandon Tate,7,0.2
 WR,Matthew Slater,7,0.1
-WR,Deonte Thompson,7,0.1
 WR,Eric Weems,7,0.1
 WR,Jared Abbrederis,7,0.0
-WR,Davante Adams,7,0.0
 WR,Keenan Allen,7,0.0
 WR,Geronimo Allison,7,0.0
 WR,DeMarcus Ayers,7,0.0
@@ -4823,6 +4823,7 @@ WR,Justin Blackmon,10,0.0
 WR,Moritz Boehringer,10,0.0
 WR,Josh Boyce,10,0.0
 WR,Daniel Braverman,10,0.0
+WR,Quan Bray,10,0.0
 WR,LaVon BrazillSUS   ,10,0.0
 WR,Daniel Brown,10,0.0
 WR,Justin BrownIR   ,10,0.0
@@ -4844,7 +4845,7 @@ WR,Cody Latimer,12,0.6
 WR,Keith Mumphery,12,0.6
 WR,Rashad Ross,12,0.6
 WR,Russell Shepard,12,0.6
-WR,Quan Bray,12,0.5
+WR,Quan Bray,12,0.0
 WR,Seth DeValve,12,0.5
 WR,Lucky Whitehead,12,0.5
 WR,Devin Hester,12,0.4
@@ -4877,7 +4878,7 @@ WR,Cody Latimer,14,0.6
 WR,Rashad Ross,14,0.6
 WR,Seth DeValve,14,0.5
 WR,Keith Mumphery,14,0.5
-WR,Quan Bray,14,0.4
+WR,Quan Bray,14,0.0
 WR,Devin Hester,14,0.4
 WR,Deonte Thompson,14,0.4
 WR,Lucky Whitehead,14,0.4
@@ -4896,7 +4897,7 @@ WR,Keith Mumphery,15,0.6
 WR,Rashad Ross,15,0.6
 WR,Russell Shepard,15,0.6
 WR,Lucky Whitehead,15,0.5
-WR,Quan Bray,15,0.4
+WR,Quan Bray,15,0.0
 WR,Seth DeValve,15,0.4
 WR,Devin Hester,15,0.4
 WR,Cordarrelle Patterson,15,0.4
@@ -4917,7 +4918,7 @@ WR,Russell Shepard,16,0.6
 WR,Seth DeValve,16,0.5
 WR,Deonte Thompson,16,0.5
 WR,Lucky Whitehead,16,0.5
-WR,Quan Bray,16,0.4
+WR,Quan Bray,16,0.0
 WR,Devin Hester,16,0.4
 WR,Cordarrelle Patterson,16,0.2
 WR,Matthew Slater,16,0.1
@@ -4931,7 +4932,7 @@ WR,Josh Bellamy,17,0.7
 WR,Brenton Bersin,17,0.7
 WR,Jakeem Grant,17,0.7
 WR,Russell Shepard,17,0.7
-WR,Quan Bray,17,0.6
+WR,Quan Bray,17,0.0
 WR,Cody Latimer,17,0.6
 WR,Seth DeValve,17,0.4
 WR,Devin Hester,17,0.4
@@ -4956,6 +4957,7 @@ RB,Dion Lewis,7,0.0
 RB,Erik Lorig,7,0.0
 RB,Tre Madden,7,0.0
 RB,Keith Marshall,7,0.0
+RB,Doug Martin,7,0.0
 RB,Tre Mason,7,0.0
 RB,Darren McFadden,7,0.0
 RB,Mike James,8,0.0
@@ -5310,9 +5312,8 @@ WR,Cody Core,7,0.0
 WR,Geremy Davis,7,0.0
 WR,Eric Decker,7,0.0
 WR,Josh Doctson,7,0.0
-WR,Harry Douglas,7,0.0
-WR,Donteea Dye,7,0.0
 WR,Marcus Easley,7,0.0
+WR,Bruce Ellington,7,0.0
 WR,Isaac Fruechte,8,0.0
 WR,Corey Fuller,8,0.0
 WR,Devin Fuller,8,0.0
@@ -5392,7 +5393,6 @@ WR,Marcus Easley,17,0.0
 WR,Bruce Ellington,17,0.0
 RB,Bishop Sankey,7,0.0
 RB,Charles Sims,7,0.0
-RB,Antone Smith,7,0.0
 RB,James Starks,7,0.0
 RB,Lorenzo Taliaferro,7,0.0
 RB,Kelvin Taylor,7,0.0
@@ -5471,7 +5471,6 @@ RB,Lorenzo Taliaferro,17,0.0
 RB,Kelvin Taylor,17,0.0
 RB,Stepfan Taylor,17,0.0
 RB,Juwan Thompson,17,0.0
-WR,Bruce Ellington,7,0.0
 WR,Isaac Fruechte,7,0.0
 WR,Corey Fuller,7,0.0
 WR,Devin Fuller,7,0.0
@@ -5480,6 +5479,7 @@ WR,Josh Gordon,7,0.0
 WR,Cobi Hamilton,7,0.0
 WR,Frankie Hammond,7,0.0
 WR,Chris Harper,7,0.0
+WR,Javontee Herndon,7,0.0
 WR,Justin Hunter,8,0.0
 WR,Lestar JeanIR   ,8,0.0
 WR,Darius Jennings,8,0.0
@@ -5688,7 +5688,6 @@ RB,Kerwynn Williams,17,0.0
 RB,Glenn Winston,17,0.0
 RB,Danny Woodhead,17,0.0
 RB,Zach Zenner,17,0.0
-WR,Javontee Herndon,7,0.0
 WR,Vincent Jackson,7,0.0
 WR,Lestar JeanIR   ,7,0.0
 WR,Darius Jennings,7,0.0
@@ -5697,6 +5696,7 @@ WR,Seantavius Jones,7,0.0
 WR,T.J. Jones,7,0.0
 WR,Jake Kumerow,7,0.0
 WR,Kenny Lawler,7,0.0
+WR,Dezmin Lewis,7,0.0
 WR,Kenny Lawler,8,0.0
 WR,Dezmin Lewis,8,0.0
 WR,Kolby Listenbee,8,0.0
@@ -5799,7 +5799,6 @@ WR,Jake Kumerow,17,0.0
 WR,Kenny Lawler,17,0.0
 WR,Dezmin Lewis,17,0.0
 WR,Kolby Listenbee,17,0.0
-WR,Dezmin Lewis,7,0.0
 WR,Kolby Listenbee,7,0.0
 WR,Devin Lucien,7,0.0
 WR,Chris Matthews,7,0.0
@@ -5808,6 +5807,7 @@ WR,J.D. McKissic,7,0.0
 WR,Donte Moncrief,7,0.0
 WR,Louis Murphy,7,0.0
 WR,David NelsonIR   ,7,0.0
+WR,Marquez North,7,0.0
 WR,Louis Murphy,8,0.0
 WR,David NelsonIR   ,8,0.0
 WR,Marquez North,8,0.0
@@ -5904,11 +5904,11 @@ WR,Ty Montgomery,17,0.0
 WR,Louis Murphy,17,0.0
 WR,David NelsonIR   ,17,0.0
 WR,Marquez North,17,0.0
-WR,Marquez North,7,0.0
 WR,Kevin Norwood,7,0.0
 WR,Keenan Reynolds,7,0.0
 WR,Demarcus Robinson,7,0.0
 WR,Eric Rogers,7,0.0
+WR,Eddie Royal,7,0.0
 WR,Greg Salas,7,0.0
 WR,Jalen SaundersSUS   ,7,0.0
 WR,Walt Powell,8,0.0
@@ -5922,7 +5922,9 @@ WR,Walt Powell,9,0.0
 WR,Keenan Reynolds,9,0.0
 WR,Demarcus Robinson,9,0.0
 WR,Eric Rogers,9,0.0
+WR,Eddie Royal,9,0.0
 WR,Jalen SaundersSUS   ,9,0.0
+WR,DeAndre Smelter,9,0.0
 WR,Devin Smith,9,0.0
 WR,Jordan Payton,10,0.0
 WR,Charone Peake,10,0.0
@@ -5931,6 +5933,7 @@ WR,Demarcus Robinson,10,0.0
 WR,Eric Rogers,10,0.0
 WR,Greg Salas,10,0.0
 WR,Jalen SaundersSUS   ,10,0.0
+WR,DeAndre Smelter,10,0.0
 WR,Devin Smith,10,0.0
 WR,Jordan Payton,11,0.0
 WR,Walt Powell,11,0.0
@@ -5938,6 +5941,7 @@ WR,Keenan Reynolds,11,0.0
 WR,Demarcus Robinson,11,0.0
 WR,Eric Rogers,11,0.0
 WR,Jalen SaundersSUS   ,11,0.0
+WR,DeAndre Smelter,11,0.0
 WR,Kevin Norwood,12,0.0
 WR,Jordan Payton,12,0.0
 WR,Charone Peake,12,0.0
