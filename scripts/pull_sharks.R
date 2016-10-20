@@ -3,15 +3,12 @@ library(rvest)
 library(stringr)
 library(curl)
 
-# current week
 nfl_week <- ceiling(as.numeric(Sys.Date() - as.Date("2016-09-05")) / 7 )
 
-# pull fantasy sharks projection data
-pull_sharks <- function(week = 1, position = 97) {
+fetch_sharks <- function(week = 1, position = 97) {
     
     url <- str_c(sep = "",
          "http://www.fantasysharks.com/apps/bert/forecasts/projections.php?", 
-            # no league
          "League=-1",
              # QB + RB + WR + TE = 97
              # K - 7
@@ -57,39 +54,27 @@ pull_sharks <- function(week = 1, position = 97) {
     
 }
 
-# functional parameters
-params <- expand.grid(
-    week = nfl_week:17, 
-    position = c(97, 7, 6)
-)
+pull_sharks <- function(.season = FALSE) {
+    
+    if (.season == TRUE) {
+        w <- nfl_week:17 
+    } else {
+        w <- nfl_week
+    }
 
-# rest of season data pull
-sharks_raw <- params %>% 
-    pmap(pull_sharks) %>% 
-    bind_rows()
+    params <- expand.grid(
+        week = w, 
+        position = c(97, 7, 6))
 
-# clean raw data
-sharks_df <- sharks_raw %>% 
-    mutate(points = as.numeric(points)) %>% 
-    mutate(position = ifelse(pos == "7", "K", ifelse(pos == "6", "DEF", pos))) %>% 
-    separate(name, into = c("last", "first"), extra = "merge", sep = ", ") %>% 
-    mutate(name = str_c(first, last, sep = " ")) %>% 
-    select(position, name, week, points)
+    sharks_raw <- params %>% 
+        pmap(fetch_sharks) %>% 
+        bind_rows()
 
-# week projections
-sharks_week <- sharks_df %>% 
-    filter(week == nfl_week)
-
-# rest of season projections
-sharks_ros <- sharks_df %>% 
-    group_by(position, name) %>% 
-    summarise(
-        ros_total = sum(points),
-        ros_mean = mean(points)) %>% 
-    left_join(sharks_week, by = c("position", "name")) %>% 
-    select(position:ros_mean, week_points = points) %>% 
-    distinct(position, name, .keep_all = TRUE)
-
-# save data
-write_csv(sharks_df, "data/sharks_df.csv")
-write_csv(sharks_ros, "data/sharks_ros.csv")
+    sharks_clean <- sharks_raw %>% 
+        mutate(points = as.numeric(points)) %>% 
+        mutate(position = ifelse(pos == "7", "K", ifelse(pos == "6", "DEF", pos))) %>% 
+        separate(name, into = c("last", "first"), extra = "merge", sep = ", ") %>% 
+        mutate(name = str_c(first, last, sep = " ")) %>% 
+        select(position, name, week, points) %>% 
+        mutate(source = "Fantasy Sharks")
+}

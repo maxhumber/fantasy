@@ -4,7 +4,7 @@ library(stringr)
 
 nfl_week <- ceiling(as.numeric(Sys.Date() - as.Date("2016-09-05")) / 7 )
 
-pull_pros <- function(position = "qb") {
+fetch_pros <- function(position = "qb") {
     
     url <- str_c(sep = "",
         "https://www.fantasypros.com/nfl/projections/",
@@ -40,18 +40,18 @@ pull_pros <- function(position = "qb") {
         mutate(pos = toupper(position))
 }
 
-pros <- pull_pros(position = "k")
-
-# positions to pull
-params <- c("qb", "wr", "rb", "te", "k", "dst")
-
-# raw weekly data
-pros_raw <- map(params, pull_pros) %>% 
-    bind_rows()
-
-pros_clean <- pros_raw %>% 
-    mutate(points = as.numeric(points)) %>% 
-    mutate(name = str_trim(name)) %>% 
-    mutate(pos = ifelse(pos == "DST", "DEF", pos)) %>% 
-    mutate(name = ifelse(pos == "DEF", name, str_replace(name, "\\s[^ ]+$", ""))) %>% 
-    mutate(source = "Fantasy Pros")
+pull_pros <- function() {
+    
+    params <- c("qb", "wr", "rb", "te", "k", "dst")
+    
+    pros_raw <- map(params, fetch_pros) %>% 
+        bind_rows()
+    
+    pros_clean <- pros_raw %>% 
+        mutate(points = as.numeric(points)) %>% 
+        mutate(name = str_trim(name)) %>% 
+        mutate(pos = ifelse(pos == "DST", "DEF", pos)) %>% 
+        mutate(name = ifelse(pos == "DEF", name, str_replace(name, "\\s[^ ]+$", ""))) %>% 
+        mutate(source = "Fantasy Pros")  %>% 
+        select(position = pos, name, week, points, source)
+}

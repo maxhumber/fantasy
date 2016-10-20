@@ -2,12 +2,9 @@ library(tidyverse)
 library(rvest)
 library(stringr)
 
-# espn
-# http://games.espn.com/ffl/tools/projections?&scoringPeriodId=5&seasonId=2016
-
 nfl_week <- ceiling(as.numeric(Sys.Date() - as.Date("2016-09-05")) / 7 )
 
-pull_espn <- function(week, position = 0, offset = 0) { 
+fetch_espn <- function(week, position = 0, offset = 0) { 
 
     url <- str_c(sep = "", 
         "http://games.espn.com/ffl/tools/projections?",
@@ -23,16 +20,14 @@ pull_espn <- function(week, position = 0, offset = 0) {
         html_table()
 }
 
-# functional parameters
 params <- expand.grid(
     week = nfl_week,
     position = c(0, 2, 4, 6, 16, 17),
     offset = seq(0, 320, 40)) %>% 
     filter(!(position %in% c(0, 6, 16, 17) & offset > 40))
 
-# espn pull
 espn_raw <- params %>% 
-    pmap(pull_espn) %>% 
+    pmap(fetch_espn) %>% 
     bind_rows()
 
 # clean data
