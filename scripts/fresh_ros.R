@@ -13,6 +13,7 @@ ros <- bind_rows(ros_nfl, ros_sharks) %>%
     summarise(
         low = round(min(points),1),
         mid = round(mean(points),1),
-        high = round(max(points),1))
+        high = round(max(points),1)) %>% 
+    arrange(name)
 
 write_csv(ros, "data/ros.csv")

@@ -25,7 +25,7 @@ proj <- proj_all %>%
         mid = round(mean(points),1),
         high = round(max(points),1), 
         n = n()) %>% 
-    arrange(desc(mid)) %>% 
+    arrange(name)) %>% 
     filter(n > 1)
 
 write_csv(proj, "data/proj.csv")
