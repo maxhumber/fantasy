@@ -19,4 +19,4 @@ proj_wow <- function(players) {
 }
 
 # test
-proj_wow(c("Dion Lewis", "Jacquizz Rodgers"))
+proj_wow(c("Steven Hauschka", "Adam Vinatieri"))
