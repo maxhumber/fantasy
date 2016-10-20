@@ -19,4 +19,8 @@ proj_wow <- function(players) {
 }
 
 # test
-proj_wow(c("Steven Hauschka", "Adam Vinatieri"))
+proj_wow(c("Alex Smith", "Ben Roethlisberger", "Trevor Siemian"))
+
+ros_mean <- ros %>% 
+    group_by(position, name) %>% 
+    summarise(ros_mean = mean(mid))
