@@ -19,7 +19,10 @@ proj_wow <- function(players) {
 }
 
 # test
-proj_wow(c("Alex Smith", "Ben Roethlisberger", "Trevor Siemian"))
+proj_wow(c("Alex Smith", "Ben Roethlisberger"))
+proj_wow(c("Alex Smith", "Andy Dalton", "Tyrod Taylor"))
+
+proj_wow(c("Jameis Winston", "Ben Roethlisberger"))
 
 ros_mean <- ros %>% 
     group_by(position, name) %>% 
