@@ -24,12 +24,11 @@ proj_wow <- function(players) {
 
 trade_target <- ros_mean %>% 
     filter(name %in% c("Ben Roethlisberger", "Andy Dalton", "Alex Smith", "Eli Manning")) %>% 
-    mutate(team = c(2, 1, 1, 2)) %>% 
+    mutate(team = c(2, 1, 1, 2)) 
 
 ros_target <- ros %>% 
     filter(name %in% c("Ben Roethlisberger", "Andy Dalton", "Alex Smith", "Eli Manning"))
-    
-    
+
 # test
 proj_wow(c("Alex Smith", "Ben Roethlisberger"))
 proj_wow(c("Alex Smith", "Andy Dalton", "Tyrod Taylor"))
