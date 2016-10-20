@@ -1,0 +1,2360 @@
+position,name,week,points,source
+QB,Aaron Rodgers,7.0,25.02,NFL.com
+QB,Alex Smith,7.0,23.82,NFL.com
+QB,Jameis Winston,7.0,23.3,NFL.com
+QB,Blake Bortles,7.0,22.68,NFL.com
+QB,Matthew Stafford,7.0,21.3,NFL.com
+QB,Colin Kaepernick,7.0,20.06,NFL.com
+QB,Kirk Cousins,7.0,18.58,NFL.com
+QB,Matt Ryan,7.0,17.68,NFL.com
+QB,Geno Smith,7.0,16.92,NFL.com
+QB,Landry Jones,7.0,16.66,NFL.com
+QB,Marcus Mariota,7.0,16.4,NFL.com
+QB,Derek Carr,7.0,15.36,NFL.com
+QB,Russell Wilson,7.0,15.08,NFL.com
+QB,Andrew Luck,7.0,14.88,NFL.com
+QB,Andy Dalton,7.0,14.56,NFL.com
+QB,Tyrod Taylor,7.0,13.96,NFL.com
+QB,Philip Rivers,7.0,13.84,NFL.com
+QB,Joe Flacco,7.0,13.22,NFL.com
+QB,Carson Wentz,7.0,13.0,NFL.com
+QB,Tom Brady,7.0,12.84,NFL.com
+QB,Ryan Tannehill,7.0,12.54,NFL.com
+QB,Trevor Siemian,7.0,12.48,NFL.com
+QB,Drew Brees,7.0,12.42,NFL.com
+QB,Carson Palmer,7.0,12.18,NFL.com
+QB,Sam Bradford,7.0,12.06,NFL.com
+RB,Jacquizz Rodgers,7.0,21.1,NFL.com
+RB,Melvin Gordon,7.0,20.7,NFL.com
+RB,DeMarco Murray,7.0,20.1,NFL.com
+RB,Knile Davis,7.0,19.7,NFL.com
+RB,C.J. Anderson,7.0,19.4,NFL.com
+RB,Spencer Ware,7.0,18.1,NFL.com
+RB,Zach Zenner,7.0,17.2,NFL.com
+RB,Tevin Coleman,7.0,17.1,NFL.com
+RB,David Johnson,7.0,17.0,NFL.com
+RB,Devonta Freeman,7.0,16.1,NFL.com
+RB,Todd Gurley,7.0,15.8,NFL.com
+RB,Matt Jones,7.0,13.6,NFL.com
+RB,Jeremy Hill,7.0,13.2,NFL.com
+RB,Shaun Draughn,7.0,12.8,NFL.com
+RB,LeGarrette Blount,7.0,12.6,NFL.com
+RB,T.J. Yeldon,7.0,12.2,NFL.com
+RB,Jay Ajayi,7.0,11.9,NFL.com
+RB,Giovani Bernard,7.0,11.9,NFL.com
+RB,James White,7.0,10.9,NFL.com
+RB,Bilal Powell,7.0,10.8,NFL.com
+RB,Jamaal Charles,7.0,10.7,NFL.com
+RB,Le'Veon Bell,7.0,10.4,NFL.com
+RB,LeSean McCoy,7.0,9.7,NFL.com
+RB,Mark Ingram,7.0,9.3,NFL.com
+RB,Chris Ivory,7.0,8.7,NFL.com
+WR,Julio Jones,7.0,16.3,NFL.com
+WR,Jarvis Landry,7.0,13.9,NFL.com
+WR,Odell Beckham,7.0,13.5,NFL.com
+WR,T.Y. Hilton,7.0,13.5,NFL.com
+WR,Amari Cooper,7.0,13.2,NFL.com
+WR,Allen Robinson,7.0,13.2,NFL.com
+WR,Alshon Jeffery,7.0,13.1,NFL.com
+WR,Cameron Meredith,7.0,12.9,NFL.com
+WR,Larry Fitzgerald,7.0,12.8,NFL.com
+WR,Brandon Marshall,7.0,12.8,NFL.com
+WR,Demaryius Thomas,7.0,12.8,NFL.com
+WR,Jordy Nelson,7.0,12.6,NFL.com
+WR,Kenny Britt,7.0,12.5,NFL.com
+WR,Doug Baldwin,7.0,12.4,NFL.com
+WR,Marvin Jones,7.0,12.4,NFL.com
+WR,Stefon Diggs,7.0,12.2,NFL.com
+WR,Allen Hurns,7.0,12.1,NFL.com
+WR,Michael Crabtree,7.0,12.0,NFL.com
+WR,Michael Floyd,7.0,12.0,NFL.com
+WR,Jordan Matthews,7.0,11.8,NFL.com
+WR,Jeremy Kerley,7.0,11.4,NFL.com
+WR,Randall Cobb,7.0,11.3,NFL.com
+WR,Pierre Garcon,7.0,11.2,NFL.com
+WR,Anquan Boldin,7.0,11.1,NFL.com
+WR,DeVante Parker,7.0,11.1,NFL.com
+TE,Jimmy Graham,7.0,12.4,NFL.com
+TE,Jordan Reed,7.0,11.9,NFL.com
+TE,Zach Ertz,7.0,11.1,NFL.com
+TE,Julius Thomas,7.0,10.5,NFL.com
+TE,Richard Rodgers,7.0,9.3,NFL.com
+TE,Martellus Bennett,7.0,9.1,NFL.com
+TE,Clive Walford,7.0,9.1,NFL.com
+TE,C.J. Uzomah,7.0,8.8,NFL.com
+TE,Cole Wick,7.0,8.6,NFL.com
+TE,Vernon Davis,7.0,8.3,NFL.com
+TE,Virgil Green,7.0,7.9,NFL.com
+TE,Larry Donnell,7.0,7.7,NFL.com
+TE,Jermaine Gresham,7.0,7.6,NFL.com
+TE,Marcedes Lewis,7.0,7.4,NFL.com
+TE,Austin Hooper,7.0,7.0,NFL.com
+TE,Levine Toilolo,7.0,7.0,NFL.com
+TE,Anthony Fasano,7.0,6.9,NFL.com
+TE,Demetrius Harris,7.0,6.9,NFL.com
+TE,Rob Gronkowski,7.0,6.5,NFL.com
+TE,Delanie Walker,7.0,5.4,NFL.com
+TE,Gary Barnidge,7.0,5.1,NFL.com
+TE,Hunter Henry,7.0,4.8,NFL.com
+TE,Travis Kelce,7.0,4.4,NFL.com
+TE,Coby Fleener,7.0,4.1,NFL.com
+TE,Kyle Rudolph,7.0,4.1,NFL.com
+K,Mike Nugent,7.0,12.0,NFL.com
+K,Cairo Santos,7.0,12.0,NFL.com
+K,Roberto Aguayo,7.0,11.0,NFL.com
+K,Dan Carpenter,7.0,11.0,NFL.com
+K,Phil Dawson,7.0,11.0,NFL.com
+K,Dustin Hopkins,7.0,11.0,NFL.com
+K,Ryan Succop,7.0,11.0,NFL.com
+K,Justin Tucker,7.0,11.0,NFL.com
+K,Matt Bryant,7.0,9.0,NFL.com
+K,Mason Crosby,7.0,8.0,NFL.com
+K,Sebastian Janikowski,7.0,8.0,NFL.com
+K,Matt Prater,7.0,8.0,NFL.com
+K,Adam Vinatieri,7.0,8.0,NFL.com
+K,Brandon McManus,7.0,7.0,NFL.com
+K,Nick Novak,7.0,7.0,NFL.com
+K,Josh Brown,7.0,5.0,NFL.com
+K,Stephen Gostkowski,7.0,5.0,NFL.com
+K,Steven Hauschka,7.0,5.0,NFL.com
+K,Josh Lambo,7.0,5.0,NFL.com
+K,Chris Boswell,7.0,4.0,NFL.com
+K,Nick Folk,7.0,4.0,NFL.com
+K,Andrew Franks,7.0,4.0,NFL.com
+K,Cody Parkey,7.0,4.0,NFL.com
+K,Caleb Sturgis,7.0,4.0,NFL.com
+K,Greg Zuerlein,7.0,4.0,NFL.com
+DEF,Cincinnati Bengals   ,7.0,12.0,NFL.com
+DEF,Denver Broncos   ,7.0,12.0,NFL.com
+DEF,Arizona Cardinals   ,7.0,12.0,NFL.com
+DEF,Houston Texans   ,7.0,12.0,NFL.com
+DEF,Buffalo Bills   ,7.0,6.0,NFL.com
+DEF,Tampa Bay Buccaneers    ,7.0,6.0,NFL.com
+DEF,Indianapolis Colts   ,7.0,6.0,NFL.com
+DEF,Miami Dolphins   ,7.0,6.0,NFL.com
+DEF,Philadelphia Eagles   ,7.0,6.0,NFL.com
+DEF,New York Jets   ,7.0,6.0,NFL.com
+DEF,Detroit Lions   ,7.0,6.0,NFL.com
+DEF,Green Bay Packers   ,7.0,6.0,NFL.com
+DEF,New England Patriots   ,7.0,6.0,NFL.com
+DEF,Oakland Raiders   ,7.0,6.0,NFL.com
+DEF,Baltimore Ravens   ,7.0,6.0,NFL.com
+DEF,Washington Redskins   ,7.0,6.0,NFL.com
+DEF,Seattle Seahawks   ,7.0,6.0,NFL.com
+DEF,Tennessee Titans   ,7.0,6.0,NFL.com
+DEF,Minnesota Vikings    ,7.0,6.0,NFL.com
+DEF,San Francisco 49ers   ,7.0,5.0,NFL.com
+DEF,Jacksonville Jaguars   ,7.0,5.0,NFL.com
+DEF,Los Angeles Rams   ,7.0,5.0,NFL.com
+DEF,Cleveland Browns   ,7.0,4.0,NFL.com
+DEF,Atlanta Falcons   ,7.0,4.0,NFL.com
+DEF,New York Giants   ,7.0,4.0,NFL.com
+QB,Sam Bradford,7.0,12.06,NFL.com
+QB,Cody Kessler,7.0,11.98,NFL.com
+QB,Case Keenum,7.0,11.8,NFL.com
+QB,Brian Hoyer,7.0,10.7,NFL.com
+QB,Eli Manning,7.0,9.92,NFL.com
+QB,Brock Osweiler,7.0,8.44,NFL.com
+QB,Nick Foles,7.0,0.64,NFL.com
+QB,Paxton Lynch,7.0,0.64,NFL.com
+QB,Ryan Fitzpatrick,7.0,0.6,NFL.com
+QB,Jared Goff,7.0,0.46,NFL.com
+QB,AJ McCarron,7.0,0.44,NFL.com
+QB,Brett Hundley,7.0,0.38,NFL.com
+QB,EJ Manuel,7.0,0.38,NFL.com
+QB,Trevone Boykin,7.0,0.36,NFL.com
+QB,Matt McGloin,7.0,0.36,NFL.com
+QB,Matt Moore,7.0,0.36,NFL.com
+QB,Matt Schaub,7.0,0.36,NFL.com
+QB,Matt Barkley,7.0,0.34,NFL.com
+QB,Matt Cassel,7.0,0.32,NFL.com
+QB,Chase Daniel,7.0,0.32,NFL.com
+QB,Dan Orlovsky,7.0,0.32,NFL.com
+QB,Drew Stanton,7.0,0.32,NFL.com
+QB,Jimmy Garoppolo,7.0,0.28,NFL.com
+QB,Mike Glennon,7.0,0.28,NFL.com
+QB,Chad Henne,7.0,0.28,NFL.com
+RB,Chris Ivory,7.0,8.7,NFL.com
+RB,Christine Michael,7.0,8.6,NFL.com
+RB,Matt Asiata,7.0,8.5,NFL.com
+RB,Rashad Jennings,7.0,8.4,NFL.com
+RB,Bobby Rainey,7.0,8.4,NFL.com
+RB,Mike Davis,7.0,8.1,NFL.com
+RB,Jordan Howard,7.0,7.6,NFL.com
+RB,DeAndre Washington,7.0,7.6,NFL.com
+RB,Frank Gore,7.0,7.4,NFL.com
+RB,Jerick McKinnon,7.0,7.4,NFL.com
+RB,Isaiah Crowell,7.0,7.0,NFL.com
+RB,Lamar Miller,7.0,6.9,NFL.com
+RB,Matt Forte,7.0,6.4,NFL.com
+RB,Terrance West,7.0,5.2,NFL.com
+RB,Duke Johnson,7.0,5.1,NFL.com
+RB,Ryan Mathews,7.0,4.9,NFL.com
+RB,Chris Thompson,7.0,4.0,NFL.com
+RB,Ronnie Hillman,7.0,3.9,NFL.com
+RB,Darren Sproles,7.0,3.8,NFL.com
+RB,Latavius Murray,7.0,3.5,NFL.com
+RB,Arian Foster,7.0,3.4,NFL.com
+RB,Jalen Richard,7.0,3.3,NFL.com
+RB,Wendell Smallwood,7.0,2.9,NFL.com
+RB,Devontae Booker,7.0,2.8,NFL.com
+RB,DeAngelo Williams,7.0,2.6,NFL.com
+WR,DeVante Parker,7.0,11.1,NFL.com
+WR,Will Fuller,7.0,10.9,NFL.com
+WR,Brandon LaFell,7.0,10.1,NFL.com
+WR,Marqise Lee,7.0,10.1,NFL.com
+WR,Adam Thielen,7.0,10.1,NFL.com
+WR,Mohamed Sanu,7.0,9.8,NFL.com
+WR,Brian Quick,7.0,9.7,NFL.com
+WR,Dorial Green,7.0,9.6,NFL.com
+WR,Tyler Boyd,7.0,9.2,NFL.com
+WR,Seth Roberts,7.0,9.2,NFL.com
+WR,Deonte Thompson,7.0,9.2,NFL.com
+WR,Breshad Perriman,7.0,9.1,NFL.com
+WR,Ty Montgomery,7.0,8.8,NFL.com
+WR,Tyreek Hill,7.0,8.4,NFL.com
+WR,Jordan Norwood,7.0,8.3,NFL.com
+WR,Antonio Brown,7.0,8.2,NFL.com
+WR,Chester Rogers,7.0,8.2,NFL.com
+WR,Jaelen Strong,7.0,8.0,NFL.com
+WR,Mike Evans,7.0,7.9,NFL.com
+WR,Donteea Dye,7.0,7.6,NFL.com
+WR,Bennie Fowler,7.0,7.6,NFL.com
+WR,Charone Peake,7.0,7.6,NFL.com
+WR,J.J. Nelson,7.0,7.5,NFL.com
+WR,A.J. Green,7.0,7.4,NFL.com
+WR,Willie Snead,7.0,7.3,NFL.com
+TE,Kyle Rudolph,7.0,4.1,NFL.com
+TE,Charles Clay,7.0,4.0,NFL.com
+TE,Dennis Pitta,7.0,4.0,NFL.com
+TE,Cameron Brate,7.0,3.9,NFL.com
+TE,Antonio Gates,7.0,3.6,NFL.com
+TE,Zach Miller,7.0,3.5,NFL.com
+TE,Jacob Tamme,7.0,3.0,NFL.com
+TE,Will Tye,7.0,3.0,NFL.com
+TE,C.J. Fiedorowicz,7.0,2.9,NFL.com
+TE,Lance Kendricks,7.0,2.7,NFL.com
+TE,Jesse James,7.0,2.6,NFL.com
+TE,Ryan Griffin,7.0,2.5,NFL.com
+TE,Vance McDonald,7.0,2.4,NFL.com
+TE,Jack Doyle,7.0,2.1,NFL.com
+TE,Chase Coffman,7.0,1.9,NFL.com
+TE,Darren Fells,7.0,1.7,NFL.com
+TE,MarQueis Gray,7.0,1.6,NFL.com
+TE,Garrett Celek,7.0,1.4,NFL.com
+TE,Trey Burton,7.0,1.3,NFL.com
+TE,Crockett Gillmore,7.0,1.3,NFL.com
+TE,Tyler Kroft,7.0,1.2,NFL.com
+TE,Brandon Myers,7.0,1.2,NFL.com
+TE,Mychal Rivera,7.0,1.2,NFL.com
+TE,Stephen Anderson,7.0,1.1,NFL.com
+TE,Brent Celek,7.0,1.1,NFL.com
+K,Greg Zuerlein,7.0,4.0,NFL.com
+K,Connor Barth,7.0,2.0,NFL.com
+K,Wil Lutz,7.0,2.0,NFL.com
+K,Jason Myers,7.0,2.0,NFL.com
+K,Blair Walsh,7.0,2.0,NFL.com
+K,Chandler Catanzaro,7.0,1.0,NFL.com
+K,Ka'imi Fairbairn,7.0,0.0,NFL.com
+K,Patrick Murray,7.0,0.0,NFL.com
+DEF,New York Giants   ,7.0,4.0,NFL.com
+DEF,San Diego Chargers    ,7.0,3.0,NFL.com
+DEF,Pittsburgh Steelers   ,7.0,3.0,NFL.com
+DEF,Chicago Bears   ,7.0,2.0,NFL.com
+DEF,New Orleans Saints   ,7.0,2.0,NFL.com
+DEF,Kansas City Chiefs   ,7.0,1.0,NFL.com
+RB,Mike Gillislee,7.0,2.5,NFL.com
+RB,Kyle Juszczyk,7.0,2.4,NFL.com
+RB,Dwayne Washington,7.0,2.4,NFL.com
+RB,Javorius Allen,7.0,2.3,NFL.com
+RB,Derrick Henry,7.0,2.3,NFL.com
+RB,C.J. Spiller,7.0,2.3,NFL.com
+RB,Dexter McCluster,7.0,2.2,NFL.com
+RB,Tim Hightower,7.0,2.1,NFL.com
+RB,Damien Williams,7.0,2.1,NFL.com
+RB,Joique Bell,7.0,2.0,NFL.com
+RB,Justin Forsett,7.0,2.0,NFL.com
+RB,Robert Turbin,7.0,2.0,NFL.com
+RB,Charcandrick West,7.0,2.0,NFL.com
+RB,Kenneth Dixon,7.0,1.9,NFL.com
+RB,Alfred Blue,7.0,1.7,NFL.com
+RB,Josh Ferguson,7.0,1.7,NFL.com
+RB,Alex Collins,7.0,1.6,NFL.com
+RB,Orleans Darkwa,7.0,1.6,NFL.com
+RB,Andre Ellington,7.0,1.6,NFL.com
+RB,Peyton Barber,7.0,1.5,NFL.com
+RB,Kenjon Barner,7.0,1.5,NFL.com
+RB,Reggie Bush,7.0,1.5,NFL.com
+RB,Travaris Cadet,7.0,1.5,NFL.com
+RB,Rob Kelley,7.0,1.4,NFL.com
+RB,Brandon Bolden,7.0,1.3,NFL.com
+WR,Jeff Janis,7.0,7.1,NFL.com
+WR,Darrius Heyward,7.0,7.0,NFL.com
+WR,Brandin Cooks,7.0,6.9,NFL.com
+WR,Trevor Davis,7.0,6.9,NFL.com
+WR,DeAndre Hopkins,7.0,6.4,NFL.com
+WR,Emmanuel Sanders,7.0,6.3,NFL.com
+WR,Tavon Austin,7.0,6.0,NFL.com
+WR,Michael Thomas,7.0,6.0,NFL.com
+WR,Steve Smith,7.0,5.8,NFL.com
+WR,Jeremy Maclin,7.0,5.7,NFL.com
+WR,Tyrell Williams,7.0,5.7,NFL.com
+WR,Sammie Coates,7.0,5.6,NFL.com
+WR,Julian Edelman,7.0,5.6,NFL.com
+WR,Golden Tate,7.0,5.6,NFL.com
+WR,Terrelle Pryor,7.0,5.3,NFL.com
+WR,Travis Benjamin,7.0,5.0,NFL.com
+WR,DeSean Jackson,7.0,5.0,NFL.com
+WR,Robert Woods,7.0,4.7,NFL.com
+WR,Phillip Dorsett,7.0,4.4,NFL.com
+WR,Kendall Wright,7.0,4.4,NFL.com
+WR,John Brown,7.0,4.3,NFL.com
+WR,Adam Humphries,7.0,4.3,NFL.com
+WR,Rishard Matthews,7.0,4.3,NFL.com
+WR,Mike Wallace,7.0,4.3,NFL.com
+WR,Jamison Crowder,7.0,4.2,NFL.com
+RB,Benny Cunningham,7.0,1.3,NFL.com
+RB,Kenyan Drake,7.0,1.2,NFL.com
+RB,Kapri Bibbs,7.0,1.1,NFL.com
+RB,Troymaine Pope,7.0,1.1,NFL.com
+RB,Kenneth Farrow,7.0,1.0,NFL.com
+RB,Jamize Olawale,7.0,1.0,NFL.com
+RB,Ka'Deem Carey,7.0,0.9,NFL.com
+RB,Malcolm Brown,7.0,0.8,NFL.com
+RB,Tyler Ervin,7.0,0.8,NFL.com
+RB,Denard Robinson,7.0,0.8,NFL.com
+RB,Patrick DiMarco,7.0,0.7,NFL.com
+RB,Antonio Andrews,7.0,0.6,NFL.com
+RB,Rex Burkhead,7.0,0.6,NFL.com
+RB,Antone Smith,7.0,0.6,NFL.com
+RB,Stepfan Taylor,7.0,0.6,NFL.com
+RB,Fitzgerald Toussaint,7.0,0.5,NFL.com
+RB,George Atkinson,7.0,0.4,NFL.com
+RB,Andy Janovich,7.0,0.4,NFL.com
+RB,Aaron Ripkowski,7.0,0.4,NFL.com
+RB,Anthony Sherman,7.0,0.4,NFL.com
+RB,Michael Burton,7.0,0.3,NFL.com
+RB,Taiwan Jones,7.0,0.3,NFL.com
+RB,John Kuhn,7.0,0.3,NFL.com
+RB,Zach Line,7.0,0.3,NFL.com
+RB,Jordan Todman,7.0,0.3,NFL.com
+WR,Victor Cruz,7.0,4.2,NFL.com
+WR,Quincy Enunwa,7.0,4.2,NFL.com
+WR,Jalin Marshall,7.0,4.0,NFL.com
+WR,Davante Adams,7.0,3.9,NFL.com
+WR,Ricardo Louis,7.0,3.9,NFL.com
+WR,Sterling Shepard,7.0,3.9,NFL.com
+WR,Albert Wilson,7.0,3.7,NFL.com
+WR,Justin Hunter,7.0,3.6,NFL.com
+WR,Jermaine Kearse,7.0,3.6,NFL.com
+WR,Danny Amendola,7.0,3.5,NFL.com
+WR,Chris Hogan,7.0,3.5,NFL.com
+WR,Dontrelle Inman,7.0,3.5,NFL.com
+WR,Chris Conley,7.0,3.4,NFL.com
+WR,Quinton Patton,7.0,3.4,NFL.com
+WR,Tajae Sharpe,7.0,3.4,NFL.com
+WR,Kenny Stills,7.0,3.4,NFL.com
+WR,Markus Wheaton,7.0,3.4,NFL.com
+WR,Nelson Agholor,7.0,3.3,NFL.com
+WR,Torrey Smith,7.0,3.3,NFL.com
+WR,Marquise Goodwin,7.0,3.2,NFL.com
+WR,Andrew Hawkins,7.0,3.2,NFL.com
+WR,Tyler Lockett,7.0,2.9,NFL.com
+WR,Andre Johnson,7.0,2.5,NFL.com
+WR,Braxton Miller,7.0,2.4,NFL.com
+WR,Kamar Aiken,7.0,2.3,NFL.com
+RB,Jerome Felton,7.0,0.2,NFL.com
+RB,Malcolm Johnson,7.0,0.2,NFL.com
+RB,James Develin,7.0,0.1,NFL.com
+RB,Jalston Fowler,7.0,0.1,NFL.com
+RB,Marcus Murphy,7.0,0.1,NFL.com
+RB,Jay Prosch,7.0,0.1,NFL.com
+RB,Ameer Abdullah,7.0,0.0,NFL.com
+RB,Dri Archer,7.0,0.0,NFL.com
+RB,Zac Brooks,7.0,0.0,NFL.com
+RB,Mack Brown,7.0,0.0,NFL.com
+RB,Tra Carson,7.0,0.0,NFL.com
+WR,Josh Huff,7.0,2.2,NFL.com
+WR,Cecil Shorts,7.0,2.1,NFL.com
+WR,De'Anthony Thomas,7.0,2.1,NFL.com
+WR,Brandon Coleman,7.0,1.9,NFL.com
+WR,Taylor Gabriel,7.0,1.9,NFL.com
+WR,Harry Douglas,7.0,1.8,NFL.com
+WR,Cordarrelle Patterson,7.0,1.8,NFL.com
+WR,Eli Rogers,7.0,1.8,NFL.com
+WR,Jarius Wright,7.0,1.7,NFL.com
+WR,Justin Hardy,7.0,1.6,NFL.com
+WR,Tommylee Lewis,7.0,1.6,NFL.com
+WR,Paul Richardson,7.0,1.6,NFL.com
+WR,Nelson Spruce,7.0,1.5,NFL.com
+WR,Bryce Treggs,7.0,1.5,NFL.com
+WR,Jaron Brown,7.0,1.4,NFL.com
+WR,Roger Lewis,7.0,1.3,NFL.com
+WR,Andre Holmes,7.0,1.2,NFL.com
+WR,Walt Powell,7.0,1.1,NFL.com
+WR,Aldrick Robinson,7.0,1.1,NFL.com
+WR,Malcolm Mitchell,7.0,1.0,NFL.com
+WR,Andre Roberts,7.0,1.0,NFL.com
+WR,Bradley Marquez,7.0,0.9,NFL.com
+WR,Rod Streater,7.0,0.9,NFL.com
+WR,Rashad Greene,7.0,0.8,NFL.com
+WR,Keshawn Martin,7.0,0.8,NFL.com
+RB,John Crockett,7.0,0.0,NFL.com
+RB,D.J. Foster,7.0,0.0,NFL.com
+RB,Tyler Gaffney,7.0,0.0,NFL.com
+RB,Corey Grant,7.0,0.0,NFL.com
+RB,Aaron Green,7.0,0.0,NFL.com
+WR,Chris Moore,7.0,0.8,NFL.com
+WR,Griff Whalen,7.0,0.8,NFL.com
+WR,James Wright,7.0,0.8,NFL.com
+WR,Aaron Burbridge,7.0,0.7,NFL.com
+WR,Alex Erickson,7.0,0.7,NFL.com
+WR,Ryan Grant,7.0,0.7,NFL.com
+WR,Rashard Higgins,7.0,0.7,NFL.com
+WR,Jordan Payton,7.0,0.7,NFL.com
+WR,Devin Street,7.0,0.7,NFL.com
+WR,Mike Thomas,7.0,0.7,NFL.com
+WR,Laquon Treadwell,7.0,0.7,NFL.com
+WR,Robby Anderson,7.0,0.6,NFL.com
+WR,Charles Johnson,7.0,0.6,NFL.com
+WR,Cody Latimer,7.0,0.6,NFL.com
+WR,Leonte Carroo,7.0,0.5,NFL.com
+WR,Jakeem Grant,7.0,0.5,NFL.com
+WR,Dwayne Harris,7.0,0.5,NFL.com
+WR,Rashad Ross,7.0,0.5,NFL.com
+WR,Russell Shepard,7.0,0.5,NFL.com
+WR,Josh Bellamy,7.0,0.4,NFL.com
+WR,Seth DeValve,7.0,0.4,NFL.com
+WR,Tavarres King,7.0,0.4,NFL.com
+WR,Keith Mumphery,7.0,0.4,NFL.com
+WR,Darren Waller,7.0,0.4,NFL.com
+WR,Marc Mariani,7.0,0.3,NFL.com
+RB,Jonathan Grimes,7.0,0.0,NFL.com
+RB,Glenn Gronkowski,7.0,0.0,NFL.com
+RB,DuJuan Harris,7.0,0.0,NFL.com
+RB,Akeem Hunt,7.0,0.0,NFL.com
+RB,Carlos Hyde,7.0,0.0,NFL.com
+RB,Don Jackson,7.0,0.0,NFL.com
+RB,Mike James,7.0,0.0,NFL.com
+WR,Devin Hester,7.0,0.2,NFL.com
+WR,Brandon Tate,7.0,0.2,NFL.com
+WR,Matthew Slater,7.0,0.1,NFL.com
+WR,Eric Weems,7.0,0.1,NFL.com
+WR,Jared Abbrederis,7.0,0.0,NFL.com
+WR,Keenan Allen,7.0,0.0,NFL.com
+WR,Geronimo Allison,7.0,0.0,NFL.com
+WR,DeMarcus Ayers,7.0,0.0,NFL.com
+WR,Stedman Bailey,7.0,0.0,NFL.com
+WR,Kenny Bell,7.0,0.0,NFL.com
+WR,Jace Billingsley,7.0,0.0,NFL.com
+WR,Justin Blackmon,7.0,0.0,NFL.com
+WR,Moritz Boehringer,7.0,0.0,NFL.com
+RB,Chris Johnson,7.0,0.0,NFL.com
+RB,Devon Johnson,7.0,0.0,NFL.com
+RB,Will Johnson,7.0,0.0,NFL.com
+RB,Eddie Lacy,7.0,0.0,NFL.com
+RB,Jeremy Langford,7.0,0.0,NFL.com
+RB,Daniel Lasco,7.0,0.0,NFL.com
+RB,Dion Lewis,7.0,0.0,NFL.com
+RB,Erik Lorig,7.0,0.0,NFL.com
+RB,Tre Madden,7.0,0.0,NFL.com
+RB,Keith Marshall,7.0,0.0,NFL.com
+RB,Doug Martin,7.0,0.0,NFL.com
+RB,Tre Mason,7.0,0.0,NFL.com
+RB,Darren McFadden,7.0,0.0,NFL.com
+WR,Josh Boyce,7.0,0.0,NFL.com
+WR,Daniel Braverman,7.0,0.0,NFL.com
+WR,Quan Bray,7.0,0.0,NFL.com
+WR,LaVon BrazillSUS   ,7.0,0.0,NFL.com
+WR,Daniel Brown,7.0,0.0,NFL.com
+WR,Justin BrownIR   ,7.0,0.0,NFL.com
+WR,Vincent BrownIR   ,7.0,0.0,NFL.com
+WR,Martavis Bryant,7.0,0.0,NFL.com
+WR,Isaiah Burse,7.0,0.0,NFL.com
+WR,Stephen BurtonIR   ,7.0,0.0,NFL.com
+WR,Jeremy Butler,7.0,0.0,NFL.com
+WR,Devon Cajuste,7.0,0.0,NFL.com
+RB,Raheem Mostert,7.0,0.0,NFL.com
+RB,Rajion Neal,7.0,0.0,NFL.com
+RB,Branden Oliver,7.0,0.0,NFL.com
+RB,Cedric Peerman,7.0,0.0,NFL.com
+RB,Paul Perkins,7.0,0.0,NFL.com
+RB,Adrian Peterson,7.0,0.0,NFL.com
+RB,C.J. Prosise,7.0,0.0,NFL.com
+RB,Thomas Rawls,7.0,0.0,NFL.com
+RB,Darrin Reaves,7.0,0.0,NFL.com
+RB,Silas Redd,7.0,0.0,NFL.com
+RB,Daryl Richardson,7.0,0.0,NFL.com
+RB,Theo Riddick,7.0,0.0,NFL.com
+RB,Josh RobinsonNWT   ,7.0,0.0,NFL.com
+WR,Kaelin Clay,7.0,0.0,NFL.com
+WR,Corey Coleman,7.0,0.0,NFL.com
+WR,Pharoh Cooper,7.0,0.0,NFL.com
+WR,Cody Core,7.0,0.0,NFL.com
+WR,Geremy Davis,7.0,0.0,NFL.com
+WR,Eric Decker,7.0,0.0,NFL.com
+WR,Josh Doctson,7.0,0.0,NFL.com
+WR,Marcus Easley,7.0,0.0,NFL.com
+WR,Bruce Ellington,7.0,0.0,NFL.com
+RB,Bishop Sankey,7.0,0.0,NFL.com
+RB,Charles Sims,7.0,0.0,NFL.com
+RB,James Starks,7.0,0.0,NFL.com
+RB,Lorenzo Taliaferro,7.0,0.0,NFL.com
+RB,Kelvin Taylor,7.0,0.0,NFL.com
+RB,Juwan Thompson,7.0,0.0,NFL.com
+WR,Isaac Fruechte,7.0,0.0,NFL.com
+WR,Corey Fuller,7.0,0.0,NFL.com
+WR,Devin Fuller,7.0,0.0,NFL.com
+WR,Brittan Golden,7.0,0.0,NFL.com
+WR,Josh Gordon,7.0,0.0,NFL.com
+WR,Cobi Hamilton,7.0,0.0,NFL.com
+WR,Frankie Hammond,7.0,0.0,NFL.com
+WR,Chris Harper,7.0,0.0,NFL.com
+WR,Javontee Herndon,7.0,0.0,NFL.com
+RB,Shane Vereen,7.0,0.0,NFL.com
+RB,Terron Ward,7.0,0.0,NFL.com
+RB,Terrell Watson,7.0,0.0,NFL.com
+RB,Nikita Whitlock,7.0,0.0,NFL.com
+RB,Brandon Wilds,7.0,0.0,NFL.com
+RB,Andre Williams,7.0,0.0,NFL.com
+RB,Jonathan Williams,7.0,0.0,NFL.com
+RB,Karlos Williams,7.0,0.0,NFL.com
+RB,Kerwynn Williams,7.0,0.0,NFL.com
+RB,Glenn Winston,7.0,0.0,NFL.com
+RB,Danny Woodhead,7.0,0.0,NFL.com
+WR,Vincent Jackson,7.0,0.0,NFL.com
+WR,Lestar JeanIR   ,7.0,0.0,NFL.com
+WR,Darius Jennings,7.0,0.0,NFL.com
+WR,Steve Johnson,7.0,0.0,NFL.com
+WR,Seantavius Jones,7.0,0.0,NFL.com
+WR,T.J. Jones,7.0,0.0,NFL.com
+WR,Jake Kumerow,7.0,0.0,NFL.com
+WR,Kenny Lawler,7.0,0.0,NFL.com
+WR,Dezmin Lewis,7.0,0.0,NFL.com
+WR,Kolby Listenbee,7.0,0.0,NFL.com
+WR,Devin Lucien,7.0,0.0,NFL.com
+WR,Chris Matthews,7.0,0.0,NFL.com
+WR,Tre McBride,7.0,0.0,NFL.com
+WR,J.D. McKissic,7.0,0.0,NFL.com
+WR,Donte Moncrief,7.0,0.0,NFL.com
+WR,Louis Murphy,7.0,0.0,NFL.com
+WR,David NelsonIR   ,7.0,0.0,NFL.com
+WR,Marquez North,7.0,0.0,NFL.com
+WR,Kevin Norwood,7.0,0.0,NFL.com
+WR,Keenan Reynolds,7.0,0.0,NFL.com
+WR,Demarcus Robinson,7.0,0.0,NFL.com
+WR,Eric Rogers,7.0,0.0,NFL.com
+WR,Eddie Royal,7.0,0.0,NFL.com
+WR,Greg Salas,7.0,0.0,NFL.com
+WR,Jalen SaundersSUS   ,7.0,0.0,NFL.com
+QB,Tom Brady,7.0,20.6,Fantasy Pros
+QB,Matt Ryan,7.0,19.9,Fantasy Pros
+QB,Aaron Rodgers,7.0,19.2,Fantasy Pros
+QB,Andy Dalton,7.0,18.5,Fantasy Pros
+QB,Matthew Stafford,7.0,18.4,Fantasy Pros
+QB,Blake Bortles,7.0,18.3,Fantasy Pros
+QB,Tyrod Taylor,7.0,17.8,Fantasy Pros
+QB,Marcus Mariota,7.0,17.7,Fantasy Pros
+QB,Philip Rivers,7.0,17.7,Fantasy Pros
+QB,Alex Smith,7.0,17.6,Fantasy Pros
+QB,Kirk Cousins,7.0,17.1,Fantasy Pros
+QB,Jameis Winston,7.0,17.1,Fantasy Pros
+QB,Andrew Luck,7.0,17.0,Fantasy Pros
+QB,Derek Carr,7.0,16.6,Fantasy Pros
+QB,Drew Brees,7.0,16.6,Fantasy Pros
+QB,Brian Hoyer,7.0,15.4,Fantasy Pros
+QB,Joe Flacco,7.0,15.1,Fantasy Pros
+QB,Eli Manning,7.0,15.1,Fantasy Pros
+QB,Russell Wilson,7.0,15.1,Fantasy Pros
+QB,Colin Kaepernick,7.0,15.0,Fantasy Pros
+QB,Carson Palmer,7.0,13.9,Fantasy Pros
+QB,Trevor Siemian,7.0,13.5,Fantasy Pros
+QB,Ryan Tannehill,7.0,13.2,Fantasy Pros
+QB,Carson Wentz,7.0,12.9,Fantasy Pros
+QB,Sam Bradford,7.0,12.7,Fantasy Pros
+QB,Geno Smith,7.0,12.6,Fantasy Pros
+QB,Landry Jones,7.0,12.6,Fantasy Pros
+QB,Case Keenum,7.0,12.1,Fantasy Pros
+QB,Cody Kessler,7.0,12.0,Fantasy Pros
+QB,Brock Osweiler,7.0,11.1,Fantasy Pros
+QB,Blaine Gabbert,7.0,0.5,Fantasy Pros
+QB,Jared Goff,7.0,0.2,Fantasy Pros
+QB,Sean Mannion,7.0,0.2,Fantasy Pros
+QB,Ryan Fitzpatrick,7.0,0.2,Fantasy Pros
+QB,Jacoby Brissett,7.0,0.1,Fantasy Pros
+QB,Shaun Hill,7.0,0.1,Fantasy Pros
+QB,Ryan Mallett,7.0,0.1,Fantasy Pros
+QB,AJ McCarron,7.0,0.1,Fantasy Pros
+QB,Colt McCoy,7.0,0.1,Fantasy Pros
+QB,Nick Foles,7.0,0.1,Fantasy Pros
+QB,Mike Glennon,7.0,0.1,Fantasy Pros
+QB,Zach Mettenberger,7.0,0.1,Fantasy Pros
+QB,Chad Henne,7.0,0.1,Fantasy Pros
+QB,Matt Schaub,7.0,0.1,Fantasy Pros
+QB,Jimmy Garoppolo,7.0,0.1,Fantasy Pros
+QB,Matt Cassel,7.0,0.1,Fantasy Pros
+QB,Kellen Clemens,7.0,0.1,Fantasy Pros
+QB,Luke McCown,7.0,0.1,Fantasy Pros
+QB,Paxton Lynch,7.0,0.1,Fantasy Pros
+QB,Matt McGloin,7.0,0.1,Fantasy Pros
+QB,E.J. Manuel,7.0,0.1,Fantasy Pros
+QB,Scott Tolzien,7.0,0.1,Fantasy Pros
+QB,Brett Hundley,7.0,0.1,Fantasy Pros
+QB,Dan Orlovsky,7.0,0.1,Fantasy Pros
+QB,Ryan Nassib,7.0,0.1,Fantasy Pros
+QB,Matt Moore,7.0,0.1,Fantasy Pros
+QB,Drew Stanton,7.0,0.1,Fantasy Pros
+QB,Chase Daniel,7.0,0.1,Fantasy Pros
+QB,Josh McCown,7.0,0.0,Fantasy Pros
+QB,Trevone Boykin,7.0,0.0,Fantasy Pros
+QB,Tom Savage,7.0,0.0,Fantasy Pros
+QB,Matt Barkley,7.0,0.0,Fantasy Pros
+QB,Kevin Hogan,7.0,0.0,Fantasy Pros
+QB,Logan Thomas,7.0,0.0,Fantasy Pros
+QB,Brandon Allen,7.0,0.0,Fantasy Pros
+QB,Josh Johnson,7.0,0.0,Fantasy Pros
+QB,Jeff Driskel,7.0,0.0,Fantasy Pros
+QB,Zac Dysert,7.0,0.0,Fantasy Pros
+QB,Christian Hackenberg,7.0,0.0,Fantasy Pros
+QB,Alex Tanney,7.0,0.0,Fantasy Pros
+QB,Garrett Grayson,7.0,0.0,Fantasy Pros
+QB,Christian Ponder,7.0,0.0,Fantasy Pros
+QB,Joe Callahan,7.0,0.0,Fantasy Pros
+QB,Joel Stave,7.0,0.0,Fantasy Pros
+QB,Nate Sudfeld,7.0,0.0,Fantasy Pros
+QB,Aaron Murray,7.0,0.0,Fantasy Pros
+QB,Matt Simms,7.0,0.0,Fantasy Pros
+QB,Brandon Doughty,7.0,0.0,Fantasy Pros
+QB,Ryan Griffin,7.0,0.0,Fantasy Pros
+QB,Cardale Jones,7.0,0.0,Fantasy Pros
+QB,Jay Cutler,7.0,0.0,Fantasy Pros
+QB,Austin Davis,7.0,0.0,Fantasy Pros
+QB,Connor Cook,7.0,0.0,Fantasy Pros
+QB,Brandon Weeden,7.0,0.0,Fantasy Pros
+QB,Bryce Petty,7.0,0.0,Fantasy Pros
+QB,Stephen Morris,7.0,0.0,Fantasy Pros
+QB,Jake Rudock,7.0,0.0,Fantasy Pros
+QB,David Fales,7.0,0.0,Fantasy Pros
+WR,Julio Jones,7.0,14.3,Fantasy Pros
+WR,A.J. Green,7.0,13.5,Fantasy Pros
+WR,Mike Evans,7.0,12.8,Fantasy Pros
+WR,Odell Beckham Jr.,7.0,12.2,Fantasy Pros
+WR,Allen Robinson,7.0,12.2,Fantasy Pros
+WR,Jordy Nelson,7.0,11.7,Fantasy Pros
+WR,Antonio Brown,7.0,11.5,Fantasy Pros
+WR,Amari Cooper,7.0,11.4,Fantasy Pros
+WR,T.Y. Hilton,7.0,11.1,Fantasy Pros
+WR,Marvin Jones,7.0,10.8,Fantasy Pros
+WR,Alshon Jeffery,7.0,10.6,Fantasy Pros
+WR,Brandon Marshall,7.0,10.4,Fantasy Pros
+WR,Jarvis Landry,7.0,10.0,Fantasy Pros
+WR,Emmanuel Sanders,7.0,9.9,Fantasy Pros
+WR,Julian Edelman,7.0,9.6,Fantasy Pros
+WR,Larry Fitzgerald,7.0,9.6,Fantasy Pros
+WR,DeSean Jackson,7.0,9.5,Fantasy Pros
+WR,Michael Crabtree,7.0,9.3,Fantasy Pros
+WR,Cameron Meredith,7.0,9.2,Fantasy Pros
+WR,DeAndre Hopkins,7.0,9.2,Fantasy Pros
+WR,Jeremy Maclin,7.0,9.2,Fantasy Pros
+WR,Brandin Cooks,7.0,9.1,Fantasy Pros
+WR,Terrelle Pryor,7.0,8.9,Fantasy Pros
+WR,Tyrell Williams,7.0,8.7,Fantasy Pros
+WR,Randall Cobb,7.0,8.7,Fantasy Pros
+WR,Willie Snead,7.0,8.6,Fantasy Pros
+WR,Mike Wallace,7.0,8.5,Fantasy Pros
+WR,Demaryius Thomas,7.0,8.5,Fantasy Pros
+WR,Ty Montgomery,7.0,8.3,Fantasy Pros
+WR,Doug Baldwin,7.0,8.2,Fantasy Pros
+WR,Stefon Diggs,7.0,8.2,Fantasy Pros
+WR,Kenny Britt,7.0,8.2,Fantasy Pros
+WR,Jordan Matthews,7.0,7.9,Fantasy Pros
+WR,Travis Benjamin,7.0,7.8,Fantasy Pros
+WR,Golden Tate,7.0,7.7,Fantasy Pros
+WR,Allen Hurns,7.0,7.3,Fantasy Pros
+WR,Michael Thomas,7.0,7.1,Fantasy Pros
+WR,Anquan Boldin,7.0,6.9,Fantasy Pros
+WR,John Brown,7.0,6.8,Fantasy Pros
+WR,Pierre Garcon,7.0,6.8,Fantasy Pros
+WR,Devante Parker,7.0,6.8,Fantasy Pros
+WR,Tavon Austin,7.0,6.7,Fantasy Pros
+WR,Robert Woods,7.0,6.6,Fantasy Pros
+WR,Sterling Shepard,7.0,6.5,Fantasy Pros
+WR,Steve Smith,7.0,6.3,Fantasy Pros
+WR,Mohamed Sanu,7.0,6.3,Fantasy Pros
+WR,Will Fuller,7.0,6.2,Fantasy Pros
+WR,Quincy Enunwa,7.0,6.1,Fantasy Pros
+WR,Torrey Smith,7.0,6.0,Fantasy Pros
+WR,Jamison Crowder,7.0,5.9,Fantasy Pros
+WR,Phillip Dorsett,7.0,5.9,Fantasy Pros
+WR,Jeremy Kerley,7.0,5.7,Fantasy Pros
+WR,Sammie Coates,7.0,5.7,Fantasy Pros
+WR,Brandon LaFell,7.0,5.6,Fantasy Pros
+WR,Chris Hogan,7.0,5.5,Fantasy Pros
+WR,Adam Humphries,7.0,5.3,Fantasy Pros
+WR,Rishard Matthews,7.0,5.1,Fantasy Pros
+WR,Michael Floyd,7.0,5.1,Fantasy Pros
+WR,Marqise Lee,7.0,5.0,Fantasy Pros
+WR,Kendall Wright,7.0,5.0,Fantasy Pros
+WR,Tajae Sharpe,7.0,4.9,Fantasy Pros
+WR,Marquise Goodwin,7.0,4.9,Fantasy Pros
+WR,Victor Cruz,7.0,4.8,Fantasy Pros
+WR,Brian Quick,7.0,4.8,Fantasy Pros
+WR,Adam Thielen,7.0,4.7,Fantasy Pros
+WR,Tyler Lockett,7.0,4.7,Fantasy Pros
+WR,Seth Roberts,7.0,4.4,Fantasy Pros
+WR,Breshad Perriman,7.0,4.4,Fantasy Pros
+WR,Corey Coleman,7.0,4.3,Fantasy Pros
+WR,Dontrelle Inman,7.0,4.1,Fantasy Pros
+WR,Tyler Boyd,7.0,4.1,Fantasy Pros
+WR,Jermaine Kearse,7.0,4.1,Fantasy Pros
+WR,Chris Conley,7.0,4.1,Fantasy Pros
+WR,Nelson Agholor,7.0,4.1,Fantasy Pros
+WR,Kamar Aiken,7.0,4.0,Fantasy Pros
+WR,Kenny Stills,7.0,3.9,Fantasy Pros
+WR,Donte Moncrief,7.0,3.8,Fantasy Pros
+WR,Dorial Green-Beckham,7.0,3.7,Fantasy Pros
+WR,Eli Rogers,7.0,3.6,Fantasy Pros
+WR,Quinton Patton,7.0,3.4,Fantasy Pros
+WR,Andre Johnson,7.0,3.4,Fantasy Pros
+WR,Andrew Hawkins,7.0,3.3,Fantasy Pros
+WR,Justin Hunter,7.0,3.3,Fantasy Pros
+WR,Danny Amendola,7.0,3.2,Fantasy Pros
+WR,Ricardo Louis,7.0,3.1,Fantasy Pros
+WR,Justin Hardy,7.0,3.1,Fantasy Pros
+WR,Tyreek Hill,7.0,3.0,Fantasy Pros
+WR,Chester Rogers,7.0,3.0,Fantasy Pros
+WR,Jaron Brown,7.0,2.9,Fantasy Pros
+WR,Albert Wilson,7.0,2.9,Fantasy Pros
+WR,Jaelen Strong,7.0,2.8,Fantasy Pros
+WR,Robby Anderson,7.0,2.6,Fantasy Pros
+WR,Cordarrelle Patterson,7.0,2.6,Fantasy Pros
+WR,Cecil Shorts,7.0,2.6,Fantasy Pros
+WR,Josh Bellamy,7.0,2.2,Fantasy Pros
+WR,Andre Holmes,7.0,2.2,Fantasy Pros
+WR,Charone Peake,7.0,2.1,Fantasy Pros
+WR,Tanner McEvoy,7.0,2.1,Fantasy Pros
+WR,Charles Johnson,7.0,2.1,Fantasy Pros
+WR,Jordan Norwood,7.0,2.0,Fantasy Pros
+WR,Bennie Fowler,7.0,1.9,Fantasy Pros
+WR,Davante Adams,7.0,1.9,Fantasy Pros
+WR,Jeff Janis,7.0,1.8,Fantasy Pros
+WR,Markus Wheaton,7.0,1.8,Fantasy Pros
+WR,Braxton Miller,7.0,1.8,Fantasy Pros
+WR,Pharoh Cooper,7.0,1.7,Fantasy Pros
+WR,Aldrick Robinson,7.0,1.7,Fantasy Pros
+WR,Malcolm Mitchell,7.0,1.7,Fantasy Pros
+WR,Deonte Thompson,7.0,1.5,Fantasy Pros
+WR,Walter Powell,7.0,1.5,Fantasy Pros
+WR,Jalin Marshall,7.0,1.4,Fantasy Pros
+WR,Cody Latimer,7.0,1.4,Fantasy Pros
+WR,Brandon Coleman,7.0,1.4,Fantasy Pros
+WR,Ryan Grant,7.0,1.4,Fantasy Pros
+WR,Arrelious Benn,7.0,1.3,Fantasy Pros
+WR,Paul Richardson,7.0,1.3,Fantasy Pros
+WR,Darrius Heyward-Bey,7.0,1.3,Fantasy Pros
+WR,Josh Huff,7.0,1.2,Fantasy Pros
+WR,Chris Moore,7.0,1.2,Fantasy Pros
+WR,Rashard Higgins,7.0,1.2,Fantasy Pros
+WR,Taylor Gabriel,7.0,1.2,Fantasy Pros
+WR,Rod Streater,7.0,1.2,Fantasy Pros
+WR,Russell Shepard,7.0,1.1,Fantasy Pros
+WR,Tommylee Lewis,7.0,1.1,Fantasy Pros
+WR,Andre Roberts,7.0,1.1,Fantasy Pros
+WR,De'Anthony Thomas,7.0,1.1,Fantasy Pros
+WR,Cobi Hamilton,7.0,1.0,Fantasy Pros
+WR,Griff Whalen,7.0,1.0,Fantasy Pros
+WR,J.J. Nelson,7.0,0.9,Fantasy Pros
+WR,Jarius Wright,7.0,0.9,Fantasy Pros
+WR,James Wright,7.0,0.9,Fantasy Pros
+WR,Isaiah Burse,7.0,0.9,Fantasy Pros
+WR,Leonte Carroo,7.0,0.8,Fantasy Pros
+WR,Laquon Treadwell,7.0,0.8,Fantasy Pros
+WR,Rashad Ross,7.0,0.8,Fantasy Pros
+WR,Neal Sterling,7.0,0.7,Fantasy Pros
+WR,Quan Bray,7.0,0.7,Fantasy Pros
+WR,Donteea Dye,7.0,0.7,Fantasy Pros
+WR,Bryan Walters,7.0,0.7,Fantasy Pros
+WR,Roger Lewis,7.0,0.7,Fantasy Pros
+WR,Devin Street,7.0,0.6,Fantasy Pros
+WR,Cody Core,7.0,0.6,Fantasy Pros
+WR,Louis Murphy,7.0,0.6,Fantasy Pros
+WR,Rashad Greene,7.0,0.6,Fantasy Pros
+WR,Jared Abbrederis,7.0,0.5,Fantasy Pros
+WR,Brandon Tate,7.0,0.5,Fantasy Pros
+WR,Devin Smith,7.0,0.5,Fantasy Pros
+WR,Keshawn Martin,7.0,0.5,Fantasy Pros
+WR,Corey Fuller,7.0,0.5,Fantasy Pros
+WR,Dwayne Harris,7.0,0.5,Fantasy Pros
+WR,Chris Matthews,7.0,0.5,Fantasy Pros
+WR,Aaron Burbridge,7.0,0.5,Fantasy Pros
+WR,Bradley Marquez,7.0,0.4,Fantasy Pros
+WR,Kaelin Clay,7.0,0.4,Fantasy Pros
+WR,Trevor Davis,7.0,0.4,Fantasy Pros
+WR,Daniel Brown,7.0,0.4,Fantasy Pros
+WR,Demarcus Robinson,7.0,0.4,Fantasy Pros
+WR,Tavarres King,7.0,0.4,Fantasy Pros
+WR,Johnny Holton,7.0,0.3,Fantasy Pros
+WR,Jeremy Butler,7.0,0.3,Fantasy Pros
+WR,Jordan Payton,7.0,0.3,Fantasy Pros
+WR,Keith Mumphery,7.0,0.3,Fantasy Pros
+WR,Alex Erickson,7.0,0.3,Fantasy Pros
+WR,Brittan Golden,7.0,0.3,Fantasy Pros
+WR,Darren Waller,7.0,0.3,Fantasy Pros
+WR,Jakeem Grant,7.0,0.3,Fantasy Pros
+WR,Chris Harper,7.0,0.3,Fantasy Pros
+WR,Jordan Taylor,7.0,0.3,Fantasy Pros
+WR,Jake Lampman,7.0,0.2,Fantasy Pros
+WR,Mike Thomas,7.0,0.2,Fantasy Pros
+WR,Eric Weems,7.0,0.2,Fantasy Pros
+WR,Harry Douglas,7.0,0.2,Fantasy Pros
+WR,Seth DeValve,7.0,0.2,Fantasy Pros
+WR,Marc Mariani,7.0,0.2,Fantasy Pros
+WR,Frankie Hammond,7.0,0.2,Fantasy Pros
+WR,Devin Hester,7.0,0.1,Fantasy Pros
+WR,Matt Slater,7.0,0.0,Fantasy Pros
+WR,Geremy Davis,7.0,0.0,Fantasy Pros
+WR,Nelson Spruce,7.0,0.0,Fantasy Pros
+WR,Jace Billingsley,7.0,0.0,Fantasy Pros
+WR,Chris Givens,7.0,0.0,Fantasy Pros
+WR,Mitch Mathews,7.0,0.0,Fantasy Pros
+WR,Maurice Harris,7.0,0.0,Fantasy Pros
+WR,Kenny Bell,7.0,0.0,Fantasy Pros
+WR,Dom Williams,7.0,0.0,Fantasy Pros
+WR,Paul Turner,7.0,0.0,Fantasy Pros
+WR,C.J. Goodwin,7.0,0.0,Fantasy Pros
+WR,David Watford,7.0,0.0,Fantasy Pros
+WR,Moritz Boehringer,7.0,0.0,Fantasy Pros
+WR,Darius Jennings,7.0,0.0,Fantasy Pros
+WR,Rashad Lawrence,7.0,0.0,Fantasy Pros
+WR,Devin Lucien,7.0,0.0,Fantasy Pros
+WR,Marquis Bundy,7.0,0.0,Fantasy Pros
+WR,DeAndrew White,7.0,0.0,Fantasy Pros
+WR,Daniel Braverman,7.0,0.0,Fantasy Pros
+WR,Corey Washington,7.0,0.0,Fantasy Pros
+WR,Rashawn Scott,7.0,0.0,Fantasy Pros
+WR,Marquess Wilson,7.0,0.0,Fantasy Pros
+WR,Byron Marshall,7.0,0.0,Fantasy Pros
+WR,Tevaun Smith,7.0,0.0,Fantasy Pros
+WR,Herb Waters,7.0,0.0,Fantasy Pros
+WR,Kenny Lawler,7.0,0.0,Fantasy Pros
+WR,Darius Powe,7.0,0.0,Fantasy Pros
+WR,Paul McRoberts,7.0,0.0,Fantasy Pros
+WR,Jaydon Mickens,7.0,0.0,Fantasy Pros
+WR,TJ Jones,7.0,0.0,Fantasy Pros
+WR,Demarcus Ayers,7.0,0.0,Fantasy Pros
+WR,Kendal Thompson,7.0,0.0,Fantasy Pros
+WR,Devon Cajuste,7.0,0.0,Fantasy Pros
+WR,K.J. Brent,7.0,0.0,Fantasy Pros
+WR,Alonzo Russell,7.0,0.0,Fantasy Pros
+WR,Geronimo Allison,7.0,0.0,Fantasy Pros
+WR,Kalif Raymond,7.0,0.0,Fantasy Pros
+WR,Sammy Watkins,7.0,0.0,Fantasy Pros
+WR,Freddie Martino,7.0,0.0,Fantasy Pros
+WR,Josh Doctson,7.0,0.0,Fantasy Pros
+WR,Nick Williams,7.0,0.0,Fantasy Pros
+WR,Shane Wynn,7.0,0.0,Fantasy Pros
+WR,D.J. Foster,7.0,0.0,Fantasy Pros
+WR,Bryce Treggs,7.0,0.0,Fantasy Pros
+WR,Quenton Bundrage,7.0,0.0,Fantasy Pros
+WR,J.D. McKissic,7.0,0.0,Fantasy Pros
+RB,LeSean McCoy,7.0,16.1,Fantasy Pros
+RB,DeMarco Murray,7.0,16.0,Fantasy Pros
+RB,Le'Veon Bell,7.0,15.2,Fantasy Pros
+RB,David Johnson,7.0,15.0,Fantasy Pros
+RB,Todd Gurley,7.0,13.4,Fantasy Pros
+RB,Devonta Freeman,7.0,13.1,Fantasy Pros
+RB,Carlos Hyde,7.0,13.1,Fantasy Pros
+RB,Spencer Ware,7.0,12.4,Fantasy Pros
+RB,Melvin Gordon,7.0,12.3,Fantasy Pros
+RB,Lamar Miller,7.0,12.2,Fantasy Pros
+RB,Jordan Howard,7.0,11.7,Fantasy Pros
+RB,Christine Michael,7.0,11.4,Fantasy Pros
+RB,Jacquizz Rodgers,7.0,11.3,Fantasy Pros
+RB,Frank Gore,7.0,10.7,Fantasy Pros
+RB,Jamaal Charles,7.0,10.6,Fantasy Pros
+RB,Mark Ingram,7.0,10.5,Fantasy Pros
+RB,C.J. Anderson,7.0,10.4,Fantasy Pros
+RB,LeGarrette Blount,7.0,9.9,Fantasy Pros
+RB,Jeremy Hill,7.0,9.9,Fantasy Pros
+RB,Isaiah Crowell,7.0,9.4,Fantasy Pros
+RB,Giovani Bernard,7.0,9.4,Fantasy Pros
+RB,Terrance West,7.0,9.3,Fantasy Pros
+RB,Matt Forte,7.0,9.3,Fantasy Pros
+RB,Matt Jones,7.0,9.2,Fantasy Pros
+RB,Tevin Coleman,7.0,9.1,Fantasy Pros
+RB,James White,7.0,9.0,Fantasy Pros
+RB,Jerick McKinnon,7.0,9.0,Fantasy Pros
+RB,Theo Riddick,7.0,8.8,Fantasy Pros
+RB,Jay Ajayi,7.0,8.2,Fantasy Pros
+RB,T.J. Yeldon,7.0,7.7,Fantasy Pros
+RB,Mike Davis,7.0,7.5,Fantasy Pros
+RB,Rashad Jennings,7.0,7.5,Fantasy Pros
+RB,Latavius Murray,7.0,7.1,Fantasy Pros
+RB,Ryan Mathews,7.0,6.9,Fantasy Pros
+RB,Matt Asiata,7.0,6.8,Fantasy Pros
+RB,Darren Sproles,7.0,6.7,Fantasy Pros
+RB,Duke Johnson,7.0,6.6,Fantasy Pros
+RB,Chris Ivory,7.0,6.5,Fantasy Pros
+RB,Devontae Booker,7.0,6.2,Fantasy Pros
+RB,Knile Davis,7.0,5.9,Fantasy Pros
+RB,Don Jackson,7.0,5.9,Fantasy Pros
+RB,Bobby Rainey,7.0,5.8,Fantasy Pros
+RB,Bilal Powell,7.0,5.7,Fantasy Pros
+RB,DeAndre Washington,7.0,5.3,Fantasy Pros
+RB,Chris Thompson,7.0,5.0,Fantasy Pros
+RB,Shaun Draughn,7.0,4.9,Fantasy Pros
+RB,Jalen Richard,7.0,4.6,Fantasy Pros
+RB,Dwayne Washington,7.0,4.6,Fantasy Pros
+RB,Derrick Henry,7.0,4.3,Fantasy Pros
+RB,Arian Foster,7.0,4.3,Fantasy Pros
+RB,Mike Gillislee,7.0,4.1,Fantasy Pros
+RB,Paul Perkins,7.0,3.2,Fantasy Pros
+RB,Ka'Deem Carey,7.0,3.2,Fantasy Pros
+RB,C.J. Spiller,7.0,3.1,Fantasy Pros
+RB,Travaris Cadet,7.0,3.1,Fantasy Pros
+RB,Zach Zenner,7.0,3.1,Fantasy Pros
+RB,DeAngelo Williams,7.0,2.9,Fantasy Pros
+RB,Brandon Bolden,7.0,2.8,Fantasy Pros
+RB,Kenneth Dixon,7.0,2.8,Fantasy Pros
+RB,Josh Ferguson,7.0,2.8,Fantasy Pros
+RB,Peyton Barber,7.0,2.8,Fantasy Pros
+RB,Wendell Smallwood,7.0,2.7,Fantasy Pros
+RB,Robert Turbin,7.0,2.6,Fantasy Pros
+RB,Andre Ellington,7.0,2.6,Fantasy Pros
+RB,Kyle Juszczyk,7.0,2.5,Fantasy Pros
+RB,Dexter McCluster,7.0,2.4,Fantasy Pros
+RB,Benny Cunningham,7.0,2.3,Fantasy Pros
+RB,Justin Forsett,7.0,2.3,Fantasy Pros
+RB,Damien Williams,7.0,2.2,Fantasy Pros
+RB,Charcandrick West,7.0,2.1,Fantasy Pros
+RB,Robert Kelley,7.0,2.0,Fantasy Pros
+RB,Alfred Blue,7.0,2.0,Fantasy Pros
+RB,Jamize Olawale,7.0,2.0,Fantasy Pros
+RB,Kelvin Taylor,7.0,1.9,Fantasy Pros
+RB,Kenneth Farrow,7.0,1.8,Fantasy Pros
+RB,John Kuhn,7.0,1.8,Fantasy Pros
+RB,Aaron Ripkowski,7.0,1.7,Fantasy Pros
+RB,Antone Smith,7.0,1.7,Fantasy Pros
+RB,Javorius Allen,7.0,1.7,Fantasy Pros
+RB,Tim Hightower,7.0,1.6,Fantasy Pros
+RB,Daniel Lasco,7.0,1.6,Fantasy Pros
+RB,Kapri Bibbs,7.0,1.5,Fantasy Pros
+RB,C.J. Prosise,7.0,1.3,Fantasy Pros
+RB,Andy Janovich,7.0,1.1,Fantasy Pros
+RB,Alex Collins,7.0,1.0,Fantasy Pros
+RB,Jonathan Williams,7.0,0.9,Fantasy Pros
+RB,Kenjon Barner,7.0,0.9,Fantasy Pros
+RB,DuJuan Harris,7.0,0.8,Fantasy Pros
+RB,D.J. Foster,7.0,0.8,Fantasy Pros
+RB,Joique Bell,7.0,0.8,Fantasy Pros
+RB,Ronnie Hillman,7.0,0.8,Fantasy Pros
+RB,Orleans Darkwa,7.0,0.7,Fantasy Pros
+RB,Patrick DiMarco,7.0,0.7,Fantasy Pros
+RB,Denard Robinson,7.0,0.6,Fantasy Pros
+RB,Kenyan Drake,7.0,0.6,Fantasy Pros
+RB,Tyler Ervin,7.0,0.6,Fantasy Pros
+RB,Stepfan Taylor,7.0,0.5,Fantasy Pros
+RB,Malcolm Johnson,7.0,0.5,Fantasy Pros
+RB,Zach Line,7.0,0.4,Fantasy Pros
+RB,Malcolm Brown,7.0,0.4,Fantasy Pros
+RB,Jerome Felton,7.0,0.4,Fantasy Pros
+RB,Derek Watt,7.0,0.4,Fantasy Pros
+RB,Reggie Bush,7.0,0.3,Fantasy Pros
+RB,Terron Ward,7.0,0.3,Fantasy Pros
+RB,Troymaine Pope,7.0,0.2,Fantasy Pros
+RB,Anthony Sherman,7.0,0.2,Fantasy Pros
+RB,Antonio Andrews,7.0,0.2,Fantasy Pros
+RB,Raheem Mostert,7.0,0.2,Fantasy Pros
+RB,Jay Prosch,7.0,0.2,Fantasy Pros
+RB,Jalston Fowler,7.0,0.2,Fantasy Pros
+RB,Rex Burkhead,7.0,0.2,Fantasy Pros
+RB,Corey Grant,7.0,0.1,Fantasy Pros
+RB,Jordan Todman,7.0,0.1,Fantasy Pros
+RB,James Develin,7.0,0.1,Fantasy Pros
+RB,Fitzgerald Toussaint,7.0,0.1,Fantasy Pros
+RB,Paul Lasike,7.0,0.1,Fantasy Pros
+RB,Roosevelt Nix,7.0,0.1,Fantasy Pros
+RB,Michael Burton,7.0,0.1,Fantasy Pros
+RB,Marcus Murphy,7.0,0.1,Fantasy Pros
+RB,Taiwan Jones,7.0,0.0,Fantasy Pros
+RB,Daryl Richardson,7.0,0.0,Fantasy Pros
+RB,Glenn Gronkowski,7.0,0.0,Fantasy Pros
+RB,CJ Ham,7.0,0.0,Fantasy Pros
+RB,Mack Brown,7.0,0.0,Fantasy Pros
+RB,Dri Archer,7.0,0.0,Fantasy Pros
+RB,Bishop Sankey,7.0,0.0,Fantasy Pros
+RB,Akeem Hunt,7.0,0.0,Fantasy Pros
+RB,Chase Reynolds,7.0,0.0,Fantasy Pros
+RB,Brandon Wilds,7.0,0.0,Fantasy Pros
+RB,Dan Vitale,7.0,0.0,Fantasy Pros
+RB,Karlos Williams,7.0,0.0,Fantasy Pros
+RB,Kerwynn Williams,7.0,0.0,Fantasy Pros
+RB,Elijhaa Penny,7.0,0.0,Fantasy Pros
+RB,Juwan Thompson,7.0,0.0,Fantasy Pros
+RB,George Atkinson,7.0,0.0,Fantasy Pros
+RB,Stephen Houston,7.0,0.0,Fantasy Pros
+RB,Joe Kerridge,7.0,0.0,Fantasy Pros
+RB,Andre Williams,7.0,0.0,Fantasy Pros
+RB,Chris Johnson,7.0,0.0,Fantasy Pros
+RB,Aaron Green,7.0,0.0,Fantasy Pros
+TE,Rob Gronkowski,7.0,11.0,Fantasy Pros
+TE,Travis Kelce,7.0,8.7,Fantasy Pros
+TE,Delanie Walker,7.0,8.2,Fantasy Pros
+TE,Jimmy Graham,7.0,7.8,Fantasy Pros
+TE,Jordan Reed,7.0,7.1,Fantasy Pros
+TE,Kyle Rudolph,7.0,7.0,Fantasy Pros
+TE,Hunter Henry,7.0,6.9,Fantasy Pros
+TE,Charles Clay,7.0,6.9,Fantasy Pros
+TE,Cameron Brate,7.0,6.8,Fantasy Pros
+TE,Martellus Bennett,7.0,6.7,Fantasy Pros
+TE,Zach Miller,7.0,6.4,Fantasy Pros
+TE,Jack Doyle,7.0,6.4,Fantasy Pros
+TE,Dennis Pitta,7.0,6.2,Fantasy Pros
+TE,Gary Barnidge,7.0,5.7,Fantasy Pros
+TE,Julius Thomas,7.0,5.6,Fantasy Pros
+TE,Antonio Gates,7.0,5.5,Fantasy Pros
+TE,Eric Ebron,7.0,5.5,Fantasy Pros
+TE,Coby Fleener,7.0,5.4,Fantasy Pros
+TE,Zach Ertz,7.0,4.9,Fantasy Pros
+TE,Ladarius Green,7.0,4.8,Fantasy Pros
+TE,Tyler Eifert,7.0,4.7,Fantasy Pros
+TE,Jacob Tamme,7.0,4.1,Fantasy Pros
+TE,Lance Kendricks,7.0,4.1,Fantasy Pros
+TE,Vernon Davis,7.0,4.0,Fantasy Pros
+TE,Clive Walford,7.0,3.7,Fantasy Pros
+TE,Virgil Green,7.0,3.6,Fantasy Pros
+TE,Richard Rodgers,7.0,3.5,Fantasy Pros
+TE,Vance McDonald,7.0,3.5,Fantasy Pros
+TE,C.J. Fiedorowicz,7.0,3.4,Fantasy Pros
+TE,Jesse James,7.0,3.3,Fantasy Pros
+TE,C.J. Uzomah,7.0,3.3,Fantasy Pros
+TE,Dion Sims,7.0,3.2,Fantasy Pros
+TE,Larry Donnell,7.0,2.7,Fantasy Pros
+TE,Will Tye,7.0,2.6,Fantasy Pros
+TE,Garrett Celek,7.0,2.5,Fantasy Pros
+TE,Marcedes Lewis,7.0,2.4,Fantasy Pros
+TE,Austin Seferian-Jenkins,7.0,2.4,Fantasy Pros
+TE,Crockett Gillmore,7.0,2.4,Fantasy Pros
+TE,Dwayne Allen,7.0,2.3,Fantasy Pros
+TE,Darren Fells,7.0,2.3,Fantasy Pros
+TE,Erik Swoope,7.0,2.3,Fantasy Pros
+TE,Josh Hill,7.0,2.1,Fantasy Pros
+TE,Ryan Griffin,7.0,2.1,Fantasy Pros
+TE,Austin Hooper,7.0,2.0,Fantasy Pros
+TE,Levine Toilolo,7.0,2.0,Fantasy Pros
+TE,MarQueis Gray,7.0,1.8,Fantasy Pros
+TE,Jermaine Gresham,7.0,1.7,Fantasy Pros
+TE,Demetrius Harris,7.0,1.7,Fantasy Pros
+TE,Brandon Pettigrew,7.0,1.6,Fantasy Pros
+TE,Jeff Heuerman,7.0,1.6,Fantasy Pros
+TE,Trey Burton,7.0,1.5,Fantasy Pros
+TE,Anthony Fasano,7.0,1.4,Fantasy Pros
+TE,Randall Telfer,7.0,1.3,Fantasy Pros
+TE,Brent Celek,7.0,1.3,Fantasy Pros
+TE,Mychal Rivera,7.0,1.2,Fantasy Pros
+TE,Clay Harbor,7.0,1.2,Fantasy Pros
+TE,Tyler Kroft,7.0,1.2,Fantasy Pros
+TE,Justin Perillo,7.0,1.1,Fantasy Pros
+TE,Dominique Jones,7.0,1.1,Fantasy Pros
+TE,Luke Stocker,7.0,1.1,Fantasy Pros
+TE,Stephen Anderson,7.0,1.1,Fantasy Pros
+TE,Brandon Myers,7.0,1.1,Fantasy Pros
+TE,Nick O'Leary,7.0,1.1,Fantasy Pros
+TE,Xavier Grimble,7.0,1.0,Fantasy Pros
+TE,Niles Paul,7.0,0.9,Fantasy Pros
+TE,Connor Hamlett,7.0,0.9,Fantasy Pros
+TE,Luke Willson,7.0,0.8,Fantasy Pros
+TE,Jace Amaro,7.0,0.8,Fantasy Pros
+TE,Tyler Higbee,7.0,0.8,Fantasy Pros
+TE,John Phillips,7.0,0.8,Fantasy Pros
+TE,Chase Coffman,7.0,0.6,Fantasy Pros
+TE,Blake Bell,7.0,0.6,Fantasy Pros
+TE,Cole Wick,7.0,0.6,Fantasy Pros
+TE,Brandon Williams,7.0,0.5,Fantasy Pros
+TE,Brandon Bostick,7.0,0.5,Fantasy Pros
+TE,Greg Scruggs,7.0,0.5,Fantasy Pros
+TE,Ben Koyack,7.0,0.5,Fantasy Pros
+TE,Logan Paulsen,7.0,0.5,Fantasy Pros
+TE,Phillip Supernaw,7.0,0.5,Fantasy Pros
+TE,Ryan Hewitt,7.0,0.5,Fantasy Pros
+TE,Rhett Ellison,7.0,0.5,Fantasy Pros
+TE,Khari Lee,7.0,0.5,Fantasy Pros
+TE,MyCole Pruitt,7.0,0.4,Fantasy Pros
+TE,James O'Shaughnessy,7.0,0.4,Fantasy Pros
+TE,Nick Vannett,7.0,0.4,Fantasy Pros
+TE,David Johnson,7.0,0.4,Fantasy Pros
+TE,David Morgan,7.0,0.4,Fantasy Pros
+TE,Jerell Adams,7.0,0.3,Fantasy Pros
+TE,Cory Harkey,7.0,0.3,Fantasy Pros
+TE,Ben Braunecker,7.0,0.3,Fantasy Pros
+TE,Sean McGrath,7.0,0.3,Fantasy Pros
+TE,Je'Ron Hamm,7.0,0.2,Fantasy Pros
+TE,Braedon Bowman,7.0,0.2,Fantasy Pros
+TE,Temarrick Hemingway,7.0,0.2,Fantasy Pros
+TE,Asante Cleveland,7.0,0.2,Fantasy Pros
+TE,Ross Travis,7.0,0.2,Fantasy Pros
+TE,Alan Cross,7.0,0.2,Fantasy Pros
+TE,Ifeanyi Momah,7.0,0.2,Fantasy Pros
+TE,Hakeem Valles,7.0,0.2,Fantasy Pros
+TE,Kellen Davis,7.0,0.2,Fantasy Pros
+TE,RaShaun Allen,7.0,0.0,Fantasy Pros
+TE,Thomas Duarte,7.0,0.0,Fantasy Pros
+TE,Ryan O'Malley,7.0,0.0,Fantasy Pros
+TE,Marcel Jensen,7.0,0.0,Fantasy Pros
+TE,Jared Cook,7.0,0.0,Fantasy Pros
+TE,Kyle Carter,7.0,0.0,Fantasy Pros
+TE,Clark Harris,7.0,0.0,Fantasy Pros
+TE,Joshua Perkins,7.0,0.0,Fantasy Pros
+TE,Jerome Cunningham,7.0,0.0,Fantasy Pros
+TE,Steven Scheu,7.0,0.0,Fantasy Pros
+TE,Alex Ellis,7.0,0.0,Fantasy Pros
+TE,Jordan Cameron,7.0,0.0,Fantasy Pros
+TE,Bryce Williams,7.0,0.0,Fantasy Pros
+TE,Jake McGee,7.0,0.0,Fantasy Pros
+TE,Gerald Christian,7.0,0.0,Fantasy Pros
+TE,Garrett Griffin,7.0,0.0,Fantasy Pros
+K,Matt Bryant,7.0,9.1,Fantasy Pros
+K,Cairo Santos,7.0,8.5,Fantasy Pros
+K,Mike Nugent,7.0,8.4,Fantasy Pros
+K,Adam Vinatieri,7.0,8.4,Fantasy Pros
+K,Stephen Gostkowski,7.0,8.3,Fantasy Pros
+K,Justin Tucker,7.0,7.9,Fantasy Pros
+K,Matt Prater,7.0,7.8,Fantasy Pros
+K,Mason Crosby,7.0,7.8,Fantasy Pros
+K,Dustin Hopkins,7.0,7.7,Fantasy Pros
+K,Brandon McManus,7.0,7.7,Fantasy Pros
+K,Sebastian Janikowski,7.0,7.6,Fantasy Pros
+K,Josh Lambo,7.0,7.3,Fantasy Pros
+K,Chandler Catanzaro,7.0,7.3,Fantasy Pros
+K,Greg Zuerlein,7.0,7.3,Fantasy Pros
+K,Nick Novak,7.0,7.2,Fantasy Pros
+K,Ryan Succop,7.0,7.2,Fantasy Pros
+K,Jason Myers,7.0,7.2,Fantasy Pros
+K,Josh Brown,7.0,7.1,Fantasy Pros
+K,Dan Carpenter,7.0,7.0,Fantasy Pros
+K,Phil Dawson,7.0,6.7,Fantasy Pros
+K,Caleb Sturgis,7.0,6.7,Fantasy Pros
+K,Nick Folk,7.0,6.5,Fantasy Pros
+K,Will Lutz,7.0,6.5,Fantasy Pros
+K,Steven Hauschka,7.0,6.3,Fantasy Pros
+K,Blair Walsh,7.0,6.2,Fantasy Pros
+K,Roberto Aguayo,7.0,6.0,Fantasy Pros
+K,Cody Parkey,7.0,6.0,Fantasy Pros
+K,Chris Boswell,7.0,5.9,Fantasy Pros
+K,Andrew Franks,7.0,5.7,Fantasy Pros
+K,Connor Barth,7.0,5.6,Fantasy Pros
+DEF,Denver Broncos,7.0,9.4,Fantasy Pros
+DEF,Arizona Cardinals,7.0,9.0,Fantasy Pros
+DEF,Buffalo Bills,7.0,8.8,Fantasy Pros
+DEF,Oakland Raiders,7.0,8.4,Fantasy Pros
+DEF,Cincinnati Bengals,7.0,8.3,Fantasy Pros
+DEF,Tennessee Titans,7.0,8.0,Fantasy Pros
+DEF,Minnesota Vikings,7.0,8.0,Fantasy Pros
+DEF,New England Patriots,7.0,8.0,Fantasy Pros
+DEF,Green Bay Packers,7.0,7.9,Fantasy Pros
+DEF,Baltimore Ravens,7.0,7.7,Fantasy Pros
+DEF,Seattle Seahawks,7.0,7.5,Fantasy Pros
+DEF,New Orleans Saints,7.0,7.4,Fantasy Pros
+DEF,Los Angeles Rams,7.0,7.3,Fantasy Pros
+DEF,New York Jets,7.0,7.3,Fantasy Pros
+DEF,Indianapolis Colts,7.0,7.2,Fantasy Pros
+DEF,Houston Texans,7.0,7.2,Fantasy Pros
+DEF,Philadelphia Eagles,7.0,7.2,Fantasy Pros
+DEF,Washington Redskins,7.0,7.2,Fantasy Pros
+DEF,Kansas City Chiefs,7.0,7.1,Fantasy Pros
+DEF,San Francisco 49ers,7.0,7.1,Fantasy Pros
+DEF,Tampa Bay Buccaneers,7.0,7.0,Fantasy Pros
+DEF,Atlanta Falcons,7.0,6.8,Fantasy Pros
+DEF,San Diego Chargers,7.0,6.7,Fantasy Pros
+DEF,Detroit Lions,7.0,6.5,Fantasy Pros
+DEF,Chicago Bears,7.0,6.4,Fantasy Pros
+DEF,New York Giants,7.0,6.0,Fantasy Pros
+DEF,Jacksonville Jaguars,7.0,5.9,Fantasy Pros
+DEF,Pittsburgh Steelers,7.0,5.8,Fantasy Pros
+DEF,Cleveland Browns,7.0,5.7,Fantasy Pros
+DEF,Miami Dolphins,7.0,5.4,Fantasy Pros
+QB,Tom Brady,7.0,21.2,Fantasy Sharks
+QB,Matt Ryan,7.0,20.1,Fantasy Sharks
+QB,Philip Rivers,7.0,19.9,Fantasy Sharks
+QB,Kirk Cousins,7.0,19.8,Fantasy Sharks
+QB,Blake Bortles,7.0,19.4,Fantasy Sharks
+QB,Aaron Rodgers,7.0,18.7,Fantasy Sharks
+QB,Drew Brees,7.0,18.5,Fantasy Sharks
+QB,Andy Dalton,7.0,18.2,Fantasy Sharks
+QB,Matthew Stafford,7.0,18.2,Fantasy Sharks
+QB,Derek Carr,7.0,17.9,Fantasy Sharks
+QB,Brian Hoyer,7.0,17.9,Fantasy Sharks
+QB,Russell Wilson,7.0,17.8,Fantasy Sharks
+QB,Tyrod Taylor,7.0,17.3,Fantasy Sharks
+RB,David Johnson,7.0,16.8,Fantasy Sharks
+WR,Julio Jones,7.0,16.8,Fantasy Sharks
+QB,Marcus Mariota,7.0,16.7,Fantasy Sharks
+QB,Jameis Winston,7.0,15.9,Fantasy Sharks
+QB,Andrew Luck,7.0,15.9,Fantasy Sharks
+QB,Alex Smith,7.0,15.7,Fantasy Sharks
+QB,Eli Manning,7.0,15.6,Fantasy Sharks
+RB,DeMarco Murray,7.0,15.3,Fantasy Sharks
+RB,Le'Veon Bell,7.0,15.3,Fantasy Sharks
+QB,Landry Jones,7.0,14.9,Fantasy Sharks
+QB,Colin Kaepernick,7.0,14.5,Fantasy Sharks
+RB,Devonta Freeman,7.0,13.6,Fantasy Sharks
+QB,Joe Flacco,7.0,13.6,Fantasy Sharks
+WR,Allen Robinson,7.0,13.5,Fantasy Sharks
+QB,Carson Wentz,7.0,13.1,Fantasy Sharks
+QB,Ryan Tannehill,7.0,13.0,Fantasy Sharks
+QB,Geno Smith,7.0,13.0,Fantasy Sharks
+QB,Cody Kessler,7.0,12.9,Fantasy Sharks
+WR,Cameron Meredith,7.0,12.5,Fantasy Sharks
+WR,Alshon Jeffery,7.0,12.3,Fantasy Sharks
+QB,Sam Bradford,7.0,12.3,Fantasy Sharks
+WR,Jordy Nelson,7.0,12.1,Fantasy Sharks
+RB,LeGarrette Blount,7.0,12.1,Fantasy Sharks
+RB,Lamar Miller,7.0,12.1,Fantasy Sharks
+WR,Brandon Marshall,7.0,12.0,Fantasy Sharks
+TE,Rob Gronkowski,7.0,11.9,Fantasy Sharks
+RB,LeSean McCoy,7.0,11.8,Fantasy Sharks
+WR,Antonio Brown,7.0,11.8,Fantasy Sharks
+RB,Mark Ingram,7.0,11.8,Fantasy Sharks
+WR,Odell Beckham,7.0,11.7,Fantasy Sharks
+RB,Todd Gurley,7.0,11.5,Fantasy Sharks
+WR,Mike Evans,7.0,11.4,Fantasy Sharks
+RB,Spencer Ware,7.0,11.3,Fantasy Sharks
+QB,Brock Osweiler,7.0,11.3,Fantasy Sharks
+QB,Case Keenum,7.0,11.3,Fantasy Sharks
+RB,Christine Michael,7.0,11.1,Fantasy Sharks
+WR,A.J. Green,7.0,10.8,Fantasy Sharks
+WR,Marvin Jones,7.0,10.8,Fantasy Sharks
+RB,Jordan Howard,7.0,10.8,Fantasy Sharks
+QB,Trevor Siemian,7.0,10.6,Fantasy Sharks
+WR,Amari Cooper,7.0,10.5,Fantasy Sharks
+RB,Jay Ajayi,7.0,10.4,Fantasy Sharks
+RB,Melvin Gordon,7.0,10.3,Fantasy Sharks
+WR,Michael Crabtree,7.0,10.1,Fantasy Sharks
+RB,Matt Jones,7.0,10.1,Fantasy Sharks
+WR,Doug Baldwin,7.0,10.1,Fantasy Sharks
+WR,Brandin Cooks,7.0,10.1,Fantasy Sharks
+RB,Terrance West,7.0,10.0,Fantasy Sharks
+WR,Kenny Britt,7.0,9.8,Fantasy Sharks
+RB,C.J. Anderson,7.0,9.7,Fantasy Sharks
+TE,Jordan Reed,7.0,9.6,Fantasy Sharks
+RB,Frank Gore,7.0,9.6,Fantasy Sharks
+RB,Shaun Draughn,7.0,9.5,Fantasy Sharks
+RB,Knile Davis,7.0,9.5,Fantasy Sharks
+WR,Golden Tate,7.0,9.4,Fantasy Sharks
+TE,Zach Miller,7.0,9.3,Fantasy Sharks
+WR,Randall Cobb,7.0,9.3,Fantasy Sharks
+WR,DeAndre Hopkins,7.0,9.3,Fantasy Sharks
+RB,Jerick McKinnon,7.0,9.3,Fantasy Sharks
+WR,Larry Fitzgerald,7.0,9.2,Fantasy Sharks
+WR,T.Y. Hilton,7.0,9.1,Fantasy Sharks
+WR,Demaryius Thomas,7.0,9.1,Fantasy Sharks
+WR,Jarvis Landry,7.0,9.0,Fantasy Sharks
+RB,Tevin Coleman,7.0,8.8,Fantasy Sharks
+RB,Isaiah Crowell,7.0,8.7,Fantasy Sharks
+WR,Michael Thomas,7.0,8.6,Fantasy Sharks
+WR,Jeremy Maclin,7.0,8.5,Fantasy Sharks
+RB,Arian Foster,7.0,8.5,Fantasy Sharks
+WR,Tyrell Williams,7.0,8.5,Fantasy Sharks
+WR,Quincy Enunwa,7.0,8.4,Fantasy Sharks
+QB,Carson Palmer,7.0,8.3,Fantasy Sharks
+WR,Mike Wallace,7.0,8.3,Fantasy Sharks
+WR,Terrelle Pryor,7.0,8.3,Fantasy Sharks
+RB,Matt Forte,7.0,8.2,Fantasy Sharks
+RB,Rashad Jennings,7.0,7.9,Fantasy Sharks
+RB,Jamaal Charles,7.0,7.9,Fantasy Sharks
+WR,Allen Hurns,7.0,7.9,Fantasy Sharks
+TE,Delanie Walker,7.0,7.6,Fantasy Sharks
+RB,Theo Riddick,7.0,7.5,Fantasy Sharks
+WR,Sterling Shepard,7.0,7.5,Fantasy Sharks
+TE,Hunter Henry,7.0,7.4,Fantasy Sharks
+RB,Ryan Mathews,7.0,7.4,Fantasy Sharks
+WR,Robert Woods,7.0,7.4,Fantasy Sharks
+TE,Jack Doyle,7.0,7.4,Fantasy Sharks
+WR,Steve Smith,7.0,7.3,Fantasy Sharks
+WR,DeVante Parker,7.0,7.3,Fantasy Sharks
+WR,Torrey Smith,7.0,7.3,Fantasy Sharks
+RB,DeAngelo Williams,7.0,7.2,Fantasy Sharks
+WR,DeSean Jackson,7.0,7.2,Fantasy Sharks
+RB,James White,7.0,7.2,Fantasy Sharks
+WR,Emmanuel Sanders,7.0,7.2,Fantasy Sharks
+WR,Willie Snead,7.0,7.2,Fantasy Sharks
+WR,Stefon Diggs,7.0,7.1,Fantasy Sharks
+RB,Latavius Murray,7.0,7.1,Fantasy Sharks
+WR,Pierre Garcon,7.0,7.1,Fantasy Sharks
+TE,Gary Barnidge,7.0,6.9,Fantasy Sharks
+WR,Tavon Austin,7.0,6.8,Fantasy Sharks
+WR,Brandon LaFell,7.0,6.8,Fantasy Sharks
+WR,Jordan Matthews,7.0,6.7,Fantasy Sharks
+TE,Cameron Brate,7.0,6.7,Fantasy Sharks
+RB,Jeremy Hill,7.0,6.7,Fantasy Sharks
+WR,Anquan Boldin,7.0,6.7,Fantasy Sharks
+WR,Jamison Crowder,7.0,6.6,Fantasy Sharks
+WR,Rishard Matthews,7.0,6.6,Fantasy Sharks
+TE,Travis Kelce,7.0,6.5,Fantasy Sharks
+WR,Michael Floyd,7.0,6.4,Fantasy Sharks
+RB,Mike Gillislee,7.0,6.4,Fantasy Sharks
+TE,Coby Fleener,7.0,6.4,Fantasy Sharks
+TE,Dennis Pitta,7.0,6.4,Fantasy Sharks
+WR,Travis Benjamin,7.0,6.4,Fantasy Sharks
+TE,Jimmy Graham,7.0,6.3,Fantasy Sharks
+RB,Darren Sproles,7.0,6.2,Fantasy Sharks
+TE,Antonio Gates,7.0,6.2,Fantasy Sharks
+RB,Orleans Darkwa,7.0,6.1,Fantasy Sharks
+WR,Julian Edelman,7.0,6.1,Fantasy Sharks
+RB,Jacquizz Rodgers,7.0,6.1,Fantasy Sharks
+TE,Martellus Bennett,7.0,6.0,Fantasy Sharks
+WR,Dontrelle Inman,7.0,5.8,Fantasy Sharks
+RB,Duke Johnson,7.0,5.8,Fantasy Sharks
+TE,Zach Ertz,7.0,5.8,Fantasy Sharks
+RB,Giovani Bernard,7.0,5.6,Fantasy Sharks
+WR,Andrew Hawkins,7.0,5.6,Fantasy Sharks
+WR,Ty Montgomery,7.0,5.6,Fantasy Sharks
+RB,Don Jackson,7.0,5.5,Fantasy Sharks
+RB,Justin Forsett,7.0,5.5,Fantasy Sharks
+RB,Charcandrick West,7.0,5.4,Fantasy Sharks
+WR,Mohamed Sanu,7.0,5.4,Fantasy Sharks
+TE,Julius Thomas,7.0,5.4,Fantasy Sharks
+WR,Davante Adams,7.0,5.3,Fantasy Sharks
+WR,Jeremy Kerley,7.0,5.3,Fantasy Sharks
+WR,Sammie Coates,7.0,5.3,Fantasy Sharks
+RB,Chris Thompson,7.0,5.2,Fantasy Sharks
+WR,Seth Roberts,7.0,5.2,Fantasy Sharks
+RB,Bilal Powell,7.0,5.2,Fantasy Sharks
+WR,Adam Humphries,7.0,5.2,Fantasy Sharks
+WR,Tajae Sharpe,7.0,5.1,Fantasy Sharks
+WR,Marqise Lee,7.0,5.1,Fantasy Sharks
+WR,John Brown,7.0,5.1,Fantasy Sharks
+WR,Jermaine Kearse ,7.0,5.1,Fantasy Sharks
+TE,Kyle Rudolph,7.0,5.1,Fantasy Sharks
+WR,Chris Hogan,7.0,5.1,Fantasy Sharks
+TE,Vance McDonald,7.0,5.0,Fantasy Sharks
+WR,Tyler Lockett,7.0,4.9,Fantasy Sharks
+TE,C.J. Fiedorowicz,7.0,4.9,Fantasy Sharks
+WR,Kenny Stills,7.0,4.9,Fantasy Sharks
+WR,Will Fuller,7.0,4.8,Fantasy Sharks
+WR,Marquise Goodwin,7.0,4.7,Fantasy Sharks
+WR,Adam Thielen,7.0,4.6,Fantasy Sharks
+WR,Kendall Wright,7.0,4.6,Fantasy Sharks
+QB,Ryan Fitzpatrick,7.0,4.6,Fantasy Sharks
+RB,T.J. Yeldon,7.0,4.5,Fantasy Sharks
+RB,Tim Hightower,7.0,4.4,Fantasy Sharks
+WR,Chris Conley,7.0,4.4,Fantasy Sharks
+RB,Chris Ivory,7.0,4.3,Fantasy Sharks
+RB,Alfred Blue,7.0,4.2,Fantasy Sharks
+WR,Kamar Aiken,7.0,4.2,Fantasy Sharks
+TE,Jacob Tamme,7.0,4.2,Fantasy Sharks
+TE,Larry Donnell,7.0,4.1,Fantasy Sharks
+RB,Javorius Allen,7.0,4.1,Fantasy Sharks
+WR,Danny Amendola,7.0,4.0,Fantasy Sharks
+WR,Brian Quick,7.0,4.0,Fantasy Sharks
+WR,Victor Cruz,7.0,4.0,Fantasy Sharks
+TE,Charles Clay,7.0,4.0,Fantasy Sharks
+TE,Richard Rodgers,7.0,4.0,Fantasy Sharks
+TE,Lance Kendricks,7.0,4.0,Fantasy Sharks
+RB,Devontae Booker,7.0,4.0,Fantasy Sharks
+RB,DeAndre Washington,7.0,4.0,Fantasy Sharks
+RB,John Kuhn,7.0,3.9,Fantasy Sharks
+WR,Quinton Patton,7.0,3.9,Fantasy Sharks
+WR,Phillip Dorsett,7.0,3.9,Fantasy Sharks
+WR,Ricardo Louis,7.0,3.8,Fantasy Sharks
+RB,Derrick Henry,7.0,3.8,Fantasy Sharks
+RB,Jalen Richard,7.0,3.7,Fantasy Sharks
+RB,Matt Asiata,7.0,3.7,Fantasy Sharks
+RB,Damien Williams,7.0,3.7,Fantasy Sharks
+WR,Jalin Marshall,7.0,3.6,Fantasy Sharks
+WR,Nelson Agholor,7.0,3.6,Fantasy Sharks
+RB,Ronnie Hillman,7.0,3.6,Fantasy Sharks
+TE,Eric Ebron,7.0,3.6,Fantasy Sharks
+WR,Josh Bellamy,7.0,3.6,Fantasy Sharks
+RB,Andre Ellington,7.0,3.6,Fantasy Sharks
+WR,Brandon Coleman,7.0,3.5,Fantasy Sharks
+TE,Virgil Green,7.0,3.4,Fantasy Sharks
+WR,Andre Johnson,7.0,3.3,Fantasy Sharks
+TE,Will Tye,7.0,3.3,Fantasy Sharks
+TE,Jesse James,7.0,3.3,Fantasy Sharks
+TE,Vernon Davis,7.0,3.3,Fantasy Sharks
+RB,Kenneth Farrow,7.0,3.2,Fantasy Sharks
+RB,Joique Bell,7.0,3.2,Fantasy Sharks
+WR,Breshad Perriman,7.0,3.1,Fantasy Sharks
+TE,Clive Walford,7.0,3.1,Fantasy Sharks
+WR,Justin Hardy,7.0,3.1,Fantasy Sharks
+TE,Crockett Gillmore,7.0,3.0,Fantasy Sharks
+WR,Chester Rogers,7.0,3.0,Fantasy Sharks
+RB,C.J. Prosise,7.0,3.0,Fantasy Sharks
+WR,Albert Wilson,7.0,3.0,Fantasy Sharks
+RB,Kyle Juszczyk,7.0,2.9,Fantasy Sharks
+RB,Zach Zenner,7.0,2.9,Fantasy Sharks
+WR,Charles Johnson,7.0,2.9,Fantasy Sharks
+WR,Andre Holmes,7.0,2.8,Fantasy Sharks
+RB,Wendell Smallwood,7.0,2.8,Fantasy Sharks
+TE,Jordan Cameron,7.0,2.8,Fantasy Sharks
+WR,Dorial Green-Beckham,7.0,2.7,Fantasy Sharks
+RB,Steven Jackson,7.0,2.7,Fantasy Sharks
+RB,Robert Turbin,7.0,2.7,Fantasy Sharks
+RB,Dwayne Washington,7.0,2.6,Fantasy Sharks
+RB,Antonio Andrews,7.0,2.6,Fantasy Sharks
+TE,Brent Celek,7.0,2.6,Fantasy Sharks
+WR,Tyler Boyd,7.0,2.6,Fantasy Sharks
+WR,Eli Rogers,7.0,2.5,Fantasy Sharks
+QB,Paxton Lynch,7.0,2.5,Fantasy Sharks
+QB,Colt McCoy,7.0,2.5,Fantasy Sharks
+RB,Travaris Cadet,7.0,2.5,Fantasy Sharks
+TE,Garrett Celek,7.0,2.4,Fantasy Sharks
+RB,Bobby Rainey,7.0,2.4,Fantasy Sharks
+WR,Markus Wheaton,7.0,2.4,Fantasy Sharks
+TE,Ryan Griffin,7.0,2.3,Fantasy Sharks
+TE,Austin Hooper,7.0,2.3,Fantasy Sharks
+WR,Bennie Fowler,7.0,2.3,Fantasy Sharks
+TE,Darren Fells,7.0,2.3,Fantasy Sharks
+TE,Marcedes Lewis,7.0,2.2,Fantasy Sharks
+WR,Tyreek Hill,7.0,2.2,Fantasy Sharks
+RB,Mike Davis,7.0,2.2,Fantasy Sharks
+QB,Jimmy Garoppolo,7.0,2.1,Fantasy Sharks
+RB,Benny Cunningham,7.0,2.1,Fantasy Sharks
+WR,Russell Shepard,7.0,2.1,Fantasy Sharks
+WR,Aldrick Robinson,7.0,2.1,Fantasy Sharks
+WR,Josh Huff,7.0,2.1,Fantasy Sharks
+TE,Erik Swoope,7.0,2.1,Fantasy Sharks
+TE,Tyler Kroft,7.0,2.1,Fantasy Sharks
+WR,Jaelen Strong,7.0,1.9,Fantasy Sharks
+WR,Darrius Heyward-Bey,7.0,1.9,Fantasy Sharks
+RB,Zach Line,7.0,1.9,Fantasy Sharks
+QB,Nick Foles,7.0,1.8,Fantasy Sharks
+RB,Jamize Olawale,7.0,1.8,Fantasy Sharks
+WR,Jordan Norwood,7.0,1.8,Fantasy Sharks
+RB,Rob Kelley,7.0,1.8,Fantasy Sharks
+WR,Bryan Walters,7.0,1.8,Fantasy Sharks
+WR,Harry Douglas,7.0,1.7,Fantasy Sharks
+RB,Kenjon Barner,7.0,1.7,Fantasy Sharks
+WR,Marquess Wilson,7.0,1.7,Fantasy Sharks
+QB,AJ McCarron,7.0,1.7,Fantasy Sharks
+WR,Rashad Greene,7.0,1.7,Fantasy Sharks
+TE,Levine Toilolo,7.0,1.7,Fantasy Sharks
+WR,Devin Smith,7.0,1.7,Fantasy Sharks
+WR,Jaron Brown,7.0,1.6,Fantasy Sharks
+RB,Dexter McCluster,7.0,1.6,Fantasy Sharks
+TE,Josh Hill,7.0,1.6,Fantasy Sharks
+WR,Stedman Bailey,7.0,1.5,Fantasy Sharks
+WR,Ryan Grant,7.0,1.5,Fantasy Sharks
+WR,Justin Hunter,7.0,1.5,Fantasy Sharks
+TE,Luke Stocker,7.0,1.5,Fantasy Sharks
+WR,Pharoh Cooper,7.0,1.5,Fantasy Sharks
+WR,Jarius Wright,7.0,1.5,Fantasy Sharks
+RB,Kenyan Drake,7.0,1.5,Fantasy Sharks
+WR,Paul Richardson,7.0,1.5,Fantasy Sharks
+QB,Dan Orlovsky,7.0,1.5,Fantasy Sharks
+RB,Brandon Bolden,7.0,1.5,Fantasy Sharks
+WR,Jeremy Butler,7.0,1.5,Fantasy Sharks
+TE,Mychal Rivera,7.0,1.5,Fantasy Sharks
+WR,Robby Anderson,7.0,1.4,Fantasy Sharks
+TE,Austin Seferian-Jenkins,7.0,1.4,Fantasy Sharks
+WR,De'Anthony Thomas,7.0,1.4,Fantasy Sharks
+TE,Xavier Grimble,7.0,1.4,Fantasy Sharks
+TE,Derek Carrier,7.0,1.4,Fantasy Sharks
+WR,Cecil Shorts,7.0,1.4,Fantasy Sharks
+WR,Tanner McEvoy,7.0,1.4,Fantasy Sharks
+WR,J.J. Nelson,7.0,1.4,Fantasy Sharks
+WR,Marc Mariani,7.0,1.4,Fantasy Sharks
+WR,Corey Fuller,7.0,1.4,Fantasy Sharks
+WR,Rashad Ross,7.0,1.4,Fantasy Sharks
+RB,C.J. Spiller,7.0,1.4,Fantasy Sharks
+TE,Dion Sims,7.0,1.4,Fantasy Sharks
+WR,Dwayne Harris,7.0,1.4,Fantasy Sharks
+TE,Anthony Fasano,7.0,1.4,Fantasy Sharks
+TE,C.J. Uzomah,7.0,1.3,Fantasy Sharks
+WR,Andre Roberts,7.0,1.3,Fantasy Sharks
+WR,Wes Welker,7.0,1.3,Fantasy Sharks
+RB,Kenneth Dixon,7.0,1.3,Fantasy Sharks
+RB,Denard Robinson,7.0,1.3,Fantasy Sharks
+WR,Louis Murphy,7.0,1.3,Fantasy Sharks
+TE,Ladarius Green,7.0,1.3,Fantasy Sharks
+TE,Jermaine Gresham,7.0,1.2,Fantasy Sharks
+RB,D.J. Foster,7.0,1.2,Fantasy Sharks
+TE,Nick Vannett,7.0,1.2,Fantasy Sharks
+QB,Tom Savage,7.0,1.2,Fantasy Sharks
+RB,Josh Ferguson,7.0,1.2,Fantasy Sharks
+QB,Matt Cassel,7.0,1.2,Fantasy Sharks
+RB,Ka'Deem Carey,7.0,1.1,Fantasy Sharks
+TE,Nick O'Leary,7.0,1.1,Fantasy Sharks
+WR,Brandon Tate,7.0,1.1,Fantasy Sharks
+TE,Demetrius Harris,7.0,1.1,Fantasy Sharks
+WR,Braxton Miller,7.0,1.0,Fantasy Sharks
+WR,Taylor Gabriel,7.0,1.0,Fantasy Sharks
+RB,Alex Collins,7.0,1.0,Fantasy Sharks
+WR,Donteea Dye,7.0,1.0,Fantasy Sharks
+TE,Jeff Heuerman,7.0,1.0,Fantasy Sharks
+RB,Rex Burkhead,7.0,1.0,Fantasy Sharks
+WR,Jason Avant,7.0,0.9,Fantasy Sharks
+TE,Justin Perillo,7.0,0.9,Fantasy Sharks
+RB,Patrick DiMarco,7.0,0.9,Fantasy Sharks
+QB,Scott Tolzien,7.0,0.9,Fantasy Sharks
+QB,Blaine Gabbert,7.0,0.9,Fantasy Sharks
+WR,Arrelious Benn,7.0,0.9,Fantasy Sharks
+RB,Stepfan Taylor,7.0,0.8,Fantasy Sharks
+QB,Ryan Mallett,7.0,0.8,Fantasy Sharks
+TE,Brandon Myers,7.0,0.8,Fantasy Sharks
+TE,Daniel Fells,7.0,0.8,Fantasy Sharks
+QB,Trevone Boykin,7.0,0.8,Fantasy Sharks
+WR,Malcolm Mitchell,7.0,0.7,Fantasy Sharks
+WR,Tommylee Lewis,7.0,0.7,Fantasy Sharks
+QB,Zach Mettenberger,7.0,0.7,Fantasy Sharks
+TE,Rhett Ellison,7.0,0.7,Fantasy Sharks
+RB,Fitzgerald Toussaint,7.0,0.7,Fantasy Sharks
+TE,MarQueis Gray,7.0,0.7,Fantasy Sharks
+WR,Cody Latimer,7.0,0.7,Fantasy Sharks
+WR,Rod Streater,7.0,0.7,Fantasy Sharks
+TE,Blake Bell,7.0,0.6,Fantasy Sharks
+WR,Jeff Janis,7.0,0.6,Fantasy Sharks
+WR,Brandon Gibson,7.0,0.6,Fantasy Sharks
+RB,Troymaine Pope,7.0,0.6,Fantasy Sharks
+RB,Tyler Ervin,7.0,0.6,Fantasy Sharks
+WR,Griff Whalen,7.0,0.6,Fantasy Sharks
+RB,Daniel Lasco,7.0,0.6,Fantasy Sharks
+RB,Lorenzo Taliaferro,7.0,0.6,Fantasy Sharks
+QB,Kevin Hogan,7.0,0.6,Fantasy Sharks
+RB,Malcolm Brown,7.0,0.6,Fantasy Sharks
+TE,Seth DeValve,7.0,0.6,Fantasy Sharks
+QB,Kellen Clemens,7.0,0.5,Fantasy Sharks
+TE,Phillip Supernaw,7.0,0.5,Fantasy Sharks
+QB,Shaun Hill,7.0,0.5,Fantasy Sharks
+TE,Jace Amaro,7.0,0.5,Fantasy Sharks
+RB,Peyton Barber,7.0,0.5,Fantasy Sharks
+WR,Andre Caldwell,7.0,0.5,Fantasy Sharks
+TE,Tyler Higbee,7.0,0.5,Fantasy Sharks
+TE,Stephen Anderson,7.0,0.5,Fantasy Sharks
+WR,Laquon Treadwell,7.0,0.5,Fantasy Sharks
+RB,Taiwan Jones,7.0,0.5,Fantasy Sharks
+RB,Reggie Bush,7.0,0.4,Fantasy Sharks
+TE,Niles Paul,7.0,0.4,Fantasy Sharks
+TE,MyCole Pruitt,7.0,0.4,Fantasy Sharks
+WR,Charone Peake,7.0,0.4,Fantasy Sharks
+WR,Rashard Higgins,7.0,0.4,Fantasy Sharks
+WR,Chris Moore,7.0,0.4,Fantasy Sharks
+QB,Connor Shaw,7.0,0.4,Fantasy Sharks
+TE,David Johnson,7.0,0.4,Fantasy Sharks
+WR,Marcus Easley,7.0,0.4,Fantasy Sharks
+WR,Keith Mumphery,7.0,0.4,Fantasy Sharks
+WR,Bradley Marquez,7.0,0.4,Fantasy Sharks
+TE,Cole Wick,7.0,0.4,Fantasy Sharks
+TE,Clay Harbor,7.0,0.4,Fantasy Sharks
+TE,John Phillips,7.0,0.3,Fantasy Sharks
+WR,Leonte Carroo,7.0,0.3,Fantasy Sharks
+WR,Cody Core,7.0,0.3,Fantasy Sharks
+WR,James Wright,7.0,0.3,Fantasy Sharks
+RB,Kapri Bibbs,7.0,0.3,Fantasy Sharks
+WR,Chris Owusu,7.0,0.3,Fantasy Sharks
+WR,Deonte Thompson,7.0,0.3,Fantasy Sharks
+QB,E.J. Manuel,7.0,0.3,Fantasy Sharks
+QB,Matt McGloin,7.0,0.2,Fantasy Sharks
+TE,Brandon Pettigrew,7.0,0.2,Fantasy Sharks
+TE,Logan Paulsen,7.0,0.2,Fantasy Sharks
+WR,Isaiah Burse,7.0,0.2,Fantasy Sharks
+QB,Ryan Nassib,7.0,0.2,Fantasy Sharks
+WR,Alex Erickson,7.0,0.2,Fantasy Sharks
+RB,Paul Perkins,7.0,0.2,Fantasy Sharks
+WR,Johnny Holton,7.0,0.2,Fantasy Sharks
+TE,Sean McGrath,7.0,0.2,Fantasy Sharks
+WR,Eric Weems,7.0,0.2,Fantasy Sharks
+QB,Mike Glennon,7.0,0.2,Fantasy Sharks
+TE,James O'Shaughnessy,7.0,0.1,Fantasy Sharks
+TE,Kellen Davis,7.0,0.1,Fantasy Sharks
+TE,Neal Sterling,7.0,0.1,Fantasy Sharks
+WR,Walter Powell,7.0,0.1,Fantasy Sharks
+RB,Anthony Sherman,7.0,0.1,Fantasy Sharks
+QB,Matt Moore,7.0,0.1,Fantasy Sharks
+TE,Trey Burton,7.0,0.1,Fantasy Sharks
+TE,David Morgan,7.0,0.1,Fantasy Sharks
+WR,Aaron Burbridge,7.0,0.1,Fantasy Sharks
+WR,Cordarrelle Patterson,7.0,0.1,Fantasy Sharks
+RB,Jonathan Williams,7.0,0.1,Fantasy Sharks
+WR,Jordan Payton,7.0,0.09,Fantasy Sharks
+WR,Nelson Spruce,7.0,0.06,Fantasy Sharks
+WR,Seyi Ajirotutu,7.0,0.05,Fantasy Sharks
+TE,Darren Waller,7.0,0.05,Fantasy Sharks
+TE,Ben Koyack,7.0,0.05,Fantasy Sharks
+WR,Matt Slater,7.0,0.04,Fantasy Sharks
+TE,Garrett Graham,7.0,0.04,Fantasy Sharks
+QB,T.J. Yates,7.0,0.03,Fantasy Sharks
+QB,Bruce Gradkowski,7.0,0.02,Fantasy Sharks
+WR,Greg Little,7.0,0.02,Fantasy Sharks
+RB,Aaron Ripkowski,7.0,0.01,Fantasy Sharks
+TE,Brandon Bostick,7.0,0.01,Fantasy Sharks
+RB,Jordan Todman,7.0,0.01,Fantasy Sharks
+WR,Tavarres King,7.0,0.01,Fantasy Sharks
+QB,Luke McCown,7.0,0.0,Fantasy Sharks
+TE,Temarrick Hemingway,7.0,0.0,Fantasy Sharks
+QB,Brandon Weeden,7.0,-0.0,Fantasy Sharks
+WR,Trevor Davis,7.0,-0.0,Fantasy Sharks
+WR,Kolby Listenbee,7.0,-0.01,Fantasy Sharks
+QB,Brett Hundley,7.0,-0.01,Fantasy Sharks
+QB,Chase Daniel,7.0,-0.02,Fantasy Sharks
+RB,George Atkinson,7.0,-0.02,Fantasy Sharks
+RB,Corey Grant,7.0,-0.06,Fantasy Sharks
+QB,Matt Schaub,7.0,-0.08,Fantasy Sharks
+RB,Malcolm Johnson,7.0,-0.08,Fantasy Sharks
+WR,Devin Hester,7.0,-0.18,Fantasy Sharks
+WR,Chris Harper,7.0,-0.21,Fantasy Sharks
+WR,Jordan Taylor,7.0,-0.21,Fantasy Sharks
+QB,Drew Stanton,7.0,-0.48,Fantasy Sharks
+K,Mason Crosby,7.0,9.6,Fantasy Sharks
+K,Adam Vinatieri,7.0,9.6,Fantasy Sharks
+K,Matt Bryant,7.0,9.5,Fantasy Sharks
+K,Brandon McManus,7.0,9.4,Fantasy Sharks
+K,Justin Tucker,7.0,9.4,Fantasy Sharks
+K,Dustin Hopkins,7.0,9.0,Fantasy Sharks
+K,Stephen Gostkowski,7.0,8.7,Fantasy Sharks
+K,Josh Lambo,7.0,8.4,Fantasy Sharks
+K,Steven Hauschka,7.0,8.2,Fantasy Sharks
+K,Matt Prater,7.0,8.1,Fantasy Sharks
+K,Sebastian Janikowski,7.0,8.0,Fantasy Sharks
+K,Mike Nugent,7.0,7.9,Fantasy Sharks
+K,Cairo Santos,7.0,7.9,Fantasy Sharks
+K,Caleb Sturgis,7.0,7.9,Fantasy Sharks
+K,Dan Carpenter,7.0,7.8,Fantasy Sharks
+K,Greg Zuerlein,7.0,7.8,Fantasy Sharks
+K,Josh Brown,7.0,7.7,Fantasy Sharks
+K,Connor Barth,7.0,7.5,Fantasy Sharks
+K,Jason Myers,7.0,7.4,Fantasy Sharks
+K,Ryan Succop,7.0,7.3,Fantasy Sharks
+K,Nick Novak,7.0,7.1,Fantasy Sharks
+K,Blair Walsh,7.0,7.0,Fantasy Sharks
+K,Chris Boswell,7.0,6.6,Fantasy Sharks
+K,Roberto Aguayo,7.0,6.3,Fantasy Sharks
+K,Chandler Catanzaro,7.0,6.3,Fantasy Sharks
+K,Phil Dawson,7.0,6.2,Fantasy Sharks
+K,Nick Folk,7.0,6.2,Fantasy Sharks
+K,Wil Lutz,7.0,5.9,Fantasy Sharks
+K,Cody Parkey,7.0,5.8,Fantasy Sharks
+K,Andrew Franks,7.0,5.1,Fantasy Sharks
+DEF,Buffalo Bills,7.0,15.8,Fantasy Sharks
+DEF,Denver Broncos,7.0,11.2,Fantasy Sharks
+DEF,Seattle Seahawks,7.0,10.7,Fantasy Sharks
+DEF,Minnesota Vikings,7.0,10.5,Fantasy Sharks
+DEF,Arizona Cardinals,7.0,9.1,Fantasy Sharks
+DEF,Kansas City Chiefs,7.0,8.2,Fantasy Sharks
+DEF,Baltimore Ravens,7.0,7.7,Fantasy Sharks
+DEF,Green Bay Packers,7.0,7.6,Fantasy Sharks
+DEF,Tennessee Titans,7.0,7.5,Fantasy Sharks
+DEF,St. Louis Rams,7.0,7.4,Fantasy Sharks
+DEF,Philadelphia Eagles,7.0,6.9,Fantasy Sharks
+DEF,Washington Redskins,7.0,6.9,Fantasy Sharks
+DEF,Cincinnati Bengals,7.0,6.9,Fantasy Sharks
+DEF,Tampa Bay Buccaneers,7.0,6.3,Fantasy Sharks
+DEF,San Francisco 49ers,7.0,5.9,Fantasy Sharks
+DEF,Oakland Raiders,7.0,5.8,Fantasy Sharks
+DEF,New Orleans Saints,7.0,5.7,Fantasy Sharks
+DEF,Houston Texans,7.0,5.6,Fantasy Sharks
+DEF,Atlanta Falcons,7.0,5.6,Fantasy Sharks
+DEF,Chicago Bears,7.0,5.2,Fantasy Sharks
+DEF,Cleveland Browns,7.0,5.1,Fantasy Sharks
+DEF,New England Patriots,7.0,4.8,Fantasy Sharks
+DEF,New York Giants,7.0,4.2,Fantasy Sharks
+DEF,San Diego Chargers,7.0,4.0,Fantasy Sharks
+DEF,Detroit Lions,7.0,3.9,Fantasy Sharks
+DEF,New York Jets,7.0,3.7,Fantasy Sharks
+DEF,Miami Dolphins,7.0,3.5,Fantasy Sharks
+DEF,Pittsburgh Steelers,7.0,2.7,Fantasy Sharks
+DEF,Indianapolis Colts,7.0,2.7,Fantasy Sharks
+DEF,Jacksonville Jaguars,7.0,2.4,Fantasy Sharks
+QB,Tom Brady,7.0,19.5,ESPN
+QB,Aaron Rodgers,7.0,19.2,ESPN
+QB,Matt Ryan,7.0,19.0,ESPN
+QB,Blake Bortles,7.0,18.8,ESPN
+QB,Andy Dalton,7.0,18.2,ESPN
+QB,Kirk Cousins,7.0,17.5,ESPN
+QB,Matthew Stafford,7.0,17.4,ESPN
+QB,Alex Smith,7.0,17.3,ESPN
+QB,Philip Rivers,7.0,17.3,ESPN
+QB,Drew Brees,7.0,16.9,ESPN
+QB,Tyrod Taylor,7.0,16.5,ESPN
+QB,Andrew Luck,7.0,16.5,ESPN
+QB,Jameis Winston,7.0,15.8,ESPN
+QB,Colin Kaepernick,7.0,15.5,ESPN
+QB,Marcus Mariota,7.0,15.5,ESPN
+QB,Brian Hoyer,7.0,15.2,ESPN
+QB,Russell Wilson,7.0,14.9,ESPN
+QB,Joe Flacco,7.0,14.8,ESPN
+QB,Derek Carr,7.0,14.8,ESPN
+QB,Eli Manning,7.0,13.6,ESPN
+QB,Carson Palmer,7.0,13.3,ESPN
+QB,Carson Wentz,7.0,13.1,ESPN
+QB,Ryan Tannehill,7.0,12.4,ESPN
+QB,Landry Jones,7.0,12.4,ESPN
+QB,Sam Bradford,7.0,11.8,ESPN
+QB,Geno Smith,7.0,11.5,ESPN
+QB,Trevor Siemian,7.0,11.1,ESPN
+QB,Cody Kessler,7.0,10.8,ESPN
+QB,Brock Osweiler,7.0,10.1,ESPN
+QB,Case Keenum,7.0,9.7,ESPN
+QB,Matt Schaub,7.0,0.0,ESPN
+QB,Brett Hundley,7.0,0.0,ESPN
+QB,Chad Henne,7.0,0.0,ESPN
+QB,Matt Cassel,7.0,0.0,ESPN
+QB,Mike Glennon,7.0,0.0,ESPN
+QB,EJ Manuel,7.0,0.0,ESPN
+QB,AJ McCarron,7.0,0.0,ESPN
+QB,Jimmy Garoppolo,7.0,0.0,ESPN
+QB,Dan Orlovsky,7.0,0.0,ESPN
+QB,Matt McGloin,7.0,0.0,ESPN
+RB,DeMarco Murray,7.0,17.0,ESPN
+RB,LeSean McCoy,7.0,15.6,ESPN
+RB,Le'Veon Bell,7.0,13.1,ESPN
+RB,David Johnson,7.0,12.9,ESPN
+RB,Devonta Freeman,7.0,12.7,ESPN
+RB,Spencer Ware,7.0,12.7,ESPN
+RB,Todd Gurley,7.0,12.3,ESPN
+RB,Melvin Gordon,7.0,11.9,ESPN
+RB,C.J. Anderson,7.0,11.5,ESPN
+RB,Lamar Miller,7.0,11.3,ESPN
+RB,Theo Riddick,7.0,10.9,ESPN
+RB,Jacquizz Rodgers,7.0,10.9,ESPN
+RB,Christine Michael,7.0,10.8,ESPN
+RB,Mark Ingram,7.0,10.4,ESPN
+RB,Isaiah Crowell,7.0,10.2,ESPN
+RB,Jeremy Hill,7.0,10.0,ESPN
+RB,Frank Gore,7.0,9.8,ESPN
+RB,Matt Jones,7.0,9.8,ESPN
+RB,Giovani Bernard,7.0,9.6,ESPN
+RB,Mike Davis,7.0,9.3,ESPN
+RB,Jordan Howard,7.0,9.2,ESPN
+RB,Tevin Coleman,7.0,9.1,ESPN
+RB,Jay Ajayi,7.0,9.1,ESPN
+RB,LeGarrette Blount,7.0,8.7,ESPN
+RB,Terrance West,7.0,8.6,ESPN
+RB,Jerick McKinnon,7.0,8.6,ESPN
+RB,Matt Forte,7.0,8.3,ESPN
+RB,Latavius Murray,7.0,8.3,ESPN
+RB,James White,7.0,8.3,ESPN
+RB,T.J. Yeldon,7.0,8.2,ESPN
+RB,Rashad Jennings,7.0,7.7,ESPN
+RB,Jamaal Charles,7.0,7.6,ESPN
+RB,Duke Johnson Jr.,7.0,6.6,ESPN
+RB,Chris Ivory,7.0,6.5,ESPN
+RB,Shaun Draughn,7.0,6.5,ESPN
+RB,Ryan Mathews,7.0,5.6,ESPN
+RB,Matt Asiata,7.0,5.5,ESPN
+RB,Darren Sproles,7.0,5.4,ESPN
+RB,Chris Thompson,7.0,5.3,ESPN
+RB,Bilal Powell,7.0,5.3,ESPN
+WR,Allen Robinson,7.0,13.2,ESPN
+WR,T.Y. Hilton,7.0,12.7,ESPN
+WR,Julio Jones,7.0,12.5,ESPN
+WR,Jordy Nelson,7.0,12.2,ESPN
+WR,A.J. Green,7.0,12.0,ESPN
+WR,Odell Beckham Jr.,7.0,12.0,ESPN
+WR,Mike Evans,7.0,11.6,ESPN
+WR,Antonio Brown,7.0,11.2,ESPN
+WR,Alshon Jeffery,7.0,10.3,ESPN
+WR,Amari Cooper,7.0,10.0,ESPN
+WR,Brandin Cooks,7.0,9.5,ESPN
+WR,Jarvis Landry,7.0,9.1,ESPN
+WR,Randall Cobb,7.0,9.0,ESPN
+WR,DeSean Jackson,7.0,9.0,ESPN
+WR,Jeremy Maclin,7.0,8.9,ESPN
+WR,Marvin Jones,7.0,8.8,ESPN
+WR,Julian Edelman,7.0,8.8,ESPN
+WR,Stefon Diggs,7.0,8.7,ESPN
+WR,Pierre Garcon,7.0,8.5,ESPN
+WR,Tyrell Williams,7.0,8.5,ESPN
+WR,Allen Hurns,7.0,8.5,ESPN
+WR,Larry Fitzgerald,7.0,8.4,ESPN
+WR,Terrelle Pryor,7.0,8.4,ESPN
+WR,Brandon Marshall,7.0,8.3,ESPN
+WR,Emmanuel Sanders,7.0,8.1,ESPN
+WR,Cameron Meredith,7.0,8.0,ESPN
+WR,Michael Crabtree,7.0,8.0,ESPN
+WR,Mohamed Sanu,7.0,8.0,ESPN
+WR,Doug Baldwin,7.0,7.9,ESPN
+WR,Willie Snead,7.0,7.9,ESPN
+WR,DeAndre Hopkins,7.0,7.8,ESPN
+WR,Mike Wallace,7.0,7.7,ESPN
+WR,Kenny Britt,7.0,7.6,ESPN
+WR,Robert Woods,7.0,7.4,ESPN
+WR,Golden Tate,7.0,7.2,ESPN
+WR,Travis Benjamin,7.0,7.2,ESPN
+WR,Demaryius Thomas,7.0,7.1,ESPN
+WR,Anquan Boldin,7.0,7.1,ESPN
+WR,John Brown,7.0,6.8,ESPN
+WR,Jeremy Kerley,7.0,6.7,ESPN
+TE,Rob Gronkowski,7.0,12.3,ESPN
+TE,Antonio Gates,7.0,7.9,ESPN
+TE,Vernon Davis,7.0,7.5,ESPN
+TE,Zach Miller,7.0,6.9,ESPN
+TE,Travis Kelce,7.0,6.8,ESPN
+TE,Delanie Walker,7.0,6.7,ESPN
+TE,Dennis Pitta,7.0,6.6,ESPN
+TE,Martellus Bennett,7.0,6.5,ESPN
+TE,Cameron Brate,7.0,6.2,ESPN
+TE,Jimmy Graham,7.0,6.2,ESPN
+TE,Hunter Henry,7.0,6.2,ESPN
+TE,Julius Thomas,7.0,5.9,ESPN
+TE,Charles Clay,7.0,5.9,ESPN
+TE,Zach Ertz,7.0,5.4,ESPN
+TE,Gary Barnidge,7.0,5.2,ESPN
+TE,Jack Doyle,7.0,5.1,ESPN
+TE,Coby Fleener,7.0,4.7,ESPN
+TE,Kyle Rudolph,7.0,4.7,ESPN
+TE,Tyler Eifert,7.0,4.4,ESPN
+TE,Lance Kendricks,7.0,4.2,ESPN
+TE,Richard Rodgers,7.0,3.9,ESPN
+TE,Jesse James,7.0,3.9,ESPN
+TE,Jacob Tamme,7.0,3.8,ESPN
+TE,Clive Walford,7.0,3.6,ESPN
+TE,Clay Harbor,7.0,3.4,ESPN
+TE,Virgil Green,7.0,3.3,ESPN
+TE,C.J. Uzomah,7.0,3.1,ESPN
+TE,C.J. Fiedorowicz,7.0,3.0,ESPN
+TE,Dion Sims,7.0,2.9,ESPN
+TE,Levine Toilolo,7.0,2.0,ESPN
+TE,Marcedes Lewis,7.0,2.0,ESPN
+TE,Erik Swoope,7.0,2.0,ESPN
+TE,Will Tye,7.0,1.9,ESPN
+TE,Josh Hill,7.0,1.9,ESPN
+TE,Larry Donnell,7.0,1.9,ESPN
+TE,Vance McDonald,7.0,1.9,ESPN
+TE,Darren Fells,7.0,1.8,ESPN
+TE,Garrett Celek,7.0,1.7,ESPN
+TE,Niles Paul,7.0,1.7,ESPN
+TE,Stephen Anderson,7.0,1.5,ESPN
+DEF,Broncos ,7.0,10.7,ESPN
+DEF,Giants ,7.0,10.5,ESPN
+DEF,Ravens ,7.0,10.4,ESPN
+DEF,Seahawks ,7.0,8.4,ESPN
+DEF,Patriots ,7.0,8.2,ESPN
+DEF,Raiders ,7.0,8.0,ESPN
+DEF,Bengals ,7.0,8.0,ESPN
+DEF,Bills ,7.0,7.9,ESPN
+DEF,Vikings ,7.0,7.9,ESPN
+DEF,Cardinals ,7.0,7.8,ESPN
+DEF,Buccaneers ,7.0,7.7,ESPN
+DEF,Jets ,7.0,7.4,ESPN
+DEF,Jaguars ,7.0,7.2,ESPN
+DEF,Rams ,7.0,7.1,ESPN
+DEF,Texans ,7.0,6.9,ESPN
+DEF,Falcons ,7.0,6.8,ESPN
+DEF,Titans ,7.0,6.6,ESPN
+DEF,Packers ,7.0,6.4,ESPN
+DEF,Lions ,7.0,6.3,ESPN
+DEF,Colts ,7.0,6.3,ESPN
+DEF,Bears ,7.0,6.3,ESPN
+DEF,Eagles ,7.0,6.3,ESPN
+DEF,49ers ,7.0,6.2,ESPN
+DEF,Dolphins ,7.0,6.0,ESPN
+DEF,Chiefs ,7.0,5.9,ESPN
+DEF,Redskins ,7.0,5.2,ESPN
+DEF,Chargers ,7.0,5.2,ESPN
+DEF,Browns ,7.0,4.5,ESPN
+DEF,Saints ,7.0,3.9,ESPN
+DEF,Steelers ,7.0,2.5,ESPN
+QB,Kellen Clemens,7.0,0.0,ESPN
+QB,Zach Mettenberger,7.0,0.0,ESPN
+QB,Scott Tolzien,7.0,0.0,ESPN
+QB,Colt McCoy,7.0,0.0,ESPN
+QB,Ryan Fitzpatrick,7.0,0.0,ESPN
+QB,Ryan Nassib,7.0,0.0,ESPN
+QB,Drew Stanton,7.0,0.0,ESPN
+QB,Luke McCown,7.0,0.0,ESPN
+QB,Nick Foles,7.0,0.0,ESPN
+QB,Paxton Lynch,7.0,0.0,ESPN
+QB,Blaine Gabbert,7.0,0.0,ESPN
+QB,Chase Daniel,7.0,0.0,ESPN
+QB,Matt Barkley,7.0,0.0,ESPN
+QB,Trevone Boykin,7.0,0.0,ESPN
+QB,Tom Savage,7.0,0.0,ESPN
+QB,Ryan Mallett,7.0,0.0,ESPN
+QB,Shaun Hill,7.0,0.0,ESPN
+QB,Matt Moore,7.0,0.0,ESPN
+QB,Jared Goff,7.0,0.0,ESPN
+QB,Josh McCown,7.0,0.0,ESPN
+QB,Mike Vick,7.0,0.0,ESPN
+QB,Ben Roethlisberger,7.0,0.0,ESPN
+QB,Jay Cutler,7.0,0.0,ESPN
+QB,Tarvaris Jackson,7.0,0.0,ESPN
+QB,Charlie Whitehurst,7.0,0.0,ESPN
+QB,Bruce Gradkowski,7.0,0.0,ESPN
+QB,Josh Javon Johnson,7.0,0.0,ESPN
+QB,Matt Flynn,7.0,0.0,ESPN
+QB,Josh Freeman,7.0,0.0,ESPN
+QB,Jimmy Clausen,7.0,0.0,ESPN
+QB,Dan LeFevour,7.0,0.0,ESPN
+QB,Thaddeus Lewis,7.0,0.0,ESPN
+QB,Christian Ponder,7.0,0.0,ESPN
+QB,T.J. Yates,7.0,0.0,ESPN
+RB,DeAndre Washington,7.0,4.7,ESPN
+RB,Don Xzaviar Jackson,7.0,4.5,ESPN
+RB,Devontae Booker,7.0,4.3,ESPN
+RB,Bobby Rainey,7.0,4.2,ESPN
+RB,Jalen Richard,7.0,3.6,ESPN
+RB,Arian Foster,7.0,3.2,ESPN
+RB,Peyton Barber,7.0,3.1,ESPN
+RB,Derrick Henry,7.0,3.1,ESPN
+RB,Dwayne Washington,7.0,3.1,ESPN
+RB,Kenneth Dixon,7.0,2.8,ESPN
+RB,C.J. Spiller,7.0,2.7,ESPN
+RB,Kyle Juszczyk,7.0,2.7,ESPN
+RB,Justin Forsett,7.0,2.7,ESPN
+RB,Mike Gillislee,7.0,1.8,ESPN
+RB,DuJuan Harris,7.0,1.8,ESPN
+RB,Robert Kelley,7.0,1.8,ESPN
+RB,Robert Turbin,7.0,1.8,ESPN
+RB,Dexter McCluster,7.0,1.8,ESPN
+RB,Ka'Deem Carey,7.0,1.7,ESPN
+RB,Knile Davis,7.0,1.7,ESPN
+RB,Paul Perkins,7.0,1.7,ESPN
+RB,Tim Hightower,7.0,1.6,ESPN
+RB,Wendell Smallwood,7.0,1.6,ESPN
+RB,Andre Ellington,7.0,1.6,ESPN
+RB,Travaris Cadet,7.0,1.6,ESPN
+RB,Josh Ferguson,7.0,1.5,ESPN
+RB,DeAngelo Williams,7.0,1.5,ESPN
+RB,Damien Williams,7.0,1.5,ESPN
+RB,Alfred Blue,7.0,1.3,ESPN
+RB,John Kuhn,7.0,0.7,ESPN
+RB,Charcandrick West,7.0,0.7,ESPN
+RB,Aaron Ripkowski,7.0,0.6,ESPN
+RB,Jamize Olawale,7.0,0.5,ESPN
+RB,Daniel Lasco,7.0,0.5,ESPN
+RB,Patrick DiMarco,7.0,0.5,ESPN
+RB,Alex Collins,7.0,0.4,ESPN
+RB,Jerome Felton,7.0,0.4,ESPN
+RB,Tyler Ervin,7.0,0.4,ESPN
+RB,Kenneth Farrow,7.0,0.3,ESPN
+RB,Antone Smith,7.0,0.3,ESPN
+WR,Jordan Matthews,7.0,6.7,ESPN
+WR,DeVante Parker,7.0,6.7,ESPN
+WR,Ty Montgomery,7.0,6.4,ESPN
+WR,Will Fuller V,7.0,6.4,ESPN
+WR,Breshad Perriman,7.0,6.3,ESPN
+WR,Michael Thomas,7.0,6.2,ESPN
+WR,Kamar Aiken,7.0,6.2,ESPN
+WR,Jamison Crowder,7.0,6.0,ESPN
+WR,Marqise Lee,7.0,5.9,ESPN
+WR,Quincy Enunwa,7.0,5.8,ESPN
+WR,Sammie Coates,7.0,5.7,ESPN
+WR,Chris Hogan,7.0,5.7,ESPN
+WR,Torrey Smith,7.0,5.7,ESPN
+WR,Brandon LaFell,7.0,5.5,ESPN
+WR,Sterling Shepard,7.0,5.5,ESPN
+WR,Tavon Austin,7.0,5.5,ESPN
+WR,Michael Floyd,7.0,5.5,ESPN
+WR,Marquise Goodwin,7.0,5.5,ESPN
+WR,Tyler Lockett,7.0,5.4,ESPN
+WR,Phillip Dorsett,7.0,5.4,ESPN
+WR,Victor Cruz,7.0,5.2,ESPN
+WR,Adam Thielen,7.0,5.1,ESPN
+WR,Tajae Sharpe,7.0,5.1,ESPN
+WR,Adam Humphries,7.0,5.0,ESPN
+WR,Rishard Matthews,7.0,4.5,ESPN
+WR,Eli Rogers,7.0,4.3,ESPN
+WR,Chester Rogers,7.0,4.2,ESPN
+WR,Chris Conley,7.0,4.2,ESPN
+WR,Dorial Green-Beckham,7.0,4.2,ESPN
+WR,Quinton Patton,7.0,4.2,ESPN
+WR,Kendall Wright,7.0,4.2,ESPN
+WR,Dontrelle Inman,7.0,4.2,ESPN
+WR,Jermaine Kearse,7.0,4.1,ESPN
+WR,Nelson Agholor,7.0,4.1,ESPN
+WR,Cordarrelle Patterson,7.0,4.1,ESPN
+WR,Tyler Boyd,7.0,4.1,ESPN
+WR,Brian Quick,7.0,4.1,ESPN
+WR,Ricardo Louis,7.0,4.0,ESPN
+WR,Kenny Stills,7.0,3.8,ESPN
+WR,Joshua Bellamy,7.0,3.8,ESPN
+TE,Ryan Griffin,7.0,1.5,ESPN
+TE,Demetrius Harris,7.0,1.5,ESPN
+TE,Crockett Gillmore,7.0,1.5,ESPN
+TE,Trey Burton,7.0,1.4,ESPN
+TE,MarQueis Gray,7.0,1.4,ESPN
+TE,Anthony Fasano,7.0,0.7,ESPN
+TE,Austin Hooper,7.0,0.6,ESPN
+TE,Justin Perillo,7.0,0.5,ESPN
+TE,Nick O'Leary,7.0,0.5,ESPN
+TE,Xavier Grimble,7.0,0.4,ESPN
+TE,Austin Seferian-Jenkins,7.0,0.4,ESPN
+TE,Mychal Rivera,7.0,0.4,ESPN
+TE,Jermaine Gresham,7.0,0.3,ESPN
+TE,Khari Lee,7.0,0.3,ESPN
+TE,Blake Bell,7.0,0.3,ESPN
+TE,Brandon Myers,7.0,0.3,ESPN
+TE,Phillip Supernaw,7.0,0.3,ESPN
+TE,Dominique Jones,7.0,0.3,ESPN
+TE,Tyler Higbee,7.0,0.2,ESPN
+TE,MyCole Pruitt,7.0,0.2,ESPN
+TE,John Phillips,7.0,0.2,ESPN
+TE,Logan Paulsen,7.0,0.2,ESPN
+TE,Nick Vannett,7.0,0.2,ESPN
+TE,Brent Celek,7.0,0.2,ESPN
+TE,David Johnson,7.0,0.1,ESPN
+TE,Luke Stocker,7.0,0.1,ESPN
+TE,Tyler Kroft,7.0,0.1,ESPN
+TE,Kellen Davis,7.0,0.1,ESPN
+TE,Brandon Bostick,7.0,0.1,ESPN
+TE,Rhett Ellison,7.0,0.1,ESPN
+TE,Kellen Winslow,7.0,0.0,ESPN
+TE,Benjamin Watson,7.0,0.0,ESPN
+TE,Alex Smith,7.0,0.0,ESPN
+TE,Owen Daniels,7.0,0.0,ESPN
+TE,Daniel Fells,7.0,0.0,ESPN
+TE,Matt Spaeth,7.0,0.0,ESPN
+TE,Scott Chandler,7.0,0.0,ESPN
+TE,Clark Harris,7.0,0.0,ESPN
+RB,Benjamin Cunningham,7.0,0.3,ESPN
+RB,Derek Watt,7.0,0.3,ESPN
+RB,Andy Janovich,7.0,0.3,ESPN
+RB,Javorius Allen,7.0,0.3,ESPN
+RB,Kenjon Barner,7.0,0.2,ESPN
+RB,Stepfan Taylor,7.0,0.2,ESPN
+RB,Malcolm Johnson,7.0,0.2,ESPN
+RB,Reggie Bush,7.0,0.2,ESPN
+RB,Zach Line,7.0,0.2,ESPN
+RB,Zach Zenner,7.0,0.2,ESPN
+RB,Anthony Sherman,7.0,0.1,ESPN
+RB,Jonathan Williams,7.0,0.1,ESPN
+RB,D.J. Foster,7.0,0.1,ESPN
+RB,Marcus Murphy,7.0,0.1,ESPN
+RB,Rex Burkhead,7.0,0.1,ESPN
+RB,Jay Prosch,7.0,0.1,ESPN
+RB,Fitzgerald Toussaint,7.0,0.1,ESPN
+RB,Jordan Todman,7.0,0.0,ESPN
+RB,Corey Grant,7.0,0.0,ESPN
+RB,George Atkinson III,7.0,0.0,ESPN
+RB,Taiwan Jones,7.0,0.0,ESPN
+RB,Malcolm Brown,7.0,0.0,ESPN
+RB,Antonio Andrews,7.0,0.0,ESPN
+RB,Kenyan Drake,7.0,0.0,ESPN
+RB,Steven Jackson,7.0,0.0,ESPN
+RB,Fred Jackson,7.0,0.0,ESPN
+RB,Adrian Peterson,7.0,0.0,ESPN
+RB,Marshawn Lynch,7.0,0.0,ESPN
+RB,Ahmad Bradshaw,7.0,0.0,ESPN
+RB,Pierre Thomas,7.0,0.0,ESPN
+RB,Chris Johnson,7.0,0.0,ESPN
+RB,Marcel Reece,7.0,0.0,ESPN
+RB,Danny Woodhead,7.0,0.0,ESPN
+RB,Donald Brown,7.0,0.0,ESPN
+RB,Jorvorskie Lane,7.0,0.0,ESPN
+WR,Andrew Hawkins,7.0,3.6,ESPN
+WR,Seth Roberts,7.0,3.6,ESPN
+WR,Jeff Janis,7.0,3.5,ESPN
+WR,Andre Johnson,7.0,3.4,ESPN
+WR,Cecil Shorts III,7.0,3.2,ESPN
+WR,Jaron Brown,7.0,3.1,ESPN
+WR,Tyreek Hill,7.0,3.1,ESPN
+WR,Justin Hunter,7.0,3.1,ESPN
+WR,Robby Anderson,7.0,2.8,ESPN
+WR,Albert Wilson,7.0,2.6,ESPN
+WR,Andre Roberts,7.0,2.0,ESPN
+WR,Justin Hardy,7.0,1.7,ESPN
+WR,Jalin Marshall,7.0,1.7,ESPN
+WR,Deonte Thompson,7.0,1.7,ESPN
+WR,Taylor Gabriel,7.0,1.7,ESPN
+WR,Andre Holmes,7.0,1.6,ESPN
+WR,Danny Amendola,7.0,1.6,ESPN
+WR,Aldrick Robinson,7.0,1.6,ESPN
+WR,Jordan Norwood,7.0,1.6,ESPN
+WR,Charles Johnson,7.0,1.5,ESPN
+WR,Griff Whalen,7.0,1.4,ESPN
+WR,Braxton Miller,7.0,1.4,ESPN
+WR,Charone Peake,7.0,1.4,ESPN
+WR,Chris Moore,7.0,1.4,ESPN
+WR,Tommylee Lewis,7.0,0.6,ESPN
+WR,Walter Powell,7.0,0.4,ESPN
+WR,Bennie Fowler,7.0,0.4,ESPN
+WR,Brandon Coleman,7.0,0.4,ESPN
+WR,Arrelious Benn,7.0,0.4,ESPN
+WR,Darrius Heyward-Bey,7.0,0.4,ESPN
+WR,Devin Street,7.0,0.4,ESPN
+WR,Ryan Grant,7.0,0.3,ESPN
+WR,Russell Shepard,7.0,0.3,ESPN
+WR,Josh Huff,7.0,0.3,ESPN
+WR,Donteea Dye,7.0,0.3,ESPN
+WR,Rod Streater,7.0,0.3,ESPN
+WR,Devin Hester,7.0,0.3,ESPN
+WR,Brandon Tate,7.0,0.3,ESPN
+WR,Roger Lewis,7.0,0.3,ESPN
+WR,J.J. Nelson,7.0,0.3,ESPN
+RB,Cedric Peerman,7.0,0.0,ESPN
+RB,Marcus Thigpen,7.0,0.0,ESPN
+RB,Darrel Young,7.0,0.0,ESPN
+RB,Ben Tate,7.0,0.0,ESPN
+RB,Toby Gerhart,7.0,0.0,ESPN
+RB,Boobie Dixon,7.0,0.0,ESPN
+RB,James Starks,7.0,0.0,ESPN
+RB,Joique Bell,7.0,0.0,ESPN
+RB,James Develin,7.0,0.0,ESPN
+RB,Shane Vereen,7.0,0.0,ESPN
+RB,Stevan Ridley,7.0,0.0,ESPN
+RB,Daniel Thomas,7.0,0.0,ESPN
+RB,Kendall Hunter,7.0,0.0,ESPN
+RB,Roy Helu Jr.,7.0,0.0,ESPN
+RB,Dion Lewis,7.0,0.0,ESPN
+RB,Chase Reynolds,7.0,0.0,ESPN
+RB,Will Johnson,7.0,0.0,ESPN
+RB,Trent Richardson,7.0,0.0,ESPN
+RB,Doug Martin,7.0,0.0,ESPN
+RB,Isaiah Pead,7.0,0.0,ESPN
+RB,Chris Polk,7.0,0.0,ESPN
+RB,LaMike James,7.0,0.0,ESPN
+RB,Bernard Pierce,7.0,0.0,ESPN
+RB,Ronnie Hillman,7.0,0.0,ESPN
+RB,Cyrus Gray,7.0,0.0,ESPN
+RB,Vick Ballard,7.0,0.0,ESPN
+RB,Daniel Herron,7.0,0.0,ESPN
+RB,Bryce Brown,7.0,0.0,ESPN
+RB,Daryl Richardson,7.0,0.0,ESPN
+RB,Cory Harkey,7.0,0.0,ESPN
+RB,Joe Banyard,7.0,0.0,ESPN
+RB,Derrick Coleman,7.0,0.0,ESPN
+RB,Jonas Gray,7.0,0.0,ESPN
+RB,Brandon Bolden,7.0,0.0,ESPN
+RB,Jonathan Grimes,7.0,0.0,ESPN
+WR,Dwayne Harris,7.0,0.3,ESPN
+WR,Rashad Greene,7.0,0.3,ESPN
+WR,Malcolm Mitchell,7.0,0.2,ESPN
+WR,Aaron Burbridge,7.0,0.2,ESPN
+WR,Jaelen Strong,7.0,0.2,ESPN
+WR,Paul Richardson,7.0,0.2,ESPN
+WR,Rashard Higgins,7.0,0.2,ESPN
+WR,Jakeem Grant,7.0,0.2,ESPN
+WR,Eric Weems,7.0,0.2,ESPN
+WR,Jordan Taylor,7.0,0.2,ESPN
+WR,Marc Mariani,7.0,0.2,ESPN
+WR,Cody Latimer,7.0,0.1,ESPN
+WR,Cobi Hamilton,7.0,0.1,ESPN
+WR,Bradley Marquez,7.0,0.1,ESPN
+WR,Pharoh Cooper,7.0,0.1,ESPN
+WR,Alex Erickson,7.0,0.1,ESPN
+WR,James Wright,7.0,0.1,ESPN
+WR,Tanner McEvoy,7.0,0.1,ESPN
+WR,Leonte Carroo,7.0,0.1,ESPN
+WR,Trevor Davis,7.0,0.1,ESPN
+WR,Jordan Payton,7.0,0.1,ESPN
+WR,Johnny Holton,7.0,0.1,ESPN
+WR,Matthew Slater,7.0,0.0,ESPN
+WR,De'Anthony Thomas,7.0,0.0,ESPN
+WR,Laquon Treadwell,7.0,0.0,ESPN
+WR,Steve Smith Sr.,7.0,0.0,ESPN
+WR,Wes Welker,7.0,0.0,ESPN
+WR,Roddy White,7.0,0.0,ESPN
+WR,Vincent Jackson,7.0,0.0,ESPN
+WR,Joshua Cribbs,7.0,0.0,ESPN
+WR,Nate Washington,7.0,0.0,ESPN
+WR,Lance Moore,7.0,0.0,ESPN
+WR,Greg Jennings,7.0,0.0,ESPN
+WR,Derek Hagan,7.0,0.0,ESPN
+WR,Jason Avant,7.0,0.0,ESPN
+WR,Marques Colston,7.0,0.0,ESPN
+WR,Miles Austin,7.0,0.0,ESPN
+RB,Eddie Lacy,7.0,0.0,ESPN
+RB,Denard Robinson,7.0,0.0,ESPN
+RB,Mike James,7.0,0.0,ESPN
+RB,Tommy Bohanon,7.0,0.0,ESPN
+RB,Zac Stacy,7.0,0.0,ESPN
+RB,Kerwynn Williams,7.0,0.0,ESPN
+RB,Kendall Gaskins,7.0,0.0,ESPN
+RB,Steven Miller,7.0,0.0,ESPN
+RB,George Winn,7.0,0.0,ESPN
+RB,Khiry Robinson,7.0,0.0,ESPN
+RB,Charles Sims,7.0,0.0,ESPN
+RB,Dri Archer,7.0,0.0,ESPN
+RB,Carlos Hyde,7.0,0.0,ESPN
+RB,Tre Mason,7.0,0.0,ESPN
+RB,Bishop Sankey,7.0,0.0,ESPN
+RB,Tyler Gaffney,7.0,0.0,ESPN
+RB,Storm Johnson,7.0,0.0,ESPN
+RB,Lache Seastrunk,7.0,0.0,ESPN
+RB,Andre Williams,7.0,0.0,ESPN
+RB,Lorenzo Taliaferro,7.0,0.0,ESPN
+RB,Marion Grice,7.0,0.0,ESPN
+RB,Juwan Thompson,7.0,0.0,ESPN
+RB,Kapri Bibbs,7.0,0.0,ESPN
+RB,Branden Oliver,7.0,0.0,ESPN
+RB,Darrin Reaves,7.0,0.0,ESPN
+RB,Silas Redd,7.0,0.0,ESPN
+RB,Ryan Hewitt,7.0,0.0,ESPN
+RB,Trey Watts,7.0,0.0,ESPN
+RB,Austin Johnson,7.0,0.0,ESPN
+RB,Orleans Darkwa,7.0,0.0,ESPN
+RB,Senorise Perry,7.0,0.0,ESPN
+RB,Glenn Winston,7.0,0.0,ESPN
+RB,Roosevelt Nix,7.0,0.0,ESPN
+RB,Michael Burton,7.0,0.0,ESPN
+RB,Jeremy Langford,7.0,0.0,ESPN
+RB,Jalston Fowler,7.0,0.0,ESPN
+RB,Joey Iosefa,7.0,0.0,ESPN
+WR,Calvin Johnson,7.0,0.0,ESPN
+WR,Dwayne Bowe,7.0,0.0,ESPN
+WR,Jacoby Jones,7.0,0.0,ESPN
+WR,James Jones,7.0,0.0,ESPN
+WR,Eddie Royal,7.0,0.0,ESPN
+WR,Jerome Simpson,7.0,0.0,ESPN
+WR,Harry Douglas,7.0,0.0,ESPN
+WR,Andre Jerome Caldwell,7.0,0.0,ESPN
+WR,Stevie Johnson,7.0,0.0,ESPN
+WR,Brandon Gibson,7.0,0.0,ESPN
+WR,Brian Hartline,7.0,0.0,ESPN
+WR,Percy Harvin,7.0,0.0,ESPN
+WR,Louis Murphy,7.0,0.0,ESPN
+WR,Hakeem Nicks,7.0,0.0,ESPN
+WR,Kevin Ogletree,7.0,0.0,ESPN
+WR,Marcus Easley,7.0,0.0,ESPN
+WR,Riley Cooper,7.0,0.0,ESPN
+WR,Eric Decker,7.0,0.0,ESPN
+WR,Kyle Williams,7.0,0.0,ESPN
+WR,Mike Williams,7.0,0.0,ESPN
+WR,Seyi Ajirotutu,7.0,0.0,ESPN
+WR,Marlon Moore,7.0,0.0,ESPN
+WR,Bryan Walters,7.0,0.0,ESPN
+WR,Danario Alexander,7.0,0.0,ESPN
+WR,Leonard Hankerson,7.0,0.0,ESPN
+WR,Greg Little,7.0,0.0,ESPN
+WR,Vincent Brown,7.0,0.0,ESPN
+WR,Greg Salas,7.0,0.0,ESPN
+WR,Denarius Moore,7.0,0.0,ESPN
+WR,Ricardo Lockette,7.0,0.0,ESPN
+WR,Joe Morgan,7.0,0.0,ESPN
+WR,Jeremy Ross,7.0,0.0,ESPN
+WR,Justin Blackmon,7.0,0.0,ESPN
+WR,Rueben Randle,7.0,0.0,ESPN
+WR,Keshawn Martin,7.0,0.0,ESPN
+WR,Jarius Wright,7.0,0.0,ESPN
+WR,T.J. Graham,7.0,0.0,ESPN
+RB,David Cobb,7.0,0.0,ESPN
+RB,Ameer Abdullah,7.0,0.0,ESPN
+RB,Karlos Williams,7.0,0.0,ESPN
+RB,Kenny Hilliard,7.0,0.0,ESPN
+RB,Josh Robinson,7.0,0.0,ESPN
+RB,Tyler Varga,7.0,0.0,ESPN
+RB,Michael Dyer,7.0,0.0,ESPN
+RB,John Crockett,7.0,0.0,ESPN
+RB,Terrence Magee,7.0,0.0,ESPN
+RB,Thomas Rawls,7.0,0.0,ESPN
+RB,Gus Johnson,7.0,0.0,ESPN
+RB,Terron Ward,7.0,0.0,ESPN
+RB,Jarryd Hayne,7.0,0.0,ESPN
+RB,Alonzo Harris,7.0,0.0,ESPN
+RB,Nikita Whitlock,7.0,0.0,ESPN
+RB,Raheem Mostert,7.0,0.0,ESPN
+RB,Trey Williams,7.0,0.0,ESPN
+RB,Akeem Hunt,7.0,0.0,ESPN
+RB,C.J. Prosise,7.0,0.0,ESPN
+RB,Kelvin Taylor,7.0,0.0,ESPN
+RB,Keith Marshall,7.0,0.0,ESPN
+RB,Zac Brooks,7.0,0.0,ESPN
+RB,Terrell Watson,7.0,0.0,ESPN
+RB,Brandon Wilds,7.0,0.0,ESPN
+RB,Jhurell Pressley,7.0,0.0,ESPN
+RB,Byron Marshall,7.0,0.0,ESPN
+RB,James Wilder Jr.,7.0,0.0,ESPN
+RB,Dreamius Smith,7.0,0.0,ESPN
+RB,Troymaine Pope,7.0,0.0,ESPN
+RB,Glenn Gronkowski,7.0,0.0,ESPN
+RB,Julian Howsare,7.0,0.0,ESPN
+WR,Nick Toon,7.0,0.0,ESPN
+WR,DeVier Posey,7.0,0.0,ESPN
+WR,LaVon Brazill,7.0,0.0,ESPN
+WR,Chris Givens,7.0,0.0,ESPN
+WR,Kashif Moore,7.0,0.0,ESPN
+WR,Nathan Palmer,7.0,0.0,ESPN
+WR,Chris Owusu,7.0,0.0,ESPN
+WR,Brian Tyms,7.0,0.0,ESPN
+WR,Jeff Fuller,7.0,0.0,ESPN
+WR,Jarrett Boykin,7.0,0.0,ESPN
+WR,Brittan Golden,7.0,0.0,ESPN
+WR,Damaris Johnson,7.0,0.0,ESPN
+WR,Josh Gordon,7.0,0.0,ESPN
+WR,Keenan Allen,7.0,0.0,ESPN
+WR,Stedman Bailey,7.0,0.0,ESPN
+WR,Aaron Dobson,7.0,0.0,ESPN
+WR,Markus Wheaton,7.0,0.0,ESPN
+WR,B.J. Daniels,7.0,0.0,ESPN
+WR,Tavarres King,7.0,0.0,ESPN
+WR,Josh Boyce,7.0,0.0,ESPN
+WR,Chris Harper,7.0,0.0,ESPN
+WR,Corey Fuller,7.0,0.0,ESPN
+WR,Marquess Wilson,7.0,0.0,ESPN
+WR,Da'Rick Rogers,7.0,0.0,ESPN
+WR,Ryan Spadola,7.0,0.0,ESPN
+WR,Nick Williams,7.0,0.0,ESPN
+WR,Kenbrell Thompkins,7.0,0.0,ESPN
+WR,Myles White,7.0,0.0,ESPN
+WR,Marlon Brown,7.0,0.0,ESPN
+WR,Sammy Watkins,7.0,0.0,ESPN
+WR,Donte Moncrief,7.0,0.0,ESPN
+WR,Davante Adams,7.0,0.0,ESPN
+WR,Shaq Evans,7.0,0.0,ESPN
+WR,Jeremy Gallon,7.0,0.0,ESPN
+WR,Jared Abbrederis,7.0,0.0,ESPN
+WR,Martavis Bryant,7.0,0.0,ESPN
+WR,Jalen Saunders,7.0,0.0,ESPN
+WR,Bruce Ellington,7.0,0.0,ESPN
+WR,Corey Washington,7.0,0.0,ESPN
+WR,Robert Herron,7.0,0.0,ESPN
+WR,Michael Campanaro,7.0,0.0,ESPN
+WR,Frankie Hammond,7.0,0.0,ESPN
+WR,TJ Jones,7.0,0.0,ESPN
+WR,Isaiah Burse,7.0,0.0,ESPN
+WR,Jeremy Butler,7.0,0.0,ESPN
+WR,Damian Copeland,7.0,0.0,ESPN
+WR,Jonathan Krause,7.0,0.0,ESPN
+WR,Rashad Ross,7.0,0.0,ESPN
+WR,Freddie Martino,7.0,0.0,ESPN
+WR,Kevin Smith,7.0,0.0,ESPN
+WR,Andre Debose,7.0,0.0,ESPN
+WR,DiAndre Campbell,7.0,0.0,ESPN
+WR,Issac Blakeney,7.0,0.0,ESPN
+WR,Geremy Davis,7.0,0.0,ESPN
+WR,Da'Ron Brown,7.0,0.0,ESPN
+WR,Kenny Bell,7.0,0.0,ESPN
+WR,Dres Anderson,7.0,0.0,ESPN
+WR,Keith Mumphery,7.0,0.0,ESPN
+WR,DeAndrew White,7.0,0.0,ESPN
+WR,Kaelin Clay,7.0,0.0,ESPN
+WR,Tre McBride,7.0,0.0,ESPN
+WR,Dezmin Lewis,7.0,0.0,ESPN
+WR,Quan Bray,7.0,0.0,ESPN
+WR,Devin Smith,7.0,0.0,ESPN
+WR,Evan Spencer,7.0,0.0,ESPN
+WR,Kevin White,7.0,0.0,ESPN
+WR,Mario Alford,7.0,0.0,ESPN
+WR,DeAndre Smelter,7.0,0.0,ESPN
+WR,Duron Carter,7.0,0.0,ESPN
+WR,Antwan Goodley,7.0,0.0,ESPN
+WR,Chris Matthews,7.0,0.0,ESPN
+WR,Seantavius Jones,7.0,0.0,ESPN
+WR,Matt Hazel,7.0,0.0,ESPN
+WR,Chris Harper,7.0,0.0,ESPN
+WR,Tyler Murphy,7.0,0.0,ESPN
+WR,Javontee Herndon,7.0,0.0,ESPN
+WR,Daniel Brown,7.0,0.0,ESPN
+WR,Eric Rogers,7.0,0.0,ESPN
+WR,Corey Coleman,7.0,0.0,ESPN
+WR,Josh Doctson,7.0,0.0,ESPN
+WR,Demarcus Robinson,7.0,0.0,ESPN
+WR,Moritz Bohringer,7.0,0.0,ESPN
+WR,Keenan Reynolds,7.0,0.0,ESPN
+WR,Kolby Listenbee,7.0,0.0,ESPN
+WR,Cody Core,7.0,0.0,ESPN
+WR,Michael Thomas,7.0,0.0,ESPN
+WR,Devin Lucien,7.0,0.0,ESPN
+WR,Demarcus Ayers,7.0,0.0,ESPN
+WR,Daniel Braverman,7.0,0.0,ESPN
+WR,Devin Lewis Fuller,7.0,0.0,ESPN
+WR,Kenny Lawler,7.0,0.0,ESPN
+WR,Max McCaffrey,7.0,0.0,ESPN
+WR,Kasen Williams,7.0,0.0,ESPN
+WR,Reggie Bell,7.0,0.0,ESPN
+WR,Jake Kumerow,7.0,0.0,ESPN
+WR,Marquez North,7.0,0.0,ESPN
+WR,Xavier Rush,7.0,0.0,ESPN
+WR,Dom Williams,7.0,0.0,ESPN
+WR,R.J. Harris,7.0,0.0,ESPN
+WR,Bernard Reedy,7.0,0.0,ESPN
+WR,Paul McRoberts,7.0,0.0,ESPN
+WR,Wendall Williams,7.0,0.0,ESPN
+WR,Anthony Dable,7.0,0.0,ESPN
+WR,Darius Jennings,7.0,0.0,ESPN
+WR,Devon Cajuste,7.0,0.0,ESPN
+WR,Mitch Mathews,7.0,0.0,ESPN
+WR,Bryce Treggs,7.0,0.0,ESPN
+WR,Nelson Spruce,7.0,0.0,ESPN
