@@ -43,7 +43,6 @@ espn_clean <- espn_raw %>%
     drop_na() %>% 
     mutate(week = nfl_week)
 
-
         mutate(A = gsub("D\\/ST\\sD\\/ST|\\*$","",A)) %>% 
         separate(B, into = c("Fill", "Team", "Pos"), sep = "\\s", extra = "drop") %>% 
         mutate(Pos = ifelse(is.na(Pos), "DEF", Pos)) %>% 
