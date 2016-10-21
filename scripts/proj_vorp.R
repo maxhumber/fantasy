@@ -1,6 +1,7 @@
 library(tidyverse)
 
 proj <- read_csv("data/proj.csv")
+proj_start <- read_csv("data/proj_start.csv")
 
 params <- tribble(
     ~pos, ~slots,
@@ -11,9 +12,6 @@ params <- tribble(
     "K", 10,
     "DEF", 10
 )
-
-pos <- "RB"
-slots <- 25
 
 replacement_player <- function(pos, slots) {
     rp <- proj %>% 
@@ -33,3 +31,8 @@ proj_vorp <- proj %>%
     mutate(vorp = mid - rp) %>% 
     select(position, name, vorp) %>% 
     arrange(desc(vorp))
+
+start_vorp <- proj_start %>% 
+    left_join(rp, by = "position") %>% 
+    mutate(vorp = mid - rp) %>% 
+    distinct(.keep_all = TRUE)
