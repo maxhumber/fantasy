@@ -23,13 +23,20 @@ home <- c(
     "Allen Robinson",
     "Zach Ertz",
     "Jacquizz Rodgers",
-    "Adam Vinateri",
+    "Adam Vinatieri",
     "Buffalo Bills")
 
 away <- c(
-    "Eli Manning", 
-    "Alex Smith",
-    "Chris Ivory")
+    "Aaron Rodgers", 
+    "Blake Bortles",
+    "Christine Michael", 
+    "Le'Veon Bell",
+    "Antonio Brown",
+    "Doug Baldwin",
+    "Marvin Jones",
+    "Travis Kelce",
+    "Mike Nugent",
+    "Oakland Raiders")
 
 hv <- replicate(1000, 
     home %>% 
