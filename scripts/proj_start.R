@@ -23,6 +23,7 @@ team <- c(
 
 proj %>% 
     filter(name %in% team) %>%
+    arrange(desc(mid)) %>% 
     mutate(rank = row_number()) %>% 
     ggplot(aes(x = rank, y = mid, color = position)) + 
     geom_linerange(aes(ymin = low, ymax = high)) +
