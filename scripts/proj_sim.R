@@ -12,31 +12,38 @@ proj_boot <- function(player) {
         as.numeric()
     return(p)
 }
-
-params <- tibble(
     
-    home = c(
-        "Tyrod Taylor", 
-        "Andy Dalton",
-        "Buffalo Bills"),
+home <- c(
+    "Tyrod Taylor", 
+    "Andy Dalton",
+    "Matt Forte",
+    "Isaiah Crowell",
+    "Kenny Britt",
+    "Alshon Jeffery",
+    "Allen Robinson",
+    "Zach Ertz",
+    "Jacquizz Rodgers",
+    "Adam Vinateri",
+    "Buffalo Bills")
 
-    away = c(
-        "Eli Manning", 
-        "Alex Smith",
-        "Chris Ivory")
-)
+away <- c(
+    "Eli Manning", 
+    "Alex Smith",
+    "Chris Ivory")
 
-params %>% pmap(proj_boot)
+hv <- replicate(1000, 
+    home %>% 
+    map_dbl(proj_boot) %>% 
+    sum()) %>% 
+    as.data.frame() %>% 
+    as.bayesboot()
 
-home %>% map_dbl(proj_boot) %>% sum()
-away %>% map_dbl(proj_boot) %>% sum()
+av <- replicate(1000, 
+    home %>% 
+    map_dbl(proj_boot) %>% 
+    sum()) %>% 
+    as.data.frame() %>% 
+    as.bayesboot()
 
-
-
-h_values <- h_values %>% as.data.frame() %>% as.bayesboot()
-a_values <- a_values %>% as.data.frame() %>% as.bayesboot()
-diff <- as.bayesboot(h_values - a_values)
+diff <- as.bayesboot(hv - av)
 plot(diff, compVal = 0)
-
-plot(h_values)
-plot(a_values)
