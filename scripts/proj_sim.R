@@ -13,17 +13,20 @@ proj_boot <- function(player) {
     return(p)
 }
 
-home <- c(
-    "Tyrod Taylor", 
-    "Andy Dalton",
-    "Buffalo Bills"
+params <- tibble(
+    
+    home = c(
+        "Tyrod Taylor", 
+        "Andy Dalton",
+        "Buffalo Bills"),
+
+    away = c(
+        "Eli Manning", 
+        "Alex Smith",
+        "Chris Ivory")
 )
 
-away <- c(
-    "Eli Manning", 
-    "Alex Smith",
-    "Chris Ivory"
-)
+params %>% pmap(proj_boot)
 
 home %>% map_dbl(proj_boot) %>% sum()
 away %>% map_dbl(proj_boot) %>% sum()
