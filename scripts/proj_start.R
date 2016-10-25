@@ -12,7 +12,7 @@ team <- c(
     "Allen Robinson",
     "Alshon Jeffery",
     "Tyrell Williams",
-    "Zach Ertz",
+    "Cameron Brate",
     "Dion Lewis",
     "Jacquizz Rodgers",
     "Kenny Britt",

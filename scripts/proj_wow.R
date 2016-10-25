@@ -23,4 +23,4 @@ proj_wow <- function(players) {
 }
 
 # test
-proj_wow(c("Ben Roethlisberger", "Tyrod Taylor", "Andy Dalton"))
+proj_wow(c("Steve Smith", "Kenny Britt"))

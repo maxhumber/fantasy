@@ -1,13 +1,12 @@
 position,name,low,mid,high
-QB,Andy Dalton,14.6,17.3,18.4
-QB,Tyrod Taylor,14.0,16.3,17.5
-WR,Allen Robinson,12.2,13.0,13.5
-WR,Alshon Jeffery,10.3,11.6,13.1
-WR,Kenny Britt,7.6,9.5,12.5
-RB,Jacquizz Rodgers,6.1,12.6,21.1
-RB,Isaiah Crowell,7.0,8.8,10.2
-TE,Zach Ertz,4.9,6.8,11.1
-K,Adam Vinatieri,8.0,8.7,9.6
-DEF,Buffalo Bills,6.0,10.1,15.8
-RB,Matt Forte,6.4,8.1,9.5
-RB,Matt Forte,6.4,8.1,9.5
+QB,Andy Dalton,12.6,15.4,18.4
+QB,Tyrod Taylor,13.7,15.4,17.6
+WR,Allen Robinson,10.2,11.2,13.2
+WR,Alshon Jeffery,6.5,7.8,8.7
+WR,Tyrell Williams,5.6,7.8,12.2
+RB,Jacquizz Rodgers,9.6,12.8,21.3
+RB,Matt Forte,7.6,10.5,13.0
+TE,Cameron Brate,5.8,7.2,10.0
+K,Adam Vinatieri,1.0,6.0,9.4
+DEF,Buffalo Bills,1.0,4.2,8.9
+RB,Isaiah Crowell,6.6,8.7,9.8
