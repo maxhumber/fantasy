@@ -15,11 +15,11 @@ team <- c(
     "Cameron Brate",
     "Dion Lewis",
     "Jacquizz Rodgers",
-    "Kenny Britt",
-    "Sterling Shepard",
+    "Steven Smith",
+    "Thomas Rawls",
     "Corey Coleman",
-    "Adam Vinatieri",
-    "Buffalo Bills")
+    "Nick Novak",
+    "Detroit Lions")
 
 proj_team <- proj %>% 
     filter(name %in% team) %>%

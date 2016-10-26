@@ -17,26 +17,25 @@ home <- c(
     "Tyrod Taylor", 
     "Andy Dalton",
     "Matt Forte",
-    "Isaiah Crowell",
-    "Kenny Britt",
-    "Alshon Jeffery",
-    "Allen Robinson",
-    "Zach Ertz",
     "Jacquizz Rodgers",
-    "Adam Vinatieri",
-    "Buffalo Bills")
+    "Jonathan Stewart",
+    "Alshon Jeffery",
+    "Tyrell Williams",
+    "Allen Robinson",
+    "Cameron Brate",
+    "Nick Novak",
+    "Detroit Lions")
 
 away <- c(
-    "Aaron Rodgers", 
-    "Blake Bortles",
-    "Christine Michael", 
-    "Le'Veon Bell",
-    "Antonio Brown",
-    "Doug Baldwin",
-    "Marvin Jones",
-    "Travis Kelce",
-    "Mike Nugent",
-    "Oakland Raiders")
+    "Cam Newton",
+    "Carson Palmer",
+    "Theo Riddick",
+    "Fozzy Whittaker",
+    "A.J. Green",
+    "Amari Cooper",
+    "Cameron Meredith",
+    "Tyler Eifert",
+    "Jeremy Maclin")
 
 hv <- replicate(1000, 
     home %>% 
@@ -44,6 +43,8 @@ hv <- replicate(1000,
     sum()) %>% 
     as.data.frame() %>% 
     as.bayesboot()
+
+plot(hv)
 
 av <- replicate(1000, 
     home %>% 
