@@ -30,10 +30,10 @@ away <- c(
     "Cam Newton",
     "Carson Palmer",
     "Theo Riddick",
-    "Fozzy Whittaker",
+    "Darren Sproles",
     "A.J. Green",
     "Amari Cooper",
-    "Cameron Meredith",
+    "Davante Adams",
     "Tyler Eifert",
     "Jeremy Maclin", 
     "Cairo Santos",
@@ -49,7 +49,7 @@ hv <- replicate(1000,
 plot(hv)
 
 av <- replicate(1000, 
-    home %>% 
+    away %>% 
     map_dbl(proj_boot) %>% 
     sum()) %>% 
     as.data.frame() %>% 
