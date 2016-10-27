@@ -15,14 +15,14 @@ proj_boot <- function(player) {
     
 home <- c(
     "Tyrod Taylor", 
-    "Andy Dalton",
+    "Jameis Winston",
     "Matt Forte",
     "Jacquizz Rodgers",
-    "Jonathan Stewart",
-    "Alshon Jeffery",
+    "Isaiah Crowell",
+    "Stefon Diggs",
     "Tyrell Williams",
     "Allen Robinson",
-    "Cameron Brate",
+    "Gary Barnidge",
     "Nick Novak",
     "Detroit Lions")
 
@@ -35,7 +35,9 @@ away <- c(
     "Amari Cooper",
     "Cameron Meredith",
     "Tyler Eifert",
-    "Jeremy Maclin")
+    "Jeremy Maclin", 
+    "Cairo Santos",
+    "Houston Texans")
 
 hv <- replicate(1000, 
     home %>% 
@@ -52,6 +54,8 @@ av <- replicate(1000,
     sum()) %>% 
     as.data.frame() %>% 
     as.bayesboot()
+
+plot(av)
 
 diff <- as.bayesboot(hv - av)
 plot(diff, compVal = 0)
