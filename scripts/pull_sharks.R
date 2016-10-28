@@ -73,7 +73,8 @@ pull_sharks <- function(.season = FALSE) {
     sharks_clean <- sharks_raw %>% 
         mutate(points = as.numeric(points)) %>% 
         mutate(position = ifelse(pos == "7", "K", ifelse(pos == "6", "DEF", pos))) %>% 
-        separate(name, into = c("last", "first"), extra = "merge", sep = ", ") %>% 
+        separate(name, into = c("last", "first"), extra = "merge", sep = ", ") %>%
+        mutate(last = str_trim(last), first = str_trim(first)) %>% 
         mutate(name = str_c(first, last, sep = " ")) %>% 
         select(position, name, week, points) %>% 
         mutate(source = "Fantasy Sharks")
