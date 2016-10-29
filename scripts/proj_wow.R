@@ -3,25 +3,48 @@ library(stringr)
 
 nfl_week <- ceiling(as.numeric(Sys.Date() - as.Date("2016-09-05")) / 7 )
 
-ros <- read_csv("data/ros.csv")
-
-ros_mean <- ros %>% 
+ros <- read_csv("data/ros.csv") %>% 
     group_by(position, name) %>% 
-    summarise(ros_mean = mean(mid))
+    complete(week = seq(nfl_week, 17, 1))
+
+rp <- ros %>% 
+    group_by(position, week) %>% 
+    mutate(slot = row_number(desc(mid))) %>% 
+    filter(
+        (position == "QB"  & slot <= 20) |
+        (position == "WR"  & slot <= 35) |
+        (position == "RB"  & slot <= 25) |
+        (position == "TE"  & slot <= 10) |
+        (position == "K"   & slot <= 10) |
+        (position == "DEF" & slot <= 10)) %>% 
+    group_by(position, week) %>% 
+    summarise(
+        rp = mean(mid))
+
+vorp <- ros %>% 
+    left_join(rp, by = c("position", "week")) %>% 
+    mutate(vorp = mid - rp)
 
 proj_wow <- function(players) { 
     
-    ros %>% 
+    vorp %>% 
         filter(name %in% players) %>% 
-        ggplot(aes(x = week, y = mid)) + 
-        geom_ribbon(aes(fill = name, ymin = low, ymax = high), alpha = 0.5) + 
-        geom_line(aes(color = name), size = 1) + 
+        ggplot(aes(x = week, y = vorp)) + 
+        geom_hline(yintercept = 0, color = "grey60", alpha = 3/5) + 
+        geom_line(aes(color = name), size = 2) + 
         geom_point(shape = 1, color = "white", size = 2) + 
         scale_x_continuous(breaks = seq(nfl_week, 17, 1)) + 
         theme_minimal() + 
-        labs(title = "Players ROS", x = "Week", y = "Fantasy Points")
+        labs(title = "ROS VORP", x = "Week", y = "Value Over Replacement") + 
+        theme(panel.grid.minor.x = element_blank())
 }
 
 # test
 proj_wow(c("Jameis Winston", "Andy Dalton"))
 proj_wow(c("Alshon Jeffery", "Stefon Diggs"))
+
+proj_wow(c("Tom Brady", "Ben Roethlisberger"))
+proj_wow(c("Brandon LaFell", "Jonathan Stewart"))
+
+proj_wow(c("Matthew Stafford", "Tyrod Taylor"))
+proj_wow(c("DeAndre Hopkins", "Tyrell Williams"))
