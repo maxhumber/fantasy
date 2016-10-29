@@ -30,9 +30,10 @@ proj_wow <- function(players) {
     vorp %>% 
         filter(name %in% players) %>% 
         ggplot(aes(x = week, y = vorp)) + 
-        geom_hline(yintercept = 0, color = "grey60", alpha = 3/5) + 
+        annotate("rect", xmin = -Inf, xmax = Inf, ymin = 0, ymax = Inf, fill = "green", alpha = 1/10) + 
+        annotate("rect", xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = 0, fill = "red", alpha = 1/10) + 
         geom_line(aes(color = name), size = 2) + 
-        geom_point(shape = 1, color = "white", size = 2) + 
+        geom_point(aes(size = sd, fill = name), shape = 21, color = "white", show.legend = FALSE) + 
         scale_x_continuous(breaks = seq(nfl_week, 17, 1)) + 
         theme_minimal() + 
         labs(title = "ROS VORP", x = "Week", y = "Value Over Replacement") + 
@@ -40,11 +41,4 @@ proj_wow <- function(players) {
 }
 
 # test
-proj_wow(c("Jameis Winston", "Andy Dalton"))
-proj_wow(c("Alshon Jeffery", "Stefon Diggs"))
-
-proj_wow(c("Tom Brady", "Ben Roethlisberger"))
-proj_wow(c("Brandon LaFell", "Jonathan Stewart"))
-
 proj_wow(c("Matthew Stafford", "Tyrod Taylor"))
-proj_wow(c("DeAndre Hopkins", "Tyrell Williams"))
