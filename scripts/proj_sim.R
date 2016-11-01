@@ -14,7 +14,7 @@ proj_boot <- function(player) {
 }
     
 home <- c(
-    "Tyrod Taylor", 
+    #"Tyrod Taylor", 
     "Jameis Winston",
     "Matt Forte",
     "Jacquizz Rodgers",

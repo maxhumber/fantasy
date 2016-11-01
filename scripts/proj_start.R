@@ -3,23 +3,23 @@ library(tidyverse)
 proj <- read_csv("data/proj.csv")
 
 team <- c(
-    "Andy Dalton",
+    "Jameis Winston",
     "Tyrod Taylor",
     "Ben Roethlisberger",
     "Jonathan Stewart",
     "Matt Forte",
     "Isaiah Crowell",
     "Allen Robinson",
-    "Alshon Jeffery",
+    "Stefon Diggs",
     "Tyrell Williams",
-    "Cameron Brate",
+    "Gary Barnidge",
     "Dion Lewis",
     "Jacquizz Rodgers",
-    "Steven Smith",
+    "Donte Moncrief",
     "Thomas Rawls",
     "Corey Coleman",
     "Nick Novak",
-    "Detroit Lions")
+    "San Diego Chargers")
 
 proj_team <- proj %>% 
     filter(name %in% team) %>%
