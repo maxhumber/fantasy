@@ -41,5 +41,5 @@ proj_wow <- function(players) {
 }
 
 # test
-proj_wow(c("Terrelle Pryor", "Corey Coleman"))
+proj_wow(c("Brandon LaFell", "Jonathan Stewart"))
 
