@@ -12,14 +12,14 @@ team <- c(
     "Allen Robinson",
     "Stefon Diggs",
     "Tyrell Williams",
-    "Gary Barnidge",
+    "Kyle Rudolph",
     "Dion Lewis",
-    "Jacquizz Rodgers",
+    "Antone Smith",
     "Donte Moncrief",
     "Thomas Rawls",
     "Corey Coleman",
-    "Nick Novak",
-    "San Diego Chargers")
+    "Blair Walsh",
+    "Carolina Panthers")
 
 proj_team <- proj %>% 
     filter(name %in% team) %>%
