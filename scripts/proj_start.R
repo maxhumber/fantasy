@@ -12,7 +12,7 @@ team <- c(
     "Allen Robinson",
     "Stefon Diggs",
     "Tyrell Williams",
-    "Kyle Rudolph",
+    "Gary Barnidge",
     "Dion Lewis",
     "Antone Smith",
     "Donte Moncrief",
@@ -35,36 +35,43 @@ proj_team %>% ggplot(aes(x = rank, y = mid, color = position)) +
     theme(legend.position = "none") + 
     labs(y = "Fantasy Points", x = "")
 
-pos_top <- function(pos = "QB", slots = 2) {
-    p <- proj_team %>% 
-        filter(position == pos) %>% 
-        top_n(slots, wt = mid)
-    return(p)
+proj_start <- function() { 
+    
+    pos_top <- function(pos = "QB", slots = 2) {
+        p <- proj_team %>% 
+            filter(position == pos) %>% 
+            top_n(slots, wt = mid)
+        return(p)
+    }
+    
+    params <- tribble(
+        ~pos, ~slots, 
+        "QB", 2, 
+        "WR", 3, 
+        "RB", 2, 
+        "TE", 1, 
+        "K", 1,
+        "DEF", 1
+    )
+    
+    start <- params %>% 
+        pmap(pos_top) %>% 
+        bind_rows()
+    
+    flex <- proj_team %>% 
+        anti_join(start, by = c("position", "name")) %>% 
+        filter(position == "WR" | position == "RB") %>% 
+        top_n(1, wt = mid)
+    
+    start <- start %>% 
+        bind_rows(flex) %>% 
+        select(position:high)
+    
+    return(start)
 }
 
-params <- tribble(
-    ~pos, ~slots, 
-    "QB", 2, 
-    "WR", 3, 
-    "RB", 2, 
-    "TE", 1, 
-    "K", 1,
-    "DEF", 1
-)
+start <- proj_start()
 
-proj_start <- params %>% 
-    pmap(pos_top) %>% 
-    bind_rows()
+knitr::kable(start)
 
-flex <- proj_team %>% 
-    anti_join(proj_start, by = c("position", "name")) %>% 
-    filter(position == "WR" | position == "RB") %>% 
-    top_n(1, wt = mid)
-
-proj_start <- proj_start %>% 
-    bind_rows(flex) %>% 
-    select(position:high)
-
-knitr::kable(proj_start)
-
-write_csv(proj_start, "data/proj_start.csv")
+write_csv(start, "data/proj_start.csv")
