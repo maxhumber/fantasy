@@ -14,30 +14,30 @@ proj_boot <- function(player) {
 }
     
 home <- c(
-    #"Tyrod Taylor", 
+    "Ben Roethlisberger", 
     "Jameis Winston",
     "Matt Forte",
-    "Jacquizz Rodgers",
     "Isaiah Crowell",
+    "Allen Robinson",
     "Stefon Diggs",
     "Tyrell Williams",
-    "Allen Robinson",
+    "Jonathan Stewart",
     "Gary Barnidge",
-    "Nick Novak",
-    "Detroit Lions")
+    "Blair Walsh",
+    "Carolina Panthers")
 
 away <- c(
-    "Cam Newton",
-    "Carson Palmer",
-    "Theo Riddick",
-    "Darren Sproles",
-    "A.J. Green",
-    "Amari Cooper",
-    "Davante Adams",
-    "Tyler Eifert",
-    "Jeremy Maclin", 
-    "Cairo Santos",
-    "Houston Texans")
+    "Joe Flacco",
+    "Philip Rivers",
+    "Ezekiel Elliott",
+    "Jalen Richard",
+    "Tavon Austin",
+    "Mike Evans",
+    "Jordan Matthews",
+    "Hunter Henry",
+    "DeAngelo Williams", 
+    "Josh Lambo",
+    "Philadelphia Eagles")
 
 hv <- replicate(1000, 
     home %>% 
