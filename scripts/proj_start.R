@@ -12,7 +12,7 @@ team <- c(
     "Allen Robinson",
     "Stefon Diggs",
     "Tyrell Williams",
-    "Kyle Rudolph",
+    "Gary Barnidge",
     "Dion Lewis",
     "Antone Smith",
     "Donte Moncrief",

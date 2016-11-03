@@ -1,8 +1,8 @@
 position,name,low,mid,high,n
 WR,Aaron Burbridge,0.0,0.5,1.0,4
 RB,Aaron Green,0.0,0.0,0.0,2
-RB,Aaron Ripkowski,0.8,1.1,1.8,4
-QB,Aaron Rodgers,16.6,20.4,22.4,4
+RB,Aaron Ripkowski,0.5,1.1,1.8,4
+QB,Aaron Rodgers,16.6,21.7,25.4,4
 WR,Adam Humphries,3.0,6.1,10.3,4
 WR,Adam Thielen,4.6,6.3,10.3,4
 K,Adam Vinatieri,2.0,6.1,9.1,3
@@ -43,7 +43,7 @@ QB,Ben Roethlisberger,14.5,15.7,16.6,4
 WR,Bennie Fowler,0.3,1.3,2.0,4
 RB,Benny Cunningham,1.3,1.9,2.6,3
 RB,Bilal Powell,4.1,5.2,5.9,4
-RB,Bishop Sankey,0.0,2.9,8.5,3
+RB,Bishop Sankey,0.0,2.4,8.5,4
 QB,Blaine Gabbert,0.0,1.5,5.1,4
 K,Blair Walsh,6.8,8.4,11.0,3
 TE,Blake Bell,0.2,0.4,0.6,3
@@ -74,20 +74,20 @@ QB,Bryce Petty,0.0,0.1,0.3,3
 WR,Bryce Treggs,0.0,0.5,1.5,3
 DEF,Buffalo Bills,4.0,5.8,7.0,3
 RB,C.J. Anderson,0.0,0.0,0.0,2
-RB,C.J. Prosise,3.4,5.6,8.8,4
+RB,C.J. Prosise,4.7,6.1,8.8,4
 RB,C.J. Spiller,0.1,0.4,0.9,3
 K,Cairo Santos,8.1,9.4,11.0,3
 K,Caleb Sturgis,5.0,7.5,9.4,3
 QB,Cam Newton,15.0,17.7,20.6,4
 RB,Cameron Artis-Payne,0.0,1.8,4.2,3
 TE,Cameron Brate,4.0,6.0,7.5,4
-RB,Carlos Hyde,9.8,12.5,14.2,4
+RB,Carlos Hyde,10.6,12.7,14.2,4
 DEF,Carolina Panthers,8.9,9.9,12.0,3
 QB,Carson Wentz,12.5,12.9,13.6,4
 QB,Case Keenum,11.8,13.0,14.1,4
 WR,Cecil Shorts,3.3,5.9,8.6,3
 QB,Chad Henne,0.0,0.2,0.3,2
-RB,Charcandrick West,6.3,8.4,9.6,4
+RB,Charcandrick West,6.0,7.8,9.6,4
 TE,Charles Clay,3.3,3.8,4.4,4
 WR,Charles Johnson,0.1,1.2,2.5,4
 RB,Charles Sims,0.0,0.0,0.0,2
@@ -97,7 +97,7 @@ QB,Chase Daniel,-0.0,0.1,0.3,4
 RB,Chase Reynolds,0.0,0.2,0.3,2
 WR,Chester Rogers,0.4,1.2,1.9,4
 K,Chris Boswell,7.4,7.9,8.2,3
-WR,Chris Conley,3.3,5.4,9.7,4
+WR,Chris Conley,3.3,5.5,9.7,4
 WR,Chris Givens,0.0,0.0,0.0,2
 WR,Chris Harper,-0.2,0.0,0.3,5
 RB,Chris Ivory,3.6,4.6,6.0,4
@@ -106,7 +106,7 @@ WR,Chris Matthews,0.0,0.2,0.5,3
 WR,Chris Moore,0.2,0.6,1.2,4
 QB,Christian Hackenberg,0.5,1.7,2.9,2
 QB,Christian Ponder,0.0,0.0,0.0,2
-RB,Christine Michael,11.6,12.5,14.4,4
+RB,Christine Michael,10.4,12.2,14.4,4
 TE,Clay Harbor,0.1,0.3,0.5,2
 DEF,Cleveland Browns,-1.4,3.2,6.0,3
 TE,Clive Walford,2.8,4.5,8.8,4
@@ -167,7 +167,7 @@ WR,Devin Street,0.0,0.4,0.7,4
 WR,Devon Cajuste,0.0,0.0,0.0,3
 RB,Devon Johnson,0.0,0.0,0.0,2
 RB,Devonta Freeman,13.8,15.0,16.7,4
-RB,Devontae Booker,8.2,12.7,14.7,4
+RB,Devontae Booker,10.5,13.2,14.7,4
 RB,Dexter McCluster,1.5,1.9,2.5,4
 WR,Dez Bryant,6.2,9.8,12.5,4
 WR,Dezmin Lewis,0.0,0.0,0.0,2
@@ -196,7 +196,7 @@ QB,Eli Manning,11.3,12.4,13.8,4
 WR,Eli Rogers,0.9,2.1,3.1,4
 WR,Emmanuel Sanders,6.6,8.5,9.6,4
 WR,Eric Decker,0.0,0.0,0.0,2
-TE,Eric Ebron,4.4,6.4,7.4,4
+TE,Eric Ebron,4.4,6.3,7.0,4
 WR,Eric Rogers,0.0,0.0,0.0,2
 WR,Eric Weems,0.1,0.2,0.3,4
 TE,Erik Swoope,1.0,1.4,2.0,3
@@ -242,12 +242,12 @@ RB,Jalston Fowler,0.0,0.1,0.3,3
 RB,Jamaal Charles,0.0,0.0,0.0,2
 QB,Jameis Winston,15.3,17.2,18.3,4
 TE,James O'Shaughnessy,0.1,0.2,0.4,2
-RB,James Starks,0.0,2.7,8.2,3
+RB,James Starks,0.0,3.5,8.2,4
 RB,Jamize Olawale,0.4,1.2,1.6,4
 TE,Jared Cook,0.0,1.7,2.6,4
 QB,Jared Goff,0.0,0.2,0.4,3
 WR,Jarius Wright,0.0,0.8,1.5,3
-WR,Jarvis Landry,7.8,9.6,10.6,4
+WR,Jarvis Landry,7.8,9.3,10.6,4
 WR,Jason Avant,0.0,0.4,0.8,2
 K,Jason Myers,1.0,3.5,6.2,4
 TE,Jason Witten,3.8,5.0,5.8,4
@@ -259,7 +259,7 @@ WR,Jeff Janis,0.2,2.8,8.4,4
 TE,Jerell Adams,0.1,0.2,0.3,2
 WR,Jeremy Butler,0.0,3.2,9.3,3
 WR,Jeremy Kerley,3.8,7.0,11.5,4
-WR,Jeremy Maclin,7.0,9.1,12.1,4
+WR,Jeremy Maclin,6.8,8.7,12.1,4
 RB,Jerick McKinnon,3.5,6.7,8.5,4
 WR,Jermaine Kearse,4.3,4.6,5.3,4
 RB,Jerome Felton,0.3,0.3,0.3,3
@@ -276,17 +276,17 @@ WR,Jonathan Krause,0.0,0.0,0.0,2
 RB,Jonathan Stewart,6.9,9.2,10.9,4
 RB,Jonathan Williams,0.0,0.5,1.0,4
 TE,Jordan Cameron,1.8,2.2,2.9,3
-WR,Jordan Matthews,6.9,9.5,11.7,4
+WR,Jordan Matthews,6.9,9.4,11.7,4
 WR,Jordan Norwood,1.4,1.6,1.9,4
 WR,Jordan Payton,0.0,0.2,0.7,4
 WR,Jordan Taylor,-0.2,0.3,0.7,3
 RB,Jordan Todman,0.0,0.1,0.3,4
-WR,Jordy Nelson,11.1,11.8,12.8,4
+WR,Jordy Nelson,9.8,11.5,12.8,4
 WR,Josh Boyce,0.0,0.0,0.0,2
 RB,Josh Ferguson,0.2,0.8,1.1,4
 WR,Josh Gordon,0.0,0.0,0.0,2
 TE,Josh Hill,0.9,1.6,2.0,4
-WR,Josh Huff,1.4,1.8,2.6,4
+WR,Josh Huff,1.4,1.9,2.6,3
 K,Josh Lambo,5.0,7.0,8.2,3
 QB,Josh McCown,0.0,6.2,15.1,4
 WR,Julio Jones,9.1,11.6,13.9,4
@@ -301,7 +301,7 @@ RB,Juwan Thompson,0.4,1.0,1.4,3
 WR,Kaelin Clay,0.0,0.2,0.5,3
 WR,Kamar Aiken,1.4,2.6,4.6,4
 DEF,Kansas City Chiefs,10.3,11.1,12.0,3
-RB,Kapri Bibbs,1.1,3.0,6.0,4
+RB,Kapri Bibbs,1.1,2.5,4.1,4
 RB,Karlos Williams,0.0,0.0,0.0,3
 WR,Keenan Allen,0.0,0.0,0.0,2
 WR,Keenan Reynolds,0.0,0.0,0.0,2
@@ -325,7 +325,7 @@ TE,Khari Lee,0.1,0.2,0.2,2
 RB,Knile Davis,0.0,0.6,1.2,2
 WR,Kolby Listenbee,0.0,0.0,0.0,2
 RB,Kyle Juszczyk,1.8,3.8,7.6,4
-TE,Kyle Rudolph,7.2,8.6,10.3,4
+TE,Kyle Rudolph,7.2,8.3,10.3,4
 TE,Ladarius Green,1.0,1.9,2.8,2
 RB,Lance Dunbar,0.3,1.6,2.1,4
 TE,Lance Kendricks,3.2,4.6,5.4,4
@@ -339,7 +339,7 @@ RB,LeSean McCoy,7.4,9.6,11.3,4
 TE,Levine Toilolo,0.8,1.4,2.0,4
 RB,Lorenzo Taliaferro,0.0,0.8,1.4,4
 DEF,Los Angeles Rams,6.0,7.2,8.5,2
-WR,Louis Murphy,0.0,0.4,0.9,4
+WR,Louis Murphy,0.0,0.4,0.8,4
 WR,Lucky Whitehead,0.4,0.5,0.6,4
 QB,Luke McCown,0.0,0.1,0.3,4
 TE,Luke Stocker,0.3,0.4,0.5,3
@@ -363,7 +363,7 @@ RB,Matt Asiata,4.9,8.1,12.2,4
 K,Matt Bryant,7.8,9.3,11.0,3
 QB,Matt Cassel,0.0,0.3,0.9,4
 QB,Matt Flynn,-0.0,-0.0,0.0,2
-RB,Matt Forte,9.1,11.8,13.8,4
+RB,Matt Forte,9.1,12.3,13.8,4
 QB,Matt McGloin,-0.1,0.1,0.3,4
 QB,Matt Moore,0.0,0.2,0.3,4
 K,Matt Prater,1.0,4.3,6.4,3
@@ -444,7 +444,7 @@ WR,Roger Lewis,0.3,2.2,7.2,4
 RB,Ronnie Hillman,0.1,2.0,3.8,4
 RB,Roosevelt Nix,0.0,0.1,0.2,2
 RB,Russell Hansbrough,0.0,0.0,0.0,2
-WR,Russell Shepard,0.0,1.2,2.8,4
+WR,Russell Shepard,0.0,0.7,2.0,3
 QB,Russell Wilson,15.0,15.4,16.0,4
 QB,Ryan Fitzpatrick,11.7,13.4,15.0,4
 QB,Ryan Mallett,0.0,0.3,0.7,4
@@ -468,7 +468,7 @@ WR,Seth Roberts,3.5,5.5,9.8,4
 RB,Shane Vereen,0.0,0.0,0.0,2
 RB,Shaun Draughn,1.8,2.3,3.6,4
 QB,Shaun Hill,0.0,0.4,0.8,4
-RB,Spencer Ware,10.6,12.9,14.3,3
+RB,Spencer Ware,9.5,12.1,14.3,4
 WR,Stedman Bailey,0.0,0.5,1.6,3
 WR,Stefon Diggs,8.9,10.1,11.5,4
 WR,Sterling Shepard,3.6,5.3,6.8,4
@@ -493,7 +493,7 @@ WR,Terrelle Pryor,5.2,7.9,9.9,3
 RB,Terron Ward,1.9,4.8,6.3,4
 WR,Tevaun Smith,0.2,0.6,0.9,2
 RB,Tevin Coleman,0.0,0.0,0.0,2
-RB,Theo Riddick,9.1,12.1,15.6,4
+RB,Theo Riddick,9.1,11.9,14.8,4
 RB,Thomas Rawls,0.0,0.0,0.0,2
 RB,Tim Hightower,5.3,7.5,12.4,4
 WR,TJ Jones,0.0,0.0,0.0,2
@@ -514,7 +514,7 @@ WR,Ty Montgomery,8.4,8.9,9.8,5
 QB,Tyler Bray,0.0,0.2,0.5,3
 TE,Tyler Higbee,0.3,0.5,0.6,4
 WR,Tyler Lockett,3.5,4.1,4.7,4
-WR,Tyreek Hill,3.3,5.7,9.5,4
+WR,Tyreek Hill,3.3,5.8,9.5,4
 WR,Tyrell Williams,5.3,8.4,12.0,4
 QB,Tyrod Taylor,11.2,14.0,16.7,4
 TE,Vance McDonald,2.9,5.0,8.7,4
