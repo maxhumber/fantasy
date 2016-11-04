@@ -15,9 +15,9 @@ proj_boot <- function(player) {
     
 home <- c(
     "Ben Roethlisberger", 
-    "Jameis Winston",
+    #"Jameis Winston",
     "Matt Forte",
-    "Antone Smith",
+    #"Antone Smith",
     "Allen Robinson",
     "Stefon Diggs",
     "Corey Coleman",
@@ -32,7 +32,7 @@ away <- c(
     "Ezekiel Elliott",
     "Jalen Richard",
     "Tavon Austin",
-    "Mike Evans",
+    #"Mike Evans",
     "Jordan Matthews",
     "Hunter Henry",
     "DeAngelo Williams", 
@@ -44,6 +44,7 @@ hv <- replicate(1000,
     map_dbl(proj_boot) %>% 
     sum()) %>% 
     as.data.frame() %>% 
+    mutate(`.` = `.` + 25.04) %>% 
     as.bayesboot()
 
 plot(hv)
@@ -53,6 +54,7 @@ av <- replicate(1000,
     map_dbl(proj_boot) %>% 
     sum()) %>% 
     as.data.frame() %>% 
+    mutate(`.` = `.` + 27.00) %>% 
     as.bayesboot()
 
 plot(av)

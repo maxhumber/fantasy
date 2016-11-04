@@ -273,7 +273,6 @@ RB,Jamize Olawale,9.0,1.4,NFL.com
 RB,Kenjon Barner,9.0,1.3,NFL.com
 RB,Benny Cunningham,9.0,1.3,NFL.com
 RB,Alex Collins,9.0,1.2,NFL.com
-RB,Knile Davis,9.0,1.2,NFL.com
 RB,Kenyan Drake,9.0,1.2,NFL.com
 RB,Juwan Thompson,9.0,1.2,NFL.com
 RB,Zach Zenner,9.0,1.2,NFL.com
@@ -319,7 +318,6 @@ RB,Fitzgerald Toussaint,9.0,0.4,NFL.com
 RB,Jerome Felton,9.0,0.3,NFL.com
 RB,Anthony Sherman,9.0,0.3,NFL.com
 RB,Jordan Todman,9.0,0.3,NFL.com
-RB,Rod Smith,9.0,0.2,NFL.com
 RB,Michael Burton,9.0,0.1,NFL.com
 RB,Jalston Fowler,9.0,0.1,NFL.com
 RB,Marcus Murphy,9.0,0.1,NFL.com
@@ -354,7 +352,6 @@ WR,Darrius Heyward,9.0,1.4,NFL.com
 RB,Zac Brooks,9.0,0.0,NFL.com
 RB,Jamaal Charles,9.0,0.0,NFL.com
 RB,Tevin Coleman,9.0,0.0,NFL.com
-WR,Josh Huff,9.0,1.4,NFL.com
 WR,Jordan Norwood,9.0,1.4,NFL.com
 WR,Charone Peake,9.0,1.4,NFL.com
 WR,Chris Moore,9.0,1.2,NFL.com
@@ -404,6 +401,7 @@ WR,Kenny Bell,9.0,0.0,NFL.com
 RB,Russell Hansbrough,9.0,0.0,NFL.com
 RB,DuJuan Harris,9.0,0.0,NFL.com
 RB,Darius Jackson,9.0,0.0,NFL.com
+RB,Mike James,9.0,0.0,NFL.com
 WR,Jace Billingsley,9.0,0.0,NFL.com
 WR,Justin Blackmon,9.0,0.0,NFL.com
 WR,Moritz Boehringer,9.0,0.0,NFL.com
@@ -414,6 +412,7 @@ WR,Jaron Brown,9.0,0.0,NFL.com
 WR,Justin BrownIR,9.0,0.0,NFL.com
 WR,Vincent BrownIR,9.0,0.0,NFL.com
 WR,Martavis Bryant,9.0,0.0,NFL.com
+WR,Isaiah Burse,9.0,0.0,NFL.com
 WR,Stephen BurtonIR,9.0,0.0,NFL.com
 RB,Chris Johnson,9.0,0.0,NFL.com
 RB,Devon Johnson,9.0,0.0,NFL.com
@@ -455,6 +454,7 @@ RB,Daryl Richardson,9.0,0.0,NFL.com
 RB,Josh RobinsonNWT,9.0,0.0,NFL.com
 RB,Jacquizz Rodgers,9.0,0.0,NFL.com
 RB,Charles Sims,9.0,0.0,NFL.com
+RB,C.J. Spiller,9.0,0.0,NFL.com
 RB,Lorenzo Taliaferro,9.0,0.0,NFL.com
 RB,Kelvin Taylor,9.0,0.0,NFL.com
 WR,Cobi Hamilton,9.0,0.0,NFL.com
@@ -465,6 +465,7 @@ WR,Rashard Higgins,9.0,0.0,NFL.com
 WR,Vincent Jackson,9.0,0.0,NFL.com
 WR,Lestar JeanIR,9.0,0.0,NFL.com
 RB,Shane Vereen,9.0,0.0,NFL.com
+RB,Terrell Watson,9.0,0.0,NFL.com
 RB,Nikita Whitlock,9.0,0.0,NFL.com
 RB,Brandon Wilds,9.0,0.0,NFL.com
 RB,Andre Williams,9.0,0.0,NFL.com
@@ -479,6 +480,7 @@ WR,Andy Jones,9.0,0.0,NFL.com
 WR,Seantavius Jones,9.0,0.0,NFL.com
 WR,T.J. Jones,9.0,0.0,NFL.com
 WR,Tavarres King,9.0,0.0,NFL.com
+WR,Jonathan Krause,9.0,0.0,NFL.com
 WR,Kenny Lawler,9.0,0.0,NFL.com
 WR,Dezmin Lewis,9.0,0.0,NFL.com
 WR,Kolby Listenbee,9.0,0.0,NFL.com
@@ -500,7 +502,6 @@ QB,Drew Brees,9.0,22.8,Fantasy Sharks
 RB,Le'Veon Bell,9.0,22.4,Fantasy Sharks
 QB,Cam Newton,9.0,20.6,Fantasy Sharks
 QB,Dak Prescott,9.0,18.6,Fantasy Sharks
-QB,Andrew Luck,9.0,18.5,Fantasy Sharks
 QB,Jameis Winston,9.0,18.3,Fantasy Sharks
 QB,Matt Ryan,9.0,18.0,Fantasy Sharks
 RB,Ezekiel Elliott,9.0,17.5,Fantasy Sharks
@@ -518,6 +519,7 @@ RB,Devonta Freeman,9.0,14.7,Fantasy Sharks
 QB,Joe Flacco,9.0,14.6,Fantasy Sharks
 QB,Ben Roethlisberger,9.0,14.5,Fantasy Sharks
 QB,Case Keenum,9.0,14.1,Fantasy Sharks
+QB,Andrew Luck,9.0,13.8,Fantasy Sharks
 QB,Sam Bradford,9.0,13.7,Fantasy Sharks
 WR,Antonio Brown,9.0,12.8,Fantasy Sharks
 RB,Matt Forte,9.0,12.8,Fantasy Sharks
@@ -566,12 +568,10 @@ TE,Greg Olsen,9.0,8.8,Fantasy Sharks
 WR,Jarvis Landry,9.0,8.7,Fantasy Sharks
 WR,Terrelle Pryor,9.0,8.7,Fantasy Sharks
 WR,Mohamed Sanu,9.0,8.6,Fantasy Sharks
-WR,Robert Woods,9.0,8.6,Fantasy Sharks
 WR,Emmanuel Sanders,9.0,8.6,Fantasy Sharks
 RB,Isaiah Crowell,9.0,8.4,Fantasy Sharks
 WR,Allen Hurns,9.0,8.4,Fantasy Sharks
 WR,Quincy Enunwa,9.0,8.1,Fantasy Sharks
-TE,Delanie Walker,9.0,8.1,Fantasy Sharks
 RB,Mark Ingram,9.0,8.1,Fantasy Sharks
 WR,Kendall Wright,9.0,8.0,Fantasy Sharks
 WR,Tavon Austin,9.0,8.0,Fantasy Sharks
@@ -595,6 +595,7 @@ TE,Antonio Gates,9.0,7.0,Fantasy Sharks
 RB,Derrick Henry,9.0,6.9,Fantasy Sharks
 WR,Philly Brown,9.0,6.9,Fantasy Sharks
 RB,Peyton Barber,9.0,6.9,Fantasy Sharks
+WR,Robert Woods,9.0,6.9,Fantasy Sharks
 WR,Sammie Coates,9.0,6.9,Fantasy Sharks
 WR,Jeremy Maclin,9.0,6.8,Fantasy Sharks
 WR,Terrance Williams,9.0,6.8,Fantasy Sharks
@@ -604,6 +605,7 @@ WR,Ted Ginn Jr.,9.0,6.7,Fantasy Sharks
 WR,Randall Cobb,9.0,6.5,Fantasy Sharks
 TE,Travis Kelce,9.0,6.5,Fantasy Sharks
 WR,Torrey Smith,9.0,6.5,Fantasy Sharks
+TE,Delanie Walker,9.0,6.5,Fantasy Sharks
 TE,Gary Barnidge,9.0,6.4,Fantasy Sharks
 RB,Tim Hightower,9.0,6.3,Fantasy Sharks
 WR,Travis Benjamin,9.0,6.2,Fantasy Sharks
@@ -612,7 +614,6 @@ RB,Chris Ivory,9.0,6.0,Fantasy Sharks
 RB,Charcandrick West,9.0,6.0,Fantasy Sharks
 WR,Anquan Boldin,9.0,6.0,Fantasy Sharks
 RB,Terron Ward,9.0,5.9,Fantasy Sharks
-WR,Marquise Goodwin,9.0,5.9,Fantasy Sharks
 RB,Antone Smith,9.0,5.8,Fantasy Sharks
 RB,James Starks,9.0,5.8,Fantasy Sharks
 TE,Jimmy Graham,9.0,5.8,Fantasy Sharks
@@ -632,6 +633,7 @@ WR,Tajae Sharpe,9.0,5.2,Fantasy Sharks
 WR,Marqise Lee,9.0,5.1,Fantasy Sharks
 QB,Blaine Gabbert,9.0,5.1,Fantasy Sharks
 TE,Lance Kendricks,9.0,5.1,Fantasy Sharks
+WR,Marquise Goodwin,9.0,5.0,Fantasy Sharks
 TE,Austin Hooper,9.0,4.9,Fantasy Sharks
 RB,Matt Asiata,9.0,4.9,Fantasy Sharks
 TE,Vance McDonald,9.0,4.9,Fantasy Sharks
@@ -648,11 +650,11 @@ RB,DeAngelo Williams,9.0,4.3,Fantasy Sharks
 RB,Damien Williams,9.0,4.3,Fantasy Sharks
 RB,Cameron Artis-Payne,9.0,4.2,Fantasy Sharks
 RB,Kapri Bibbs,9.0,4.1,Fantasy Sharks
+RB,John Kuhn,9.0,4.1,Fantasy Sharks
 WR,Victor Cruz,9.0,4.1,Fantasy Sharks
 WR,Brandon Coleman,9.0,4.1,Fantasy Sharks
 TE,Julius Thomas,9.0,4.1,Fantasy Sharks
 WR,Devin Funchess,9.0,4.0,Fantasy Sharks
-RB,John Kuhn,9.0,3.9,Fantasy Sharks
 RB,Alfred Morris,9.0,3.9,Fantasy Sharks
 TE,Jesse James,9.0,3.9,Fantasy Sharks
 RB,Dwayne Washington,9.0,3.9,Fantasy Sharks
@@ -691,7 +693,6 @@ WR,Albert Wilson,9.0,2.8,Fantasy Sharks
 RB,DeAndre Washington,9.0,2.7,Fantasy Sharks
 WR,Jalin Marshall,9.0,2.7,Fantasy Sharks
 WR,Taylor Gabriel,9.0,2.7,Fantasy Sharks
-WR,Josh Huff,9.0,2.6,Fantasy Sharks
 RB,Steven Jackson,9.0,2.6,Fantasy Sharks
 WR,Darrius Heyward-Bey,9.0,2.6,Fantasy Sharks
 RB,Robert Turbin,9.0,2.6,Fantasy Sharks
@@ -730,23 +731,23 @@ TE,Ed Dickson,9.0,1.6,Fantasy Sharks
 WR,Stedman Bailey,9.0,1.6,Fantasy Sharks
 TE,Josh Hill,9.0,1.6,Fantasy Sharks
 RB,Jamize Olawale,9.0,1.6,Fantasy Sharks
-RB,Reggie Bush,9.0,1.6,Fantasy Sharks
 RB,Zach Line,9.0,1.6,Fantasy Sharks
 RB,Bobby Rainey,9.0,1.6,Fantasy Sharks
 WR,Paul Richardson,9.0,1.6,Fantasy Sharks
 WR,Jeff Janis,9.0,1.5,Fantasy Sharks
 WR,Jordan Norwood,9.0,1.5,Fantasy Sharks
 WR,Cordarrelle Patterson,9.0,1.5,Fantasy Sharks
+TE,Anthony Fasano,9.0,1.5,Fantasy Sharks
 WR,Jarius Wright,9.0,1.5,Fantasy Sharks
 WR,Percy Harvin,9.0,1.5,Fantasy Sharks
 WR,Harry Douglas,9.0,1.5,Fantasy Sharks
 WR,Marc Mariani,9.0,1.5,Fantasy Sharks
-TE,Anthony Fasano,9.0,1.4,Fantasy Sharks
 WR,De'Anthony Thomas,9.0,1.4,Fantasy Sharks
 RB,Lorenzo Taliaferro,9.0,1.4,Fantasy Sharks
 TE,Dion Sims,9.0,1.4,Fantasy Sharks
 TE,Erik Swoope,9.0,1.3,Fantasy Sharks
 TE,Brandon Myers,9.0,1.3,Fantasy Sharks
+RB,Reggie Bush,9.0,1.3,Fantasy Sharks
 WR,Tanner McEvoy,9.0,1.3,Fantasy Sharks
 QB,Mark Sanchez,9.0,1.3,Fantasy Sharks
 WR,Wes Welker,9.0,1.3,Fantasy Sharks
@@ -760,15 +761,15 @@ QB,Dan Orlovsky,9.0,1.2,Fantasy Sharks
 QB,Derek Anderson,9.0,1.2,Fantasy Sharks
 WR,Andre Roberts,9.0,1.2,Fantasy Sharks
 WR,Bradley Marquez,9.0,1.1,Fantasy Sharks
+WR,Walter Powell,9.0,1.1,Fantasy Sharks
 TE,Austin Seferian-Jenkins,9.0,1.1,Fantasy Sharks
 TE,Ladarius Green,9.0,1.0,Fantasy Sharks
 TE,Demetrius Harris,9.0,1.0,Fantasy Sharks
-WR,Walter Powell,9.0,1.0,Fantasy Sharks
 TE,Jeff Heuerman,9.0,1.0,Fantasy Sharks
 RB,Denard Robinson,9.0,1.0,Fantasy Sharks
+RB,Jonathan Williams,9.0,1.0,Fantasy Sharks
 RB,C.J. Spiller,9.0,0.9,Fantasy Sharks
 QB,Matt Cassel,9.0,0.9,Fantasy Sharks
-RB,Jonathan Williams,9.0,0.9,Fantasy Sharks
 WR,Cody Latimer,9.0,0.9,Fantasy Sharks
 RB,Josh Ferguson,9.0,0.9,Fantasy Sharks
 RB,Alex Collins,9.0,0.9,Fantasy Sharks
@@ -779,17 +780,17 @@ WR,Jason Avant,9.0,0.8,Fantasy Sharks
 TE,Daniel Fells,9.0,0.8,Fantasy Sharks
 QB,Shaun Hill,9.0,0.8,Fantasy Sharks
 TE,Rhett Ellison,9.0,0.8,Fantasy Sharks
-RB,Daniel Lasco,9.0,0.8,Fantasy Sharks
+QB,Scott Tolzien,9.0,0.8,Fantasy Sharks
+TE,Phillip Supernaw,9.0,0.8,Fantasy Sharks
 TE,MarQueis Gray,9.0,0.7,Fantasy Sharks
-TE,Phillip Supernaw,9.0,0.7,Fantasy Sharks
 RB,Stevan Ridley,9.0,0.7,Fantasy Sharks
-QB,Scott Tolzien,9.0,0.7,Fantasy Sharks
 RB,Bishop Sankey,9.0,0.7,Fantasy Sharks
 RB,Patrick DiMarco,9.0,0.7,Fantasy Sharks
 QB,Ryan Mallett,9.0,0.7,Fantasy Sharks
 QB,Trevone Boykin,9.0,0.7,Fantasy Sharks
 QB,E.J. Manuel,9.0,0.7,Fantasy Sharks
 TE,Gavin Escobar,9.0,0.7,Fantasy Sharks
+RB,Daniel Lasco,9.0,0.6,Fantasy Sharks
 RB,Kenneth Farrow,9.0,0.6,Fantasy Sharks
 TE,Blake Bell,9.0,0.6,Fantasy Sharks
 RB,Fitzgerald Toussaint,9.0,0.6,Fantasy Sharks
@@ -919,48 +920,48 @@ DEF,Jacksonville Jaguars,9.0,1.8,Fantasy Sharks
 DEF,San Francisco 49ers,9.0,-0.83,Fantasy Sharks
 DEF,Cleveland Browns,9.0,-1.44,Fantasy Sharks
 QB,Aaron Rodgers,9.0,22.4,Fantasy Pros
-QB,Drew Brees,9.0,20.4,Fantasy Pros
-QB,Matt Ryan,9.0,20.3,Fantasy Pros
+QB,Matt Ryan,9.0,20.5,Fantasy Pros
+QB,Drew Brees,9.0,20.5,Fantasy Pros
 QB,Philip Rivers,9.0,18.8,Fantasy Pros
-QB,Dak Prescott,9.0,18.6,Fantasy Pros
-QB,Andrew Luck,9.0,18.2,Fantasy Pros
-QB,Cam Newton,9.0,17.8,Fantasy Pros
-QB,Jameis Winston,9.0,17.2,Fantasy Pros
+QB,Dak Prescott,9.0,18.7,Fantasy Pros
+QB,Andrew Luck,9.0,18.3,Fantasy Pros
+QB,Cam Newton,9.0,17.7,Fantasy Pros
+QB,Jameis Winston,9.0,17.1,Fantasy Pros
 QB,Marcus Mariota,9.0,17.0,Fantasy Pros
-QB,Ben Roethlisberger,9.0,16.6,Fantasy Pros
+QB,Ben Roethlisberger,9.0,16.5,Fantasy Pros
 QB,Colin Kaepernick,9.0,16.3,Fantasy Pros
-QB,Ryan Tannehill,9.0,16.0,Fantasy Pros
-QB,Russell Wilson,9.0,16.0,Fantasy Pros
-QB,Tyrod Taylor,9.0,15.4,Fantasy Pros
-QB,Sam Bradford,9.0,15.2,Fantasy Pros
+QB,Ryan Tannehill,9.0,15.9,Fantasy Pros
+QB,Russell Wilson,9.0,15.9,Fantasy Pros
+QB,Tyrod Taylor,9.0,15.6,Fantasy Pros
+QB,Sam Bradford,9.0,15.4,Fantasy Pros
 QB,Nick Foles,9.0,15.2,Fantasy Pros
-QB,Matthew Stafford,9.0,15.2,Fantasy Pros
-QB,Blake Bortles,9.0,14.8,Fantasy Pros
-QB,Derek Carr,9.0,14.4,Fantasy Pros
-QB,Trevor Siemian,9.0,14.3,Fantasy Pros
-QB,Ryan Fitzpatrick,9.0,14.1,Fantasy Pros
-QB,Eli Manning,9.0,13.8,Fantasy Pros
-QB,Joe Flacco,9.0,13.6,Fantasy Pros
-QB,Carson Wentz,9.0,13.6,Fantasy Pros
-QB,Case Keenum,9.0,13.4,Fantasy Pros
-QB,Cody Kessler,9.0,11.9,Fantasy Pros
-QB,Josh McCown,9.0,6.9,Fantasy Pros
+QB,Matthew Stafford,9.0,15.0,Fantasy Pros
+QB,Blake Bortles,9.0,14.7,Fantasy Pros
+QB,Derek Carr,9.0,14.7,Fantasy Pros
+QB,Cody Kessler,9.0,14.6,Fantasy Pros
+QB,Trevor Siemian,9.0,14.2,Fantasy Pros
+QB,Ryan Fitzpatrick,9.0,13.9,Fantasy Pros
+QB,Joe Flacco,9.0,13.7,Fantasy Pros
+QB,Eli Manning,9.0,13.7,Fantasy Pros
+QB,Carson Wentz,9.0,13.7,Fantasy Pros
+QB,Case Keenum,9.0,13.5,Fantasy Pros
+QB,Josh McCown,9.0,3.7,Fantasy Pros
 QB,Landry Jones,9.0,3.0,Fantasy Pros
 QB,Christian Hackenberg,9.0,0.5,Fantasy Pros
 QB,Tony Romo,9.0,0.4,Fantasy Pros
 QB,Jared Goff,9.0,0.4,Fantasy Pros
 QB,Blaine Gabbert,9.0,0.4,Fantasy Pros
 QB,Shaun Hill,9.0,0.4,Fantasy Pros
-QB,Paxton Lynch,9.0,0.3,Fantasy Pros
-QB,Mike Glennon,9.0,0.3,Fantasy Pros
 QB,Ryan Mallett,9.0,0.3,Fantasy Pros
+QB,Mike Glennon,9.0,0.3,Fantasy Pros
+QB,Paxton Lynch,9.0,0.3,Fantasy Pros
 QB,Chad Henne,9.0,0.3,Fantasy Pros
 QB,Scott Tolzien,9.0,0.3,Fantasy Pros
+QB,Chase Daniel,9.0,0.3,Fantasy Pros
+QB,Luke McCown,9.0,0.3,Fantasy Pros
 QB,Ryan Nassib,9.0,0.3,Fantasy Pros
 QB,Matt Moore,9.0,0.3,Fantasy Pros
-QB,Luke McCown,9.0,0.3,Fantasy Pros
-QB,Chase Daniel,9.0,0.3,Fantasy Pros
-QB,Matt McGloin,9.0,0.2,Fantasy Pros
+QB,Matt McGloin,9.0,0.3,Fantasy Pros
 QB,Matt Schaub,9.0,0.2,Fantasy Pros
 QB,Dan Orlovsky,9.0,0.2,Fantasy Pros
 QB,Derek Anderson,9.0,0.2,Fantasy Pros
@@ -969,34 +970,33 @@ QB,Kellen Clemens,9.0,0.1,Fantasy Pros
 QB,Trevone Boykin,9.0,0.1,Fantasy Pros
 QB,Matt Cassel,9.0,0.1,Fantasy Pros
 QB,Brett Hundley,9.0,0.1,Fantasy Pros
-QB,Bryce Petty,9.0,0.1,Fantasy Pros
-QB,Zach Mettenberger,9.0,0.0,Fantasy Pros
+QB,Bryce Petty,9.0,0.0,Fantasy Pros
 QB,Tyler Bray,9.0,0.0,Fantasy Pros
+QB,Zach Mettenberger,9.0,0.0,Fantasy Pros
 QB,Mark Sanchez,9.0,0.0,Fantasy Pros
-QB,Joe Webb,9.0,0.0,Fantasy Pros
-QB,Joe Callahan,9.0,0.0,Fantasy Pros
-QB,Jake Rudock,9.0,0.0,Fantasy Pros
-QB,Sean Mannion,9.0,0.0,Fantasy Pros
-QB,Aaron Murray,9.0,0.0,Fantasy Pros
-QB,Connor Cook,9.0,0.0,Fantasy Pros
-QB,Brandon Allen,9.0,0.0,Fantasy Pros
-QB,Kevin Hogan,9.0,0.0,Fantasy Pros
-QB,Matt Simms,9.0,0.0,Fantasy Pros
-QB,Austin Davis,9.0,0.0,Fantasy Pros
-QB,Robert Griffin,9.0,0.0,Fantasy Pros
-QB,Stephen Morris,9.0,0.0,Fantasy Pros
-QB,Christian Ponder,9.0,0.0,Fantasy Pros
-QB,Cardale Jones,9.0,0.0,Fantasy Pros
-QB,Brandon Doughty,9.0,0.0,Fantasy Pros
-QB,Josh Johnson,9.0,0.0,Fantasy Pros
-QB,Joel Stave,9.0,0.0,Fantasy Pros
-QB,Jameill Showers,9.0,0.0,Fantasy Pros
 QB,Garrett Grayson,9.0,0.0,Fantasy Pros
-QB,Alex Tanney,9.0,0.0,Fantasy Pros
+QB,Stephen Morris,9.0,0.0,Fantasy Pros
+QB,Joe Callahan,9.0,0.0,Fantasy Pros
 QB,Logan Thomas,9.0,0.0,Fantasy Pros
-WR,Julio Jones,9.0,13.9,Fantasy Pros
-WR,Mike Evans,9.0,13.7,Fantasy Pros
-WR,Antonio Brown,9.0,13.2,Fantasy Pros
+QB,Matt Simms,9.0,0.0,Fantasy Pros
+QB,Kevin Hogan,9.0,0.0,Fantasy Pros
+QB,Austin Davis,9.0,0.0,Fantasy Pros
+QB,Brandon Allen,9.0,0.0,Fantasy Pros
+QB,Cardale Jones,9.0,0.0,Fantasy Pros
+QB,Connor Cook,9.0,0.0,Fantasy Pros
+QB,Joe Webb,9.0,0.0,Fantasy Pros
+QB,Sean Mannion,9.0,0.0,Fantasy Pros
+QB,Josh Johnson,9.0,0.0,Fantasy Pros
+QB,Robert Griffin,9.0,0.0,Fantasy Pros
+QB,Aaron Murray,9.0,0.0,Fantasy Pros
+QB,Jameill Showers,9.0,0.0,Fantasy Pros
+QB,Jake Rudock,9.0,0.0,Fantasy Pros
+QB,Christian Ponder,9.0,0.0,Fantasy Pros
+QB,Alex Tanney,9.0,0.0,Fantasy Pros
+QB,Brandon Doughty,9.0,0.0,Fantasy Pros
+WR,Julio Jones,9.0,14.0,Fantasy Pros
+WR,Mike Evans,9.0,13.5,Fantasy Pros
+WR,Antonio Brown,9.0,13.3,Fantasy Pros
 WR,T.Y. Hilton,9.0,12.3,Fantasy Pros
 WR,Jordy Nelson,9.0,11.7,Fantasy Pros
 WR,Odell Beckham Jr.,9.0,11.7,Fantasy Pros
@@ -1006,42 +1006,41 @@ WR,Brandon Marshall,9.0,10.6,Fantasy Pros
 WR,Jarvis Landry,9.0,10.6,Fantasy Pros
 WR,Randall Cobb,9.0,10.3,Fantasy Pros
 WR,Kelvin Benjamin,9.0,10.2,Fantasy Pros
-WR,Allen Robinson,9.0,10.1,Fantasy Pros
 WR,Stefon Diggs,9.0,10.1,Fantasy Pros
-WR,Terrelle Pryor,9.0,9.9,Fantasy Pros
+WR,Allen Robinson,9.0,10.1,Fantasy Pros
+WR,Terrelle Pryor,9.0,9.7,Fantasy Pros
 WR,Emmanuel Sanders,9.0,9.6,Fantasy Pros
+WR,Jordan Matthews,9.0,9.5,Fantasy Pros
 WR,Willie Snead,9.0,9.4,Fantasy Pros
-WR,Jordan Matthews,9.0,9.3,Fantasy Pros
+WR,Brandin Cooks,9.0,9.3,Fantasy Pros
+WR,Mike Wallace,9.0,9.3,Fantasy Pros
 WR,Davante Adams,9.0,9.3,Fantasy Pros
 WR,Amari Cooper,9.0,9.3,Fantasy Pros
-WR,Brandin Cooks,9.0,9.2,Fantasy Pros
-WR,Michael Crabtree,9.0,9.1,Fantasy Pros
-WR,Tyrell Williams,9.0,9.1,Fantasy Pros
+WR,Michael Crabtree,9.0,9.3,Fantasy Pros
+WR,Ty Montgomery,9.0,9.2,Fantasy Pros
 WR,Donte Moncrief,9.0,9.1,Fantasy Pros
 WR,Michael Thomas,9.0,9.1,Fantasy Pros
-WR,Ty Montgomery,9.0,9.0,Fantasy Pros
+WR,Tyrell Williams,9.0,8.8,Fantasy Pros
 WR,Jeremy Maclin,9.0,8.8,Fantasy Pros
 WR,Devante Parker,9.0,8.6,Fantasy Pros
-WR,Mike Wallace,9.0,8.6,Fantasy Pros
-WR,Doug Baldwin,9.0,8.6,Fantasy Pros
-WR,Golden Tate,9.0,8.5,Fantasy Pros
+WR,Doug Baldwin,9.0,8.5,Fantasy Pros
 WR,Kenny Britt,9.0,8.5,Fantasy Pros
-WR,Tavon Austin,9.0,8.3,Fantasy Pros
-WR,Travis Benjamin,9.0,8.3,Fantasy Pros
+WR,Golden Tate,9.0,8.5,Fantasy Pros
+WR,Tavon Austin,9.0,8.4,Fantasy Pros
 WR,Mohamed Sanu,9.0,7.8,Fantasy Pros
-WR,Marvin Jones,9.0,7.7,Fantasy Pros
+WR,Marvin Jones,9.0,7.6,Fantasy Pros
+WR,Travis Benjamin,9.0,7.6,Fantasy Pros
 WR,Quincy Enunwa,9.0,7.6,Fantasy Pros
 WR,Jeremy Kerley,9.0,7.1,Fantasy Pros
 WR,Corey Coleman,9.0,6.9,Fantasy Pros
 WR,Allen Hurns,9.0,6.8,Fantasy Pros
 WR,Cole Beasley,9.0,6.2,Fantasy Pros
-WR,Steve Smith,9.0,6.2,Fantasy Pros
+WR,Sammie Coates,9.0,6.1,Fantasy Pros
 WR,Victor Cruz,9.0,6.1,Fantasy Pros
-WR,Sammie Coates,9.0,6.0,Fantasy Pros
 WR,Kendall Wright,9.0,6.0,Fantasy Pros
 WR,Brian Quick,9.0,5.8,Fantasy Pros
-WR,Adam Humphries,9.0,5.8,Fantasy Pros
 WR,Robert Woods,9.0,5.7,Fantasy Pros
+WR,Adam Humphries,9.0,5.7,Fantasy Pros
 WR,Terrance Williams,9.0,5.6,Fantasy Pros
 WR,Rishard Matthews,9.0,5.5,Fantasy Pros
 WR,Sterling Shepard,9.0,5.5,Fantasy Pros
@@ -1050,32 +1049,32 @@ WR,Torrey Smith,9.0,5.4,Fantasy Pros
 WR,Anquan Boldin,9.0,5.1,Fantasy Pros
 WR,Marqise Lee,9.0,5.0,Fantasy Pros
 WR,Adam Thielen,9.0,5.0,Fantasy Pros
+WR,Dontrelle Inman,9.0,4.9,Fantasy Pros
 WR,Dorial Green-Beckham,9.0,4.8,Fantasy Pros
+WR,Tyreek Hill,9.0,4.8,Fantasy Pros
 WR,Marquise Goodwin,9.0,4.7,Fantasy Pros
 WR,Cordarrelle Patterson,9.0,4.7,Fantasy Pros
-WR,Tyreek Hill,9.0,4.6,Fantasy Pros
+WR,Breshad Perriman,9.0,4.7,Fantasy Pros
+WR,Kamar Aiken,9.0,4.6,Fantasy Pros
 WR,Jermaine Kearse,9.0,4.5,Fantasy Pros
-WR,Dontrelle Inman,9.0,4.4,Fantasy Pros
 WR,Phillip Dorsett,9.0,4.3,Fantasy Pros
-WR,Tajae Sharpe,9.0,4.2,Fantasy Pros
-WR,Tyler Lockett,9.0,4.1,Fantasy Pros
 WR,Nelson Agholor,9.0,4.1,Fantasy Pros
-WR,Chris Conley,9.0,4.1,Fantasy Pros
+WR,Tyler Lockett,9.0,4.1,Fantasy Pros
 WR,Seth Roberts,9.0,4.1,Fantasy Pros
+WR,Tajae Sharpe,9.0,4.1,Fantasy Pros
+WR,Chris Conley,9.0,4.0,Fantasy Pros
 WR,Ted Ginn,9.0,4.0,Fantasy Pros
 WR,Robby Anderson,9.0,3.9,Fantasy Pros
 WR,Devin Funchess,9.0,3.8,Fantasy Pros
 WR,Quinton Patton,9.0,3.7,Fantasy Pros
 WR,Justin Hunter,9.0,3.7,Fantasy Pros
-WR,Breshad Perriman,9.0,3.6,Fantasy Pros
-WR,Andrew Hawkins,9.0,3.5,Fantasy Pros
-WR,Cecil Shorts,9.0,3.3,Fantasy Pros
-WR,Eli Rogers,9.0,3.1,Fantasy Pros
+WR,Andrew Hawkins,9.0,3.6,Fantasy Pros
+WR,Cecil Shorts,9.0,3.4,Fantasy Pros
+WR,Eli Rogers,9.0,3.0,Fantasy Pros
 WR,Philly Brown,9.0,2.9,Fantasy Pros
 WR,Taylor Gabriel,9.0,2.6,Fantasy Pros
-WR,Justin Hardy,9.0,2.5,Fantasy Pros
-WR,Markus Wheaton,9.0,2.4,Fantasy Pros
-WR,Kamar Aiken,9.0,2.3,Fantasy Pros
+WR,Justin Hardy,9.0,2.6,Fantasy Pros
+WR,Markus Wheaton,9.0,2.3,Fantasy Pros
 WR,Ricardo Louis,9.0,2.0,Fantasy Pros
 WR,Russell Shepard,9.0,2.0,Fantasy Pros
 WR,Brice Butler,9.0,2.0,Fantasy Pros
@@ -1083,54 +1082,56 @@ WR,Jordan Norwood,9.0,1.9,Fantasy Pros
 WR,Charone Peake,9.0,1.9,Fantasy Pros
 WR,Bennie Fowler,9.0,1.9,Fantasy Pros
 WR,Paul Richardson,9.0,1.8,Fantasy Pros
+WR,Chris Moore,9.0,1.8,Fantasy Pros
 WR,Andre Holmes,9.0,1.8,Fantasy Pros
 WR,Freddie Martino,9.0,1.7,Fantasy Pros
 WR,Tanner McEvoy,9.0,1.7,Fantasy Pros
 WR,Brandon Coleman,9.0,1.7,Fantasy Pros
 WR,Walter Powell,9.0,1.7,Fantasy Pros
 WR,Darrius Heyward-Bey,9.0,1.6,Fantasy Pros
+WR,Albert Wilson,9.0,1.6,Fantasy Pros
 WR,Aldrick Robinson,9.0,1.6,Fantasy Pros
 WR,Percy Harvin,9.0,1.5,Fantasy Pros
-WR,Albert Wilson,9.0,1.5,Fantasy Pros
 WR,Charles Johnson,9.0,1.4,Fantasy Pros
 WR,Jeff Janis,9.0,1.2,Fantasy Pros
-WR,Brandon Tate,9.0,1.2,Fantasy Pros
 WR,Rod Streater,9.0,1.2,Fantasy Pros
+WR,Griff Whalen,9.0,1.1,Fantasy Pros
+WR,Brandon Tate,9.0,1.1,Fantasy Pros
+WR,Harry Douglas,9.0,1.0,Fantasy Pros
+WR,Cobi Hamilton,9.0,0.9,Fantasy Pros
 WR,Andre Roberts,9.0,0.9,Fantasy Pros
-WR,Griff Whalen,9.0,0.9,Fantasy Pros
-WR,Cobi Hamilton,9.0,0.8,Fantasy Pros
 WR,Geronimo Allison,9.0,0.8,Fantasy Pros
 WR,Arrelious Benn,9.0,0.8,Fantasy Pros
 WR,Jarius Wright,9.0,0.8,Fantasy Pros
-WR,Devin Smith,9.0,0.8,Fantasy Pros
 WR,Chester Rogers,9.0,0.8,Fantasy Pros
+WR,Devin Smith,9.0,0.8,Fantasy Pros
 WR,Aaron Burbridge,9.0,0.7,Fantasy Pros
 WR,Jordan Taylor,9.0,0.7,Fantasy Pros
-WR,Cody Latimer,9.0,0.7,Fantasy Pros
-WR,Harry Douglas,9.0,0.7,Fantasy Pros
-WR,Trevor Davis,9.0,0.7,Fantasy Pros
 WR,Tre McBride,9.0,0.7,Fantasy Pros
 WR,Jalin Marshall,9.0,0.7,Fantasy Pros
 WR,Louis Murphy,9.0,0.7,Fantasy Pros
+WR,De'Anthony Thomas,9.0,0.7,Fantasy Pros
+WR,Lucky Whitehead,9.0,0.7,Fantasy Pros
+WR,Cody Latimer,9.0,0.7,Fantasy Pros
 WR,Roger Lewis,9.0,0.7,Fantasy Pros
-WR,Lucky Whitehead,9.0,0.6,Fantasy Pros
+WR,Isaiah Burse,9.0,0.6,Fantasy Pros
+WR,Bryce Treggs,9.0,0.6,Fantasy Pros
 WR,Rashad Greene,9.0,0.6,Fantasy Pros
-WR,Chris Moore,9.0,0.6,Fantasy Pros
 WR,Corey Fuller,9.0,0.6,Fantasy Pros
 WR,Tommylee Lewis,9.0,0.6,Fantasy Pros
 WR,Devin Street,9.0,0.6,Fantasy Pros
-WR,De'Anthony Thomas,9.0,0.6,Fantasy Pros
-WR,Rashard Higgins,9.0,0.6,Fantasy Pros
 WR,Bryan Walters,9.0,0.5,Fantasy Pros
 WR,Keshawn Martin,9.0,0.5,Fantasy Pros
+WR,Rashard Higgins,9.0,0.5,Fantasy Pros
+WR,Trevor Davis,9.0,0.5,Fantasy Pros
 WR,Laquon Treadwell,9.0,0.5,Fantasy Pros
 WR,Jake Lampman,9.0,0.5,Fantasy Pros
 WR,Kaelin Clay,9.0,0.5,Fantasy Pros
 WR,Chris Matthews,9.0,0.5,Fantasy Pros
 WR,Mike Thomas,9.0,0.4,Fantasy Pros
 WR,Demarcus Robinson,9.0,0.4,Fantasy Pros
-WR,Neal Sterling,9.0,0.4,Fantasy Pros
 WR,Bradley Marquez,9.0,0.4,Fantasy Pros
+WR,Neal Sterling,9.0,0.4,Fantasy Pros
 WR,Brenton Bersin,9.0,0.4,Fantasy Pros
 WR,Chris Harper,9.0,0.3,Fantasy Pros
 WR,Jeremy Butler,9.0,0.3,Fantasy Pros
@@ -1147,89 +1148,90 @@ WR,Tevaun Smith,9.0,0.2,Fantasy Pros
 WR,Marc Mariani,9.0,0.2,Fantasy Pros
 WR,Frankie Hammond,9.0,0.1,Fantasy Pros
 WR,Devin Hester,9.0,0.1,Fantasy Pros
-WR,TJ Jones,9.0,0.0,Fantasy Pros
-WR,Jaydon Mickens,9.0,0.0,Fantasy Pros
 WR,Nick Williams,9.0,0.0,Fantasy Pros
-WR,K.J. Brent,9.0,0.0,Fantasy Pros
+WR,Keyarris Garrett,9.0,0.0,Fantasy Pros
+WR,Jaydon Mickens,9.0,0.0,Fantasy Pros
 WR,Jonathan Krause,9.0,0.0,Fantasy Pros
+WR,Byron Marshall,9.0,0.0,Fantasy Pros
+WR,K.J. Brent,9.0,0.0,Fantasy Pros
 WR,Kalif Raymond,9.0,0.0,Fantasy Pros
-WR,Mitch Mathews,9.0,0.0,Fantasy Pros
-WR,Dom Williams,9.0,0.0,Fantasy Pros
-WR,Bryce Treggs,9.0,0.0,Fantasy Pros
 WR,Rashad Lawrence,9.0,0.0,Fantasy Pros
+WR,Chris Givens,9.0,0.0,Fantasy Pros
+WR,Shane Wynn,9.0,0.0,Fantasy Pros
+WR,David Watford,9.0,0.0,Fantasy Pros
+WR,Steve Smith,9.0,0.0,Fantasy Pros
 WR,J.D. McKissic,9.0,0.0,Fantasy Pros
-WR,Demarcus Ayers,9.0,0.0,Fantasy Pros
 WR,Sammy Watkins,9.0,0.0,Fantasy Pros
 WR,Nelson Spruce,9.0,0.0,Fantasy Pros
 WR,Jace Billingsley,9.0,0.0,Fantasy Pros
-WR,Rashawn Scott,9.0,0.0,Fantasy Pros
 WR,Tavarres King,9.0,0.0,Fantasy Pros
+WR,Kenny Bell,9.0,0.0,Fantasy Pros
 WR,Devon Cajuste,9.0,0.0,Fantasy Pros
 WR,Paul Turner,9.0,0.0,Fantasy Pros
-WR,Kenny Bell,9.0,0.0,Fantasy Pros
-WR,Kenny Lawler,9.0,0.0,Fantasy Pros
-WR,Ed Eagan,9.0,0.0,Fantasy Pros
 WR,Vince Mayle,9.0,0.0,Fantasy Pros
-WR,Keyarris Garrett,9.0,0.0,Fantasy Pros
+WR,Ed Eagan,9.0,0.0,Fantasy Pros
 WR,C.J. Goodwin,9.0,0.0,Fantasy Pros
-WR,Byron Marshall,9.0,0.0,Fantasy Pros
-WR,Mose Frazier,9.0,0.0,Fantasy Pros
-WR,David Watford,9.0,0.0,Fantasy Pros
 WR,Marcus Lucas,9.0,0.0,Fantasy Pros
-WR,Chris Givens,9.0,0.0,Fantasy Pros
-WR,Shane Wynn,9.0,0.0,Fantasy Pros
+WR,Mose Frazier,9.0,0.0,Fantasy Pros
+WR,Dom Williams,9.0,0.0,Fantasy Pros
 WR,Corey Washington,9.0,0.0,Fantasy Pros
-WR,Herb Waters,9.0,0.0,Fantasy Pros
+WR,Demarcus Ayers,9.0,0.0,Fantasy Pros
 WR,Geremy Davis,9.0,0.0,Fantasy Pros
+WR,Herb Waters,9.0,0.0,Fantasy Pros
+WR,Rashawn Scott,9.0,0.0,Fantasy Pros
 WR,Paul McRoberts,9.0,0.0,Fantasy Pros
 WR,Darius Powe,9.0,0.0,Fantasy Pros
 WR,Moritz Boehringer,9.0,0.0,Fantasy Pros
 WR,Andy Jones,9.0,0.0,Fantasy Pros
-RB,Ezekiel Elliott,9.0,18.4,Fantasy Pros
+WR,TJ Jones,9.0,0.0,Fantasy Pros
+WR,Kenny Lawler,9.0,0.0,Fantasy Pros
+RB,Ezekiel Elliott,9.0,18.5,Fantasy Pros
 RB,Le'Veon Bell,9.0,16.1,Fantasy Pros
 RB,Devonta Freeman,9.0,14.9,Fantasy Pros
 RB,Melvin Gordon,9.0,14.8,Fantasy Pros
-RB,DeMarco Murray,9.0,14.1,Fantasy Pros
 RB,Devontae Booker,9.0,13.8,Fantasy Pros
-RB,Matt Forte,9.0,13.7,Fantasy Pros
-RB,Todd Gurley,9.0,12.5,Fantasy Pros
-RB,Carlos Hyde,9.0,12.3,Fantasy Pros
+RB,DeMarco Murray,9.0,13.8,Fantasy Pros
+RB,Matt Forte,9.0,13.6,Fantasy Pros
+RB,Todd Gurley,9.0,12.7,Fantasy Pros
 RB,Christine Michael,9.0,12.3,Fantasy Pros
-RB,Mark Ingram,9.0,11.4,Fantasy Pros
-RB,Jonathan Stewart,9.0,10.9,Fantasy Pros
-RB,Jay Ajayi,9.0,10.8,Fantasy Pros
-RB,Spencer Ware,9.0,10.6,Fantasy Pros
+RB,Mark Ingram,9.0,11.6,Fantasy Pros
+RB,Carlos Hyde,9.0,11.2,Fantasy Pros
+RB,Jonathan Stewart,9.0,11.0,Fantasy Pros
+RB,Charcandrick West,9.0,10.8,Fantasy Pros
 RB,Frank Gore,9.0,10.6,Fantasy Pros
+RB,Jay Ajayi,9.0,10.6,Fantasy Pros
 RB,Theo Riddick,9.0,10.5,Fantasy Pros
+RB,Ty Montgomery,9.0,10.4,Fantasy Pros
+RB,Latavius Murray,9.0,9.8,Fantasy Pros
 RB,Isaiah Crowell,9.0,9.7,Fantasy Pros
 RB,Darren Sproles,9.0,9.7,Fantasy Pros
-RB,Terrance West,9.0,9.6,Fantasy Pros
-RB,Latavius Murray,9.0,9.6,Fantasy Pros
-RB,LeSean McCoy,9.0,9.4,Fantasy Pros
-RB,Ty Montgomery,9.0,9.3,Fantasy Pros
-RB,Charcandrick West,9.0,9.1,Fantasy Pros
-RB,Matt Asiata,9.0,9.1,Fantasy Pros
-RB,Antone Smith,9.0,8.5,Fantasy Pros
-RB,Rashad Jennings,9.0,7.9,Fantasy Pros
-RB,Duke Johnson,9.0,7.8,Fantasy Pros
-RB,Jerick McKinnon,9.0,7.7,Fantasy Pros
+RB,LeSean McCoy,9.0,9.5,Fantasy Pros
+RB,Terrance West,9.0,9.5,Fantasy Pros
+RB,Matt Asiata,9.0,8.9,Fantasy Pros
+RB,Spencer Ware,9.0,8.9,Fantasy Pros
+RB,Antone Smith,9.0,8.7,Fantasy Pros
+RB,Jerick McKinnon,9.0,7.9,Fantasy Pros
+RB,Rashad Jennings,9.0,7.8,Fantasy Pros
+RB,Duke Johnson,9.0,7.7,Fantasy Pros
 RB,Tim Hightower,9.0,6.2,Fantasy Pros
 RB,Ryan Mathews,9.0,5.9,Fantasy Pros
-RB,Bilal Powell,9.0,5.9,Fantasy Pros
+RB,Bilal Powell,9.0,5.8,Fantasy Pros
 RB,T.J. Yeldon,9.0,5.8,Fantasy Pros
 RB,Peyton Barber,9.0,5.5,Fantasy Pros
-RB,Terron Ward,9.0,5.3,Fantasy Pros
-RB,Derrick Henry,9.0,5.2,Fantasy Pros
+RB,Derrick Henry,9.0,5.5,Fantasy Pros
+RB,Terron Ward,9.0,5.4,Fantasy Pros
+RB,C.J. Prosise,9.0,4.9,Fantasy Pros
 RB,Mike Gillislee,9.0,4.9,Fantasy Pros
 RB,Chris Ivory,9.0,4.8,Fantasy Pros
-RB,C.J. Prosise,9.0,4.7,Fantasy Pros
-RB,Don Jackson,9.0,4.2,Fantasy Pros
+RB,Don Jackson,9.0,4.6,Fantasy Pros
+RB,DuJuan Harris,9.0,3.9,Fantasy Pros
+RB,DeAndre Washington,9.0,3.6,Fantasy Pros
+RB,Alfred Morris,9.0,3.6,Fantasy Pros
 RB,Bobby Rainey,9.0,3.6,Fantasy Pros
-RB,DeAndre Washington,9.0,3.5,Fantasy Pros
-RB,Alfred Morris,9.0,3.5,Fantasy Pros
 RB,Jalen Richard,9.0,3.4,Fantasy Pros
 RB,Damien Williams,9.0,3.3,Fantasy Pros
 RB,Paul Perkins,9.0,3.3,Fantasy Pros
+RB,Mike Davis,9.0,3.2,Fantasy Pros
 RB,Kenneth Dixon,9.0,3.2,Fantasy Pros
 RB,Zach Zenner,9.0,3.1,Fantasy Pros
 RB,Kapri Bibbs,9.0,3.0,Fantasy Pros
@@ -1237,39 +1239,39 @@ RB,Fozzy Whittaker,9.0,2.9,Fantasy Pros
 RB,DeAngelo Williams,9.0,2.9,Fantasy Pros
 RB,Travaris Cadet,9.0,2.7,Fantasy Pros
 RB,Robert Turbin,9.0,2.7,Fantasy Pros
-RB,Mike James,9.0,2.7,Fantasy Pros
 RB,Benny Cunningham,9.0,2.6,Fantasy Pros
-RB,DuJuan Harris,9.0,2.4,Fantasy Pros
-RB,Mike Davis,9.0,2.3,Fantasy Pros
+RB,Aaron Ripkowski,9.0,2.4,Fantasy Pros
 RB,Lance Dunbar,9.0,2.1,Fantasy Pros
+RB,Mike James,9.0,2.1,Fantasy Pros
+RB,Shaun Draughn,9.0,2.1,Fantasy Pros
 RB,John Kuhn,9.0,2.0,Fantasy Pros
-RB,Shaun Draughn,9.0,1.9,Fantasy Pros
 RB,Dexter McCluster,9.0,1.9,Fantasy Pros
-RB,Aaron Ripkowski,9.0,1.8,Fantasy Pros
-RB,Kyle Juszczyk,9.0,1.8,Fantasy Pros
+RB,Kyle Juszczyk,9.0,1.9,Fantasy Pros
 RB,Wendell Smallwood,9.0,1.8,Fantasy Pros
-RB,Mike Tolbert,9.0,1.7,Fantasy Pros
+RB,Mike Tolbert,9.0,1.8,Fantasy Pros
 RB,Kenneth Farrow,9.0,1.6,Fantasy Pros
 RB,Dwayne Washington,9.0,1.6,Fantasy Pros
 RB,Orleans Darkwa,9.0,1.6,Fantasy Pros
 RB,Kenyan Drake,9.0,1.5,Fantasy Pros
+RB,Bishop Sankey,9.0,1.5,Fantasy Pros
 RB,Jamize Olawale,9.0,1.4,Fantasy Pros
 RB,Juwan Thompson,9.0,1.4,Fantasy Pros
 RB,Lorenzo Taliaferro,9.0,1.3,Fantasy Pros
-RB,Daniel Lasco,9.0,1.2,Fantasy Pros
-RB,Cameron Artis-Payne,9.0,1.1,Fantasy Pros
+RB,Daniel Lasco,9.0,1.3,Fantasy Pros
 RB,Kenjon Barner,9.0,1.1,Fantasy Pros
+RB,Cameron Artis-Payne,9.0,1.1,Fantasy Pros
 RB,Javorius Allen,9.0,1.0,Fantasy Pros
 RB,Andy Janovich,9.0,1.0,Fantasy Pros
 RB,Josh Ferguson,9.0,1.0,Fantasy Pros
 RB,Jonathan Williams,9.0,1.0,Fantasy Pros
-RB,Justin Forsett,9.0,0.9,Fantasy Pros
-RB,Ronnie Hillman,9.0,0.8,Fantasy Pros
+RB,Ronnie Hillman,9.0,0.9,Fantasy Pros
+RB,Justin Forsett,9.0,0.8,Fantasy Pros
 RB,Reggie Bush,9.0,0.8,Fantasy Pros
 RB,Denard Robinson,9.0,0.8,Fantasy Pros
 RB,Derek Watt,9.0,0.6,Fantasy Pros
 RB,Patrick DiMarco,9.0,0.6,Fantasy Pros
 RB,Will Johnson,9.0,0.5,Fantasy Pros
+RB,Anthony Sherman,9.0,0.5,Fantasy Pros
 RB,Antonio Andrews,9.0,0.5,Fantasy Pros
 RB,Alex Collins,9.0,0.4,Fantasy Pros
 RB,Keith Smith,9.0,0.4,Fantasy Pros
@@ -1280,9 +1282,7 @@ RB,Malcolm Brown,9.0,0.3,Fantasy Pros
 RB,George Atkinson,9.0,0.3,Fantasy Pros
 RB,Fitzgerald Toussaint,9.0,0.3,Fantasy Pros
 RB,Jerome Felton,9.0,0.3,Fantasy Pros
-RB,Anthony Sherman,9.0,0.3,Fantasy Pros
 RB,Chase Reynolds,9.0,0.3,Fantasy Pros
-RB,Bishop Sankey,9.0,0.2,Fantasy Pros
 RB,Roosevelt Nix,9.0,0.2,Fantasy Pros
 RB,Michael Burton,9.0,0.2,Fantasy Pros
 RB,Marcus Murphy,9.0,0.2,Fantasy Pros
@@ -1293,14 +1293,15 @@ RB,C.J. Spiller,9.0,0.1,Fantasy Pros
 RB,Taiwan Jones,9.0,0.1,Fantasy Pros
 RB,Rod Smith,9.0,0.1,Fantasy Pros
 RB,Adrian Peterson,9.0,0.0,Fantasy Pros
+RB,Daryl Richardson,9.0,0.0,Fantasy Pros
 RB,Jalen Simmons,9.0,0.0,Fantasy Pros
+RB,Brandon Burks,9.0,0.0,Fantasy Pros
 RB,Dri Archer,9.0,0.0,Fantasy Pros
 RB,James Starks,9.0,0.0,Fantasy Pros
 RB,Brandon Wilds,9.0,0.0,Fantasy Pros
 RB,Dan Vitale,9.0,0.0,Fantasy Pros
 RB,Glenn Winston,9.0,0.0,Fantasy Pros
 RB,Jhurell Pressley,9.0,0.0,Fantasy Pros
-RB,Daryl Richardson,9.0,0.0,Fantasy Pros
 RB,CJ Ham,9.0,0.0,Fantasy Pros
 RB,Andre Williams,9.0,0.0,Fantasy Pros
 RB,Aaron Green,9.0,0.0,Fantasy Pros
@@ -1308,50 +1309,50 @@ RB,Karlos Williams,9.0,0.0,Fantasy Pros
 RB,Russell Hansbrough,9.0,0.0,Fantasy Pros
 RB,Darren McFadden,9.0,0.0,Fantasy Pros
 TE,Greg Olsen,9.0,9.5,Fantasy Pros
-TE,Delanie Walker,9.0,8.7,Fantasy Pros
+TE,Delanie Walker,9.0,8.8,Fantasy Pros
 TE,Jimmy Graham,9.0,8.4,Fantasy Pros
 TE,Travis Kelce,9.0,8.1,Fantasy Pros
-TE,Kyle Rudolph,9.0,7.8,Fantasy Pros
+TE,Kyle Rudolph,9.0,7.9,Fantasy Pros
 TE,Antonio Gates,9.0,7.6,Fantasy Pros
-TE,Cameron Brate,9.0,7.3,Fantasy Pros
-TE,Dennis Pitta,9.0,6.8,Fantasy Pros
+TE,Dennis Pitta,9.0,7.2,Fantasy Pros
+TE,Cameron Brate,9.0,7.1,Fantasy Pros
 TE,Eric Ebron,9.0,6.8,Fantasy Pros
 TE,Coby Fleener,9.0,6.4,Fantasy Pros
 TE,Gary Barnidge,9.0,6.0,Fantasy Pros
 TE,Julius Thomas,9.0,5.6,Fantasy Pros
-TE,Austin Hooper,9.0,5.5,Fantasy Pros
+TE,Austin Hooper,9.0,5.6,Fantasy Pros
 TE,Jack Doyle,9.0,5.3,Fantasy Pros
 TE,Jason Witten,9.0,5.2,Fantasy Pros
-TE,Hunter Henry,9.0,5.1,Fantasy Pros
 TE,Dwayne Allen,9.0,4.7,Fantasy Pros
 TE,Lance Kendricks,9.0,4.6,Fantasy Pros
+TE,Hunter Henry,9.0,4.5,Fantasy Pros
 TE,Charles Clay,9.0,4.4,Fantasy Pros
-TE,Zach Ertz,9.0,4.2,Fantasy Pros
+TE,Zach Ertz,9.0,4.3,Fantasy Pros
 TE,Virgil Green,9.0,3.8,Fantasy Pros
 TE,Vance McDonald,9.0,3.5,Fantasy Pros
-TE,Jesse James,9.0,3.3,Fantasy Pros
+TE,Jesse James,9.0,3.5,Fantasy Pros
 TE,Richard Rodgers,9.0,3.2,Fantasy Pros
-TE,Clive Walford,9.0,2.8,Fantasy Pros
-TE,Ladarius Green,9.0,2.8,Fantasy Pros
+TE,Ladarius Green,9.0,3.0,Fantasy Pros
+TE,Clive Walford,9.0,3.0,Fantasy Pros
 TE,Larry Donnell,9.0,2.6,Fantasy Pros
 TE,Jared Cook,9.0,2.6,Fantasy Pros
 TE,Dion Sims,9.0,2.5,Fantasy Pros
 TE,Garrett Celek,9.0,2.5,Fantasy Pros
-TE,Will Tye,9.0,2.5,Fantasy Pros
+TE,Will Tye,9.0,2.4,Fantasy Pros
+TE,Crockett Gillmore,9.0,2.4,Fantasy Pros
 TE,Austin Seferian-Jenkins,9.0,2.3,Fantasy Pros
-TE,Crockett Gillmore,9.0,2.2,Fantasy Pros
 TE,Marcedes Lewis,9.0,2.1,Fantasy Pros
 TE,Levine Toilolo,9.0,2.0,Fantasy Pros
 TE,Josh Hill,9.0,2.0,Fantasy Pros
 TE,MarQueis Gray,9.0,1.9,Fantasy Pros
 TE,Mychal Rivera,9.0,1.9,Fantasy Pros
 TE,Jordan Cameron,9.0,1.9,Fantasy Pros
-TE,Trey Burton,9.0,1.7,Fantasy Pros
+TE,Trey Burton,9.0,1.8,Fantasy Pros
 TE,Demetrius Harris,9.0,1.7,Fantasy Pros
 TE,Ed Dickson,9.0,1.5,Fantasy Pros
 TE,Anthony Fasano,9.0,1.4,Fantasy Pros
 TE,Dominique Jones,9.0,1.4,Fantasy Pros
-TE,Brandon Myers,9.0,1.3,Fantasy Pros
+TE,Brandon Myers,9.0,1.4,Fantasy Pros
 TE,Xavier Grimble,9.0,1.2,Fantasy Pros
 TE,Brent Celek,9.0,1.1,Fantasy Pros
 TE,Jeff Heuerman,9.0,1.1,Fantasy Pros
@@ -1360,9 +1361,10 @@ TE,Erik Swoope,9.0,1.0,Fantasy Pros
 TE,Geoff Swaim,9.0,0.9,Fantasy Pros
 TE,John Phillips,9.0,0.9,Fantasy Pros
 TE,Nick O'Leary,9.0,0.9,Fantasy Pros
+TE,Luke Stocker,9.0,0.8,Fantasy Pros
 TE,Gavin Escobar,9.0,0.7,Fantasy Pros
 TE,Phillip Supernaw,9.0,0.7,Fantasy Pros
-TE,MyCole Pruitt,9.0,0.6,Fantasy Pros
+TE,MyCole Pruitt,9.0,0.7,Fantasy Pros
 TE,James Hanna,9.0,0.6,Fantasy Pros
 TE,Luke Willson,9.0,0.6,Fantasy Pros
 TE,Tyler Higbee,9.0,0.6,Fantasy Pros
@@ -1371,11 +1373,10 @@ TE,Rhett Ellison,9.0,0.6,Fantasy Pros
 TE,Justin Perillo,9.0,0.5,Fantasy Pros
 TE,David Johnson,9.0,0.5,Fantasy Pros
 TE,Randall Telfer,9.0,0.5,Fantasy Pros
-TE,Luke Stocker,9.0,0.5,Fantasy Pros
 TE,Clay Harbor,9.0,0.5,Fantasy Pros
+TE,Sean McGrath,9.0,0.4,Fantasy Pros
 TE,Brandon Bostick,9.0,0.4,Fantasy Pros
 TE,Nick Vannett,9.0,0.4,Fantasy Pros
-TE,Sean McGrath,9.0,0.4,Fantasy Pros
 TE,Scott Simonson,9.0,0.4,Fantasy Pros
 TE,Connor Hamlett,9.0,0.4,Fantasy Pros
 TE,Blake Bell,9.0,0.4,Fantasy Pros
@@ -1404,110 +1405,110 @@ TE,Matthew Mulligan,9.0,0.0,Fantasy Pros
 TE,Jacob Tamme,9.0,0.0,Fantasy Pros
 TE,Joshua Perkins,9.0,0.0,Fantasy Pros
 TE,Ryan O'Malley,9.0,0.0,Fantasy Pros
+TE,Nic Jacobs,9.0,0.0,Fantasy Pros
 TE,Thomas Duarte,9.0,0.0,Fantasy Pros
 TE,Gerald Christian,9.0,0.0,Fantasy Pros
-TE,Jake McGee,9.0,0.0,Fantasy Pros
 TE,Cole Wick,9.0,0.0,Fantasy Pros
+TE,Jake McGee,9.0,0.0,Fantasy Pros
 TE,Beau Sandland,9.0,0.0,Fantasy Pros
-K,Mason Crosby,9.0,9.1,Fantasy Pros
-K,Justin Tucker,9.0,8.6,Fantasy Pros
-K,Dan Bailey,9.0,8.4,Fantasy Pros
-K,Cairo Santos,9.0,8.1,Fantasy Pros
+K,Mason Crosby,9.0,9.2,Fantasy Pros
+K,Justin Tucker,9.0,8.7,Fantasy Pros
+K,Dan Bailey,9.0,8.5,Fantasy Pros
+K,Cairo Santos,9.0,8.2,Fantasy Pros
 K,Caleb Sturgis,9.0,8.1,Fantasy Pros
 K,Brandon McManus,9.0,7.8,Fantasy Pros
 K,Matt Bryant,9.0,7.8,Fantasy Pros
 K,Josh Lambo,9.0,7.7,Fantasy Pros
 K,Stephen Hauschka,9.0,7.7,Fantasy Pros
 K,Blair Walsh,9.0,7.4,Fantasy Pros
-K,Chris Boswell,9.0,7.4,Fantasy Pros
-K,Adam Vinatieri,9.0,7.1,Fantasy Pros
-K,Will Lutz,9.0,7.1,Fantasy Pros
-K,Robbie Gould,9.0,7.1,Fantasy Pros
+K,Chris Boswell,9.0,7.3,Fantasy Pros
+K,Will Lutz,9.0,7.3,Fantasy Pros
+K,Adam Vinatieri,9.0,7.2,Fantasy Pros
+K,Robbie Gould,9.0,7.0,Fantasy Pros
 K,Nick Folk,9.0,7.0,Fantasy Pros
-K,Graham Gano,9.0,6.9,Fantasy Pros
-K,Cody Parkey,9.0,6.8,Fantasy Pros
-K,Roberto Aguayo,9.0,6.8,Fantasy Pros
-K,Ryan Succop,9.0,6.6,Fantasy Pros
+K,Cody Parkey,9.0,6.9,Fantasy Pros
+K,Graham Gano,9.0,6.8,Fantasy Pros
+K,Roberto Aguayo,9.0,6.7,Fantasy Pros
+K,Ryan Succop,9.0,6.7,Fantasy Pros
 K,Andrew Franks,9.0,6.5,Fantasy Pros
 K,Sebastian Janikowski,9.0,6.5,Fantasy Pros
-K,Phil Dawson,9.0,6.4,Fantasy Pros
+K,Phil Dawson,9.0,6.5,Fantasy Pros
 K,Jason Myers,9.0,6.2,Fantasy Pros
 K,Greg Zuerlein,9.0,6.1,Fantasy Pros
 K,Dan Carpenter,9.0,5.9,Fantasy Pros
-K,Matt Prater,9.0,5.5,Fantasy Pros
-DEF,Kansas City Chiefs,9.0,10.3,Fantasy Pros
-DEF,Carolina Panthers,9.0,8.9,Fantasy Pros
-DEF,Los Angeles Rams,9.0,8.5,Fantasy Pros
-DEF,Philadelphia Eagles,9.0,8.2,Fantasy Pros
-DEF,Minnesota Vikings,9.0,8.1,Fantasy Pros
-DEF,Denver Broncos,9.0,8.0,Fantasy Pros
+K,Matt Prater,9.0,5.6,Fantasy Pros
+DEF,Kansas City Chiefs,9.0,10.5,Fantasy Pros
+DEF,Carolina Panthers,9.0,8.6,Fantasy Pros
+DEF,Los Angeles Rams,9.0,8.4,Fantasy Pros
+DEF,Philadelphia Eagles,9.0,8.4,Fantasy Pros
+DEF,Minnesota Vikings,9.0,8.4,Fantasy Pros
 DEF,Tennessee Titans,9.0,8.0,Fantasy Pros
-DEF,Green Bay Packers,9.0,7.7,Fantasy Pros
-DEF,Dallas Cowboys,9.0,7.2,Fantasy Pros
-DEF,Buffalo Bills,9.0,7.0,Fantasy Pros
-DEF,San Diego Chargers,9.0,7.0,Fantasy Pros
-DEF,Pittsburgh Steelers,9.0,6.9,Fantasy Pros
-DEF,Tampa Bay Buccaneers,9.0,6.8,Fantasy Pros
-DEF,New York Jets,9.0,6.8,Fantasy Pros
-DEF,Atlanta Falcons,9.0,6.8,Fantasy Pros
-DEF,Seattle Seahawks,9.0,6.8,Fantasy Pros
+DEF,Denver Broncos,9.0,7.6,Fantasy Pros
+DEF,Green Bay Packers,9.0,7.6,Fantasy Pros
+DEF,Dallas Cowboys,9.0,7.4,Fantasy Pros
+DEF,Buffalo Bills,9.0,7.2,Fantasy Pros
+DEF,San Diego Chargers,9.0,7.1,Fantasy Pros
+DEF,New York Jets,9.0,6.9,Fantasy Pros
+DEF,Indianapolis Colts,9.0,6.8,Fantasy Pros
 DEF,Baltimore Ravens,9.0,6.7,Fantasy Pros
-DEF,Indianapolis Colts,9.0,6.6,Fantasy Pros
-DEF,Oakland Raiders,9.0,6.6,Fantasy Pros
-DEF,Jacksonville Jaguars,9.0,6.5,Fantasy Pros
-DEF,New Orleans Saints,9.0,6.5,Fantasy Pros
-DEF,Detroit Lions,9.0,6.3,Fantasy Pros
+DEF,Oakland Raiders,9.0,6.7,Fantasy Pros
+DEF,Tampa Bay Buccaneers,9.0,6.7,Fantasy Pros
+DEF,Pittsburgh Steelers,9.0,6.7,Fantasy Pros
+DEF,Atlanta Falcons,9.0,6.7,Fantasy Pros
+DEF,New Orleans Saints,9.0,6.6,Fantasy Pros
+DEF,Seattle Seahawks,9.0,6.6,Fantasy Pros
+DEF,Miami Dolphins,9.0,6.4,Fantasy Pros
+DEF,Jacksonville Jaguars,9.0,6.4,Fantasy Pros
 DEF,New York Giants,9.0,6.2,Fantasy Pros
-DEF,San Francisco 49ers,9.0,6.1,Fantasy Pros
-DEF,Miami Dolphins,9.0,6.1,Fantasy Pros
-DEF,Cleveland Browns,9.0,5.0,Fantasy Pros
+DEF,Detroit Lions,9.0,6.1,Fantasy Pros
+DEF,San Francisco 49ers,9.0,6.0,Fantasy Pros
+DEF,Cleveland Browns,9.0,4.9,Fantasy Pros
 QB,Aaron Rodgers,9.0,22.3,ESPN
 QB,Drew Brees,9.0,19.8,ESPN
 QB,Jameis Winston,9.0,18.1,ESPN
-QB,Andrew Luck,9.0,18.0,ESPN
+QB,Andrew Luck,9.0,17.9,ESPN
 QB,Cam Newton,9.0,17.5,ESPN
 QB,Matt Ryan,9.0,17.3,ESPN
 QB,Dak Prescott,9.0,16.2,ESPN
-QB,Ben Roethlisberger,9.0,16.0,ESPN
-QB,Colin Kaepernick,9.0,15.5,ESPN
-QB,Marcus Mariota,9.0,15.4,ESPN
-QB,Philip Rivers,9.0,15.2,ESPN
+QB,Ben Roethlisberger,9.0,15.9,ESPN
+QB,Colin Kaepernick,9.0,15.7,ESPN
+QB,Philip Rivers,9.0,15.1,ESPN
+QB,Marcus Mariota,9.0,15.0,ESPN
 QB,Russell Wilson,9.0,15.0,ESPN
 QB,Blake Bortles,9.0,14.4,ESPN
 QB,Matthew Stafford,9.0,14.3,ESPN
-QB,Joe Flacco,9.0,14.1,ESPN
-QB,Nick Foles,9.0,14.0,ESPN
+QB,Nick Foles,9.0,14.1,ESPN
+QB,Joe Flacco,9.0,14.0,ESPN
 QB,Trevor Siemian,9.0,13.7,ESPN
 QB,Ryan Tannehill,9.0,13.5,ESPN
 QB,Sam Bradford,9.0,13.4,ESPN
-QB,Derek Carr,9.0,13.3,ESPN
-QB,Case Keenum,9.0,12.9,ESPN
-QB,Ryan Fitzpatrick,9.0,12.9,ESPN
+QB,Derek Carr,9.0,13.4,ESPN
+QB,Ryan Fitzpatrick,9.0,12.8,ESPN
+QB,Case Keenum,9.0,12.8,ESPN
 QB,Cody Kessler,9.0,12.8,ESPN
 QB,Tyrod Taylor,9.0,12.7,ESPN
-QB,Carson Wentz,9.0,12.5,ESPN
-QB,Eli Manning,9.0,11.3,ESPN
+QB,Carson Wentz,9.0,12.6,ESPN
+QB,Eli Manning,9.0,11.2,ESPN
 QB,Brett Hundley,9.0,0.0,ESPN
 QB,Luke McCown,9.0,0.0,ESPN
 QB,Mike Glennon,9.0,0.0,ESPN
-QB,Matt Cassel,9.0,0.0,ESPN
 QB,Scott Tolzien,9.0,0.0,ESPN
+QB,Matt Cassel,9.0,0.0,ESPN
 QB,Landry Jones,9.0,0.0,ESPN
 QB,Matt Schaub,9.0,0.0,ESPN
 QB,Blaine Gabbert,9.0,0.0,ESPN
 QB,Tyler Bray,9.0,0.0,ESPN
 QB,Kellen Clemens,9.0,0.0,ESPN
 QB,Paxton Lynch,9.0,0.0,ESPN
+QB,Matt McGloin,9.0,0.0,ESPN
 QB,Mark Sanchez,9.0,0.0,ESPN
 QB,Trevone Boykin,9.0,0.0,ESPN
-QB,Matt Moore,9.0,0.0,ESPN
 RB,Ezekiel Elliott,9.0,18.3,ESPN
 RB,Le'Veon Bell,9.0,14.5,ESPN
+RB,Charcandrick West,9.0,14.3,ESPN
 RB,Devontae Booker,9.0,13.9,ESPN
-RB,Spencer Ware,9.0,13.8,ESPN
 RB,Matt Forte,9.0,13.8,ESPN
 RB,Devonta Freeman,9.0,13.8,ESPN
-RB,Carlos Hyde,9.0,13.6,ESPN
 RB,DeMarco Murray,9.0,13.0,ESPN
 RB,Todd Gurley,9.0,12.9,ESPN
 RB,Melvin Gordon,9.0,12.7,ESPN
@@ -1521,33 +1522,34 @@ RB,Theo Riddick,9.0,9.1,ESPN
 RB,Antone Smith,9.0,9.1,ESPN
 RB,Isaiah Crowell,9.0,9.0,ESPN
 RB,Frank Gore,9.0,8.6,ESPN
+WR,Ty Montgomery,9.0,8.6,ESPN
 RB,Jerick McKinnon,9.0,8.5,ESPN
-RB,Latavius Murray,9.0,8.5,ESPN
-WR,Ty Montgomery,9.0,8.4,ESPN
+RB,Latavius Murray,9.0,8.4,ESPN
+RB,DuJuan Harris,9.0,8.4,ESPN
 RB,Rashad Jennings,9.0,7.8,ESPN
 RB,Duke Johnson Jr.,9.0,6.5,ESPN
 RB,Terron Ward,9.0,6.3,ESPN
-RB,Charcandrick West,9.0,6.3,ESPN
-RB,Matt Asiata,9.0,6.3,ESPN
+RB,Matt Asiata,9.0,6.2,ESPN
 RB,Ryan Mathews,9.0,5.9,ESPN
 RB,Darren Sproles,9.0,5.9,ESPN
-RB,Derrick Henry,9.0,5.8,ESPN
+RB,Mike Davis,9.0,5.8,ESPN
 RB,Peyton Barber,9.0,5.7,ESPN
+RB,Derrick Henry,9.0,5.7,ESPN
 RB,C.J. Prosise,9.0,5.4,ESPN
 RB,Tim Hightower,9.0,5.3,ESPN
 RB,Bilal Powell,9.0,5.1,ESPN
 RB,T.J. Yeldon,9.0,5.0,ESPN
 RB,Chris Ivory,9.0,4.0,ESPN
 RB,Damien Williams,9.0,4.0,ESPN
-RB,Alfred Morris,9.0,3.1,ESPN
-RB,DeAndre Washington,9.0,2.9,ESPN
-WR,Mike Evans,9.0,13.2,ESPN
+RB,Don Jackson,9.0,4.0,ESPN
+RB,Aaron Ripkowski,9.0,3.7,ESPN
+WR,Mike Evans,9.0,13.1,ESPN
 WR,Jordy Nelson,9.0,12.8,ESPN
 WR,Antonio Brown,9.0,12.2,ESPN
 WR,T.Y. Hilton,9.0,11.9,ESPN
 WR,Julio Jones,9.0,11.9,ESPN
 WR,Jarvis Landry,9.0,10.2,ESPN
-WR,Randall Cobb,9.0,9.7,ESPN
+WR,Randall Cobb,9.0,9.6,ESPN
 WR,Dez Bryant,9.0,9.4,ESPN
 WR,Demaryius Thomas,9.0,9.3,ESPN
 WR,Brandon Marshall,9.0,9.3,ESPN
@@ -1558,38 +1560,38 @@ WR,Terrelle Pryor Sr.,9.0,9.2,ESPN
 WR,Stefon Diggs,9.0,8.9,ESPN
 WR,Brandin Cooks,9.0,8.9,ESPN
 WR,Donte Moncrief,9.0,8.8,ESPN
+WR,Ty Montgomery,9.0,8.6,ESPN
 WR,Kelvin Benjamin,9.0,8.4,ESPN
-WR,Ty Montgomery,9.0,8.4,ESPN
 WR,Amari Cooper,9.0,8.3,ESPN
-WR,Davante Adams,9.0,8.2,ESPN
+WR,Davante Adams,9.0,8.1,ESPN
 WR,Willie Snead,9.0,8.1,ESPN
-WR,Marvin Jones,9.0,7.9,ESPN
+WR,Jordan Matthews,9.0,8.0,ESPN
+WR,Marvin Jones,9.0,7.8,ESPN
 WR,Kenny Britt,9.0,7.8,ESPN
 WR,Doug Baldwin,9.0,7.7,ESPN
 WR,Corey Coleman,9.0,7.6,ESPN
 WR,Golden Tate,9.0,7.6,ESPN
 WR,Allen Hurns,9.0,7.5,ESPN
 WR,Mohamed Sanu,9.0,7.5,ESPN
-WR,Steve Smith Sr.,9.0,7.4,ESPN
 WR,Tyrell Williams,9.0,7.2,ESPN
+WR,Sammie Coates,9.0,7.1,ESPN
 WR,Jeremy Maclin,9.0,7.0,ESPN
-WR,Jordan Matthews,9.0,6.9,ESPN
 WR,Tavon Austin,9.0,6.9,ESPN
 WR,Michael Thomas,9.0,6.8,ESPN
+WR,Mike Wallace,9.0,6.8,ESPN
 WR,DeVante Parker,9.0,6.8,ESPN
-WR,Michael Crabtree,9.0,6.8,ESPN
 WR,Travis Benjamin,9.0,6.7,ESPN
-WR,Mike Wallace,9.0,6.7,ESPN
+WR,Michael Crabtree,9.0,6.7,ESPN
 WR,Quincy Enunwa,9.0,6.6,ESPN
 TE,Antonio Gates,9.0,7.9,ESPN
 TE,Greg Olsen,9.0,7.7,ESPN
 TE,Jimmy Graham,9.0,7.3,ESPN
 TE,Kyle Rudolph,9.0,7.2,ESPN
-TE,Delanie Walker,9.0,7.0,ESPN
 TE,Eric Ebron,9.0,6.9,ESPN
+TE,Delanie Walker,9.0,6.8,ESPN
 TE,Dennis Pitta,9.0,6.5,ESPN
 TE,Travis Kelce,9.0,5.8,ESPN
-TE,Jason Witten,9.0,5.8,ESPN
+TE,Jason Witten,9.0,5.7,ESPN
 TE,Lance Kendricks,9.0,5.4,ESPN
 TE,Gary Barnidge,9.0,5.4,ESPN
 TE,Cameron Brate,9.0,5.2,ESPN
@@ -1597,8 +1599,8 @@ TE,Austin Hooper,9.0,5.2,ESPN
 TE,Dwayne Allen,9.0,5.1,ESPN
 TE,Coby Fleener,9.0,5.1,ESPN
 TE,Hunter Henry,9.0,4.5,ESPN
+TE,Zach Ertz,9.0,4.3,ESPN
 TE,Charles Clay,9.0,4.2,ESPN
-TE,Zach Ertz,9.0,4.2,ESPN
 TE,Julius Thomas,9.0,4.1,ESPN
 TE,Jesse James,9.0,3.7,ESPN
 TE,Richard Rodgers,9.0,3.7,ESPN
@@ -1606,48 +1608,48 @@ TE,Jack Doyle,9.0,3.5,ESPN
 TE,Clive Walford,9.0,3.4,ESPN
 TE,Virgil Green,9.0,3.3,ESPN
 TE,Dion Sims,9.0,3.3,ESPN
-TE,Vance McDonald,9.0,2.9,ESPN
-TE,Garrett Celek,9.0,2.9,ESPN
+TE,Vance McDonald,9.0,3.0,ESPN
 TE,Demetrius Harris,9.0,2.0,ESPN
+TE,Garrett Celek,9.0,1.9,ESPN
 TE,Larry Donnell,9.0,1.9,ESPN
 TE,Levine Toilolo,9.0,1.8,ESPN
 TE,Josh Hill,9.0,1.8,ESPN
 TE,Xavier Grimble,9.0,1.7,ESPN
 TE,Will Tye,9.0,1.7,ESPN
 TE,Marcedes Lewis,9.0,1.7,ESPN
-TE,Trey Burton,9.0,1.5,ESPN
+TE,Trey Burton,9.0,1.6,ESPN
 TE,Crockett Gillmore,9.0,1.4,ESPN
 TE,Mychal Rivera,9.0,0.6,ESPN
 TE,Anthony Fasano,9.0,0.5,ESPN
 TE,Dominique Jones,9.0,0.4,ESPN
 TE,Luke Stocker,9.0,0.3,ESPN
-DEF,Chiefs ,9.0,8.9,ESPN
-DEF,Giants ,9.0,8.4,ESPN
+DEF,Chiefs ,9.0,9.9,ESPN
+DEF,Giants ,9.0,8.3,ESPN
 DEF,Chargers ,9.0,8.2,ESPN
 DEF,Jets ,9.0,7.7,ESPN
 DEF,Cowboys ,9.0,7.7,ESPN
 DEF,Seahawks ,9.0,7.5,ESPN
 DEF,Vikings ,9.0,7.5,ESPN
 DEF,Panthers ,9.0,7.3,ESPN
+DEF,Saints ,9.0,7.2,ESPN
 DEF,Jaguars ,9.0,7.2,ESPN
 DEF,Eagles ,9.0,7.1,ESPN
 DEF,Titans ,9.0,7.0,ESPN
 DEF,Rams ,9.0,7.0,ESPN
-DEF,Saints ,9.0,6.9,ESPN
 DEF,Falcons ,9.0,6.8,ESPN
 DEF,Packers ,9.0,6.5,ESPN
 DEF,Steelers ,9.0,6.1,ESPN
-DEF,Ravens ,9.0,6.1,ESPN
 DEF,Bills ,9.0,6.1,ESPN
-DEF,Broncos ,9.0,6.0,ESPN
+DEF,Ravens ,9.0,6.1,ESPN
 DEF,Lions ,9.0,5.8,ESPN
+DEF,Broncos ,9.0,5.7,ESPN
 DEF,Dolphins ,9.0,5.6,ESPN
 DEF,Raiders ,9.0,5.5,ESPN
 DEF,Browns ,9.0,5.1,ESPN
-DEF,Colts ,9.0,5.1,ESPN
+DEF,Colts ,9.0,5.0,ESPN
 DEF,Buccaneers ,9.0,4.4,ESPN
 DEF,49ers ,9.0,2.6,ESPN
-QB,Matt McGloin,9.0,0.0,ESPN
+QB,Matt Moore,9.0,0.0,ESPN
 QB,Bryce Petty,9.0,0.0,ESPN
 QB,Josh McCown,9.0,0.0,ESPN
 QB,Derek Anderson,9.0,0.0,ESPN
@@ -1675,32 +1677,33 @@ QB,Thaddeus Lewis,9.0,0.0,ESPN
 QB,Christian Ponder,9.0,0.0,ESPN
 QB,Jerrod Johnson,9.0,0.0,ESPN
 QB,Robert Griffin III,9.0,0.0,ESPN
+RB,Bishop Sankey,9.0,3.4,ESPN
+RB,Alfred Morris,9.0,3.1,ESPN
+RB,Shaun Draughn,9.0,3.1,ESPN
+RB,DeAndre Washington,9.0,2.9,ESPN
 RB,Bobby Rainey,9.0,2.9,ESPN
 RB,Kenneth Dixon,9.0,2.7,ESPN
-RB,Kyle Juszczyk,9.0,2.7,ESPN
 RB,Zach Zenner,9.0,2.7,ESPN
+RB,Kyle Juszczyk,9.0,2.7,ESPN
 RB,Fozzy Whittaker,9.0,2.6,ESPN
-RB,Mike Davis,9.0,2.4,ESPN
 RB,Jalen Richard,9.0,2.0,ESPN
 RB,Kapri Bibbs,9.0,1.9,ESPN
 RB,Travaris Cadet,9.0,1.8,ESPN
-RB,Shaun Draughn,9.0,1.8,ESPN
 RB,Robert Turbin,9.0,1.8,ESPN
 RB,Paul Perkins,9.0,1.7,ESPN
 RB,Mike Gillislee,9.0,1.6,ESPN
 RB,DeAngelo Williams,9.0,1.6,ESPN
 RB,Dexter McCluster,9.0,1.5,ESPN
-RB,Don Jackson,9.0,1.4,ESPN
 RB,John Kuhn,9.0,1.2,ESPN
-RB,Aaron Ripkowski,9.0,0.8,ESPN
 RB,Mike Tolbert,9.0,0.6,ESPN
 RB,Benjamin Cunningham,9.0,0.5,ESPN
-RB,Andy Janovich,9.0,0.4,ESPN
 RB,Wendell Smallwood,9.0,0.4,ESPN
+RB,Andy Janovich,9.0,0.4,ESPN
 RB,Jamize Olawale,9.0,0.4,ESPN
 RB,Lorenzo Taliaferro,9.0,0.4,ESPN
 RB,Juwan Thompson,9.0,0.4,ESPN
 RB,Daniel Lasco,9.0,0.4,ESPN
+RB,Anthony Sherman,9.0,0.3,ESPN
 RB,Patrick DiMarco,9.0,0.3,ESPN
 RB,Lance Dunbar,9.0,0.3,ESPN
 RB,Kenjon Barner,9.0,0.3,ESPN
@@ -1710,17 +1713,15 @@ RB,Alex Collins,9.0,0.3,ESPN
 RB,Kenneth Farrow,9.0,0.2,ESPN
 RB,Derek Watt,9.0,0.2,ESPN
 RB,Josh Ferguson,9.0,0.2,ESPN
-RB,Anthony Sherman,9.0,0.2,ESPN
 RB,Zach Line,9.0,0.2,ESPN
 RB,Reggie Bush,9.0,0.2,ESPN
 RB,C.J. Spiller,9.0,0.1,ESPN
 RB,Jonathan Williams,9.0,0.1,ESPN
 WR,Robert Woods,9.0,6.5,ESPN
 WR,Kenny Stills,9.0,6.3,ESPN
-WR,Rishard Matthews,9.0,5.9,ESPN
-WR,Sammie Coates,9.0,5.9,ESPN
+WR,Rishard Matthews,9.0,5.8,ESPN
 WR,Dorial Green-Beckham,9.0,5.7,ESPN
-WR,Kendall Wright,9.0,5.7,ESPN
+WR,Kendall Wright,9.0,5.6,ESPN
 WR,Terrance Williams,9.0,5.6,ESPN
 WR,Brian Quick,9.0,5.5,ESPN
 WR,Cole Beasley,9.0,5.5,ESPN
@@ -1729,35 +1730,36 @@ WR,Sterling Shepard,9.0,5.4,ESPN
 WR,Robby Anderson,9.0,5.3,ESPN
 WR,Dontrelle Inman,9.0,5.3,ESPN
 WR,Adam Thielen,9.0,5.2,ESPN
+WR,Breshad Perriman,9.0,5.2,ESPN
 WR,Anquan Boldin,9.0,5.2,ESPN
 WR,Marqise Lee,9.0,5.2,ESPN
-WR,Adam Humphries,9.0,5.2,ESPN
+WR,Adam Humphries,9.0,5.1,ESPN
 WR,Victor Cruz,9.0,5.1,ESPN
-WR,Tajae Sharpe,9.0,5.1,ESPN
+WR,Tajae Sharpe,9.0,5.0,ESPN
+WR,Kamar Aiken,9.0,5.0,ESPN
 WR,Marquise Goodwin,9.0,5.0,ESPN
 WR,Cecil Shorts III,9.0,4.8,ESPN
 WR,Torrey Smith,9.0,4.4,ESPN
 WR,Jermaine Kearse,9.0,4.4,ESPN
 WR,Cordarrelle Patterson,9.0,4.3,ESPN
+WR,Chris Conley,9.0,4.3,ESPN
 WR,Nelson Agholor,9.0,4.2,ESPN
 WR,Ted Ginn Jr.,9.0,4.2,ESPN
-WR,Quinton Patton,9.0,4.2,ESPN
 WR,Phillip Dorsett,9.0,4.2,ESPN
 WR,Tyler Lockett,9.0,4.0,ESPN
-WR,Breshad Perriman,9.0,4.0,ESPN
-WR,Corey Brown,9.0,4.0,ESPN
+WR,Corey Brown,9.0,3.9,ESPN
 WR,Seth Roberts,9.0,3.5,ESPN
-WR,Tyreek Hill,9.0,3.3,ESPN
-WR,Chris Conley,9.0,3.3,ESPN
+WR,Tyreek Hill,9.0,3.4,ESPN
+WR,Quinton Patton,9.0,3.2,ESPN
 WR,Devin Funchess,9.0,3.0,ESPN
 WR,Freddie Martino,9.0,3.0,ESPN
 WR,Taylor Gabriel,9.0,2.9,ESPN
 WR,Justin Hunter,9.0,2.7,ESPN
+WR,Chris Moore,9.0,2.6,ESPN
 WR,Andrew Hawkins,9.0,2.4,ESPN
-WR,Brandon Coleman,9.0,1.9,ESPN
 TE,Brandon Myers,9.0,0.3,ESPN
-TE,Phillip Supernaw,9.0,0.3,ESPN
 TE,David Johnson,9.0,0.3,ESPN
+TE,Phillip Supernaw,9.0,0.3,ESPN
 TE,Nick O'Leary,9.0,0.3,ESPN
 TE,MyCole Pruitt,9.0,0.3,ESPN
 TE,Austin Seferian-Jenkins,9.0,0.3,ESPN
@@ -1770,8 +1772,8 @@ TE,Justin Perillo,9.0,0.2,ESPN
 TE,John Phillips,9.0,0.2,ESPN
 TE,Brent Celek,9.0,0.2,ESPN
 TE,Nick Vannett,9.0,0.2,ESPN
-TE,Brandon Bostick,9.0,0.2,ESPN
 TE,Blake Bell,9.0,0.2,ESPN
+TE,Brandon Bostick,9.0,0.2,ESPN
 TE,Clay Harbor,9.0,0.1,ESPN
 TE,Seth DeValve,9.0,0.1,ESPN
 TE,Ben Koyack,9.0,0.1,ESPN
@@ -1817,17 +1819,16 @@ RB,Shane Vereen,9.0,0.0,ESPN
 RB,Stevan Ridley,9.0,0.0,ESPN
 RB,Ryan Williams,9.0,0.0,ESPN
 RB,Daniel Thomas,9.0,0.0,ESPN
+WR,Brandon Coleman,9.0,1.9,ESPN
 WR,Jordan Norwood,9.0,1.8,ESPN
 WR,Eli Rogers,9.0,1.7,ESPN
-WR,Josh Huff,9.0,1.7,ESPN
 WR,Paul Richardson,9.0,1.5,ESPN
 WR,Justin Hardy,9.0,1.5,ESPN
-WR,Markus Wheaton,9.0,1.4,ESPN
-WR,Kamar Aiken,9.0,1.4,ESPN
 WR,Walter Powell,9.0,1.3,ESPN
 WR,Charone Peake,9.0,1.3,ESPN
 WR,Harry Douglas,9.0,0.6,ESPN
 WR,Andre Roberts,9.0,0.5,ESPN
+WR,De'Anthony Thomas,9.0,0.5,ESPN
 WR,Brice Butler,9.0,0.4,ESPN
 WR,Tommylee Lewis,9.0,0.4,ESPN
 WR,Lucky Whitehead,9.0,0.4,ESPN
@@ -1837,30 +1838,30 @@ WR,Jalin Marshall,9.0,0.4,ESPN
 WR,Darrius Heyward-Bey,9.0,0.4,ESPN
 WR,Albert Wilson,9.0,0.3,ESPN
 WR,Arrelious Benn,9.0,0.3,ESPN
-WR,De'Anthony Thomas,9.0,0.3,ESPN
 WR,Andre Holmes,9.0,0.3,ESPN
+WR,Bryce Treggs,9.0,0.3,ESPN
+WR,Markus Wheaton,9.0,0.3,ESPN
 WR,Devin Hester,9.0,0.3,ESPN
 WR,Rod Streater,9.0,0.3,ESPN
-WR,Dwayne Harris,9.0,0.3,ESPN
 WR,Aaron Burbridge,9.0,0.3,ESPN
+WR,Dwayne Harris,9.0,0.3,ESPN
 WR,Bennie Fowler,9.0,0.3,ESPN
 WR,Jordan Taylor,9.0,0.3,ESPN
 WR,Roger Lewis,9.0,0.3,ESPN
 WR,Brandon Tate,9.0,0.3,ESPN
-WR,Cobi Hamilton,9.0,0.3,ESPN
 WR,Ricardo Louis,9.0,0.2,ESPN
-WR,Chris Moore,9.0,0.2,ESPN
 WR,Griff Whalen,9.0,0.2,ESPN
-WR,Jeff Janis,9.0,0.2,ESPN
 WR,Tanner McEvoy,9.0,0.2,ESPN
+WR,Jeff Janis,9.0,0.2,ESPN
 WR,Jakeem Grant,9.0,0.2,ESPN
 WR,Eric Weems,9.0,0.2,ESPN
 WR,Marc Mariani,9.0,0.2,ESPN
 WR,Charles Johnson,9.0,0.1,ESPN
+WR,Bradley Marquez,9.0,0.1,ESPN
+WR,Trevor Davis,9.0,0.1,ESPN
 RB,Kendall Hunter,9.0,0.0,ESPN
 RB,Roy Helu Jr.,9.0,0.0,ESPN
 RB,Jacquizz Rodgers,9.0,0.0,ESPN
-RB,DuJuan Harris,9.0,0.0,ESPN
 RB,Chase Reynolds,9.0,0.0,ESPN
 RB,Will Johnson,9.0,0.0,ESPN
 RB,Trent Richardson,9.0,0.0,ESPN
@@ -1883,14 +1884,15 @@ RB,Denard Robinson,9.0,0.0,ESPN
 RB,Mike James,9.0,0.0,ESPN
 RB,Tommy Bohanon,9.0,0.0,ESPN
 RB,Zac Stacy,9.0,0.0,ESPN
+RB,Spencer Ware,9.0,0.0,ESPN
 RB,C.J. Anderson,9.0,0.0,ESPN
-WR,Bradley Marquez,9.0,0.1,ESPN
-WR,Trevor Davis,9.0,0.1,ESPN
+WR,Cobi Hamilton,9.0,0.1,ESPN
 WR,Bryan Walters,9.0,0.1,ESPN
 WR,Michael Thomas,9.0,0.1,ESPN
 WR,Johnny Holton,9.0,0.1,ESPN
 WR,Cody Latimer,9.0,0.1,ESPN
 WR,Russell Shepard,9.0,0.0,ESPN
+WR,Steve Smith Sr.,9.0,0.0,ESPN
 WR,Andre Johnson,9.0,0.0,ESPN
 WR,Jerricho Cotchery,9.0,0.0,ESPN
 WR,Wes Welker,9.0,0.0,ESPN
@@ -1921,8 +1923,8 @@ RB,George Winn,9.0,0.0,ESPN
 RB,Khiry Robinson,9.0,0.0,ESPN
 RB,Charles Sims,9.0,0.0,ESPN
 RB,Dri Archer,9.0,0.0,ESPN
+RB,Carlos Hyde,9.0,0.0,ESPN
 RB,Tre Mason,9.0,0.0,ESPN
-RB,Bishop Sankey,9.0,0.0,ESPN
 RB,Storm Johnson,9.0,0.0,ESPN
 RB,Lache Seastrunk,9.0,0.0,ESPN
 RB,Andre Williams,9.0,0.0,ESPN
@@ -2020,6 +2022,7 @@ WR,Kenbrell Thompkins,9.0,0.0,ESPN
 WR,Myles White,9.0,0.0,ESPN
 WR,Marlon Brown,9.0,0.0,ESPN
 WR,Sammy Watkins,9.0,0.0,ESPN
+WR,Josh Huff,9.0,0.0,ESPN
 WR,Shaq Evans,9.0,0.0,ESPN
 WR,Jared Abbrederis,9.0,0.0,ESPN
 WR,Kevin Norwood,9.0,0.0,ESPN
@@ -2092,5 +2095,4 @@ WR,Darius Jennings,9.0,0.0,ESPN
 WR,Devon Cajuste,9.0,0.0,ESPN
 WR,Mitch Mathews,9.0,0.0,ESPN
 WR,Keyarris Garrett,9.0,0.0,ESPN
-WR,Bryce Treggs,9.0,0.0,ESPN
 WR,Nelson Spruce,9.0,0.0,ESPN
