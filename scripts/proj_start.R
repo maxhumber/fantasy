@@ -12,13 +12,13 @@ team <- c(
     "Allen Robinson",
     "Stefon Diggs",
     "Tyrell Williams",
-    "Gary Barnidge",
+    "Antonio Gates",
     "Dion Lewis",
-    "Antone Smith",
+    "Steve Smith",
     "Donte Moncrief",
     "Thomas Rawls",
     "Corey Coleman",
-    "Blair Walsh",
+    "Justin Tucker",
     "Carolina Panthers")
 
 proj_team <- proj %>% 
