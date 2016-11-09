@@ -19,7 +19,7 @@ team <- c(
     "Thomas Rawls",
     "Corey Coleman",
     "Justin Tucker",
-    "Carolina Panthers")
+    "Los Angeles Rams")
 
 proj_team <- proj %>% 
     filter(name %in% team) %>%
