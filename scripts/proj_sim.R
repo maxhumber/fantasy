@@ -17,13 +17,13 @@ home <- c(
     "Ben Roethlisberger", 
     "Jameis Winston",
     "Matt Forte",
-    "Isaiah Crowell",
-    "Steve Smith",
-    "Tyrell Williams",
-    "Corey Coleman",
     "Jonathan Stewart",
+    #"Steve Smith",
+    "Stefon Diggs",
+    #"Corey Coleman",
+    "Allen Robinson",
     "Antonio Gates",
-    "Justin Tucker",
+    #"Justin Tucker",
     "Los Angeles Rams")
 
 away <- c(
@@ -31,11 +31,11 @@ away <- c(
     "Carson Wentz",
     "DeMarco Murray", 
     "Devontae Booker",
-    "Brandon Marshall", 
+    #"Brandon Marshall", 
     "Terrelle Pryor", 
     "Odell Beckham", 
     "Jimmy Graham", 
-    "Giovani Bernard", 
+    #"Terrance West", 
     "Chris Boswell", 
     "Denver Broncos")
 
@@ -44,7 +44,7 @@ hv <- replicate(1000,
     map_dbl(proj_boot) %>% 
     sum()) %>% 
     as.data.frame() %>% 
-    # mutate(`.` = `.` + 25.04) %>% 
+    mutate(`.` = `.` + 21.70) %>% 
     as.bayesboot()
 
 plot(hv)
@@ -54,7 +54,7 @@ av <- replicate(1000,
     map_dbl(proj_boot) %>% 
     sum()) %>% 
     as.data.frame() %>% 
-    # mutate(`.` = `.` + 27.00) %>% 
+    mutate(`.` = `.` + 12.50) %>% 
     as.bayesboot()
 
 plot(av)

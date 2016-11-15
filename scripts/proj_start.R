@@ -26,7 +26,8 @@ proj_team <- proj %>%
     arrange(desc(mid)) %>% 
     mutate(rank = row_number())
 
-proj_team %>% ggplot(aes(x = rank, y = mid, color = position)) + 
+proj_team %>% 
+    ggplot(aes(x = rank, y = mid, color = position)) + 
     geom_linerange(aes(ymin = low, ymax = high)) +
     geom_label(aes(label = name), size = 2) + 
     scale_x_continuous(breaks = NULL) + 
