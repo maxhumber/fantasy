@@ -1,4 +1,5 @@
 position,name,low,mid,high
+<<<<<<< HEAD
 QB,Ben Roethlisberger,15.6,17.1,17.9
 QB,Jameis Winston,15.5,16.7,18.2
 WR,Allen Robinson,7.4,9.7,11.7
@@ -10,3 +11,16 @@ TE,Antonio Gates,5.8,7.8,10.5
 K,Justin Tucker,8.2,9.2,11.0
 DEF,Los Angeles Rams,7.6,8.8,10.0
 WR,Stefon Diggs,5.7,8.3,10.2
+=======
+QB,Jameis Winston,15.5,16.7,18.0
+QB,Ben Roethlisberger,13.7,16.6,17.9
+WR,Allen Robinson,7.4,9.7,12.0
+WR,Steve Smith,7.6,9.6,12.3
+WR,Corey Coleman,6.5,9.2,12.1
+RB,Matt Forte,10.4,12.1,14.2
+RB,Jonathan Stewart,6.3,9.5,12.0
+TE,Antonio Gates,5.8,8.2,10.5
+K,Justin Tucker,8.2,9.2,11.0
+DEF,Los Angeles Rams,7.9,8.9,10.0
+WR,Stefon Diggs,5.6,8.3,10.3
+>>>>>>> 2a5ca3214e6df686fc1ea5bff32e74e37252a17d
