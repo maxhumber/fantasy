@@ -1,26 +1,13 @@
 position,name,low,mid,high
-<<<<<<< HEAD
-QB,Ben Roethlisberger,15.6,17.1,17.9
-QB,Jameis Winston,15.5,16.7,18.2
-WR,Allen Robinson,7.4,9.7,11.7
-WR,Steve Smith,7.6,9.5,12.3
-WR,Tyrell Williams,7.5,9.2,11.9
-RB,Matt Forte,10.4,12.2,14.2
-RB,Jonathan Stewart,6.3,9.4,12.0
-TE,Antonio Gates,5.8,7.8,10.5
-K,Justin Tucker,8.2,9.2,11.0
-DEF,Los Angeles Rams,7.6,8.8,10.0
-WR,Stefon Diggs,5.7,8.3,10.2
-=======
-QB,Jameis Winston,15.5,16.7,18.0
-QB,Ben Roethlisberger,13.7,16.6,17.9
-WR,Allen Robinson,7.4,9.7,12.0
-WR,Steve Smith,7.6,9.6,12.3
-WR,Corey Coleman,6.5,9.2,12.1
-RB,Matt Forte,10.4,12.1,14.2
-RB,Jonathan Stewart,6.3,9.5,12.0
-TE,Antonio Gates,5.8,8.2,10.5
-K,Justin Tucker,8.2,9.2,11.0
-DEF,Los Angeles Rams,7.9,8.9,10.0
-WR,Stefon Diggs,5.6,8.3,10.3
->>>>>>> 2a5ca3214e6df686fc1ea5bff32e74e37252a17d
+QB,Ben Roethlisberger,13.3,18.9,22.9
+QB,Tyrod Taylor,14.5,15.9,16.5
+WR,Steve Smith,8.8,9.9,12.1
+WR,Tyrell Williams,7.1,9.3,12.3
+WR,Allen Robinson,6.4,8.8,10.4
+WR,Stefon Diggs,6.2,8.8,11.0
+RB,Matt Forte,11.0,12.7,14.7
+RB,Thomas Rawls,8.8,12.2,14.8
+TE,C.J. Fiedorowicz,5.3,7.2,9.7
+K,Stephen Gostkowski,7.4,9.4,12.0
+DEF,New York Giants,8.3,9.6,12.0
+RB,Isaiah Crowell,7.4,8.8,10.7
