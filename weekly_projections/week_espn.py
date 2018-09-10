@@ -14,8 +14,6 @@ def create_payloads():
     for i in range(0, 400, 40):
         payload = {'seasonId': 2018, 'startIndex': i, 'scoringPeriodId': week}
         payloads.append(payload)
-    payloads.append({'seasonId': 2018, 'scoringPeriodId': week, 'slotCategoryId': 16})
-    payloads.append({'seasonId': 2018, 'scoringPeriodId': week, 'slotCategoryId': 17})
     return payloads
 
 def scrape(payloads):
@@ -36,6 +34,7 @@ def etl(payloads):
     df[['name', 'pos_team']] = df['PLAYER, TEAM POS'].str.split(', ', expand=True).iloc[:, [0, 1]]
     df[['team', 'position']] = df['pos_team'].str.split('\\s', expand=True).iloc[:, [0, 1]]
     df = df.rename(columns={'PTS': 'points', 'OPP': 'opponent'})
+    df.loc[df['position'].isnull(), 'position'] = 'DEF'
     df['name'] = df['name'].str.replace('*', '')
     df['name'] = df['name'].str.replace('\\sD/ST\\sD/ST', '')
     df['opponent'] = df['opponent'].str.replace('@', '')
