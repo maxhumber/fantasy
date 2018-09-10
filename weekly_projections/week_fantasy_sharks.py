@@ -3,6 +3,7 @@ import requests
 import sqlite3
 from bs4 import BeautifulSoup
 from week import week
+from fuzzy_defence import fuzzy_defence
 
 con = sqlite3.connect('projections.db')
 cur = con.cursor()
@@ -45,6 +46,9 @@ def etl(payload):
     df = df.rename(columns={'Player': 'name', 'Tm': 'team', 'Opp': 'opponent', 'Pts': 'points', 'Position': 'position'})
     df['opponent'] = df['opponent'].str.replace('@', '')
     df['name'] = df['name'].str.replace(r'(.+),\s+(.+)', r'\2 \1')
+    df.loc[df['position'] == 'DEF', 'name'] = (
+        df['name'].apply(lambda team: fuzzy_defence(team))
+    )
     df['week'] = week
     df['source'] = 'Fantasy Sharks'
     df['fetched_at'] = pd.Timestamp('now')

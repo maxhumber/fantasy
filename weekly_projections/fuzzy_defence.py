@@ -1,32 +1,42 @@
 import pandas as pd
-import sqlite3
 from fuzzywuzzy import process, fuzz
 
-pd.set_option('display.max_rows', 999)
+TEAMS = [
+    'Carolina Panthers',
+    'New England Patriots',
+    'Detroit Lions',
+    'Pittsburgh Steelers',
+    'Jacksonville Jaguars',
+    'Washington Redskins',
+    'Baltimore Ravens',
+    'Chicago Bears',
+    'New Orleans Saints',
+    'Denver Broncos',
+    'Seattle Seahawks',
+    'Philadelphia Eagles',
+    'Arizona Cardinals',
+    'Los Angeles Rams',
+    'Tennessee Titans',
+    'Los Angeles Chargers',
+    'Green Bay Packers',
+    'Cincinnati Bengals',
+    'Miami Dolphins',
+    'Tampa Bay Buccaneers',
+    'Dallas Cowboys',
+    'Atlanta Falcons',
+    'Kansas City Chiefs',
+    'San Francisco 49ers',
+    'New York Giants',
+    'Indianapolis Colts',
+    'Buffalo Bills',
+    'Oakland Raiders',
+    'Minnesota Vikings',
+    'New York Jets',
+    'Cleveland Browns',
+    'Houston Texans'
+]
 
-
-con = sqlite3.connect('projections.db')
-cur = con.cursor()
-
-df = pd.read_sql("select * from projections where position = \'DEF\'", con)
-
-teams = list(df.query('source == "Fantasy Sharks"')['name'].values)
-
-fuzz.partial_ratio('Bears', 'Chicago Bears')
-fuzz.ratio('Bears', 'Chicago Bears')
-process.extract('Bears', choices=teams, scorer=fuzz.partial_ratio)
-process.extract('Bears', limit=1, choices=teams, scorer=fuzz.partial_ratio)[0][0]
-
-help(process.extract)
-
-df['name2'] = (
-    df['name']
-    .apply(lambda team:
-        process.extract(team, limit=1, choices=teams, scorer=fuzz.partial_ratio)[0][0]
+def fuzzy_defence(team):
+    return (
+        process.extract(team, choices=TEAMS, scorer=fuzz.partial_ratio)[0][0]
     )
-)
-df[['name', 'name2']].sort_values('name2')
-
-
-
-#

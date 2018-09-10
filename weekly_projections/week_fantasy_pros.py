@@ -3,6 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from week import week
 import sqlite3
+from fuzzy_defence import fuzzy_defence
 
 con = sqlite3.connect('projections.db')
 cur = con.cursor()
@@ -37,6 +38,9 @@ def etl():
     df.columns = ['name', 'points', 'position', 'team']
     df.loc[df['position'] == 'DST', 'position'] = 'DEF'
     df.loc[df['position'] == 'DEF', 'team'] = None
+    df.loc[df['position'] == 'DEF', 'name'] = (
+        df['name'].apply(lambda team: fuzzy_defence(team))
+    )
     df['opponent'] = None
     df['week'] = week
     df['source'] = 'Fantasy Pros'

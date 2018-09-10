@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import sqlite3
 import re
 from week import week
+from fuzzy_defence import fuzzy_defence
 
 con = sqlite3.connect('projections.db')
 cur = con.cursor()
@@ -36,11 +37,15 @@ def etl():
     for url in urls:
         d = scrape(url)
         df = df.append(d)
+    df = df.reset_index(drop=True)
     df[['name', 'position']] = df['name'].str.split('\s\s\(', n=1, expand=True)
     df[['position', 'team']] = df['position'].str.split(', ', n=1, expand=True)
     df['team'] = df['team'].str.replace(')', '')
     df['name'] = df['name'].str.replace('\sD/ST', '')
     df.loc[df['position'] == 'D', 'position'] = 'DEF'
+    df.loc[df['position'] == 'DEF', 'name'] = (
+        df['name'].apply(lambda team: fuzzy_defence(team))
+    )
     df['week'] = week
     df['source'] = 'Numberfire'
     df['fetched_at'] = pd.Timestamp('now')
