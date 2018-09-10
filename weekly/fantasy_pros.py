@@ -1,18 +1,14 @@
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
-from week import week
-import sqlite3
-from fuzzy_defence import fuzzy_defence
 
-con = sqlite3.connect('projections.db')
-cur = con.cursor()
+URL = 'https://www.fantasypros.com/nfl/projections/'
 
-def scrape():
+def _scrape(week):
     df = pd.DataFrame()
     positions = ['qb', 'rb', 'wr', 'te', 'k', 'dst']
     for p in positions:
-        url = f'https://www.fantasypros.com/nfl/projections/{p}.php?week={week}'
+        url = f'{URL}{p}.php?week={week}'
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'lxml')
         d = pd.read_html(str(soup.findAll('table')[0]))[0]
@@ -28,8 +24,7 @@ def scrape():
         df = df.append(d)
     return df
 
-def etl():
-    df = scrape()
+def _transform(df, week):
     df = df.reset_index(drop=True)
     df['Team'] = df.Player.str.extract('\s(\w+)$')
     df.loc[df['Position'] != 'dst', 'Player'] = (
@@ -38,16 +33,14 @@ def etl():
     df.columns = ['name', 'points', 'position', 'team']
     df.loc[df['position'] == 'DST', 'position'] = 'DEF'
     df.loc[df['position'] == 'DEF', 'team'] = None
-    df.loc[df['position'] == 'DEF', 'name'] = (
-        df['name'].apply(lambda team: fuzzy_defence(team))
-    )
     df['opponent'] = None
     df['week'] = week
     df['source'] = 'Fantasy Pros'
     df['fetched_at'] = pd.Timestamp('now')
     df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'source', 'fetched_at']]
-    df.to_sql(f'projections', con, if_exists='append', index=False)
+    return df
 
-if __name__ == '__main__':
-    etl()
-    print('Success!')
+def load(week):
+    raw = _scrape(week)
+    clean = _transform(raw, week)
+    return clean

@@ -1,12 +1,6 @@
 import pandas as pd
 import requests
-import sqlite3
 from bs4 import BeautifulSoup
-from week import week
-from fuzzy_defence import fuzzy_defence
-
-con = sqlite3.connect('projections.db')
-cur = con.cursor()
 
 URL = 'https://www.fantasysharks.com/apps/bert/forecasts/projections.php'
 
@@ -17,16 +11,8 @@ headers = {
         'Chrome/50.0.2661.102 Safari/537.36'
     }
 
-def create_payloads():
-    segment = 628 + week - 1
-    payloads = [
-        {'scoring': 13, 'Segment': segment, 'Position': 97},
-        {'scoring': 13, 'Segment': segment, 'Position': 7},
-        {'scoring': 13, 'Segment': segment, 'Position': 6}
-        ]
-    return payloads
-
-def scrape(payload):
+def _scrape(week):
+    payload = {'scoring': 13, 'Segment': 628 + week - 1, 'Position': 99}
     response = requests.get(URL, params=payload, headers=headers)
     soup = BeautifulSoup(response.text, 'lxml')
     for s in soup.find_all(class_='separator'):
@@ -34,29 +20,21 @@ def scrape(payload):
     df = pd.read_html(str(soup.find('div', class_='toolDiv')))[0]
     return df
 
-def etl(payload):
-    df = scrape(payload)
+def _transform(df, week):
     df.columns = list(df.iloc[0].values)
     df['Pts'] = pd.to_numeric(df['Pts'], errors='coerce')
     df = df.dropna(subset=['Pts'])
-    if payload['Position'] == 7:
-        df['Position'] = 'K'
-    if payload['Position'] == 6:
-        df['Position'] = 'DEF'
     df = df.rename(columns={'Player': 'name', 'Tm': 'team', 'Opp': 'opponent', 'Pts': 'points', 'Position': 'position'})
     df['opponent'] = df['opponent'].str.replace('@', '')
     df['name'] = df['name'].str.replace(r'(.+),\s+(.+)', r'\2 \1')
-    df.loc[df['position'] == 'DEF', 'name'] = (
-        df['name'].apply(lambda team: fuzzy_defence(team))
-    )
+    df.loc[df['position'] == 'D', 'position'] = 'DEF'
     df['week'] = week
     df['source'] = 'Fantasy Sharks'
     df['fetched_at'] = pd.Timestamp('now')
     df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'source', 'fetched_at']]
-    df.to_sql('projections', con, if_exists='append', index=False)
+    return df
 
-if __name__ == '__main__':
-    payloads = create_payloads()
-    for payload in payloads:
-        etl(payload)
-    print('Success!')
+def load(week):
+    raw = _scrape(week)
+    clean = _transform(raw, week)
+    return clean

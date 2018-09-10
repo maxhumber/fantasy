@@ -23,7 +23,7 @@ def _scrape(payloads):
         df = df.append(d)
     return df
 
-def _transform(df):
+def _transform(df, week):
     df = df.reset_index(drop=True)
     df[['name', 'pos_team']] = df['PLAYER, TEAM POS'].str.split(', ', expand=True).iloc[:, [0, 1]]
     df[['team', 'position']] = df['pos_team'].str.split('\\s', expand=True).iloc[:, [0, 1]]
@@ -43,5 +43,5 @@ def _transform(df):
 def load(week):
     payloads = _create_payloads(week)
     raw = _scrape(payloads)
-    clean = _transform(raw)
+    clean = _transform(raw, week)
     return clean
