@@ -1,19 +1,12 @@
-# Numberfire
-# http://www.numberfire.com/nfl/fantasy/remaining-projections
-
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 import sqlite3
 import re
+from week import week
 
-today = pd.Timestamp('today')
-# today = pd.Timestamp('2018-09-11
-
-start = pd.Timestamp('2018-09-03')
-week = (today - start).days // 7 + 1
-
-# fetch
+con = sqlite3.connect('projections.db')
+cur = con.cursor()
 
 URL = 'http://www.numberfire.com/nfl/fantasy/fantasy-football-projections'
 urls = [URL, URL + '/k', URL + '/d']
@@ -38,18 +31,22 @@ def scrape(url):
     df['week'] = nf_week
     return df
 
-df = pd.DataFrame()
-for url in urls:
-    d = scrape(url)
-    df = df.append(d)
+def etl():
+    df = pd.DataFrame()
+    for url in urls:
+        d = scrape(url)
+        df = df.append(d)
+    df[['name', 'position']] = df['name'].str.split('\s\s\(', n=1, expand=True)
+    df[['position', 'team']] = df['position'].str.split(', ', n=1, expand=True)
+    df['team'] = df['team'].str.replace(')', '')
+    df['name'] = df['name'].str.replace('\sD/ST', '')
+    df.loc[df['position'] == 'D', 'position'] = 'DEF'
+    df['week'] = week
+    df['source'] = 'Numberfire'
+    df['fetched_at'] = pd.Timestamp('now')
+    df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'source', 'fetched_at']]
+    df.to_sql('projections', con, if_exists='append', index=False)
 
-# clean
-
-df[['name', 'position']] = df['name'].str.split('\s\s\(', n=1, expand=True)
-df[['position', 'team']] = df['position'].str.split(', ', n=1, expand=True)
-df['team'] = df['team'].str.replace(')', '')
-df['name'] = df['name'].str.replace('\sD/ST', '')
-df.loc[df['position'] == 'D', 'position'] = 'DEF'
-df = df[['name', 'position', 'team', 'opponent', 'points', 'week']]
-
-df.to_csv('week_1_numberfire.csv', index=False)
+if __name__ == '__main__':
+    etl()
+    print('Success!')

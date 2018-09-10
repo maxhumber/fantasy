@@ -2,8 +2,10 @@ import pandas as pd
 import requests
 import sqlite3
 from bs4 import BeautifulSoup
+from week import week
 
-
+con = sqlite3.connect('projections.db')
+cur = con.cursor()
 
 URL = 'https://www.fantasysharks.com/apps/bert/forecasts/projections.php'
 
@@ -14,17 +16,14 @@ headers = {
         'Chrome/50.0.2661.102 Safari/537.36'
     }
 
-today = pd.Timestamp('today')
-# today = pd.Timestamp('2018-09-11')
-start = pd.Timestamp('2018-09-03')
-week = (today - start).days // 7 + 1
-segment = 628 + week - 1
-
-payloads = [
-    {'scoring': 13, 'Segment': segment, 'Position': 97},
-    {'scoring': 13, 'Segment': segment, 'Position': 7},
-    {'scoring': 13, 'Segment': segment, 'Position': 6}
-    ]
+def create_payloads():
+    segment = 628 + week - 1
+    payloads = [
+        {'scoring': 13, 'Segment': segment, 'Position': 97},
+        {'scoring': 13, 'Segment': segment, 'Position': 7},
+        {'scoring': 13, 'Segment': segment, 'Position': 6}
+        ]
+    return payloads
 
 def scrape(payload):
     response = requests.get(URL, params=payload, headers=headers)
@@ -47,18 +46,13 @@ def etl(payload):
     df['opponent'] = df['opponent'].str.replace('@', '')
     df['name'] = df['name'].str.replace(r'(.+),\s+(.+)', r'\2 \1')
     df['week'] = week
-    df = df[['name', 'position', 'team', 'opponent', 'points', 'week']]
-    return df
+    df['source'] = 'Fantasy Sharks'
+    df['fetched_at'] = pd.Timestamp('now')
+    df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'source', 'fetched_at']]
+    df.to_sql('projections', con, if_exists='append', index=False)
 
-df = pd.DataFrame()
-for payload in payloads:
-    d = etl(payload)
-    df = df.append(d)
-
-
-df['source'] = 'Fantasy Pros'
-df['fetched_at'] = pd.Timestamp('now')
-df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'source', 'fetched_at']]
-df.to_sql(f'projections', con, if_exists='append', index=False)
-
-df.to_csv('week_1_fantasy_sharks.csv', index=False)
+if __name__ == '__main__':
+    payloads = create_payloads()
+    for payload in payloads:
+        etl(payload)
+    print('Success!')

@@ -45,7 +45,7 @@ def etl(payloads):
     df['source'] = 'ESPN'
     df['fetched_at'] = pd.Timestamp('now')
     df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'source', 'fetched_at']]
-    df.to_sql(f'projections', con, if_exists='append', index=False)
+    df.to_sql('projections', con, if_exists='append', index=False)
 
 if __name__ == '__main__':
     payloads = create_payloads()
