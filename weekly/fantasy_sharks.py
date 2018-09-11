@@ -12,7 +12,10 @@ headers = {
     }
 
 def _scrape(week):
-    payload = {'scoring': 13, 'Segment': 628 + week - 1, 'Position': 99}
+    if week == 'all':
+        payload = {'scoring': 13, 'Segment': 621, 'Position': 99}
+    else:
+        payload = {'scoring': 13, 'Segment': 628 + week - 1, 'Position': 99}
     response = requests.get(URL, params=payload, headers=headers)
     soup = BeautifulSoup(response.text, 'lxml')
     for s in soup.find_all(class_='separator'):
@@ -25,7 +28,10 @@ def _transform(df, week):
     df['Pts'] = pd.to_numeric(df['Pts'], errors='coerce')
     df = df.dropna(subset=['Pts'])
     df = df.rename(columns={'Player': 'name', 'Tm': 'team', 'Opp': 'opponent', 'Pts': 'points', 'Position': 'position'})
-    df['opponent'] = df['opponent'].str.replace('@', '')
+    if 'opponent' in df:
+        df['opponent'] = df['opponent'].str.replace('@', '')
+    else:
+        df['opponent'] = None
     df['name'] = df['name'].str.replace(r'(.+),\s+(.+)', r'\2 \1')
     df.loc[df['position'] == 'D', 'position'] = 'DEF'
     df['week'] = week
@@ -38,3 +44,5 @@ def load(week):
     raw = _scrape(week)
     clean = _transform(raw, week)
     return clean
+
+load('all')

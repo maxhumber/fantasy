@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
+from utils.week import week as WEEK
 
 URL = 'http://games.espn.com/ffl/tools/projections'
 
@@ -24,6 +25,9 @@ def _scrape(payloads):
         d = d.drop(d.index[0:3])
         if 'OPP' not in d:
             d['OPP'] = None
+            # handle remaining year problem
+            d['PTS'] = round(pd.to_numeric(d['PTS'], errors='coerce'))
+            d['PTS'] *= (1 - ((WEEK - 1) / 16))
         d = d[['PLAYER, TEAM POS', 'PTS', 'OPP']]
         df = df.append(d)
     return df

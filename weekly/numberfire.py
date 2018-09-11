@@ -2,7 +2,6 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 import re
-from utils.week import week
 
 BASE_URL = 'http://www.numberfire.com/nfl/fantasy/'
 
@@ -26,7 +25,6 @@ def _scrape_one(url):
     if 'remaining' in url:
         df = df.iloc[:, 0:2]
         df.columns = ['name', 'points']
-        df['points'] /= (1 - ((week - 1) / 16))
         # remove fake precision
         df['points'] = round(df['points'])
         df['week'] = 'all'
