@@ -1,12 +1,9 @@
+import sys
 import pandas as pd
 import requests
 import sqlite3
 from bs4 import BeautifulSoup
-from week import week
-from fuzzy_defence import fuzzy_defence
-
-con = sqlite3.connect('projections.db')
-cur = con.cursor()
+from utils.week import week
 
 URL = 'https://www.fantasysharks.com/apps/bert/stats/points.php'
 
@@ -17,16 +14,14 @@ headers = {
         'Chrome/50.0.2661.102 Safari/537.36'
     }
 
-payload = {'scoring': 13, 'Segment': 628 + week - 1, 'Position': 99}
-
-def scrape(payload):
+def _scrape(week):
+    payload = {'scoring': 13, 'Segment': 628 - 1 + week, 'Position': 99}
     response = requests.get(URL, params=payload, headers=headers)
     soup = BeautifulSoup(response.text, 'lxml')
     df = pd.read_html(str(soup.find('div', class_='toolDiv')))[0]
     return df
 
-def etl(payload):
-    df = scrape(payload)
+def _transform(df):
     df.columns = list(df.iloc[0].values)
     df['Pts'] = pd.to_numeric(df['Pts'], errors='coerce')
     df = df.dropna(subset=['Pts'])
@@ -38,8 +33,15 @@ def etl(payload):
     df['source'] = 'Fantasy Sharks'
     df['fetched_at'] = pd.Timestamp('now')
     df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'source', 'fetched_at']]
-    df.to_sql('actuals', con, if_exists='append', index=False)
+    return df
+
+def load(week):
+    raw = _scrape(week)
+    clean = _transform(raw)
+    return clean
 
 if __name__ == '__main__':
-    etl(payload)
-    print('Success!')
+    con = sqlite3.connect('data/fantasy.db')
+    cur = con.cursor()
+    df = load(week-1)
+    df.to_sql('points', con, if_exists='append', index=False)

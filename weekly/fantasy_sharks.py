@@ -44,5 +44,3 @@ def load(week):
     raw = _scrape(week)
     clean = _transform(raw, week)
     return clean
-
-load('all')

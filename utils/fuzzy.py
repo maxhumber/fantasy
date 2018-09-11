@@ -36,6 +36,16 @@ TEAMS = [
 ]
 
 def fuzzy_defence(team):
-    return (
-        process.extract(team, choices=TEAMS, scorer=fuzz.partial_ratio)[0][0]
-    )
+    return process.extract(team, choices=TEAMS, scorer=fuzz.partial_ratio)[0][0]
+
+def fuzzy_lookup(name, names, position):
+    if position == 'DEF':
+        return process.extract(team, choices=TEAMS, scorer=fuzz.partial_ratio)[0][0]
+    try:
+        match = process.extract(name, choices=names, scorer=fuzz.partial_token_sort_ratio)[0]
+        if match[1] > 75:
+            return match[0]
+        else:
+            return name
+    except IndexError:
+        return name

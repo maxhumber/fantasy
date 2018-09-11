@@ -3,9 +3,6 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import sqlite3
 
-con = sqlite3.connect('projections.db')
-cur = con.cursor()
-
 URL = 'https://www.footballdb.com/players/current.html'
 
 headers = {
@@ -15,9 +12,7 @@ headers = {
         'Chrome/50.0.2661.102 Safari/537.36'
     }
 
-payloads = [{'pos': 'WR'}, {'pos': 'RB'}, {'pos': 'TE'}, {'pos': 'QB'}, {'pos': 'K'}]
-
-def scrape(payload):
+def _scrape_one(payload):
     response = requests.get(URL, params=payload, headers=headers)
     soup = BeautifulSoup(response.text, 'lxml')
     for s in soup.find_all(class_='td hidden-xs'):
@@ -36,10 +31,17 @@ def scrape(payload):
     df['position'] = payload['pos']
     return df
 
-players = pd.DataFrame()
-for payload in payloads:
-    d = scrape(payload)
-    players = players.append(d)
+def fetch():
+    payloads = [{'pos': 'WR'}, {'pos': 'RB'}, {'pos': 'TE'}, {'pos': 'QB'}, {'pos': 'K'}]
+    players = pd.DataFrame()
+    for payload in payloads:
+        d = _scrape_one(payload)
+        players = players.append(d)
+    players['updated_at'] = pd.Timestamp('now')
+    return players
 
-players['updated_at'] = pd.Timestamp('now')
-players.to_sql('players', con, if_exists='replace', index=False)
+if __name__ == '__main__':
+    con = sqlite3.connect('data/fantasy.db')
+    cur = con.cursor()
+    df = fetch()
+    df.to_sql('players', con, if_exists='replace')
