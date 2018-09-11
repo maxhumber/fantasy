@@ -7,15 +7,23 @@ from utils.fuzzy import fuzzy_defence
 con = sqlite3.connect('data/fantasy.db')
 cur = con.cursor()
 
-data_espn = espn.load(week)
-data_fantasy_pros = fantasy_pros.load(week)
-data_fantasy_sharks = fantasy_sharks.load(week)
+data_espn = espn.load(2)
+data_fantasy_pros = fantasy_pros.load(2)
+data_fantasy_sharks = fantasy_sharks.load(2)
 data_numberfire = numberfire.load()  # payload doesn't accept a week argument
 
-df = pd.concat([data_espn, data_fantasy_pros, data_fantasy_sharks, data_numberfire])
-df = df.reset_index(drop=True)
-df.loc[df['position'] == 'DEF', 'name'] = (
-    df['name'].apply(lambda team: fuzzy_defence(team))
-)
+def fetch(week):
+    data_espn = espn.load(week)
+    data_fantasy_pros = fantasy_pros.load(week)
+    data_fantasy_sharks = fantasy_sharks.load(week)
+    data_numberfire = numberfire.load()  # payload doesn't accept a week argument
+    df = pd.concat([data_espn, data_fantasy_pros, data_fantasy_sharks, data_numberfire])
+    df = df.reset_index(drop=True)
+    df.loc[df['position'] == 'DEF', 'name'] = (
+        df['name'].apply(lambda team: fuzzy_defence(team))
+    )
+    return df
 
-df.to_sql('projections', con, if_exists='append')
+if __name__ == '__main__':
+    df = fetch(week)
+    df.to_sql('projections', con, if_exists='append')
