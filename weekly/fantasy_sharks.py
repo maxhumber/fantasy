@@ -1,6 +1,8 @@
+import sqlite3
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+from utils.week import week
 
 URL = 'https://www.fantasysharks.com/apps/bert/forecasts/projections.php'
 
@@ -44,3 +46,10 @@ def load(week):
     raw = _scrape(week)
     clean = _transform(raw, week)
     return clean
+
+if __name__ == '__main__':
+    con = sqlite3.connect('data/fantasy.db')
+    cur = con.cursor()
+    df = load(week)
+    df.to_sql('projections', con, if_exists='append', index=False)
+    con.commit()

@@ -1,7 +1,9 @@
+import sqlite3
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 import re
+from utils.week import week
 
 BASE_URL = 'http://www.numberfire.com/nfl/fantasy/'
 
@@ -66,3 +68,10 @@ def load(week):
     raw = _scrape(urls)
     clean = _transform(raw)
     return clean
+
+if __name__ == '__main__':
+    con = sqlite3.connect('data/fantasy.db')
+    cur = con.cursor()
+    df = load(week)
+    df.to_sql('projections', con, if_exists='append', index=False)
+    con.commit()

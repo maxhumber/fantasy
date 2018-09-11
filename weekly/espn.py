@@ -1,3 +1,4 @@
+import sqlite3
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
@@ -26,8 +27,9 @@ def _scrape(payloads):
         if 'OPP' not in d:
             d['OPP'] = None
             # handle remaining year problem
-            d['PTS'] = round(pd.to_numeric(d['PTS'], errors='coerce'))
+            d['PTS'] = pd.to_numeric(d['PTS'], errors='coerce')
             d['PTS'] *= (1 - ((WEEK - 1) / 16))
+            d['PTS'] = round(d['PTS'])
         d = d[['PLAYER, TEAM POS', 'PTS', 'OPP']]
         df = df.append(d)
     return df
@@ -54,3 +56,10 @@ def load(week):
     raw = _scrape(payloads)
     clean = _transform(raw, week)
     return clean
+
+if __name__ == '__main__':
+    con = sqlite3.connect('data/fantasy.db')
+    cur = con.cursor()
+    df = load(WEEK)
+    df.to_sql('projections', con, if_exists='append', index=False)
+    con.commit()

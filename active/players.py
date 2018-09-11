@@ -44,4 +44,4 @@ if __name__ == '__main__':
     con = sqlite3.connect('data/fantasy.db')
     cur = con.cursor()
     df = fetch()
-    df.to_sql('players', con, if_exists='replace')
+    df.to_sql('players', con, if_exists='replace', index=False)

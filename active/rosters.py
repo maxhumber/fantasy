@@ -43,4 +43,4 @@ if __name__ == '__main__':
     con = sqlite3.connect('data/fantasy.db')
     cur = con.cursor()
     df = load(league=4319624)
-    df.to_sql('rosters', con, if_exists='append')
+    df.to_sql('rosters', con, if_exists='append', index=False)
