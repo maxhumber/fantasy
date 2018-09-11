@@ -13,6 +13,8 @@ headers = {
         'Chrome/50.0.2661.102 Safari/537.36'
     }
 
+def _create_payload():
+
 def _scrape(week):
     if week == 'all':
         payload = {'scoring': 13, 'Segment': 621, 'Position': 99}

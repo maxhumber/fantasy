@@ -7,6 +7,11 @@ from bs4 import BeautifulSoup
 from itertools import product
 import random
 
+from projections.fantasy_sharks import load
+
+
+
+
 con = sqlite3.connect('football.db')
 cur = con.cursor()
 

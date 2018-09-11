@@ -1,4 +1,15 @@
+import sqlite3
+import pandas as pd
 from fuzzywuzzy import process, fuzz
+
+def _fetch_players():
+    con = sqlite3.connect('data/fantasy.db')
+    cur = con.cursor()
+    players = pd.read_sql('select * from players', con)
+    con.close()
+    return players
+
+PLAYERS = _fetch_players()
 
 TEAMS = [
     'Carolina Panthers',
@@ -38,9 +49,10 @@ TEAMS = [
 def fuzzy_defence(team):
     return process.extract(team, choices=TEAMS, scorer=fuzz.partial_ratio)[0][0]
 
-def fuzzy_lookup(name, names, position):
+def fuzzy_lookup(name, position):
+    names = list(PLAYERS[PLAYERS['position'] == position]['name'].values)
     if position == 'DEF':
-        return process.extract(team, choices=TEAMS, scorer=fuzz.partial_ratio)[0][0]
+        return fuzzy_defence(name)
     try:
         match = process.extract(name, choices=names, scorer=fuzz.partial_token_sort_ratio)[0]
         if match[1] > 75:

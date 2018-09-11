@@ -33,22 +33,6 @@ df['name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), ax
 df['name'] = df.apply(lambda row: fuzzy_lookup(row['name'], _filter(players, 'QB'), row['position']), axis=1)
 
 
-
-QB =
-WR = _filter(players, 'WR')
-RB = _filter(players, 'RB')
-TE = _filter(players, 'TE')
-K = _filter(players, 'K')
-
-
-
-
-df['name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
-df.loc[df['position'] == 'DEF', 'name'] = (
-    df['name'].apply(lambda team: fuzzy_defence(team))
-)
-
-
 if __name__ == '__main__':
     # pull all
     projections_all = fetch(week='all')

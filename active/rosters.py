@@ -3,6 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import re
 import sqlite3
+from utils.fuzzy import fuzzy_lookup
 
 def _scrape(league=4319624):
     url = f'http://fantasy.nfl.com/league/{league}/depthcharts'
@@ -31,6 +32,7 @@ def _transform(df):
     )
     df = df.reset_index().sort_values('Team', ascending=False)
     df.columns = ['team', 'position', 'name']
+    df['name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
     df['fetched_at'] = pd.Timestamp('now')
     return df
 
