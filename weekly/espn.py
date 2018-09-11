@@ -7,7 +7,10 @@ URL = 'http://games.espn.com/ffl/tools/projections'
 def _create_payloads(week):
     payloads = []
     for i in range(0, 400, 40):
-        payload = {'seasonId': 2018, 'startIndex': i, 'scoringPeriodId': week}
+        if week == 'all':
+            payload = {'seasonId': 2018, 'startIndex': i, 'seasonTotals': 'true'}
+        else:
+            payload = {'seasonId': 2018, 'startIndex': i, 'scoringPeriodId': week}
         payloads.append(payload)
     return payloads
 
@@ -19,6 +22,8 @@ def _scrape(payloads):
         d = pd.read_html(str(soup.findAll('table')[0]))[0]
         d.columns = list(d.iloc[2].values)
         d = d.drop(d.index[0:3])
+        if 'OPP' not in d:
+            d['OPP'] = None
         d = d[['PLAYER, TEAM POS', 'PTS', 'OPP']]
         df = df.append(d)
     return df
