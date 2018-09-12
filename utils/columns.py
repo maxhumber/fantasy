@@ -17,7 +17,7 @@ FBDB_O_COLUMNS = [
     'receiving_touchdowns',
     'receiving_two_point_conversions',
     'fumbles_lost',
-    'fumble_recovery_touchdowns'
+    'fumble_touchdowns'
 ]
 
 FBDB_K_COLUMNS = [
@@ -57,7 +57,7 @@ O_COLUMNS = [
     'rushing_touchdowns',
     'receiving_yards',
     'receiving_touchdowns',
-    'fumble_recovery_touchdowns',
+    'fumble_touchdowns',
     'fumbles_lost',
     'two_point_conversions'
 ]
@@ -73,6 +73,32 @@ K_COLUMNS = [
 D_COLUMNS = [
     'name',
     'game',
+    'sacks',
+    'interceptions',
+    'safeties',
+    'fumble_recoveries',
+    'touchdowns',
+    'points_allowed'
+]
+
+ALL_COLUMNS = [
+    'name',
+    'position',
+    'week',
+    'game',
+    'passing_yards',
+    'passing_touchdowns',
+    'passing_interceptions',
+    'rushing_yards',
+    'rushing_touchdowns',
+    'receiving_yards',
+    'receiving_touchdowns',
+    'fumble_touchdowns',
+    'fumbles_lost',
+    'two_point_conversions',
+    'extra_points_made',
+    'field_goals_made',
+    'field_goals_made_over_50',
     'sacks',
     'interceptions',
     'safeties',

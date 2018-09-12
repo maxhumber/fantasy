@@ -6,7 +6,7 @@ OFFENSE = {
     'rushing_touchdowns': 6,
     'receiving_yards': 1/10,
     'receiving_touchdowns': 6,
-    'fumble_recovery_touchdowns': 6,
+    'fumble_touchdowns': 6,
     'fumbles_lost': -2,
     'two_point_conversions': 2,
 }
@@ -54,3 +54,13 @@ def score_defense(row):
     points_allowed = row['points_allowed']
     points += [v for k, v in POINTS_ALLOWED.items() if k >= points_allowed][0]
     return points
+
+def score(row):
+    if row.position in ('QB', 'RB', 'WR', 'TE'):
+        return score_offense(row)
+    elif row.position == 'K':
+        return score_kicking(row)
+    elif row.position == 'DEF':
+        return score_defense(row)
+    else:
+        return None
