@@ -54,8 +54,9 @@ def fuzzy_lookup(name, position):
     if position == 'DEF':
         return fuzzy_defence(name)
     try:
-        match = process.extract(name, choices=names, scorer=fuzz.partial_token_sort_ratio)[0]
-        if match[1] > 75:
+        options = process.extract(name, choices=names, scorer=fuzz.partial_token_sort_ratio)
+        match = [o for o in options if (o[0][0] == name[0])][0]
+        if match[1] > 80:
             return match[0]
         else:
             return name

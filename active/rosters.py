@@ -46,3 +46,5 @@ if __name__ == '__main__':
     cur = con.cursor()
     df = load(league=4319624)
     df.to_sql('rosters', con, if_exists='append', index=False)
+    con.commit()
+    con.close()
