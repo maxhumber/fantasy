@@ -13,13 +13,25 @@ headers = {
         'Chrome/50.0.2661.102 Safari/537.36'
     }
 
-def _create_payload():
-
-def _scrape(week):
+def _create_payload(week):
+    '''
+    Acceptable: 'all', 1 - 17, '2015-x', '2016-x', '2017-x'
+    '''
+    base = {'scoring': 13, 'Position': 99}
     if week == 'all':
-        payload = {'scoring': 13, 'Segment': 621, 'Position': 99}
+        return {**base, **{'Segment': 621}}
+    elif type(week) == int:
+        return {**base, **{'Segment': 628 + week - 1}}
+    elif week[:4] == '2015':
+        return {**base, **{'Segment': 531 + int(week.split('-')[1])}}
+    elif week[:4] == '2016':
+        return {**base, **{'Segment': 563 + int(week.split('-')[1])}}
+    elif week[:4] == '2017':
+        return {**base, **{'Segment': 595 + int(week.split('-')[1])}}
     else:
-        payload = {'scoring': 13, 'Segment': 628 + week - 1, 'Position': 99}
+        return None
+
+def _scrape(payload):
     response = requests.get(URL, params=payload, headers=headers)
     soup = BeautifulSoup(response.text, 'lxml')
     for s in soup.find_all(class_='separator'):
@@ -45,7 +57,8 @@ def _transform(df, week):
     return df
 
 def load(week):
-    raw = _scrape(week)
+    payload = _create_payload(week)
+    raw = _scrape(payload)
     clean = _transform(raw, week)
     return clean
 
