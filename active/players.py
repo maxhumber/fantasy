@@ -46,3 +46,4 @@ if __name__ == '__main__':
     df = fetch()
     df.to_sql('players', con, if_exists='replace', index=False)
     con.commit()
+    con.close()

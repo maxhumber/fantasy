@@ -5,14 +5,9 @@ import sqlite3
 from bs4 import BeautifulSoup
 from utils.week import week
 
-URL = 'https://www.fantasysharks.com/apps/bert/stats/points.php'
+from projections.fantasy_sharks import headers, _transform
 
-headers = {
-    'User-Agent':
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5)'
-        'AppleWebKit/537.36 (KHTML, like Gecko)'
-        'Chrome/50.0.2661.102 Safari/537.36'
-    }
+URL = 'https://www.fantasysharks.com/apps/bert/stats/points.php'
 
 def _scrape(week):
     payload = {'scoring': 13, 'Segment': 628 - 1 + week, 'Position': 99}
@@ -43,5 +38,8 @@ def load(week):
 if __name__ == '__main__':
     con = sqlite3.connect('data/fantasy.db')
     cur = con.cursor()
-    df = load(week-1)
+    week = week - 1
+    df = load(week)
     df.to_sql('points', con, if_exists='append', index=False)
+    con.commit()
+    con.close()
