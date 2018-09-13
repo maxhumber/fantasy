@@ -23,3 +23,27 @@ left join (
 ) averages using (name, position)
 where team in ('TacoCorp', 'phantasy')
 order by points desc
+
+select
+name,
+position,
+week,
+season,
+projection,
+points,
+round(points - projection) as delta
+from (
+	select
+	name,
+	position,
+	week,
+	season,
+	round(avg(points)) as projection
+	from projections
+	where
+	name = 'Andrew Luck' and
+	week != 'all'
+	group by 1, 2, 3, 4
+	order by season, week
+) projections
+left join points using (name, position, week, season)

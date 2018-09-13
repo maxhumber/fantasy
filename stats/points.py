@@ -7,7 +7,6 @@ import pandas as pd
 
 from utils.week import week
 from utils.scoring import score
-from utils.expand import expand_grid
 from utils.columns import (
     FBDB_O_COLUMNS, O_COLUMNS,
     FBDB_K_COLUMNS, K_COLUMNS,
