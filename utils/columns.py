@@ -17,7 +17,10 @@ FBDB_O_COLUMNS = [
     'receiving_touchdowns',
     'receiving_two_point_conversions',
     'fumbles_lost',
-    'fumble_touchdowns'
+    'fumble_touchdowns',
+    'position',
+    'week',
+    'season'
 ]
 
 FBDB_K_COLUMNS = [
@@ -28,7 +31,10 @@ FBDB_K_COLUMNS = [
     'extra_points_made',
     'field_goals_attempted',
     'field_goals_made',
-    'field_goals_made_over_50'
+    'field_goals_made_over_50',
+    'position',
+    'week',
+    'season'
 ]
 
 FBDB_D_COLUMNS = [
@@ -44,12 +50,18 @@ FBDB_D_COLUMNS = [
     'points_allowed',
     'passing_yards_allowed',
     'rushing_yards_allowed',
-    'total_yards_allowed'
+    'total_yards_allowed',
+    'position',
+    'week',
+    'season'
 ]
 
 O_COLUMNS = [
     'name',
     'game',
+    'position',
+    'week',
+    'season',
     'passing_yards',
     'passing_touchdowns',
     'passing_interceptions',
@@ -65,6 +77,9 @@ O_COLUMNS = [
 K_COLUMNS = [
     'name',
     'game',
+    'position',
+    'week',
+    'season',
     'extra_points_made',
     'field_goals_made',
     'field_goals_made_over_50',
@@ -73,6 +88,9 @@ K_COLUMNS = [
 D_COLUMNS = [
     'name',
     'game',
+    'position',
+    'week',
+    'season',
     'sacks',
     'interceptions',
     'safeties',
@@ -85,6 +103,7 @@ ALL_COLUMNS = [
     'name',
     'position',
     'week',
+    'season',
     'game',
     'passing_yards',
     'passing_touchdowns',

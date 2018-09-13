@@ -1,23 +1,23 @@
-from utils.expand import expand_grid
+import sqlite3
+from itertools import product
 
-def _create_payloads(start=2015, end=2017):
-    payloads = {
-        'rules': [1],
-        'pos': ['QB', 'RB', 'WR', 'TE', 'K', 'DST'],
-        'yr': list(range(start, end + 1)),
-        'wk': list(range(1, 17 + 1))
-    }
-    payloads = expand_grid(payloads)
-    payloads = payloads.to_dict(orient='records')
-    return payloads
+import pandas as pd
 
-def backfill():
-    payloads = _create_payloads()
+from stats.points import load
+
+def backfill(start, end):
+    weeks = list(product(range(start, end + 1), range(1, 17 + 1)))
     df = pd.DataFrame()
-    for payload in payloads:
-        print(payload)
-        d = _scrape(payload)
-        d = _transform(d)
+    for week in weeks:
+        print(week)
+        d = load(week[1], week[0])
         df = df.append(d, sort=False)
-    df = df[ALL_COLUMNS]
     return df
+
+if __name__ == '__main__':
+    con = sqlite3.connect('data/fantasy.db')
+    cur = con.cursor()
+    df = backfill(2015, 2017)
+    df.to_sql('points', con, if_exists='replace', index=False)
+    con.commit()
+    con.close()
