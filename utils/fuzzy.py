@@ -46,13 +46,13 @@ TEAMS = [
     'Houston Texans'
 ]
 
-def fuzzy_defence(team):
+def fuzzy_defense(team):
     return process.extract(team, choices=TEAMS, scorer=fuzz.partial_ratio)[0][0]
 
 def fuzzy_lookup(name, position):
     names = list(PLAYERS[PLAYERS['position'] == position]['name'].values)
     if position == 'DEF':
-        return fuzzy_defence(name)
+        return fuzzy_defense(name)
     try:
         options = process.extract(name, choices=names, scorer=fuzz.partial_token_sort_ratio)
         match = [o for o in options if (o[0][0] == name[0])][0]

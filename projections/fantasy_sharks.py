@@ -1,10 +1,20 @@
 import sqlite3
-import pandas as pd
+
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
+
 from utils.week import week
+from utils.fuzzy import fuzzy_defense
 
 URL = 'https://www.fantasysharks.com/apps/bert/forecasts/projections.php'
+
+SEGMENT_START = {
+    2015: 532,
+    2016: 564,
+    2017: 596,
+    2018: 628
+}
 
 headers = {
     'User-Agent':
@@ -13,34 +23,32 @@ headers = {
         'Chrome/50.0.2661.102 Safari/537.36'
     }
 
-def _create_payload(week):
-    '''
-    Acceptable: 'all', 1 - 17, '2015-x', '2016-x', '2017-x'
-    '''
+def _create_payload(week, season=2018):
     base = {'scoring': 13, 'Position': 99}
-    if week == 'all':
+    if season == 2018 and week == 'all':
         return {**base, **{'Segment': 621}}
-    elif type(week) == int:
-        return {**base, **{'Segment': 628 + week - 1}}
-    elif week[:4] == '2015':
-        return {**base, **{'Segment': 531 + int(week.split('-')[1])}}
-    elif week[:4] == '2016':
-        return {**base, **{'Segment': 563 + int(week.split('-')[1])}}
-    elif week[:4] == '2017':
-        return {**base, **{'Segment': 595 + int(week.split('-')[1])}}
     else:
-        return None
+        return {**base, **{'Segment': SEGMENT_START[season] - 1 + week}}
 
 def _scrape(payload):
+    segment = payload['Segment']
     response = requests.get(URL, params=payload, headers=headers)
     soup = BeautifulSoup(response.text, 'lxml')
     for s in soup.find_all(class_='separator'):
         s.extract()
     df = pd.read_html(str(soup.find('div', class_='toolDiv')))[0]
+    df.columns = list(df.iloc[0].values)
+    if segment == 621:
+        df['week'] = 'all'
+        df['season'] = 2018
+    else:
+        season = [k for k, v in SEGMENT_START.items() if v <= segment][-1]
+        week = segment - SEGMENT_START[season] + 1
+        df['week'] = week
+        df['season'] = season
     return df
 
-def _transform(df, week):
-    df.columns = list(df.iloc[0].values)
+def _transform(df):
     df['Pts'] = pd.to_numeric(df['Pts'], errors='coerce')
     df = df.dropna(subset=['Pts'])
     df = df.rename(columns={'Player': 'name', 'Tm': 'team', 'Opp': 'opponent', 'Pts': 'points', 'Position': 'position'})
@@ -50,16 +58,16 @@ def _transform(df, week):
         df['opponent'] = None
     df['name'] = df['name'].str.replace(r'(.+),\s+(.+)', r'\2 \1')
     df.loc[df['position'] == 'D', 'position'] = 'DEF'
-    df['week'] = week
+    df.loc[df['position'] == 'DEF', 'name'] = df['name'].apply(lambda x: fuzzy_defense(x))
     df['source'] = 'Fantasy Sharks'
     df['fetched_at'] = pd.Timestamp('now')
-    df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'source', 'fetched_at']]
+    df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'season', 'source', 'fetched_at']]
     return df
 
-def load(week):
-    payload = _create_payload(week)
+def load(week, season=2018):
+    payload = _create_payload(week, season)
     raw = _scrape(payload)
-    clean = _transform(raw, week)
+    clean = _transform(raw)
     return clean
 
 if __name__ == '__main__':
@@ -68,3 +76,4 @@ if __name__ == '__main__':
     df = load(week)
     df.to_sql('projections', con, if_exists='append', index=False)
     con.commit()
+    con.close()

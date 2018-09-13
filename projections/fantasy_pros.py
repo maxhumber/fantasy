@@ -1,12 +1,15 @@
 import sqlite3
+
 import requests
-import pandas as pd
 from bs4 import BeautifulSoup
+import pandas as pd
+
 from utils.week import week
+from utils.fuzzy import fuzzy_defense
 
 URL = 'https://www.fantasypros.com/nfl/projections/'
 
-def _scrape(week):
+def _scrape(week, season=2018):
     df = pd.DataFrame()
     positions = ['qb', 'rb', 'wr', 'te', 'k', 'dst']
     for p in positions:
@@ -24,27 +27,28 @@ def _scrape(week):
         d = d[['Player', 'FPTS']]
         d['Position'] = p.upper()
         df = df.append(d)
+    df['season'] = season
+    df['week'] = week
     return df
 
-def _transform(df, week):
+def _transform(df):
     df = df.reset_index(drop=True)
     df['Team'] = df.Player.str.extract('\s(\w+)$')
-    df.loc[df['Position'] != 'dst', 'Player'] = (
-        df[df['Position'] != 'dst']['Player'].str.replace('\s(\w+)$', '')
-    )
-    df.columns = ['name', 'points', 'position', 'team']
+    df.loc[df['Position'] != 'dst', 'Player'] = df['Player'].str.replace('\s(\w+)$', '')
+    df.columns = [column.lower() for column in df.columns]
+    df = df.rename(columns={'fpts': 'points', 'player': 'name'})
     df.loc[df['position'] == 'DST', 'position'] = 'DEF'
     df.loc[df['position'] == 'DEF', 'team'] = None
+    df.loc[df['position'] == 'DEF', 'name'] = df['name'].apply(lambda x: fuzzy_defense(x))
     df['opponent'] = None
-    df['week'] = week
     df['source'] = 'Fantasy Pros'
     df['fetched_at'] = pd.Timestamp('now')
-    df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'source', 'fetched_at']]
+    df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'season', 'source', 'fetched_at']]
     return df
 
-def load(week):
-    raw = _scrape(week)
-    clean = _transform(raw, week)
+def load(week, season=2018):
+    raw = _scrape(week, season)
+    clean = _transform(raw)
     return clean
 
 if __name__ == '__main__':
@@ -53,3 +57,4 @@ if __name__ == '__main__':
     df = load(week)
     df.to_sql('projections', con, if_exists='append', index=False)
     con.commit()
+    con.close()

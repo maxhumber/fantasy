@@ -3,7 +3,7 @@ import sqlite3
 from weekly import espn, fantasy_pros, fantasy_sharks, numberfire
 from active import players, rosters
 from utils.week import week
-from utils.fuzzy import fuzzy_defence, fuzzy_lookup
+from utils.fuzzy import fuzzy_defense, fuzzy_lookup
 
 con = sqlite3.connect('data/fantasy.db')
 cur = con.cursor()
@@ -17,7 +17,7 @@ def fetch(week):
     df = df.reset_index(drop=True)
     # fix defense naming problem across sources
     df.loc[df['position'] == 'DEF', 'name'] = (
-        df['name'].apply(lambda team: fuzzy_defence(team))
+        df['name'].apply(lambda team: fuzzy_defense(team))
     )
     return df
 

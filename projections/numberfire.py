@@ -1,9 +1,12 @@
 import sqlite3
-import requests
-import pandas as pd
-from bs4 import BeautifulSoup
 import re
+
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+
 from utils.week import week
+from utils.fuzzy import fuzzy_defense
 
 BASE_URL = 'http://www.numberfire.com/nfl/fantasy/'
 
@@ -41,6 +44,8 @@ def _scrape_one(url):
     h2_week = str(soup.find(class_='projection-rankings__hed').find('h2'))
     h2_week = int(re.findall('Week\s(.*?)\sFantasy', h2_week)[0])
     df['week'] = h2_week
+    # no support for other seasons
+    df['season'] = 2018
     return df
 
 def _scrape(urls):
@@ -51,19 +56,21 @@ def _scrape(urls):
     return df
 
 def _transform(df):
+    df = df.reset_index(drop=True)
     df[['name', 'position']] = df['name'].str.split('\s\s\(', n=1, expand=True)
     df[['position', 'team']] = df['position'].str.split(', ', n=1, expand=True)
     df['team'] = df['team'].str.replace(')', '')
     df['name'] = df['name'].str.replace('\sD/ST', '')
     df.loc[df['position'] == 'D', 'position'] = 'DEF'
+    df.loc[df['position'] == 'DEF', 'name'] = df['name'].apply(lambda x: fuzzy_defense(x))
     df['source'] = 'numberFire'
     df['fetched_at'] = pd.Timestamp('now')
     if 'opponent' not in df:
         df['opponent'] = None
-    df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'source', 'fetched_at']]
+    df = df[['name', 'position', 'team', 'opponent', 'points', 'week', 'season', 'source', 'fetched_at']]
     return df
 
-def load(week):
+def load(week, season=2018):
     urls = _create_urls(week)
     raw = _scrape(urls)
     clean = _transform(raw)
@@ -75,3 +82,4 @@ if __name__ == '__main__':
     df = load(week)
     df.to_sql('projections', con, if_exists='append', index=False)
     con.commit()
+    con.close()
