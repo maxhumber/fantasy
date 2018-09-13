@@ -47,6 +47,7 @@ def _transform(df):
     return df
 
 def load(week, season=2018):
+    assert type(week) == int
     raw = _scrape(week, season)
     clean = _transform(raw)
     return clean

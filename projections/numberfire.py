@@ -33,6 +33,7 @@ def _scrape_one(url):
         # remove fake precision
         df['points'] = round(df['points'])
         df['week'] = 'all'
+        df['season'] = 2018
         return df
     if url[-1] in ('k', 'd'):
         df = df.iloc[:, 0:4]
