@@ -54,10 +54,4 @@ df = pd.read_sql(f'''
 df = df.groupby('week').first().reset_index()
 streaming = df['points'].sum()
 
-
-
-
-
-
-
 #
