@@ -42,8 +42,9 @@ def load(league=4319624):
     return clean
 
 if __name__ == '__main__':
-    con = sqlite3.connect('data/fantasy.db')
+    con = sqlite3.connect('data/fantasy.db', isolation_level=None)
     cur = con.cursor()
+    con.commit()
     df = load(league=4319624)
     df.to_sql('rosters', con, if_exists='append', index=False)
     con.commit()

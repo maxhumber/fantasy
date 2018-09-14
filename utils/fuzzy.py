@@ -5,7 +5,7 @@ from fuzzywuzzy import process, fuzz
 def _fetch_players():
     con = sqlite3.connect('data/fantasy.db')
     cur = con.cursor()
-    players = pd.read_sql('select * from players', con)
+    players = pd.read_sql('select name, position from players', con)
     con.close()
     return players
 
@@ -46,22 +46,22 @@ TEAMS = [
     'Houston Texans'
 ]
 
-def fuzzy_defense(team):
-    return process.extract(team, choices=TEAMS, scorer=fuzz.partial_ratio)[0][0]
+ALL = (
+    pd.concat([PLAYERS, pd.DataFrame({'name': TEAMS})], sort=False)
+    .fillna('DEF')
+    .reset_index(drop=True)
+)
 
-# diagnostics
-# position = 'TE'
-# names = list(PLAYERS[PLAYERS['position'] == position]['name'].values)
-# name = 'J. Graham'
+def fuzzy_full(name, names):
+    match = process.extract(name, choices=names, scorer=fuzz.partial_ratio)[0][0]
+    return match
 
-def fuzzy_player(name, names):
+def fuzzy_half(name, names):
     options = process.extract(name, choices=names, scorer=fuzz.partial_token_sort_ratio)
-    # option = options[0]
     possible_matches = [
-        option
-        for option in options
+        option for option in options
         if (option[0][0] == name[0]) and
-        # last name and then remove after hyphen
+        # just keep the first last name before the hyphen
         option[0].split(' ')[1].split('-')[0] == name.split('. ')[1]
     ]
     try:
@@ -73,9 +73,12 @@ def fuzzy_player(name, names):
     else:
         return name
 
-def fuzzy_lookup(name, position):
-    names = list(PLAYERS[PLAYERS['position'] == position]['name'].values)
-    if position == 'DEF':
-        return fuzzy_defense(name)
-    else:
-        return fuzzy_player(name, names)
+def fuzzy_lookup(name, position, abbreviated=False):
+    names = list(ALL[ALL['position'] == position]['name'].values)
+    try:
+        if abbreviated:
+            return fuzzy_half(name, names)
+        else:
+            return fuzzy_full(name, names)
+    except IndexError:
+        return name
