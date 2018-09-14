@@ -35,4 +35,3 @@ df = pd.read_sql(f'''
     (team is null or team = 'phantasy') and
     position in ('TE', 'WR', 'RB')
     ''', con)
-    
