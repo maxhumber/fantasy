@@ -10,6 +10,7 @@ fuzzywuzzy = "*"
 "beautifulsoup4" = "*"
 lxml = "*"
 python-levenshtein = "*"
+altair = "*"
 
 [dev-packages]
 ipykernel = "*"
