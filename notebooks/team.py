@@ -28,13 +28,17 @@ class Team:
     def add_player(self, player):
         self.players.append(player)
 
-phantasy = Team('pantasy')
+    def __repr__(self):
+        return f"Team('{self.name}')"
+
+phantasy = Team('phantasy')
 phantasy.add_player(players[2-1])
 phantasy.add_player(players[19-1])
 phantasy.add_player(players[22-1])
 phantasy.add_player(players[39-1])
 Counter([p.position for p in phantasy.players])
 
+league = [Team(i) for i in range(0+1, 10+1)]
 
 
 def snake(lower, upper):
@@ -50,13 +54,6 @@ df = df.rename(columns={'index': 'pick', 0: 'team'})
 df['pick'] = df.pick + 1
 df['round'] = ((df.pick + 1) // teams) + 1
 team_2 = df[df['team'] == 2]
-
-
-
-
-players[2]
-players
-
 
 
 from collections import Counter

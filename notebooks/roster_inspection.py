@@ -1,49 +1,37 @@
-
-
 select
 team,
 name,
 position,
-range,
 points,
-count
-from rosters
-left join (
-    select
-    name,
-    position,
-    round(avg(points), 1) as points,
-    (round(min(points), 1) || '-' || round(max(points), 1)) as range,
-    count(*) as count
-    from projections
-    where week = 1
-    group by 1, 2
-    having count(*) > 1
-    order by 3 desc
-) averages using (name, position)
-where team in ('TacoCorp', 'phantasy')
-order by points desc
-
-select
-name,
-position,
-week,
-season,
-projection,
-points,
-round(points - projection) as delta
+range
 from (
 	select
 	name,
 	position,
-	week,
-	season,
-	round(avg(points)) as projection
+	round(avg(points), 1) as points,
+	(round(min(points), 1) || '-' || round(max(points), 1)) as range
 	from projections
 	where
-	name = 'Andrew Luck' and
-	week != 'all'
-	group by 1, 2, 3, 4
-	order by season, week
+	season = 2018 and
+	week = 2 and
+	strftime('%Y-%m-%d', fetched_at) = (
+		select
+		max(strftime('%Y-%m-%d', fetched_at))
+		from projections
+	)
+	group by 1, 2
+	having count(*) > 1
 ) projections
-left join points using (name, position, week, season)
+left join (
+	select
+	*
+	from rosters
+	where
+	strftime('%Y-%m-%d', fetched_at) = (
+		select
+		max(strftime('%Y-%m-%d', fetched_at))
+		from projections
+	)
+) rosters using (name, position)
+where team in ('phantasy', 'Forgetting Brandon Marshall')
+order by points desc
