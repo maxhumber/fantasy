@@ -1,5 +1,4 @@
 import sqlite3
-from itertools import chain, cycle
 
 import pandas as pd
 
@@ -17,7 +16,8 @@ df = pd.read_sql(f'''
         count(*) as count
         from projections
         where
-        strftime('%Y-%m-%d', fetched_at) = (select max(strftime('%Y-%m-%d', fetched_at)) from projections)
+        strftime('%Y-%m-%d', fetched_at) =
+            (select max(strftime('%Y-%m-%d', fetched_at)) from projections)
         group by 1, 2
         having count(*) > 1
         order by 3 desc
@@ -27,7 +27,8 @@ df = pd.read_sql(f'''
         *
         from rosters
         where
-        strftime('%Y-%m-%d', fetched_at) = current_date
+        strftime('%Y-%m-%d', fetched_at) =
+            (select max(strftime('%Y-%m-%d', fetched_at)) from rosters)
     ) as rosters using (name, position)
     where
     (team is null) and
@@ -35,11 +36,4 @@ df = pd.read_sql(f'''
     position in ('TE', 'WR', 'RB')
     ''', con)
 
-df
-
-
-
-
-
-
-#
+df = df[['name', 'position', 'points']]

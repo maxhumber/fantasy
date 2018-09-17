@@ -1,47 +1,19 @@
 import sqlite3
+
 import pandas as pd
 import numpy as np
 
 pd.options.display.max_rows = 999
-con = sqlite3.connect('fantasy.db')
+
+con = sqlite3.connect('data/fantasy.db')
 cur = con.cursor()
 
-# aggregate
+# pull
 
-sql = '''
-    select * from draft_espn
-    union all
-    select * from draft_fantasy_pros
-    union all
-    select * from draft_fantasy_pros
-    union all
-    select * from draft_nfl
-    union all
-    select * from draft_numberfire
-'''
-
+sql = 'select * from draft where season = 2018'
 df = pd.read_sql(sql, con)
 df = df.infer_objects()
 df['points'] = pd.to_numeric(df['points'])
-df_agg = df.groupby('name')['points'].agg({
-    'count': 'count',
-    'mean': 'mean',
-    'std': 'std',
-    'min': 'min',
-    'max': 'max'
-})
-
-df_agg = df_agg.rename(columns={'mean': 'points'})
-df_agg = df_agg.reset_index()
-df_agg = df_agg[df_agg['count'] > 2].sort_values('points', ascending=False)
-df_agg = df_agg.round(1)
-df_agg = df_agg.reset_index(drop=True)
-
-# join position and team info
-
-info = pd.read_sql('select * from draft_fantasy_sharks', con)
-info = info[['name', 'position', 'team']]
-df = pd.merge(info, df_agg, on='name')
 
 # value over replacement
 
@@ -69,7 +41,4 @@ for position, slots in roster.items():
 df['value_over_replacement'] = df['points'] - df['replacement']
 df = df.sort_values('value_over_replacement', ascending=False).reset_index()
 
-# dump
-
-df.to_sql('value_over_replacement', con, if_exists='replace', index=False)
-df.to_csv('value_over_replacement.csv', index=False)
+df[['name', 'position', 'points', 'replacement', 'value_over_replacement']]

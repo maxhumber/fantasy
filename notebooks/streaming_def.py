@@ -35,6 +35,12 @@ teams = 10
 DEF = list(df[:teams]['name'].values)
 DEF = [f"'{d}'" for d in DEF]
 
+week = 1
+
+
+
+
+
 df = pd.read_sql(f'''
     select
     projections.name,
@@ -46,8 +52,8 @@ df = pd.read_sql(f'''
     left join points using (name, position, season, week)
     where
     position = 'DEF' and
-    name not in ({', '.join(DEF)}) and
-    season = {season}
+    season = {season} and
+    week = {week}
     order by week, projections.points desc
     ''', con)
 
