@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 from utils.week import week
-from utils.fuzzy import fuzzy_lookup
+from utils.fuzzy import fuzzy_lookup, fuzzy_cleanup
 
 URL = 'https://www.fantasysharks.com/apps/bert/forecasts/projections.php'
 
@@ -58,7 +58,8 @@ def _transform(df):
         df['opponent'] = None
     df['name'] = df['name'].str.replace(r'(.+),\s+(.+)', r'\2 \1')
     df.loc[df['position'] == 'D', 'position'] = 'DEF'
-    df['name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
+    df['fuzzy_name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
+    df = fuzzy_cleanup(df)
     df = df[df['position'].isin(['QB', 'WR', 'RB', 'TE', 'K', 'DEF'])]
     df['source'] = 'Fantasy Sharks'
     df['fetched_at'] = pd.Timestamp('now')

@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 from utils.week import week
-from utils.fuzzy import fuzzy_lookup
+from utils.fuzzy import fuzzy_lookup, fuzzy_cleanup
 
 URL = 'https://www.fantasypros.com/nfl/projections/'
 
@@ -39,7 +39,8 @@ def _transform(df):
     df = df.rename(columns={'fpts': 'points', 'player': 'name'})
     df.loc[df['position'] == 'DST', 'position'] = 'DEF'
     df.loc[df['position'] == 'DEF', 'team'] = None
-    df['name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
+    df['fuzzy_name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
+    df = fuzzy_cleanup(df)
     # can't distinguish between NY and LA teams
     df = df[~df['name'].isin(['New York Giants', 'Los Angeles Rams'])]
     df['opponent'] = None

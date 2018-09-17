@@ -84,3 +84,12 @@ def fuzzy_lookup(name, position, abbreviated=False):
             return fuzzy_full(name, names)
     except IndexError:
         return name
+
+def fuzzy_cleanup(df):
+    fuzzy_names = df[df['fuzzy_name'].duplicated()]['fuzzy_name'].values
+    bad = df[df['fuzzy_name'].isin(fuzzy_names)]
+    bad = bad[bad['fuzzy_name'] != bad['name']]['name'].values
+    df = df[~df['name'].isin(bad)]
+    df = df.drop('name', axis=1)
+    df = df.rename(columns={'fuzzy_name': 'name'})
+    return df
