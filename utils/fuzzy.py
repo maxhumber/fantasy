@@ -75,6 +75,8 @@ def fuzzy_half(name, names):
 
 def fuzzy_lookup(name, position, abbreviated=False):
     names = list(ALL[ALL['position'] == position]['name'].values)
+    if name in names:
+        return name
     try:
         if abbreviated:
             return fuzzy_half(name, names)

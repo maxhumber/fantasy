@@ -39,9 +39,9 @@ def _transform(df):
     df = df.rename(columns={'fpts': 'points', 'player': 'name'})
     df.loc[df['position'] == 'DST', 'position'] = 'DEF'
     df.loc[df['position'] == 'DEF', 'team'] = None
+    df['name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
     # can't distinguish between NY and LA teams
     df = df[~df['name'].isin(['New York Giants', 'Los Angeles Rams'])]
-    df['name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
     df['opponent'] = None
     df['source'] = 'Fantasy Pros'
     df['fetched_at'] = pd.Timestamp('now')

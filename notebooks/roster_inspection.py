@@ -30,7 +30,7 @@ left join (
 	strftime('%Y-%m-%d', fetched_at) = (
 		select
 		max(strftime('%Y-%m-%d', fetched_at))
-		from projections
+		from rosters
 	)
 ) rosters using (name, position)
 where team in ('phantasy', 'Forgetting Brandon Marshall')
