@@ -1,43 +1,48 @@
-import requests
-import pandas as pd
-from bs4 import BeautifulSoup
 import re
 import sqlite3
+from itertools import product
+
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+
 from utils.fuzzy import fuzzy_lookup
 
-def _scrape(league=4319624):
-    url = f'http://fantasy.nfl.com/league/{league}/depthcharts'
+def _create_payloads(teams=14, league=4319624):
+    return [{'team': team, 'league': league} for team in range(1, teams + 1)]
+    combos = list(product(range(1, teams + 1), [league]))
+
+def _scrape_one(payload):
+    url = f"http://fantasy.nfl.com/league/{payload['league']}/team/{payload['team']}"
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'lxml')
-    df = pd.read_html(str(soup.findAll('table')[0]))[0]
-    df.columns = list(df.iloc[0].values)
-    df = df.drop(df.index[0])
+    team = soup.find('span', class_='label').get_text()
+    players = soup.find_all('td', class_='playerNameAndInfo')
+    df = pd.DataFrame([
+        {'name': player.a.get_text(), 'pos_team': player.em.get_text()}
+        for player in players
+    ])
+    df['position'] = df['pos_team'].str.split(' - ', n=1, expand=True)[0]
+    df['team'] = team
+    return df
+
+def _scrape(payloads):
+    df = pd.DataFrame()
+    for payload in payloads:
+        d = _scrape_one(payload)
+        df = df.append(d)
     return df
 
 def _transform(df):
-    df = pd.melt(df, id_vars=['Team'], var_name = 'position', value_name='players')
-    df['players'] = (
-        df['players']
-        .apply(
-            lambda s: re.findall('[A-Z]\.\s[A-Z][a-z]+', s)
-            if '.' in s
-            else re.findall('([A-Z][a-z]*)', s)
-        )
-    )
-    df = df.set_index(['Team', 'position'])
-    df = (df['players'].apply(pd.Series)
-        .stack()
-        .reset_index(level=2, drop=True)
-        .to_frame('players')
-    )
-    df = df.reset_index().sort_values('Team', ascending=False)
-    df.columns = ['team', 'position', 'name']
+    df = df.reset_index().sort_values(['team', 'position'], ascending=False)
+    df = df[['team', 'position', 'name']]
     df['name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
     df['fetched_at'] = pd.Timestamp('now')
     return df
 
-def load(league=4319624):
-    raw = _scrape(league)
+def load(teams=14, league=4319624):
+    payloads = _create_payloads(teams, league)
+    raw = _scrape(payloads)
     clean = _transform(raw)
     return clean
 
@@ -45,7 +50,7 @@ if __name__ == '__main__':
     con = sqlite3.connect('data/fantasy.db', isolation_level=None)
     cur = con.cursor()
     con.commit()
-    df = load(league=4319624)
+    df = load(teams=14, league=4319624)
     df.to_sql('rosters', con, if_exists='append', index=False)
     con.commit()
     con.close()
