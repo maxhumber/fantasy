@@ -4,8 +4,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-from utils.week import week
-from utils.fuzzy import fuzzy_lookup, fuzzy_cleanup
+from fantasy.utils.week import week
+from fantasy.utils.fuzzy import fuzzy_apply
 
 URL = 'http://games.espn.com/ffl/tools/projections'
 
@@ -49,8 +49,7 @@ def _transform(df):
     df = df.rename(columns={'PTS': 'points', 'OPP': 'opponent'})
     df['name'] = df['name'].str.replace('*', '').str.replace('\\sD/ST\\sD/ST', '')
     df.loc[df['position'].isnull(), 'position'] = 'DEF'
-    df['fuzzy_name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
-    df = fuzzy_cleanup(df)
+    df = fuzzy_apply(df)
     df['opponent'] = df['opponent'].str.replace('@', '').str.upper()
     df['team'] = df['team'].str.upper()
     df['source'] = 'ESPN'

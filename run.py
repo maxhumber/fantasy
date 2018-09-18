@@ -1,11 +1,32 @@
 import sqlite3
+
+import schedule
 import pandas as pd
 
-from projections import espn, fantasy_pros, fantasy_sharks, numberfire
-from active import rosters
-from utils.week import week
+from fantasy.projections import espn
+from fantasy.projections import fantasy_pros
+from fantasy.projections import fantasy_sharks
+from fantasy.projections import numberfire
 
-data_espn = espn.load('all')
-# data_fantasy_pros = fantasy_pros.load('all')
-data_fantasy_sharks = fantasy_sharks.load('all')
-data_numberfire = numberfire.load('all')
+from fantasy.utils.week import week
+
+def load(week):
+    df = pd.concat([
+        espn.load(week),
+        fantasy_pros.load(week),
+        fantasy_sharks.load(week),
+        numberfire.load(week)
+    ])
+    return df
+
+def to_database(week):
+    con = sqlite3.connect('data/fantasy.db')
+    df = load(week)
+    df.to_sql('projections', con, if_exists='append', index=False)
+    con.commit()
+    con.close()
+
+if __name__ == '__main__':
+    schedule.every(1).day.at('9:00').do(load, week)
+    while True:
+        schedule.run_pending()

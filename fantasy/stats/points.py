@@ -5,9 +5,9 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-from utils.week import week
-from utils.scoring import score
-from utils.columns import (
+from fantasy.utils.week import week
+from fantasy.utils.scoring import score
+from fantasy.utils.columns import (
     FBDB_O_COLUMNS, O_COLUMNS,
     FBDB_K_COLUMNS, K_COLUMNS,
     FBDB_D_COLUMNS, D_COLUMNS,

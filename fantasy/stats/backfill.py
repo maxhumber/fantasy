@@ -3,7 +3,7 @@ from itertools import product
 
 import pandas as pd
 
-from stats.points import load
+from fantasy.stats.points import load
 
 def backfill(start, end):
     weeks = list(product(range(start, end + 1), range(1, 17 + 1)))

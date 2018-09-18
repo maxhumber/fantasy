@@ -31,9 +31,8 @@ df = pd.read_sql(f'''
             (select max(strftime('%Y-%m-%d', fetched_at)) from rosters)
     ) as rosters using (name, position)
     where
-    (team is null) and
-    --(team is null or team = 'phantasy') and
-    position in ('TE', 'WR', 'RB')
+    position not in ('QB', 'DEF', 'K')  and
+    ((team is null) or team = 'phantasy')
     ''', con)
 
-df = df[['name', 'position', 'points']]
+df = df[['team', 'name', 'position', 'points']]

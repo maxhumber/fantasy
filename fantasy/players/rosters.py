@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-from utils.fuzzy import fuzzy_lookup
+from fantasy.utils.fuzzy import fuzzy_lookup
 
 def _create_payloads(teams, league):
     return [{'team': team, 'league': league} for team in range(1, teams + 1)]
@@ -17,6 +17,7 @@ def _scrape_one(payload):
     soup = BeautifulSoup(response.text, 'lxml')
     team = soup.find('span', class_='label').get_text()
     players = soup.find_all('td', class_='playerNameAndInfo')
+    players = [player for player in players if player.get_text() != '--empty--']
     df = pd.DataFrame([
         {'name': player.a.get_text(), 'pos_team': player.em.get_text()}
         for player in players
@@ -46,9 +47,7 @@ def load(teams, league):
     return clean
 
 if __name__ == '__main__':
-    con = sqlite3.connect('data/fantasy.db', isolation_level=None)
-    cur = con.cursor()
-    con.commit()
+    con = sqlite3.connect('data/fantasy.db')
     df = load(teams=14, league=4319624)
     df.to_sql('rosters', con, if_exists='append', index=False)
     con.commit()

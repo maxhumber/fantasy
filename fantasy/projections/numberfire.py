@@ -5,8 +5,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-from utils.week import week
-from utils.fuzzy import fuzzy_lookup, fuzzy_cleanup
+from fantasy.utils.week import week
+from fantasy.utils.fuzzy import fuzzy_apply
 
 BASE_URL = 'http://www.numberfire.com/nfl/fantasy/'
 
@@ -63,8 +63,7 @@ def _transform(df):
     df['team'] = df['team'].str.replace(')', '')
     df['name'] = df['name'].str.replace('\sD/ST', '')
     df.loc[df['position'] == 'D', 'position'] = 'DEF'
-    df['fuzzy_name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
-    df = fuzzy_cleanup(df)
+    df = fuzzy_apply(df)
     df['source'] = 'numberFire'
     df['fetched_at'] = pd.Timestamp('now')
     if 'opponent' not in df:

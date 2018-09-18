@@ -1,12 +1,12 @@
-import sqlite3
 import re
+import sqlite3
 from urllib.parse import urlparse, unquote
 
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-from utils.fuzzy import fuzzy_lookup
+from fantasy.utils.fuzzy import fuzzy_lookup
 
 URL = 'http://fantasy.nfl.com/draftcenter/breakdown'
 
@@ -59,9 +59,8 @@ def scrape_seasons(start, end):
 
 if __name__ == '__main__':
     con = sqlite3.connect('data/fantasy.db')
-    cur = con.cursor()
     df = scrape_seasons(2015, 2018)
-    df_draft = pd.read_csv('draft/draft.csv')
+    df_draft = pd.read_csv('data/draft.csv')
     df_draft['name'] = df_draft.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
     df = pd.merge(df, df_draft, how='left', on=['name', 'position', 'season'])
     df = df.rename(columns={'team_y': 'team'})

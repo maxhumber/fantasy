@@ -11,6 +11,7 @@ fuzzywuzzy = "*"
 lxml = "*"
 python-levenshtein = "*"
 altair = "*"
+schedule = "*"
 
 [dev-packages]
 ipykernel = "*"

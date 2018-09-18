@@ -18,11 +18,12 @@ def fuzzy_lookup(name, position):
         return name
     try:
         match = process.extract(name, choices=names, scorer=fuzz.partial_ratio)[0]
-        return match[0] if match[1] > 70 else name
+        return match[0] if match[1] > 75 else name
     except IndexError:
         return name
 
-def fuzzy_cleanup(df):
+def fuzzy_apply(df):
+    df['fuzzy_name'] = df.apply(lambda row: fuzzy_lookup(row['name'], row['position']), axis=1)
     fuzzy_names = df[df['fuzzy_name'].duplicated()]['fuzzy_name'].values
     bad = df[df['fuzzy_name'].isin(fuzzy_names)]
     bad = bad[bad['fuzzy_name'] != bad['name']]['name'].values

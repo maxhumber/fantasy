@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-from projections.fantasy_sharks import load, URL, headers, SEGMENT_START
+from fantasy.projections.fantasy_sharks import load, URL, headers, SEGMENT_START
 
 def _create_weeks():
     years = [2015, 2016, 2017]
