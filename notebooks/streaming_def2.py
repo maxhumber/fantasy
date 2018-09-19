@@ -20,12 +20,39 @@ taken = list(pd.read_sql(f'''
     limit {teams}
     ''', con)['name'].values)
 
-pd.read_sql(f'''
+projections = pd.read_sql(f'''
     select
     *
+    from projections
+    where
+    position = 'DEF' and
+    season = {season} and
+    week = {week}
+    ''', con)
+
+available = projections[~projections['name'].isin(taken)]
+
+stream = available.sort_values('points', ascending=False).head(3).sample(frac=1).head(1)
+
+points = pd.read_sql(f'''
+    select
+    name,
+    position,
+    week,
+    season,
+    points
     from points
     where
     position = 'DEF' and
     season = {season} and
     week = {week}
     ''', con)
+
+points[~points['name'].isin(taken)]
+
+
+
+
+
+
+#
