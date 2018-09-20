@@ -12,6 +12,7 @@ lxml = "*"
 python-levenshtein = "*"
 altair = "*"
 schedule = "*"
+scikit-learn = "*"
 
 [dev-packages]
 ipykernel = "*"

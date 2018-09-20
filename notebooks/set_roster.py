@@ -26,13 +26,6 @@ class Player:
     def __repr__(self):
         return f"Player('{self.name}', '{self.position}', {self.points})"
 
-# df = pd.read_sql('select * from rosters limit 100', con)
-# df.to_sql('test', con, if_exists='replace', index=False)
-#
-# injection = "'phantasy'; DROP TABLE TEST; --"
-# team = injection
-# pd.read_sql(f'select * from rosters where team = {team}', con)
-
 def read_projection_data(team, week, season):
     sql = f'''
         select
@@ -100,6 +93,6 @@ if __name__ == '__main__':
     con = sqlite3.connect('data/fantasy.db')
     cur = con.cursor()
     starters = optimize_roster('phantasy', week)
-    print('Starters:\n', starters)
-    print('\n')
-    print('Points: ', sum([player.points for player in starters]))
+    print('Starters:\n')
+    print('\n'.join(str(starter) for starter in starters))
+    print('\nPoints: ', round(sum([player.points for player in starters]), 1))

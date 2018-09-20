@@ -10,7 +10,7 @@ from fantasy.projections import numberfire
 
 from fantasy.utils.week import week
 
-def load(week):
+def load_projections(week):
     df = pd.concat([
         espn.load(week),
         fantasy_pros.load(week),
@@ -21,12 +21,10 @@ def load(week):
 
 def to_database(week):
     con = sqlite3.connect('data/fantasy.db')
-    df = load(week)
+    df = load_projections(week)
     df.to_sql('projections', con, if_exists='append', index=False)
     con.commit()
     con.close()
 
 if __name__ == '__main__':
-    schedule.every(1).day.at('9:00').do(load, week)
-    while True:
-        schedule.run_pending()
+    to_database(week)
