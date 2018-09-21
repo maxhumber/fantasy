@@ -54,8 +54,7 @@ def _transform(df):
     df['blocks'] = None
     df['shots_on_goal'] = None
     df['season'] = '2018-19'
-    df['rank'] = df['FPTS'].rank(ascending=False)
-    df = df[~df['rank'].isnull()]
+    df['rank'] = None
     columns = ['season', 'rank', 'name', 'team', 'position', 'games']
     columns.extend(CATEGORIES)
     df = df[columns]
@@ -73,6 +72,6 @@ def load():
 if __name__ == '__main__':
     con = sqlite3.connect('hockey/hockey.db')
     df = load()
-    df.to_sql('stats', con, if_exists='append', index=False)
+    df.to_sql('projections', con, if_exists='append', index=False)
     con.commit()
     con.close()

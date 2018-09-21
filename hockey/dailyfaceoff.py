@@ -29,6 +29,8 @@ def _scrape():
 
 def _transform(df):
     df = df.apply(pd.to_numeric, errors='ignore')
+    # rotten apple
+    df.loc[df['name'].str.contains('168'), 'name'] = '168. Ryan McDonagh, TB – D'
     df[['rank', 'name']] = df['name'].str.split('.\s', n=1, expand=True)
     df[['name', 'team_pos']] = df['name'].str.split(',\s', n=1, expand=True)
     df[['team', 'position']] = df['team_pos'].str.split('\s–\s', n=1, expand=True)
@@ -71,6 +73,6 @@ def load():
 if __name__ == '__main__':
     con = sqlite3.connect('hockey/hockey.db')
     df = load()
-    df.to_sql('stats', con, if_exists='append', index=False)
+    df.to_sql('projections', con, if_exists='replace', index=False)
     con.commit()
     con.close()

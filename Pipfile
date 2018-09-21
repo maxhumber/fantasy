@@ -13,6 +13,8 @@ python-levenshtein = "*"
 altair = "*"
 schedule = "*"
 scikit-learn = "*"
+sklearn-pandas = "*"
+mord = "*"
 
 [dev-packages]
 ipykernel = "*"
