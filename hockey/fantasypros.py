@@ -11,6 +11,7 @@ def load():
     soup = BeautifulSoup(response.text, 'lxml')
     df = pd.read_html(str(soup.find_all('table')[0]))[0]
     df.columns = ['rank', 'name', 'position', 'team', 'best', 'worst', 'average', 'std']
+    df['season'] = '2018-19'
     df['source'] = 'Fantasy Pros'
     df['fetched_at'] = pd.Timestamp('now')
     return df
