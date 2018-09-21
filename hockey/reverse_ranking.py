@@ -81,10 +81,13 @@ r2_score(compare['true'], compare['pred'])
 
 # features
 
-pd.DataFrame({
+bias = pd.DataFrame({
     'feature': mapper.transformed_names_,
     'coef': model.coef_
 }).sort_values('coef')
+
+bias['calculated_at'] = pd.Timestamp('now')
+bias.to_sql('bias', con, if_exists='replace', index=False)
 
 X_train_m.describe().T
 
@@ -96,17 +99,20 @@ model.predict(
     mapper.transform(
     pd.DataFrame([{
         'position': 'C',
-        'goals': 20,
-        'assists': 33,
-        'plus_minus': 2,
-        'powerplay_points': 9,
-        'shots_on_goal': 111,
-        'hits': 43,
-        'blocks': 34,
+        'goals': 21,
+        'assists': 34,
+        'plus_minus': 3,
+        'powerplay_points': 8,
+        'shots_on_goal': 90,
+        'hits': 34,
+        'blocks': 25,
         'wins': 0.0,
         'goals_against_average': 0.0,
         'saves': 0.0,
         'save_percentage': 0.0,
-        'shutouts': 0.0}])
+        'shutouts': 0.0
+        }])
     )
 )[0]
+
+df[df['position'] == 'G'][CATEGORIES].mean().to_dict()
