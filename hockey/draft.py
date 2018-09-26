@@ -63,7 +63,7 @@ df[CATEGORIES] = (
     df
     [CATEGORIES]
     .apply(lambda x: (x - x.min()) / (x.max() - x.min()))
-).fillna(0)
+)
 
 bias = pd.read_sql('select * from bias where feature not like "position%"', con)
 bias['mod'] = bias[['coef']].apply(lambda x: scale(x, (0.8, 1)))
@@ -93,5 +93,7 @@ df['custom_rank'] = df['score'].rank(method='average', ascending=False)
 df = df.sort_values('custom_rank')
 ranks = pd.read_sql('select name, rank from ranks', con)
 df = pd.merge(df, ranks, how='left', on='name')
-df['rank_arbitrage'] = df['custom_rank'] - df['rank']
+df['rank_arbitrage'] = df['rank'] - df['custom_rank']
+df['score'] = df[['score']].apply(lambda x: scale(x, (0, 1)))
+df = df[['score', 'rank_arbitrage', 'rank', 'custom_rank', 'name', 'position'] + CATEGORIES]
 df.to_csv('hockey/list.csv', index=False)

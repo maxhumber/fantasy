@@ -65,14 +65,19 @@ def _transform(df):
     df['fetched_at'] = pd.Timestamp('now')
     return df
 
-def load():
+def load(season='2018-19'):
     raw = _scrape()
     clean = _transform(raw)
-    return clean
+    if season == '2018-19':
+        return clean[clean['season'] == '2018-19']
+    else:
+        return clean[clean['season'] == '2017-18']
 
 if __name__ == '__main__':
     con = sqlite3.connect('hockey/hockey.db')
-    df = load()
-    df.to_sql('projections', con, if_exists='replace', index=False)
+    df = load(season='2018-19')
+    df.to_sql('projections', con, if_exists='append', index=False)
+    df = load(season='2017-18')
+    df.to_sql('stats', con, if_exists='replace', index=False)
     con.commit()
     con.close()

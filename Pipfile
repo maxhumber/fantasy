@@ -15,6 +15,7 @@ schedule = "*"
 scikit-learn = "*"
 sklearn-pandas = "*"
 mord = "*"
+xlsxwriter = "*"
 
 [dev-packages]
 ipykernel = "*"
