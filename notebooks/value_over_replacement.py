@@ -5,7 +5,7 @@ import numpy as np
 
 pd.options.display.max_rows = 999
 
-con = sqlite3.connect('data/fantasy.db')
+con = sqlite3.connect('data/football.db')
 cur = con.cursor()
 
 # pull

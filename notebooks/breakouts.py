@@ -4,7 +4,7 @@ from itertools import chain, cycle
 import pandas as pd
 import altair as alt
 
-con = sqlite3.connect('data/fantasy.db')
+con = sqlite3.connect('data/football.db')
 cur = con.cursor()
 
 season = 2017

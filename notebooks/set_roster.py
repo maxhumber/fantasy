@@ -90,7 +90,7 @@ def optimize_roster(team, week, season=2018, positions=POSITIONS):
     return starters
 
 if __name__ == '__main__':
-    con = sqlite3.connect('data/fantasy.db')
+    con = sqlite3.connect('data/football.db')
     cur = con.cursor()
     starters = optimize_roster('phantasy', week)
     print('Starters:\n')

@@ -20,7 +20,7 @@ def load_projections(week):
     return df
 
 def to_database(week):
-    con = sqlite3.connect('data/fantasy.db')
+    con = sqlite3.connect('data/football.db')
     df = load_projections(week)
     df.to_sql('projections', con, if_exists='append', index=False)
     con.commit()

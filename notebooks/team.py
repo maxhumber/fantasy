@@ -3,7 +3,7 @@ from itertools import chain, cycle
 import pandas as pd
 from collections import Counter
 
-con = sqlite3.connect('data/fantasy.db')
+con = sqlite3.connect('data/football.db')
 cur = con.cursor()
 
 df = pd.read_sql('select name, position, adp from draft where season = 2018', con)

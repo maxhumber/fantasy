@@ -3,7 +3,7 @@ from itertools import chain, cycle
 
 import pandas as pd
 
-con = sqlite3.connect('data/fantasy.db')
+con = sqlite3.connect('data/football.db')
 cur = con.cursor()
 
 season = 2017

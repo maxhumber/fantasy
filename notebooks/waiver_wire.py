@@ -2,7 +2,7 @@ import sqlite3
 
 import pandas as pd
 
-con = sqlite3.connect('data/fantasy.db')
+con = sqlite3.connect('data/football.db')
 cur = con.cursor()
 
 team = 'phantasy'
