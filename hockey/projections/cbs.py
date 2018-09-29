@@ -54,8 +54,7 @@ def _transform(df):
     df['blocks'] = None
     df['shots_on_goal'] = None
     df['season'] = '2018-19'
-    df['rank'] = None
-    columns = ['season', 'rank', 'name', 'team', 'position', 'games']
+    columns = ['season', 'name', 'team', 'position', 'games']
     columns.extend(CATEGORIES)
     df = df[columns]
     df[CATEGORIES] = df[CATEGORIES].apply(pd.to_numeric, errors='coerce')

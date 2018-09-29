@@ -57,7 +57,7 @@ def _transform(df):
     df.loc[df['season'] == '2017-18', 'rank'] = None
     df['plus_minus'] = None
     df['saves'] = None
-    columns = ['season', 'rank', 'name', 'team', 'position', 'games']
+    columns = ['season', 'name', 'team', 'position', 'games']
     columns.extend(CATEGORIES)
     df = df[columns]
     df[CATEGORIES] = df[CATEGORIES].apply(pd.to_numeric, errors='coerce')

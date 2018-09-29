@@ -1,61 +1,47 @@
 import sqlite3
 import pandas as pd
 import numpy as np
-
+from copy import deepcopy
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
+# from sklearn.impute import SimpleImputer
 
-from hockey.utils import CATEGORIES
+from hockey.utils import CATEGORIES, scale
 
 pd.options.display.max_rows = 50
 
 con = sqlite3.connect('data/hockey.db')
 
-def scale(x, out_range=[0.80, 1]):
-    domain = np.min(x), np.max(x)
-    y = (x - (domain[1] + domain[0]) / 2) / (domain[1] - domain[0])
-    return y * (out_range[1] - out_range[0]) + (out_range[1] + out_range[0]) / 2
+season = '2018-19'
 
-def load_data(season='2018-19'):
-    df = pd.read_sql(f'''
-        select
+projections = pd.read_sql(f'''
+    SELECT
         name,
-        coalesce(ranks.position, projections.position) as position,
-        goals,
-        assists,
-        plus_minus,
-        powerplay_points,
-        shots_on_goal,
-        hits,
-        blocks,
-        wins,
-        goals_against_average,
-        saves,
-        save_percentage,
-        shutouts,
-        projections.source,
-        projections.fetched_at
-        from projections
-        left join ranks using (name, season)
-        where
-        season = '{season}' and
-        name in (
-            select
-            name
-            from projections
-            where season = '{season}'
-            group by 1
-            having count(*) > 1
-        )
-    ''', con)
-    df[CATEGORIES] = df[CATEGORIES].apply(pd.to_numeric, errors='coerce')
-    # GAA is a bad thing, need to reverse
-    df['goals_against_average'] = -df['goals_against_average']
-    # merge different sources
-    df = df.groupby(['name', 'position'])[CATEGORIES].mean().reset_index()
-    return df
+        {', '.join(CATEGORIES)}
+    FROM
+        projections
+    WHERE
+        season = '{season}'
+''', con)
 
-df = load_data()
+positions = pd.read_sql(f'''
+    SELECT
+        name,
+        type,
+        position
+    FROM
+        positions
+    WHERE
+        season = '{season}'
+''', con)
 
+df = pd.merge(positions, projections, how='left', on='name')
+df[CATEGORIES] = df[CATEGORIES].apply(pd.to_numeric, errors='coerce')
+# GAA is a bad thing, need to reverse
+df['goals_against_average'] = -df['goals_against_average']
+# merge different sources
+df = df.groupby(['name', 'position', 'type'])[CATEGORIES].mean().reset_index()
+
+# pool particulars
 pool_size = 10
 starters = {'C': 2, 'LW': 2, 'RW': 2, 'D': 4, 'G': 2}
 
@@ -70,7 +56,12 @@ bias['mod'] = bias[['coef']].apply(lambda x: scale(x, (0.8, 1)))
 bias = bias[['feature', 'mod']].set_index('feature').iloc[:,0]
 df[list(bias.keys())] *= bias
 
-df['score'] = df[CATEGORIES].sum(axis=1)
+# score calc
+# scrap goals and shutouts from the score
+cats = deepcopy(CATEGORIES)
+cats.remove('goals')
+cats.remove('shutouts')
+df['score'] = df[cats].sum(axis=1)
 
 players = sum(starters.values())
 skaters = sum([value for key, value in starters.items() if key != 'G'])
@@ -89,11 +80,38 @@ for position, slots in starters.items():
     )
     df.loc[df['position'] == position, 'score'] = df['score'] - replacement
 
-df['custom_rank'] = df['score'].rank(method='average', ascending=False)
-df = df.sort_values('custom_rank')
-ranks = pd.read_sql('select name, rank from ranks', con)
-df = pd.merge(df, ranks, how='left', on='name')
-df['rank_arbitrage'] = df['rank'] - df['custom_rank']
+# remove alternate positions now
+df = df[df['type'] == 'main']
+df = df.drop('type', axis=1)
+
+# finish rank
 df['score'] = df[['score']].apply(lambda x: scale(x, (0, 1)))
-df = df[['score', 'rank_arbitrage', 'rank', 'custom_rank', 'name', 'position'] + CATEGORIES]
+df['my_rank'] = df['score'].rank(method='average', ascending=False)
+df = df.sort_values('my_rank')
+df['position_rank'] = df.groupby(['position'])['score'].rank(ascending=False)
+
+adp = pd.read_sql('''
+    SELECT
+        name,
+        CAST(yahoo AS numeric) as adp
+    FROM
+        positions
+        LEFT JOIN orders USING (name)
+    WHERE
+        positions.type = 'main'
+        AND yahoo IS NOT NULL
+    ORDER BY
+        2
+    ''', con)
+
+df = pd.merge(df, adp, how='left', on='name')
+df['arbitrage'] = df['adp'] - df['my_rank']
+df['round'] = (df['adp'] / pool_size) + 1
+# df = df.drop('position', axis=1)
+
+multi = positions[['name', 'position']].groupby('name').agg(lambda x: '/'.join(x.unique())).reset_index()
+multi.columns = ['name', 'multi']
+df = pd.merge(df, multi, how='left', on='name')
+
+df = df[['score', 'round', 'arbitrage', 'adp', 'my_rank', 'name', 'position', 'multi', 'position_rank'] + CATEGORIES]
 df.to_csv('hockey/draft/list.csv', index=False)

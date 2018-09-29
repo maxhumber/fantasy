@@ -18,32 +18,52 @@ pd.options.display.float_format = '{:20,.4f}'.format
 con = sqlite3.connect('data/hockey.db')
 
 # fetch
-
-df = pd.read_sql('select * from projections where season = "2018-19"', con).fillna(0)
-df = df.groupby(['season', 'name', 'position'])[CATEGORIES].mean().reset_index()
-ranks = pd.read_sql('''
-    select
-    name,
-    rank
-    from ranks
+adp = pd.read_sql('''
+    SELECT
+        name,
+        position,
+        CAST(yahoo AS numeric) as adp
+    FROM
+        positions
+        LEFT JOIN orders USING (name)
+    WHERE
+        positions.type = 'main'
+        AND yahoo IS NOT NULL
+    ORDER BY
+        3
     ''', con)
-df = pd.merge(ranks, df, how='left', on=['name'])
-df = df.drop(['name', 'season'], axis=1)
-df['rank'] = pd.to_numeric(df['rank'])
-# GAA is a bad thing, need to reverse
+
+projections = (
+    pd.read_sql('''
+        SELECT
+            *
+        FROM
+            projections
+        WHERE
+            season = '2018-19'
+    ''', con)
+    .fillna(0)
+    .drop(['position', 'season'], axis=1)
+    .groupby('name')
+    [CATEGORIES]
+    .mean()
+    .reset_index()
+)
+
+# combine
+df = pd.merge(adp, projections, how='left', on=['name'])
+
+# 'goals_against_average' is a bad thing, need to reverse
 df['goals_against_average'] = -df['goals_against_average']
 df = df.dropna()
 
 # split
-
-target = 'rank'
+target = 'adp'
 y = df[target].values
 X = df.drop(target, axis=1)
-
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20)
 
 # prep
-
 mapper = DataFrameMapper([
     ('position', LabelBinarizer()),
     (['goals'], StandardScaler()),
@@ -65,12 +85,10 @@ X_train_m = mapper.fit_transform(X_train)
 X_test_m = mapper.transform(X_test)
 
 # model
-
 model = mord.OrdinalRidge(fit_intercept=False)
 model.fit(X_train_m, y_train)
 
 # evaluate
-
 compare = pd.DataFrame({
     'true': y_test,
     'pred': model.predict(X_test_m)
@@ -80,39 +98,11 @@ alt.Chart(compare, background='white').mark_point().encode(x='true', y='pred')
 r2_score(compare['true'], compare['pred'])
 
 # features
-
 bias = pd.DataFrame({
     'feature': mapper.transformed_names_,
     'coef': model.coef_
 }).sort_values('coef')
-
 bias['calculated_at'] = pd.Timestamp('now')
+bias['source'] = 'Yahoo'
+bias['season'] = '2018-19'
 bias.to_sql('bias', con, if_exists='replace', index=False)
-
-X_train_m.describe().T
-
-# explore
-
-df[df['position'] != 'G'][CATEGORIES].mean()
-
-model.predict(
-    mapper.transform(
-    pd.DataFrame([{
-        'position': 'C',
-        'goals': 21,
-        'assists': 34,
-        'plus_minus': 3,
-        'powerplay_points': 8,
-        'shots_on_goal': 90,
-        'hits': 34,
-        'blocks': 25,
-        'wins': 0.0,
-        'goals_against_average': 0.0,
-        'saves': 0.0,
-        'save_percentage': 0.0,
-        'shutouts': 0.0
-        }])
-    )
-)[0]
-
-df[df['position'] == 'G'][CATEGORIES].mean().to_dict()
