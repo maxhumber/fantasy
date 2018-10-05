@@ -3,12 +3,12 @@ import sqlite3
 import schedule
 import pandas as pd
 
-from fantasy.projections import espn
-from fantasy.projections import fantasy_pros
-from fantasy.projections import fantasy_sharks
-from fantasy.projections import numberfire
+from football.projections import espn
+from football.projections import fantasy_pros
+from football.projections import fantasy_sharks
+from football.projections import numberfire
 
-from fantasy.utils.week import week
+from football.utils.week import week
 
 def load_projections(week):
     df = pd.concat([

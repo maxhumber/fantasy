@@ -17,6 +17,9 @@ sklearn-pandas = "*"
 mord = "*"
 xlsxwriter = "*"
 bleach = "*"
+requests-html = "*"
+requests-oauthlib = "*"
+yfs = "*"
 
 [dev-packages]
 ipykernel = "*"

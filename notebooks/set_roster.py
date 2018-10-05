@@ -4,7 +4,7 @@ import pandas as pd
 from collections import Counter
 import random
 
-from fantasy.utils.week import week
+from football.utils.week import week
 
 POSITIONS = {
     'QB': 1,
