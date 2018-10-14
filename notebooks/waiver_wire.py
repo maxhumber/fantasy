@@ -6,7 +6,7 @@ con = sqlite3.connect('data/football.db')
 cur = con.cursor()
 
 team = 'phantasy'
-week = 5
+week = 6
 season = 2018
 
 def read_waiver_wire(team, week, season):
@@ -52,8 +52,7 @@ df = read_waiver_wire(team, week, season)
 df = df[['team', 'name', 'position', 'points']]
 df[df['position'] == 'DEF'].head(20)
 df[df['position'] == 'RB'].head(20)
+df[df['position'] == 'WR'].head(20)
 df[df['position'] == 'TE'].head(20)
-
-
 
 #
