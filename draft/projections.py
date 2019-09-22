@@ -4,10 +4,34 @@ import warnings
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
-from draft.common import META, CATEGORIES
 
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
+
+# COMMON #
+
+META = [
+    'name',
+    'team',
+    'position',
+    'source',
+    'fetched_at'
+]
+
+CATEGORIES = [
+    'goals',
+    'assists',
+    'plus_minus',
+    'powerplay_points',
+    'shots_on_goal',
+    'hits',
+    'blocks',
+    'wins',
+    'goals_against_average',
+    'saves',
+    'save_percentage',
+    'shutouts'
+]
 
 # DAILY FACEOFF #
 
@@ -53,6 +77,14 @@ def clean_daily_faceoff(df):
     # add metadata
     df['source'] = 'Daily Faceoff'
     df['fetched_at'] = pd.Timestamp('now')
+    # fix team names
+    df.loc[df['team'] == 'LAK', 'team'] = 'LA'
+    df.loc[df['team'] == 'VGK', 'team'] = 'VGS'
+    df.loc[df['team'] == 'NJD', 'team'] = 'NJ'
+    df.loc[df['team'] == 'SJS', 'team'] = 'SJ'
+    df.loc[df['team'] == 'TBL', 'team'] = 'TB'
+    # fix claude
+    df.loc[df['position'] == 'C/LW/RW', 'team'] = 'LW/RW'
     # format
     df[CATEGORIES] = df[CATEGORIES].apply(pd.to_numeric, errors='coerce')
     df = df[META + CATEGORIES]
@@ -112,6 +144,9 @@ def clean_cbs(df):
     # add metadata
     df['source'] = 'CBS'
     df['fetched_at'] = pd.Timestamp('now')
+    # fix teams
+    df.loc[df['team'] == 'LV', 'team'] = 'VGS'
+    df.loc[df['team'] == 'WAS', 'team'] = 'WSH'
     # format
     df[CATEGORIES] = df[CATEGORIES].apply(pd.to_numeric, errors='coerce')
     df = df[META + CATEGORIES]
@@ -190,4 +225,17 @@ def fetch_all():
     df = df.append(cbs())
     df = df.append(numberfire())
     df = df.reset_index(drop=True)
+    return df
+
+# YAHOO DRAFT RANKINGS #
+
+def yahoo_draft_rankings():
+    URL = 'https://www.fantasypros.com/nhl/adp/overall.php'
+    response = requests.get(URL)
+    soup = BeautifulSoup(response.text, 'lxml')
+    df = pd.read_html(str(soup.find_all('table')[0]))[0]
+    df[['first', 'last', 'team']] = df['Player Team'].str.split(' ', n=2, expand=True)
+    df['name'] = df['first'] + ' ' + df['last']
+    df.columns = [c.lower() for c in df.columns]
+    df = df[['name', 'yahoo']]
     return df
