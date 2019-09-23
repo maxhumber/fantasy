@@ -73,6 +73,11 @@ df = pd.merge(df, yahoo, how='left', on='name')
 df['arbitrage'] = df['yahoo'] - df['STICKY_RANK']
 df['round'] = (df['yahoo'] / pool_size) + 1
 
+# CAPFRIENDLY
+
+cap = projections.capfriendly()
+df = pd.merge(df, cap, how='left', on='name')
+
 # FORMATING
 
 # Create a Pandas Excel writer using XlsxWriter as the engine.
