@@ -1,9 +1,8 @@
 import re
 import time
 import warnings
-from bs4 import BeautifulSoup
 import pandas as pd
-import requests
+from gazpacho import get, Soup
 
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -37,8 +36,8 @@ CATEGORIES = [
 
 def scrape_daily_faceoff():
     URL = 'https://www.dailyfaceoff.com/fantasy-hockey-projections/'
-    response = requests.get(URL)
-    soup = BeautifulSoup(response.text, 'lxml')
+    html = get(URL)
+    soup = Soup(html)
     df = pd.DataFrame()
     for id in ['igsv', 'igsv-1']:
         table = soup.find('table', {'id': f'{id}-1N8XNZpOIb8-6WcOPANqSHRyHBXlwZ6X_1vgGyDbETm4'})
@@ -99,8 +98,8 @@ def daily_faceoff():
 
 def scrape_position_cbs(position):
     url = f'https://www.cbssports.com/fantasy/hockey/stats/{position}/2019/season/projections/'
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'lxml')
+    html = get(url)
+    soup = Soup(html)
     table = soup.find('table', {'class': 'TableBase-table'})
     pdf = pd.read_html(str(table))[0]
     return pdf
@@ -161,9 +160,9 @@ def cbs():
 
 def scrape_position_numberfire(position):
     url = f'https://www.numberfire.com/nhl/fantasy/yearly-projections/{position}'
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'lxml')
-    tables = soup.find_all('table', {'class':'projection-table'})
+    html = get(url)
+    soup = Soup(html)
+    tables = soup.find('table', {'class':'projection-table'})
     names = pd.read_html(str(tables[0]))[0]
     data = pd.read_html(str(tables[1]))[0]
     df = pd.concat([names, data], axis=1)
@@ -231,9 +230,9 @@ def fetch_all():
 
 def yahoo_draft_rankings():
     URL = 'https://www.fantasypros.com/nhl/adp/overall.php'
-    response = requests.get(URL)
-    soup = BeautifulSoup(response.text, 'lxml')
-    df = pd.read_html(str(soup.find_all('table')[0]))[0]
+    html = get(URL)
+    soup = Soup(html)
+    df = pd.read_html(str(soup.find('table')[0]))[0]
     df[['first', 'last', 'team']] = df['Player Team'].str.split(' ', n=2, expand=True)
     df['name'] = df['first'] + ' ' + df['last']
     df.columns = [c.lower() for c in df.columns]
@@ -246,8 +245,8 @@ def capfriendly():
     df = pd.DataFrame()
     for page in range(1, 10+1):
         url = f'https://www.capfriendly.com/browse/active/2020/salary&hide=team,clauses,position,handed,expiry-status,caphit,skater-stats,goalie-stats&p={page}'
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'lxml')
+        html = get(url)
+        soup = Soup(html)
         pdf = pd.read_html(str(soup.find('table')))[0]
         df = df.append(pdf)
         time.sleep(0.5)
