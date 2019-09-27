@@ -176,7 +176,7 @@ def scrape_numberfire():
     return df
 
 def parse_name_numberfire(x):
-    name = re.split("\s[A-Z]\.", x)[0]
+    name = re.split("\s[A-Z]\.", x)[0].strip()
     x = x.split('(')[1].replace(')', '')
     position, team = x.split(', ')
     return name, team, position
@@ -232,7 +232,7 @@ def yahoo_draft_rankings():
     URL = 'https://www.fantasypros.com/nhl/adp/overall.php'
     html = get(URL)
     soup = Soup(html)
-    df = pd.read_html(str(soup.find('table')[0]))[0]
+    df = pd.read_html(str(soup.find('table')))[0]
     df[['first', 'last', 'team']] = df['Player Team'].str.split(' ', n=2, expand=True)
     df['name'] = df['first'] + ' ' + df['last']
     df.columns = [c.lower() for c in df.columns]

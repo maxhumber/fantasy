@@ -3,8 +3,8 @@ import numpy as np
 from sklearn.impute import SimpleImputer
 from xlsxwriter.utility import xl_rowcol_to_cell
 
-from draft import projections
-from draft.projections import CATEGORIES, META
+import projections
+from projections import CATEGORIES, META
 
 def unify_projections():
     df = projections.fetch_all()
