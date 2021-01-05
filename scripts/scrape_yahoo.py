@@ -1,7 +1,9 @@
 import time
 from itertools import chain
-from gazpacho import Soup
+
 import pandas as pd
+from gazpacho import Soup
+
 
 def scrape(offset=0):
     url = f"https://hockey.fantasysports.yahoo.com/hockey/draftanalysis?tab=SD&pos=ALL&sort=DA_AP&count={offset}"
@@ -17,6 +19,7 @@ def scrape(offset=0):
         data.append({"name": name, "team": team, "position": position, "pick": pick})
     time.sleep(0.5)
     return data
+
 
 data = [scrape(offset) for offset in range(0, 300, 50)]
 
