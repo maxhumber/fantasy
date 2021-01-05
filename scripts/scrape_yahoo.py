@@ -12,7 +12,9 @@ def scrape(offset=0):
     for tr in trs:
         name = tr.find("a", {"class": "name"}).text
         pick = float(tr.find("td", {"class": "Ta-end"}).text)
-        data.append({"name": name, "pick": pick})
+        info = tr.find("span", {"class": "Fz-xxs"}, mode="first").text
+        team, position = info.split(" - ")
+        data.append({"name": name, "team": team, "position": position, "pick": pick})
     time.sleep(0.5)
     return data
 
