@@ -5,8 +5,6 @@ import warnings
 import pandas as pd
 from gazpacho import Soup, get
 
-from common import CATEGORIES, META
-
 
 def scrape(position, year=2020):
     url = f"https://www.cbssports.com/fantasy/hockey/stats/{position}/{year}/season/projections/"
@@ -47,7 +45,7 @@ column_mappings = {
     "ppg  Powerplay Goals": "powerplay_points",
     "sog  Shots on Goal": "shots_on_goal",
     "w  Wins": "wins",
-    # 'gaa  Goals Against Average': 'goals_against_average',
+    "gaa  Goals Against Average": "goals_against_average",
     "sv% Saves Percentage": "save_percentage",
     "sv  Saves": "saves",
     "so  Shutouts": "shutouts",
@@ -55,13 +53,31 @@ column_mappings = {
 
 df["save_percentage"] = df["sv%  Saves Percentage"]
 df = df.rename(columns=column_mappings)
-df["hits"] = None
-df["blocks"] = None
 df["source"] = "CBS"
 df["fetched_at"] = pd.Timestamp("now")
-df.loc[df["team"] == "LV", "team"] = "VGS"
-df.loc[df["team"] == "WAS", "team"] = "WSH"
-df[CATEGORIES] = df[CATEGORIES].apply(pd.to_numeric, errors="coerce")
-df = df[META + CATEGORIES]
+df["hits"] = None
+df["blocks"] = None
+
+df = df[
+    [
+        "source",
+        "fetched_at",
+        "team",
+        "position",
+        "name",
+        "goals",
+        "assists",
+        "plus_minus",
+        "powerplay_points",
+        "shots_on_goal",
+        "hits",
+        "blocks",
+        "wins",
+        "saves",
+        "save_percentage",
+        "goals_against_average",
+        "shutouts",
+    ]
+]
 
 df.to_csv("data/cbs.csv", index=False)
