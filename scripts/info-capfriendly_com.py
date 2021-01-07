@@ -21,4 +21,4 @@ df["SALARY"] = df["SALARY"].apply(float)
 df.columns = ["name", "age", "salary"]
 df = df.reset_index(drop=True)
 
-df.to_csv("data/capfriendly.csv", index=False)
+df.to_csv("data/info-capfriendly_com.csv", index=False)

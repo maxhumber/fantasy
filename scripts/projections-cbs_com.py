@@ -80,4 +80,4 @@ df = df[
     ]
 ]
 
-df.to_csv("data/cbs.csv", index=False)
+df.to_csv("data/projections-cbs_com.csv", index=False)

@@ -75,4 +75,4 @@ df = df[
     ]
 ]
 
-df.to_csv("data/yahoo.csv", index=False)
+df.to_csv("data/projections-yahoo_com.csv", index=False)
