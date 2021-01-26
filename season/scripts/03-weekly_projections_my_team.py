@@ -2,6 +2,8 @@ import time
 from itertools import chain
 from gazpacho import Soup
 import pandas as pd
+import time
+
 
 def get_trs(team, league, position="P"):
     url = f"https://hockey.fantasysports.yahoo.com/hockey/{league}/players"
@@ -16,6 +18,7 @@ def get_trs(team, league, position="P"):
     trs = soup.find("div", {"id": "players-table"}).find("tr")[2:]
     return trs
 
+
 def parse_skater_tr(tr):
     name = tr.find("a", {"href": "players"}, mode="list")[-1].text
     owner = int(tr.find("a", {"href": "hockey"}).attrs["href"].split("/")[-1])
@@ -27,42 +30,25 @@ def parse_skater_tr(tr):
     player = dict(name=name, team=team, position=position)
     return {**player, **data}
 
-# get data
-team = 12
-league = 84778
-trs = get_trs(team, league, position="P")
 
-# dataframe
-df = pd.DataFrame([parse_skater_tr(tr) for tr in trs])
-
-# correct rankings
-week = 2
-multiplier_current = (week / 13)
-multiplier_draft = 1 - multiplier_current
-df["ranking_draft"] *= multiplier_draft
-df["ranking_current"] *= multiplier_current
-df["rank"] = round((df["ranking_draft"] + df["ranking_current"]) / 2, 1)
-df = df.sort_values("rank")
-
-# drop
-df = df.drop(["gp", "rostered", "ranking_draft", "ranking_current"], axis=1)
-
-df
+def scrape(week, team, league):
+    trs = get_trs(team, league, position="P")
+    df = pd.DataFrame([parse_skater_tr(tr) for tr in trs])
+    multiplier_current = (week / 13) # 13 total weeks
+    multiplier_draft = 1 - multiplier_current
+    df["ranking_draft"] *= multiplier_draft
+    df["ranking_current"] *= multiplier_current
+    df["rank"] = round((df["ranking_draft"] + df["ranking_current"]) / 2, 1)
+    df = df.sort_values("rank")
+    df = df.drop(["gp", "rostered", "ranking_draft", "ranking_current"], axis=1)
+    return df
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#
+if __name__ == "__main__":
+    week = 2
+    matchups = pd.read_csv("season/data/weekly_fantasy_matchups.csv")
+    mw = matchups[matchups["week"] == week]
+    for i, row in mw.iterrows():
+        df = scrape(row.week, row.home, row.league)
+        df.to_csv(f"season/data/weekly_projections_{row.week}_{row.league}_{row.home}.csv", index=False)
+        time.sleep(0.5)

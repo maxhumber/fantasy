@@ -74,7 +74,7 @@ def get_matchup_projections(home, away, league):
     ]].T.round(3)
     return df
 
-matchups = pd.read_csv("data/matchups-yahoo_com.csv")
+matchups = pd.read_csv("data/matchups_list-yahoo_com.csv")
 week = 2
 week_matchups = matchups[matchups["week"] == week].copy()
 
