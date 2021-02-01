@@ -2,7 +2,8 @@
 
 from gazpacho import Soup
 import pandas as pd
-from utils import mondays, team_codes
+
+from utils import team_codes, monday, next_monday
 
 
 def get_trs(date):
@@ -46,8 +47,7 @@ def calculate_off_days(df):
     return df
 
 
-def scrape():
-    monday, next_monday = mondays()
+def scrape(monday, next_monday):
     week_1 = fetch_schedule(monday)
     week_2 = fetch_schedule(next_monday)
     df = pd.merge(week_1, week_2)
@@ -66,5 +66,5 @@ def scrape():
 
 
 if __name__ == "__main__":
-    df = scrape()
+    df = scrape(monday, next_monday)
     df.to_csv("season/data/nhl_team_schedule.csv")

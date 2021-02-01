@@ -1,11 +1,8 @@
 import datetime
 
 
-def week():
-    start = datetime.datetime.strptime("2021-01-24", "%Y-%m-%d").date()
-    today = datetime.date.today()
-    week = (today - start).days // 7 + 2
-    return week
+def flatten(d):
+    return [item for sublist in d.values() for item in sublist]
 
 
 def mondays():
@@ -13,6 +10,15 @@ def mondays():
     monday = today + datetime.timedelta(days=-today.weekday())
     next_monday = today + datetime.timedelta(days=(7-today.weekday()))
     return monday.strftime("%Y-%m-%d"), next_monday.strftime("%Y-%m-%d")
+
+
+monday, next_monday = mondays()
+
+
+week = (
+    datetime.date.today() -
+    datetime.datetime.strptime("2021-01-24", "%Y-%m-%d").date()
+).days // 7 + 2
 
 
 yahoo = {
