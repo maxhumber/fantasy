@@ -2,7 +2,8 @@ import time
 from itertools import chain
 from gazpacho import Soup
 import pandas as pd
-import time
+
+from utils import week
 
 
 def get_trs(team, league, position="P"):
@@ -21,7 +22,10 @@ def get_trs(team, league, position="P"):
 
 def parse_skater_tr(tr):
     name = tr.find("a", {"href": "players"}, mode="list")[-1].text
-    owner = int(tr.find("a", {"href": "hockey"}).attrs["href"].split("/")[-1])
+    try:
+        owner = int(tr.find("a", {"href": "hockey"}).attrs["href"].split("/")[-1])
+    except:
+        owner = None
     values = [td.text for td in tr.find("td")][5:-1]
     values = [pd.to_numeric(v.replace("%", ""), errors="coerce") for v in values]
     labels = ["gp", "ranking_draft", "ranking_current", "rostered", "goals", "assists", "plus_minus", "powerplay_points", "shots_on_goal", "hits"]
@@ -45,10 +49,15 @@ def scrape(week, team, league):
 
 
 if __name__ == "__main__":
-    week = 2
+    current_week = week()
     matchups = pd.read_csv("season/data/weekly_fantasy_matchups.csv")
-    mw = matchups[matchups["week"] == week]
+    mw = matchups[matchups["week"] == current_week]
     for i, row in mw.iterrows():
+        # my players
         df = scrape(row.week, row.home, row.league)
         df.to_csv(f"season/data/weekly_projections_{row.week}_{row.league}_{row.home}.csv", index=False)
+        time.sleep(0.5)
+        # available
+        df = scrape(current_week, "A", row.league)
+        df.to_csv(f"season/data/weekly_projections_{row.week}_{row.league}_available.csv", index=False)
         time.sleep(0.5)

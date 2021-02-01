@@ -1,10 +1,12 @@
+# https://www.dailyfaceoff.com/nhl-weekly-schedule
+
 from gazpacho import Soup
 import pandas as pd
-import datetime
+from utils import mondays, team_codes
+
 
 def get_trs(date):
-    url = "https://www.dailyfaceoff.com/nhl-weekly-schedule/"
-    # url = f"https://www.dailyfaceoff.com/nhl-weekly-schedule/{date.replace('-', '/')}"
+    url = f"https://www.dailyfaceoff.com/nhl-weekly-schedule/{date.replace('-', '/')}"
     soup = Soup.get(url)
     table = soup.find("table", {"class": "weekly-schedule-table"})
     th = table.find("tr", {"class": "weekly-schedule-head"}).find("th")
@@ -40,19 +42,29 @@ def calculate_off_days(df):
     off_day_score = round((df / df.sum()).sum(axis=1), 2)
     df["games"] = games
     df["off_day_score"] = off_day_score
-    df = df.sort_values(["games", "off_day_score"], ascending=[False, False])
+    df = df.sort_values(["off_day_score", "games"], ascending=[False, False])
     return df
 
 
-def scrape(date):
-    df = fetch_schedule(date)
+def scrape():
+    monday, next_monday = mondays()
+    week_1 = fetch_schedule(monday)
+    week_2 = fetch_schedule(next_monday)
+    df = pd.merge(week_1, week_2)
+    df = df.melt(id_vars="team", var_name="date", value_name="plays")
+    df['date'] = pd.to_datetime(df["date"])
+    df = df[
+        (df['date'] >= pd.Timestamp("today").normalize()) &
+        (df['date'] < (pd.Timestamp("today") + pd.Timedelta("6 days")))
+    ]
+    df['date'] = df['date'].dt.strftime("%Y-%m-%d")
+    df['team'] = df['team'].replace(team_codes)
+    df = df.pivot(index="team", columns="date", values="plays")
+    df = df.reset_index()
     df = calculate_off_days(df)
     return df
 
 
 if __name__ == "__main__":
-    today = datetime.date.today()
-    date = today + datetime.timedelta(days=-today.weekday())
-    date = date.strftime("%Y-%m-%d")
-    df = scrape(date)
+    df = scrape()
     df.to_csv("season/data/nhl_team_schedule.csv")

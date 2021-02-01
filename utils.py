@@ -1,3 +1,27 @@
+import datetime
+
+
+def week():
+    start = datetime.datetime.strptime("2021-01-24", "%Y-%m-%d").date()
+    today = datetime.date.today()
+    week = (today - start).days // 7 + 2
+    return week
+
+
+def mondays():
+    today = datetime.date.today()
+    monday = today + datetime.timedelta(days=-today.weekday())
+    next_monday = today + datetime.timedelta(days=(7-today.weekday()))
+    return monday.strftime("%Y-%m-%d"), next_monday.strftime("%Y-%m-%d")
+
+
+yahoo = {
+    84778: 12,
+    84570: 3,
+    84919: 5
+}
+
+
 team_codes = {
     'anaheim-ducks': 'Anh',
     'arizona-coyotes': 'Ari',
