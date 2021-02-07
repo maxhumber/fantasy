@@ -54,8 +54,8 @@ def scrape(monday, next_monday):
     df = df.melt(id_vars="team", var_name="date", value_name="plays")
     df['date'] = pd.to_datetime(df["date"])
     df = df[
-        (df['date'] >= pd.Timestamp("today").normalize()) &
-        (df['date'] < (pd.Timestamp("today") + pd.Timedelta("6 days")))
+        (df['date'] > pd.Timestamp("today").normalize()) &
+        (df['date'] < (pd.Timestamp("today") + pd.Timedelta("7 days")))
     ]
     df['date'] = df['date'].dt.strftime("%Y-%m-%d")
     df['team'] = df['team'].replace(team_codes)

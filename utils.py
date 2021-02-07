@@ -38,7 +38,7 @@ team_codes = {
     'chicago-blackhawks': 'Chi',
     'colorado-avalanche': 'Col',
     'columbus-blue-jackets': 'Cls',
-    'dallas-stars': 'Dat',
+    'dallas-stars': 'Dal',
     'detroit-red-wings': 'Det',
     'edmonton-oilers': 'Edm',
     'florida-panthers': 'Fla',
