@@ -4,29 +4,59 @@ from itertools import chain
 from gazpacho import Soup
 import pandas as pd
 
+
 def parse_skater(tr):
     name = tr.find("a", {"href": "players"}, mode="list")[-1].text
     data = [td.text for td in tr.find("td")][5:-1]
     data = [float(d.replace("%", "")) for d in data]
-    labels = ["gp", "ranking_preseason", "ranking_current", "rostered", "goals", "assists", "plus_minus", "powerplay_points", "shots_on_goal", "hits"]
-    team, position = tr.find("span", {"class": "Fz-xxs"}, mode="first").text.split(" - ")
+    labels = [
+        "gp",
+        "ranking_preseason",
+        "ranking_current",
+        "rostered",
+        "goals",
+        "assists",
+        "plus_minus",
+        "powerplay_points",
+        "shots_on_goal",
+        "hits",
+    ]
+    team, position = tr.find("span", {"class": "Fz-xxs"}, mode="first").text.split(
+        " - "
+    )
     player = dict(zip(labels, data))
     player["name"] = name
     player["team"] = team
     player["position"] = position
     return player
 
+
 def parse_goalie(tr):
     name = tr.find("a", {"href": "players"}, mode="list")[-1].text
     data = [td.text for td in tr.find("td")][5:-1]
     data = [float(d.replace("%", "")) for d in data]
-    labels = ["gp", "ranking_preseason", "ranking_current", "rostered", "wins", "goals_against", "goals_against_average", "saves", "shots_against", "save_percentage", "shutouts"]
-    team, position = tr.find("span", {"class": "Fz-xxs"}, mode="first").text.split(" - ")
+    labels = [
+        "gp",
+        "ranking_preseason",
+        "ranking_current",
+        "rostered",
+        "wins",
+        "goals_against",
+        "goals_against_average",
+        "saves",
+        "shots_against",
+        "save_percentage",
+        "shutouts",
+    ]
+    team, position = tr.find("span", {"class": "Fz-xxs"}, mode="first").text.split(
+        " - "
+    )
     player = dict(zip(labels, data))
     player["name"] = name
     player["team"] = team
     player["position"] = position
     return player
+
 
 def scrape(parse, position, offset=0):
     url = "https://hockey.fantasysports.yahoo.com/hockey/84570/players"
@@ -38,7 +68,7 @@ def scrape(parse, position, offset=0):
         myteam=0,
         sort="AR",
         sdir=1,
-        count=offset
+        count=offset,
     )
     soup = Soup.get(url, params)
     trs = soup.find("div", {"id": "players-table"}).find("tr")[2:]
@@ -46,10 +76,11 @@ def scrape(parse, position, offset=0):
     time.sleep(0.5)
     return data
 
+
 skaters = [scrape(parse_skater, "P", offset) for offset in range(0, 300, 25)]
 sdf = pd.DataFrame(list(chain(*skaters)))
 
-goalies = [scrape(parse_goalie, "G", offset) for offset in range(0, 50+25, 25)]
+goalies = [scrape(parse_goalie, "G", offset) for offset in range(0, 50 + 25, 25)]
 gdf = pd.DataFrame(list(chain(*goalies)))
 
 df = pd.concat([sdf, gdf])
