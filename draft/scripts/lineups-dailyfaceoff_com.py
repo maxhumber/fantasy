@@ -39,6 +39,7 @@ def extract_ppu(soup):
 
 
 def scrape(url):
+    url = f"https://www.dailyfaceoff.com/teams/{url}"
     soup = Soup.get(url)
     lines = pd.DataFrame(extract_lines(soup))
     units = pd.DataFrame(extract_ppu(soup))
@@ -49,10 +50,12 @@ def scrape(url):
 soup = Soup.get("https://www.dailyfaceoff.com/teams/")
 urls = [a.attrs["href"] for a in soup.find("a", {"class": "team-list-logo"})]
 
+# url = urls[0]
+
 df = pd.DataFrame()
 for url in tqdm(urls):
     di = scrape(url)
     df = df.append(di)
     time.sleep(0.5)
 
-df.to_csv("data/lineups-dailyfaceoff_com.csv", index=False)
+df.to_csv("draft/data/lineups-dailyfaceoff_com.csv", index=False)

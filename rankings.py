@@ -78,8 +78,21 @@ league = 84778
 
 team = df[df["player"].isin(players(league, 12))]
 
+
+
 available = df[df["player"].isin(players(league))]
 dmen = df[df["player"].isin(players(league, position="D"))]
+
+df[df["player"].isin([
+"Ryan Pulock",
+"Ryan Ellis"
+])]
+
+
+
+
+
+
 
 
 

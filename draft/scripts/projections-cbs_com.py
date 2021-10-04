@@ -6,7 +6,7 @@ import pandas as pd
 from gazpacho import Soup, get
 
 
-def scrape(position, year=2020):
+def scrape(position, year=2021):
     url = f"https://www.cbssports.com/fantasy/hockey/stats/{position}/{year}/season/projections/"
     html = get(url)
     soup = Soup(html)
@@ -80,4 +80,4 @@ df = df[
     ]
 ]
 
-df.to_csv("data/projections-cbs_com.csv", index=False)
+df.to_csv("draft/data/projections-cbs_com.csv", index=False)

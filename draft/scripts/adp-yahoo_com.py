@@ -23,4 +23,4 @@ def scrape(offset=0):
 
 data = [scrape(offset) for offset in range(0, 300, 50)]
 
-pd.DataFrame(list(chain(*data))).to_csv("data/adp-yahoo_com.csv", index=False)
+pd.DataFrame(list(chain(*data))).to_csv("draft/data/adp-yahoo_com.csv", index=False)

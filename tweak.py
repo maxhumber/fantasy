@@ -11,7 +11,7 @@ schedule = pivot_schedule()
 
 # SET UP
 
-league, team = 84919, 5
+league, team = 84778, 12
 
 # JOIN - EVERY LEAGUE
 
